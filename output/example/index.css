@@ -123,3 +123,13 @@ p {
   margin: 10px 0;
   font-size: 12pt;
 }
+
+#loading {
+  position: absolute;
+  top: 0;
+  left: 20;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  display: block;
+}

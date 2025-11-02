@@ -156,3 +156,10 @@
     resetUI();
   });
 })();
+
+document.getElementById('loading').innerText = '載入完畢！';
+setTimeout(function () {
+  document.getElementById('loading').style.display = 'none';
+}, 2000);
+resetUI();
+document.getElementById('text_area').focus();
