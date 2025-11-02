@@ -1,0 +1,7 @@
+# Keep only dist when publishing; package.json files field also restricts publish
+src/
+tests/
+.github/
+.vscode/
+*.map
+*.tsbuildinfo
