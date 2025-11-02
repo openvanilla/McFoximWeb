@@ -7,11 +7,11 @@ export const TW_30 = {
     ],
     [
       "aai",
-      "魚網"
+      "網子"
     ],
     [
-      "aai/ kapoco",
-      "網子"
+      "aai",
+      "魚網"
     ],
     [
       "abo",
@@ -86,6 +86,10 @@ export const TW_30 = {
       "為什麼"
     ],
     [
+      "alasease",
+      "蟬"
+    ],
+    [
       "alopyane",
       "雄性動物生殖器官"
     ],
@@ -106,6 +110,14 @@ export const TW_30 = {
       "僅僅"
     ],
     [
+      "amiya",
+      "(像)這樣"
+    ],
+    [
+      "amiya",
+      "相同"
+    ],
+    [
       "amiyaini",
       "如何"
     ],
@@ -114,7 +126,11 @@ export const TW_30 = {
       "去了"
     ],
     [
-      "aolaane / masopii",
+      "aogane",
+      "頂"
+    ],
+    [
+      "aolaane",
       "舊的"
     ],
     [
@@ -271,6 +287,10 @@ export const TW_30 = {
     ],
     [
       "bawbaw",
+      "青年"
+    ],
+    [
+      "bawbaw",
       "小姐"
     ],
     [
@@ -348,6 +368,10 @@ export const TW_30 = {
     [
       "bikwase",
       "肋骨"
+    ],
+    [
+      "bingzyo",
+      "廁所"
     ],
     [
       "bi’a",
@@ -486,6 +510,10 @@ export const TW_30 = {
       "電話"
     ],
     [
+      "doiya",
+      "不可以"
+    ],
+    [
       "doko",
       "毒"
     ],
@@ -566,6 +594,10 @@ export const TW_30 = {
       "山腳下"
     ],
     [
+      "ekepe",
+      "老鷹"
+    ],
+    [
       "eleba",
       "關上"
     ],
@@ -586,16 +618,20 @@ export const TW_30 = {
       "身體"
     ],
     [
+      "esi",
+      "是的"
+    ],
+    [
       "e’e",
       "脖子"
     ],
     [
       "e’e",
-      "好的(沒問題)"
+      "是的"
     ],
     [
-      "e’e/esi",
-      "是的"
+      "e’e",
+      "好的(沒問題)"
     ],
     [
       "gako",
@@ -646,6 +682,10 @@ export const TW_30 = {
       "流氓"
     ],
     [
+      "hana",
+      "花朵"
+    ],
+    [
       "hilriyo",
       "肥料"
     ],
@@ -666,7 +706,7 @@ export const TW_30 = {
       "斧頭"
     ],
     [
-      "idoo / doiya",
+      "idoo",
       "不可以"
     ],
     [
@@ -723,15 +763,19 @@ export const TW_30 = {
     ],
     [
       "ka",
-      "屬格標記(各族用語)"
+      "嗎(用在問句)"
     ],
     [
-      "ka / ki /ko",
+      "ka",
       "主格標記(各族用語)"
     ],
     [
-      "ka / ki /ko/na",
+      "ka",
       "受格標記(各族用語)"
+    ],
+    [
+      "ka",
+      "屬格標記(各族用語)"
     ],
     [
       "kaabace",
@@ -771,10 +815,14 @@ export const TW_30 = {
     ],
     [
       "kaka sa’oalay",
+      "(哥哥；姊姊)通稱"
+    ],
+    [
+      "kaka sa’oalay",
       "哥哥"
     ],
     [
-      "kaka sa’oalay / kaka ’abayane",
+      "kaka ’abayane",
       "(哥哥；姊姊)通稱"
     ],
     [
@@ -830,6 +878,10 @@ export const TW_30 = {
       "糖"
     ],
     [
+      "kapoco",
+      "網子"
+    ],
+    [
       "kaswa’ane",
       "百步蛇"
     ],
@@ -854,7 +906,7 @@ export const TW_30 = {
       "鞋子"
     ],
     [
-      "kelea/ lawa/ no…la",
+      "kelea",
       "再"
     ],
     [
@@ -864,6 +916,14 @@ export const TW_30 = {
     [
       "ke’elange",
       "蟲(統稱)"
+    ],
+    [
+      "ki",
+      "主格標記(各族用語)"
+    ],
+    [
+      "ki",
+      "受格標記(各族用語)"
     ],
     [
       "kidingi",
@@ -912,6 +972,14 @@ export const TW_30 = {
     [
       "kiwkay",
       "教會"
+    ],
+    [
+      "ko",
+      "主格標記(各族用語)"
+    ],
+    [
+      "ko",
+      "受格標記(各族用語)"
     ],
     [
       "kobaw",
@@ -1042,7 +1110,7 @@ export const TW_30 = {
       "嫁給非本族群的族人"
     ],
     [
-      "kyapisisi/ wapisisi",
+      "kyapisisi",
       "採收"
     ],
     [
@@ -1066,7 +1134,11 @@ export const TW_30 = {
       "青菜"
     ],
     [
-      "lagili sa’oalay /lagili ’abayane",
+      "lagili sa’oalay",
+      "(弟弟；妹妹)通稱"
+    ],
+    [
+      "lagili ’abayane",
       "(弟弟；妹妹)通稱"
     ],
     [
@@ -1074,15 +1146,19 @@ export const TW_30 = {
       "兄長"
     ],
     [
+      "lakawkawngo",
+      "女性長輩(祖母；外婆；岳母)"
+    ],
+    [
       "lakoongane",
       "鬼魂"
     ],
     [
-      "lalalai / alasease",
+      "lalalai",
       "蟬"
     ],
     [
-      "lamama/mao",
+      "lamama",
       "(伯父；叔叔；舅舅)通稱"
     ],
     [
@@ -1102,11 +1178,19 @@ export const TW_30 = {
       "瀑布"
     ],
     [
+      "lawa",
+      "再"
+    ],
+    [
+      "lawmomo",
+      "男性長輩(祖父；外公；岳父)"
+    ],
+    [
       "lawngo",
       "(動物的)角"
     ],
     [
-      "layaasi/ nilavani",
+      "layaasi",
       "如果"
     ],
     [
@@ -1170,7 +1254,7 @@ export const TW_30 = {
       "很好吃"
     ],
     [
-      "maamaw/amiya",
+      "maamaw",
       "相同"
     ],
     [
@@ -1235,6 +1319,10 @@ export const TW_30 = {
     ],
     [
       "mabotokolo",
+      "胖(身形)"
+    ],
+    [
+      "mabotokolo",
       "粗(物)"
     ],
     [
@@ -1250,8 +1338,16 @@ export const TW_30 = {
       "癢"
     ],
     [
+      "macongaw",
+      "受傷"
+    ],
+    [
       "madaakolay",
       "高瘦(身材)"
+    ],
+    [
+      "madaladalame",
+      "愛護"
     ],
     [
       "madalame",
@@ -1270,7 +1366,7 @@ export const TW_30 = {
       "紅色"
     ],
     [
-      "madola’a/macongaw",
+      "madola’a",
       "受傷"
     ],
     [
@@ -1283,11 +1379,11 @@ export const TW_30 = {
     ],
     [
       "madraemedreme",
-      "黑暗"
+      "天黑"
     ],
     [
-      "madraemedreme/ masongo",
-      "天黑"
+      "madraemedreme",
+      "黑暗"
     ],
     [
       "madraw",
@@ -1410,6 +1506,10 @@ export const TW_30 = {
       "輕快"
     ],
     [
+      "mala’o",
+      "乾的"
+    ],
+    [
       "malimeme",
       "甘甜"
     ],
@@ -1434,7 +1534,7 @@ export const TW_30 = {
       "軟"
     ],
     [
-      "mamitee/mabotokolo",
+      "mamitee",
       "胖(身形)"
     ],
     [
@@ -1452,6 +1552,10 @@ export const TW_30 = {
     [
       "mangaelengele",
       "酸"
+    ],
+    [
+      "mangesale",
+      "十"
     ],
     [
       "mangesale sika drosa",
@@ -1502,6 +1606,14 @@ export const TW_30 = {
       "什麼"
     ],
     [
+      "mao",
+      "爸爸"
+    ],
+    [
+      "mao",
+      "(伯父；叔叔；舅舅)通稱"
+    ],
+    [
       "maodace",
       "燙到"
     ],
@@ -1510,11 +1622,11 @@ export const TW_30 = {
       "活的"
     ],
     [
-      "maoo/mapisisi",
+      "maoo",
       "(植物的果實)掉落"
     ],
     [
-      "mapacai/mala’o",
+      "mapacai",
       "乾的"
     ],
     [
@@ -1536,6 +1648,10 @@ export const TW_30 = {
     [
       "mapingay",
       "倒(下)"
+    ],
+    [
+      "mapisisi",
+      "(植物的果實)掉落"
     ],
     [
       "mapitolo",
@@ -1606,6 +1722,14 @@ export const TW_30 = {
       "直"
     ],
     [
+      "masongo",
+      "天黑"
+    ],
+    [
+      "masopii",
+      "舊的"
+    ],
+    [
       "matateleke",
       "冰冷"
     ],
@@ -1618,7 +1742,7 @@ export const TW_30 = {
       "疼愛"
     ],
     [
-      "mathai/madaladalame",
+      "mathai",
       "愛護"
     ],
     [
@@ -1678,6 +1802,10 @@ export const TW_30 = {
       "壞掉"
     ],
     [
+      "maycenge",
+      "黑色"
+    ],
+    [
       "maymoo",
       "忘記(祈使)"
     ],
@@ -1734,7 +1862,7 @@ export const TW_30 = {
       "過貓"
     ],
     [
-      "ma’otiki / paamaw",
+      "ma’otiki",
       "一半"
     ],
     [
@@ -1850,8 +1978,12 @@ export const TW_30 = {
       "如此"
     ],
     [
-      "mya~/ka",
+      "mya~",
       "嗎(用在問句)"
+    ],
+    [
+      "na",
+      "受格標記(各族用語)"
     ],
     [
       "nabingi",
@@ -1864,6 +1996,10 @@ export const TW_30 = {
     [
       "nakay",
       "這裡"
+    ],
+    [
+      "nakay",
+      "在(這裡)"
     ],
     [
       "nakay la",
@@ -1890,7 +2026,7 @@ export const TW_30 = {
       "番石榴"
     ],
     [
-      "nega / sesesane",
+      "nega",
       "一"
     ],
     [
@@ -1927,6 +2063,10 @@ export const TW_30 = {
     ],
     [
       "nikwani",
+      "(像)這樣"
+    ],
+    [
+      "nikwani",
       "因為"
     ],
     [
@@ -1934,8 +2074,8 @@ export const TW_30 = {
       "所以"
     ],
     [
-      "nikwani / amiya",
-      "(像)這樣"
+      "nilavani",
+      "如果"
     ],
     [
       "ningzingi",
@@ -1956,6 +2096,10 @@ export const TW_30 = {
     [
       "niyanyane",
       "應該"
+    ],
+    [
+      "niyaw",
+      "媽媽"
     ],
     [
       "nodoo",
@@ -1980,6 +2124,10 @@ export const TW_30 = {
     [
       "no….la",
       "還(尚未)"
+    ],
+    [
+      "no…la",
+      "再"
     ],
     [
       "nwange",
@@ -2014,11 +2162,19 @@ export const TW_30 = {
       "山胡椒"
     ],
     [
+      "paamaw",
+      "一半"
+    ],
+    [
+      "pabaythi",
+      "替換(衣服)"
+    ],
+    [
       "pade’e",
       "腎臟"
     ],
     [
-      "padodaw’o / wadodaw’o",
+      "padodaw’o",
       "立即"
     ],
     [
@@ -2034,7 +2190,7 @@ export const TW_30 = {
       "後天"
     ],
     [
-      "paelelanga /sapakathipatele",
+      "paelelanga",
       "大後天"
     ],
     [
@@ -2048,6 +2204,10 @@ export const TW_30 = {
     [
       "pagay",
       "糯米"
+    ],
+    [
+      "paibate",
+      "讓開"
     ],
     [
       "paitha",
@@ -2138,7 +2298,7 @@ export const TW_30 = {
       "顏色"
     ],
     [
-      "pate / thipate",
+      "pate",
       "四"
     ],
     [
@@ -2156,6 +2316,10 @@ export const TW_30 = {
     [
       "pathya",
       "製作(物品)"
+    ],
+    [
+      "patilikalikae",
+      "明亮"
     ],
     [
       "pava’iyane",
@@ -2186,7 +2350,11 @@ export const TW_30 = {
       "分開"
     ],
     [
-      "pa’ibo’ibo / pa’a’ibo",
+      "pa’a’ibo",
+      "混以某物"
+    ],
+    [
+      "pa’ibo’ibo",
       "混以某物"
     ],
     [
@@ -2215,11 +2383,11 @@ export const TW_30 = {
     ],
     [
       "poko",
-      "關節"
+      "十"
     ],
     [
-      "poko/mangesale",
-      "十"
+      "poko",
+      "關節"
     ],
     [
       "poli",
@@ -2278,7 +2446,7 @@ export const TW_30 = {
       "藥物"
     ],
     [
-      "sacalaebe/sakokobo",
+      "sacalaebe",
       "蓋子"
     ],
     [
@@ -2296,6 +2464,10 @@ export const TW_30 = {
     [
       "sadrisidrisi",
       "橡皮擦"
+    ],
+    [
+      "sadrisidrisi",
+      "擦拭"
     ],
     [
       "saelebane",
@@ -2316,6 +2488,10 @@ export const TW_30 = {
     [
       "sakapangane",
       "腳掌"
+    ],
+    [
+      "sakokobo",
+      "蓋子"
     ],
     [
       "sakwadraw",
@@ -2342,6 +2518,10 @@ export const TW_30 = {
       "車子"
     ],
     [
+      "sangoapa’a",
+      "溫泉"
+    ],
+    [
       "sangomamanini",
       "味道"
     ],
@@ -2352,6 +2532,10 @@ export const TW_30 = {
     [
       "saoodro",
       "柱子"
+    ],
+    [
+      "sapakathipatele",
+      "大後天"
     ],
     [
       "sapalangane",
@@ -2422,12 +2606,20 @@ export const TW_30 = {
       "颱風"
     ],
     [
+      "seneketa",
+      "收拾(祈使，如收拾東西)"
+    ],
+    [
       "sengfu",
       "神父"
     ],
     [
       "sesane",
       "今天"
+    ],
+    [
+      "sesesane",
+      "一"
     ],
     [
       "sesesane na coavane",
@@ -2622,7 +2814,7 @@ export const TW_30 = {
       "袖子"
     ],
     [
-      "taisi/va’edre",
+      "taisi",
       "繩索"
     ],
     [
@@ -2642,11 +2834,15 @@ export const TW_30 = {
       "蜘蛛"
     ],
     [
-      "takacongavane / tay’asane",
+      "takacongavane",
+      "傷口"
+    ],
+    [
+      "takacongavane",
       "疤"
     ],
     [
-      "takacongavane/takadola’ane",
+      "takadola’ane",
       "傷口"
     ],
     [
@@ -2666,7 +2862,7 @@ export const TW_30 = {
       "山洞"
     ],
     [
-      "takawngo/lakawkawngo",
+      "takawngo",
       "女性長輩(祖母；外婆；岳母)"
     ],
     [
@@ -2722,7 +2918,7 @@ export const TW_30 = {
       "橋樑"
     ],
     [
-      "talwavai / ekepe",
+      "talwavai",
       "老鷹"
     ],
     [
@@ -2806,7 +3002,7 @@ export const TW_30 = {
       "草原"
     ],
     [
-      "tatava/mao",
+      "tatava",
       "爸爸"
     ],
     [
@@ -2826,7 +3022,7 @@ export const TW_30 = {
       "辣椒(通稱)"
     ],
     [
-      "tawbobokane/ bingzyo",
+      "tawbobokane",
       "廁所"
     ],
     [
@@ -2846,7 +3042,7 @@ export const TW_30 = {
       "蝸牛"
     ],
     [
-      "tawmo/lawmomo",
+      "tawmo",
       "男性長輩(祖父；外公；岳父)"
     ],
     [
@@ -2874,12 +3070,16 @@ export const TW_30 = {
       "芋頭"
     ],
     [
-      "tayceceenge/maycenge",
+      "tayceceenge",
       "黑色"
     ],
     [
       "taymolomolo",
       "石堆(田裡的)"
+    ],
+    [
+      "tay’asane",
+      "疤"
     ],
     [
       "ta’aedrane",
@@ -2926,11 +3126,11 @@ export const TW_30 = {
       "心臟"
     ],
     [
-      "thabathabae / bawbaw",
+      "thabathabae",
       "青年"
     ],
     [
-      "thacobo/aogane",
+      "thacobo",
       "頂"
     ],
     [
@@ -2964,6 +3164,10 @@ export const TW_30 = {
     [
       "thenai",
       "歌"
+    ],
+    [
+      "thipate",
+      "四"
     ],
     [
       "thobongo",
@@ -3018,7 +3222,7 @@ export const TW_30 = {
       "車站"
     ],
     [
-      "titina/niyaw",
+      "titina",
       "媽媽"
     ],
     [
@@ -3142,11 +3346,15 @@ export const TW_30 = {
       "藤類"
     ],
     [
+      "va’edre",
+      "繩索"
+    ],
+    [
       "va’iyane",
       "日子"
     ],
     [
-      "vengeay / hana",
+      "vengeay",
       "花朵"
     ],
     [
@@ -3202,8 +3410,16 @@ export const TW_30 = {
       "溢出(如水溢出來)"
     ],
     [
+      "waapidri",
+      "編織"
+    ],
+    [
       "waathii",
       "捕鳥陷阱"
+    ],
+    [
+      "waavadre",
+      "搭建圍籬"
     ],
     [
       "waa’oso",
@@ -3230,7 +3446,7 @@ export const TW_30 = {
       "丟棄"
     ],
     [
-      "wabaythi/pabaythi",
+      "wabaythi",
       "替換(衣服)"
     ],
     [
@@ -3270,7 +3486,7 @@ export const TW_30 = {
       "劈(木材)"
     ],
     [
-      "wabolo / wadrodro’o",
+      "wabolo",
       "倒(水)"
     ],
     [
@@ -3334,6 +3550,10 @@ export const TW_30 = {
       "舔"
     ],
     [
+      "wadodaw’o",
+      "立即"
+    ],
+    [
       "wadoko’o",
       "種植"
     ],
@@ -3382,8 +3602,12 @@ export const TW_30 = {
       "亂翻"
     ],
     [
-      "wadrisidrisi/sadrisidrisi",
+      "wadrisidrisi",
       "擦拭"
+    ],
+    [
+      "wadrodro’o",
+      "倒(水)"
     ],
     [
       "wadroodroo",
@@ -3482,7 +3706,7 @@ export const TW_30 = {
       "剪"
     ],
     [
-      "wakacipi/wa’onoo",
+      "wakacipi",
       "剪(頭髮)"
     ],
     [
@@ -3618,7 +3842,7 @@ export const TW_30 = {
       "亮光"
     ],
     [
-      "waleleape/patilikalikae",
+      "waleleape",
       "明亮"
     ],
     [
@@ -3686,6 +3910,10 @@ export const TW_30 = {
       "摘取"
     ],
     [
+      "wapisisi",
+      "採收"
+    ],
+    [
       "wapo’ay",
       "打碎"
     ],
@@ -3726,7 +3954,7 @@ export const TW_30 = {
       "扛"
     ],
     [
-      "wasapa’a/wasekeseke",
+      "wasapa’a",
       "鋪床"
     ],
     [
@@ -3742,6 +3970,10 @@ export const TW_30 = {
       "刮颱風"
     ],
     [
+      "wasekeseke",
+      "鋪床"
+    ],
+    [
       "wasekiyaki",
       "炒(如炒花生)"
     ],
@@ -3754,7 +3986,7 @@ export const TW_30 = {
       "整理"
     ],
     [
-      "wasenekete/seneketa",
+      "wasenekete",
       "收拾(祈使，如收拾東西)"
     ],
     [
@@ -3806,7 +4038,7 @@ export const TW_30 = {
       "提著"
     ],
     [
-      "watako / waapidri",
+      "watako",
       "編織"
     ],
     [
@@ -3814,11 +4046,15 @@ export const TW_30 = {
       "跨過"
     ],
     [
+      "watalawa",
+      "浪費"
+    ],
+    [
       "watanee",
       "浸泡"
     ],
     [
-      "watangetangebe/watalawa",
+      "watangetangebe",
       "浪費"
     ],
     [
@@ -3826,12 +4062,16 @@ export const TW_30 = {
       "趕上"
     ],
     [
-      "watekepe",
-      "禁止"
+      "wateele",
+      "阻擋"
     ],
     [
-      "watekepe/wateele",
+      "watekepe",
       "阻擋"
+    ],
+    [
+      "watekepe",
+      "禁止"
     ],
     [
       "wateketeke",
@@ -3922,7 +4162,7 @@ export const TW_30 = {
       "等待"
     ],
     [
-      "wa’aedre/ waavadre",
+      "wa’aedre",
       "搭建圍籬"
     ],
     [
@@ -3964,6 +4204,10 @@ export const TW_30 = {
     [
       "wa’ongolo",
       "喝(水)"
+    ],
+    [
+      "wa’onoo",
+      "剪(頭髮)"
     ],
     [
       "wa’osopongo",
@@ -4026,7 +4270,7 @@ export const TW_30 = {
       "腫"
     ],
     [
-      "’abababawbaw / ’athathabathabae",
+      "’abababawbaw",
       "年輕時"
     ],
     [
@@ -4178,6 +4422,10 @@ export const TW_30 = {
       "英俊"
     ],
     [
+      "’athathabathabae",
+      "年輕時"
+    ],
+    [
       "’avagay",
       "走(離開)"
     ],
@@ -4226,6 +4474,10 @@ export const TW_30 = {
       "蜜"
     ],
     [
+      "’icekala",
+      "起床"
+    ],
+    [
       "’idi’iya",
       "起立"
     ],
@@ -4234,7 +4486,7 @@ export const TW_30 = {
       "雪"
     ],
     [
-      "’iga/paibate",
+      "’iga",
       "讓開"
     ],
     [
@@ -4270,7 +4522,7 @@ export const TW_30 = {
       "躺臥"
     ],
     [
-      "’iyacekale/’icekala",
+      "’iyacekale",
       "起床"
     ],
     [
@@ -4306,7 +4558,7 @@ export const TW_30 = {
       "有"
     ],
     [
-      "’iyakay/nakay",
+      "’iyakay",
       "在(這裡)"
     ],
     [
@@ -4346,7 +4598,7 @@ export const TW_30 = {
       "麵粉"
     ],
     [
-      "’ongsing/sangoapa’a",
+      "’ongsing",
       "溫泉"
     ],
     [

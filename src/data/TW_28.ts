@@ -26,7 +26,7 @@ export const TW_28 = {
       "螞蟻"
     ],
     [
-      "abera/laulau",
+      "abera",
       "油"
     ],
     [
@@ -34,7 +34,7 @@ export const TW_28 = {
       "炭灰"
     ],
     [
-      "acegecega/idia",
+      "acegecega",
       "起立"
     ],
     [
@@ -120,6 +120,10 @@ export const TW_28 = {
     [
       "alaw",
       "可能"
+    ],
+    [
+      "alralravathe",
+      "蜘蛛"
     ],
     [
       "alralregele",
@@ -319,6 +323,10 @@ export const TW_28 = {
     ],
     [
       "balraku",
+      "穀物乾燥簍"
+    ],
+    [
+      "balraku",
       "篩穀器具"
     ],
     [
@@ -478,7 +486,7 @@ export const TW_28 = {
       "屋頂"
     ],
     [
-      "cawbu/hutungu",
+      "cawbu",
       "棉被"
     ],
     [
@@ -494,8 +502,12 @@ export const TW_28 = {
       "在來米"
     ],
     [
-      "cepenge/balraku",
+      "cepenge",
       "穀物乾燥簍"
+    ],
+    [
+      "ciici",
+      "老鼠(統稱)"
     ],
     [
       "ciwkuku",
@@ -514,7 +526,7 @@ export const TW_28 = {
       "暖和"
     ],
     [
-      "cukucuku/tanguringuri",
+      "cukucuku",
       "烏龜"
     ],
     [
@@ -654,6 +666,10 @@ export const TW_28 = {
       "傷口"
     ],
     [
+      "dulay",
+      "蛇"
+    ],
+    [
       "ebelre",
       "煙"
     ],
@@ -750,6 +766,10 @@ export const TW_28 = {
       "書"
     ],
     [
+      "hutungu",
+      "棉被"
+    ],
+    [
       "icecelrenge",
       "黑色"
     ],
@@ -760,6 +780,10 @@ export const TW_28 = {
     [
       "iday",
       "一百"
+    ],
+    [
+      "idia",
+      "起立"
     ],
     [
       "idiri",
@@ -774,7 +798,7 @@ export const TW_28 = {
       "讓開"
     ],
     [
-      "igipi/rengerengane",
+      "igipi",
       "汗水"
     ],
     [
@@ -826,7 +850,11 @@ export const TW_28 = {
       "巫術"
     ],
     [
-      "ka / ku",
+      "iyaw",
+      "青蛙"
+    ],
+    [
+      "ka",
       "主格標記(各族用語)"
     ],
     [
@@ -944,6 +972,10 @@ export const TW_28 = {
     [
       "kalregelregane",
       "崇山峻嶺"
+    ],
+    [
+      "kamamaniane",
+      "百步蛇"
     ],
     [
       "kamangulu",
@@ -1238,6 +1270,10 @@ export const TW_28 = {
       "教會"
     ],
     [
+      "ku",
+      "主格標記(各族用語)"
+    ],
+    [
       "kuakulaw",
       "畫圖"
     ],
@@ -1470,6 +1506,10 @@ export const TW_28 = {
       "雜草"
     ],
     [
+      "laulau",
+      "油"
+    ],
+    [
       "lavavalake",
       "孩童"
     ],
@@ -1554,7 +1594,7 @@ export const TW_28 = {
       "米糠"
     ],
     [
-      "lraulrapungu/pupuli",
+      "lraulrapungu",
       "白色"
     ],
     [
@@ -1992,6 +2032,10 @@ export const TW_28 = {
     [
       "mangangerece",
       "冰冷"
+    ],
+    [
+      "mangeale",
+      "十"
     ],
     [
       "mangeale si bangate",
@@ -2526,7 +2570,7 @@ export const TW_28 = {
       "照起來／照明"
     ],
     [
-      "palrata/kamamaniane",
+      "palrata",
       "百步蛇"
     ],
     [
@@ -2694,12 +2738,16 @@ export const TW_28 = {
       "力量"
     ],
     [
-      "pulruku/mangeale",
+      "pulruku",
       "十"
     ],
     [
       "punu",
       "額頭"
+    ],
+    [
+      "pupuli",
+      "白色"
     ],
     [
       "pwa kucibire",
@@ -2724,6 +2772,10 @@ export const TW_28 = {
     [
       "rarukurukudru",
       "工具"
+    ],
+    [
+      "rengerengane",
+      "汗水"
     ],
     [
       "retesane",
@@ -2986,6 +3038,10 @@ export const TW_28 = {
       "噎到"
     ],
     [
+      "suba",
+      "麵"
+    ],
+    [
       "subelebelenge",
       "天空"
     ],
@@ -2994,7 +3050,7 @@ export const TW_28 = {
       "依賴"
     ],
     [
-      "sulraw/dulay",
+      "sulraw",
       "蛇"
     ],
     [
@@ -3102,7 +3158,7 @@ export const TW_28 = {
       "雞寮"
     ],
     [
-      "takurawru/iyaw",
+      "takurawru",
       "青蛙"
     ],
     [
@@ -3172,6 +3228,10 @@ export const TW_28 = {
     [
       "tangeangea",
       "獨自一人"
+    ],
+    [
+      "tanguringuri",
+      "烏龜"
     ],
     [
       "tapeapecane",
@@ -3338,7 +3398,7 @@ export const TW_28 = {
       "頸子"
     ],
     [
-      "tila/ciici",
+      "tila",
       "老鼠(統稱)"
     ],
     [
@@ -3490,7 +3550,7 @@ export const TW_28 = {
       "吃晚餐"
     ],
     [
-      "twalay/…si mwa…",
+      "twalay",
       "(從某處)到某處"
     ],
     [
@@ -3546,7 +3606,7 @@ export const TW_28 = {
       "灰色"
     ],
     [
-      "udungu/suba",
+      "udungu",
       "麵"
     ],
     [
@@ -3666,7 +3726,7 @@ export const TW_28 = {
       "以杓汲水(祈使)"
     ],
     [
-      "vawvaluku/alralravathe",
+      "vawvaluku",
       "蜘蛛"
     ],
     [
@@ -3906,7 +3966,7 @@ export const TW_28 = {
       "壓制"
     ],
     [
-      "wadrikisi/wariithi",
+      "wadrikisi",
       "擠"
     ],
     [
@@ -4182,6 +4242,10 @@ export const TW_28 = {
       "掐住"
     ],
     [
+      "wariithi",
+      "擠"
+    ],
+    [
       "waringiringi",
       "炒(如炒花生)"
     ],
@@ -4372,6 +4436,10 @@ export const TW_28 = {
     [
       "zu",
       "大象"
+    ],
+    [
+      "…si mwa…",
+      "(從某處)到某處"
     ]
   ]
 };

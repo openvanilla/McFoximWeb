@@ -206,7 +206,7 @@ export const TW_04 = {
       "穿山甲"
     ],
     [
-      "arikak/atikak",
+      "arikak",
       "蚯蚓"
     ],
     [
@@ -244,6 +244,10 @@ export const TW_04 = {
     [
       "atekak",
       "很硬"
+    ],
+    [
+      "atikak",
+      "蚯蚓"
     ],
     [
       "ato",
@@ -354,7 +358,15 @@ export const TW_04 = {
       "一"
     ],
     [
-      "cecay faliling/cecay solsol",
+      "cecay faliling",
+      "一串"
+    ],
+    [
+      "cecay lefot",
+      "一千"
+    ],
+    [
+      "cecay solsol",
       "一串"
     ],
     [
@@ -522,7 +534,11 @@ export const TW_04 = {
       "畫圖"
     ],
     [
-      "copelak/copelas",
+      "copelak",
+      "澀澀的(味覺)"
+    ],
+    [
+      "copelas",
       "澀澀的(味覺)"
     ],
     [
@@ -536,6 +552,10 @@ export const TW_04 = {
     [
       "cowa ka eca",
       "一定"
+    ],
+    [
+      "cowa ka hakowa",
+      "一些"
     ],
     [
       "dadacdac",
@@ -794,7 +814,7 @@ export const TW_04 = {
       "溫的(水)"
     ],
     [
-      "falah /sawad",
+      "falah",
       "丟棄"
     ],
     [
@@ -984,6 +1004,10 @@ export const TW_04 = {
     [
       "foti’",
       "睡覺"
+    ],
+    [
+      "fotol",
+      "雄性動物生殖器官"
     ],
     [
       "fowa’",
@@ -1586,7 +1610,7 @@ export const TW_04 = {
       "長"
     ],
     [
-      "kocakoc/kodakod",
+      "kocakoc",
       "爬上(去)"
     ],
     [
@@ -1596,6 +1620,10 @@ export const TW_04 = {
     [
       "kodafes",
       "番石榴"
+    ],
+    [
+      "kodakod",
+      "爬上(去)"
     ],
     [
       "koengel",
@@ -1828,6 +1856,10 @@ export const TW_04 = {
     [
       "lawas",
       "竹筒"
+    ],
+    [
+      "laway",
+      "臉"
     ],
     [
       "lawilaw",
@@ -2082,7 +2114,7 @@ export const TW_04 = {
       "少許"
     ],
     [
-      "mamangay/ cowa ka hakowa",
+      "mamangay",
       "一些"
     ],
     [
@@ -2386,7 +2418,7 @@ export const TW_04 = {
       "過貓"
     ],
     [
-      "molefot/cecay lefot",
+      "molefot",
       "一千"
     ],
     [
@@ -2718,6 +2750,10 @@ export const TW_04 = {
       "雞寮"
     ],
     [
+      "palamitan",
+      "樹頭"
+    ],
+    [
       "palatawan",
       "窗戶"
     ],
@@ -2754,7 +2790,7 @@ export const TW_04 = {
       "男性生殖器"
     ],
     [
-      "panga/fotol",
+      "panga",
       "雄性動物生殖器官"
     ],
     [
@@ -2820,6 +2856,10 @@ export const TW_04 = {
     [
       "patedi",
       "照起來／照明"
+    ],
+    [
+      "patelas",
+      "隨意"
     ],
     [
       "pateli",
@@ -2946,7 +2986,7 @@ export const TW_04 = {
       "弧形(底)鍋"
     ],
     [
-      "pising/laway",
+      "pising",
       "臉"
     ],
     [
@@ -3322,6 +3362,14 @@ export const TW_04 = {
       "鐵鎚"
     ],
     [
+      "satonton",
+      "菜刀"
+    ],
+    [
+      "sawad",
+      "丟棄"
+    ],
+    [
       "sawamaan",
       "男性長輩(祖父；外公；岳父)"
     ],
@@ -3394,7 +3442,7 @@ export const TW_04 = {
       "隨意"
     ],
     [
-      "simaanay/patelas",
+      "simaanay",
       "隨意"
     ],
     [
@@ -3446,7 +3494,7 @@ export const TW_04 = {
       "修女"
     ],
     [
-      "siwto/satonton",
+      "siwto",
       "菜刀"
     ],
     [
@@ -3590,7 +3638,7 @@ export const TW_04 = {
       "圍著某物"
     ],
     [
-      "takod/ teloc",
+      "takod",
       "跳躍"
     ],
     [
@@ -3742,7 +3790,7 @@ export const TW_04 = {
       "枕頭"
     ],
     [
-      "tatapangan no kilang / palamitan",
+      "tatapangan no kilang",
       "樹頭"
     ],
     [
@@ -3860,6 +3908,10 @@ export const TW_04 = {
     [
       "telec",
       "腰帶"
+    ],
+    [
+      "teloc",
+      "跳躍"
     ],
     [
       "tengil",

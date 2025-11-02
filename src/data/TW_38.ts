@@ -318,6 +318,10 @@ export const TW_38 = {
       "高(身高)"
     ],
     [
+      "asawa",
+      "女婿;媳婦"
+    ],
+    [
       "aselr",
       "袖子"
     ],
@@ -1214,7 +1218,7 @@ export const TW_38 = {
       "嘴巴"
     ],
     [
-      "inedang/minedang",
+      "inedang",
       "害怕"
     ],
     [
@@ -2490,6 +2494,10 @@ export const TW_38 = {
       "死亡"
     ],
     [
+      "minedang",
+      "害怕"
+    ],
+    [
       "miraat",
       "綠色"
     ],
@@ -2627,11 +2635,11 @@ export const TW_38 = {
     ],
     [
       "musabak",
-      "進入"
+      "女婿;媳婦"
     ],
     [
-      "musabak/asawa",
-      "女婿;媳婦"
+      "musabak",
+      "進入"
     ],
     [
       "musalretung",

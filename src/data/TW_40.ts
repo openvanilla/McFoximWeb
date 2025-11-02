@@ -54,7 +54,7 @@ export const TW_40 = {
       "好(指沒問題)"
     ],
     [
-      "aip/iyup",
+      "aip",
       "數(計算)"
     ],
     [
@@ -82,7 +82,11 @@ export const TW_40 = {
       "矮(身高)"
     ],
     [
-      "alusu na kadaw/alusu na ’unin",
+      "alusu na kadaw",
+      "日落"
+    ],
+    [
+      "alusu na ’unin",
       "日落"
     ],
     [
@@ -116,6 +120,10 @@ export const TW_40 = {
     [
       "anana",
       "好痛"
+    ],
+    [
+      "anay",
+      "朋友"
     ],
     [
       "anger",
@@ -166,7 +174,11 @@ export const TW_40 = {
       "揹小孩的背帶"
     ],
     [
-      "aya’/iya’",
+      "avut",
+      "松鼠"
+    ],
+    [
+      "aya’",
       "尋找"
     ],
     [
@@ -186,12 +198,16 @@ export const TW_40 = {
       "雨停"
     ],
     [
-      "dalreu/tavu’",
+      "dalreu",
       "甘甜"
     ],
     [
       "dalus",
       "滑"
+    ],
+    [
+      "damuk",
+      "血"
     ],
     [
       "danapan",
@@ -218,7 +234,7 @@ export const TW_40 = {
       "稻草"
     ],
     [
-      "dara’/damuk",
+      "dara’",
       "血"
     ],
     [
@@ -338,7 +354,7 @@ export const TW_40 = {
       "故意"
     ],
     [
-      "emi/mugi",
+      "emi",
       "麥"
     ],
     [
@@ -378,7 +394,7 @@ export const TW_40 = {
       "煮(菜)"
     ],
     [
-      "evut/ngevut/avut",
+      "evut",
       "松鼠"
     ],
     [
@@ -386,12 +402,16 @@ export const TW_40 = {
       "鵝"
     ],
     [
-      "halrem/nana",
+      "halrem",
       "辣"
     ],
     [
       "hamay",
       "指甲"
+    ],
+    [
+      "harang",
+      "螃蟹"
     ],
     [
       "harem",
@@ -402,6 +422,14 @@ export const TW_40 = {
       "今天"
     ],
     [
+      "haretim",
+      "剪刀"
+    ],
+    [
+      "haretim",
+      "剪"
+    ],
+    [
       "harutr",
       "梳子"
     ],
@@ -410,15 +438,19 @@ export const TW_40 = {
       "癢"
     ],
     [
+      "helralretung",
+      "打瞌睡"
+    ],
+    [
       "helrep",
       "低下頭"
     ],
     [
-      "heraretim/haretim",
+      "heraretim",
       "剪刀"
     ],
     [
-      "heretim/haretim",
+      "heretim",
       "剪"
     ],
     [
@@ -470,6 +502,10 @@ export const TW_40 = {
       "主格標記(各族用語)"
     ],
     [
+      "idap",
+      "打掃"
+    ],
+    [
       "ikaira",
       "不客氣"
     ],
@@ -506,16 +542,20 @@ export const TW_40 = {
       "刺"
     ],
     [
-      "imar/lrawlraw",
+      "imar",
       "油脂"
     ],
     [
-      "imar/lrawlraw",
+      "imar",
       "油"
     ],
     [
       "imaran",
       "很好吃"
+    ],
+    [
+      "imi",
+      "媳婦"
     ],
     [
       "impis",
@@ -542,11 +582,15 @@ export const TW_40 = {
       "水果"
     ],
     [
+      "ingsay",
+      "空心菜"
+    ],
+    [
       "ini",
       "這個"
     ],
     [
-      "inidis/zanuzanum/’ena’enay",
+      "inidis",
       "粥"
     ],
     [
@@ -554,11 +598,11 @@ export const TW_40 = {
       "我們"
     ],
     [
-      "iniyan/uniyan",
+      "iniyan",
       "沒有"
     ],
     [
-      "iniyan/uniyan",
+      "iniyan",
       "沒有(表擁有的否定詞)"
     ],
     [
@@ -618,7 +662,7 @@ export const TW_40 = {
       "姊姊"
     ],
     [
-      "ivi’/imi",
+      "ivi’",
       "媳婦"
     ],
     [
@@ -642,8 +686,16 @@ export const TW_40 = {
       "動物的內臟"
     ],
     [
+      "iya’",
+      "尋找"
+    ],
+    [
       "iyup",
       "吹"
+    ],
+    [
+      "iyup",
+      "數(計算)"
     ],
     [
       "iziyu",
@@ -658,12 +710,20 @@ export const TW_40 = {
       "躺臥"
     ],
     [
-      "kadaw/’unin",
+      "kadalis",
+      "弓"
+    ],
+    [
+      "kadaw",
       "太陽"
     ],
     [
       "kadepu",
       "紙張"
+    ],
+    [
+      "kadumu",
+      "玉米"
     ],
     [
       "kakara",
@@ -674,12 +734,24 @@ export const TW_40 = {
       "鉤子"
     ],
     [
+      "kakeras",
+      "蚱蜢"
+    ],
+    [
       "kakerisan",
       "(竹製的)刮麻具"
     ],
     [
+      "kaketizir",
+      "起立"
+    ],
+    [
       "kakiyas",
       "青蛙"
+    ],
+    [
+      "kakuda lra",
+      "沒關係"
     ],
     [
       "kakudayan",
@@ -698,8 +770,16 @@ export const TW_40 = {
       "忘記(祈使)"
     ],
     [
+      "kalapit",
+      "蝙蝠"
+    ],
+    [
       "kalramalramam",
       "好可憐"
+    ],
+    [
+      "kalrup",
+      "桃子"
     ],
     [
       "kamakamang",
@@ -722,7 +802,7 @@ export const TW_40 = {
       "小刀"
     ],
     [
-      "kanabit/sapupulran",
+      "kanabit",
       "小蕃茄"
     ],
     [
@@ -750,16 +830,24 @@ export const TW_40 = {
       "晚上"
     ],
     [
-      "karawakan/katupaydiyan",
+      "karawakan",
       "收穫祭"
     ],
     [
-      "karesis/kari’is/kara’is",
+      "kara’is",
+      "簍子"
+    ],
+    [
+      "karesis",
       "簍子"
     ],
     [
       "kare’alri",
       "吃午餐"
+    ],
+    [
+      "kari’is",
+      "簍子"
     ],
     [
       "karuwa",
@@ -774,6 +862,10 @@ export const TW_40 = {
       "可以(做某事)"
     ],
     [
+      "karuzangzang",
+      "紫色的"
+    ],
+    [
       "kasede’an",
       "星期日"
     ],
@@ -782,11 +874,11 @@ export const TW_40 = {
       "春天"
     ],
     [
-      "kasimalay/kakeras/’edulr/sawmi",
+      "kasimalay",
       "蚱蜢"
     ],
     [
-      "katikezir/kaketizir",
+      "katikezir",
       "起立"
     ],
     [
@@ -802,23 +894,35 @@ export const TW_40 = {
       "播種季"
     ],
     [
+      "katupaydiyan",
+      "收穫祭"
+    ],
+    [
       "kaud",
       "害怕"
     ],
     [
-      "kavang/kiping",
+      "kautrerahan",
+      "秋天"
+    ],
+    [
+      "kavang",
       "衣服"
     ],
     [
-      "kavang/kiping",
+      "kavang",
       "上衣"
+    ],
+    [
+      "kavung",
+      "帽子"
     ],
     [
       "kawalruwan",
       "蜜"
     ],
     [
-      "kaway/rutu/sikaw",
+      "kaway",
       "男用背負網袋"
     ],
     [
@@ -838,7 +942,7 @@ export const TW_40 = {
       "橋樑"
     ],
     [
-      "kayama/kulriyaves/kulravis",
+      "kayama",
       "番石榴"
     ],
     [
@@ -862,11 +966,11 @@ export const TW_40 = {
       "在(這裡)"
     ],
     [
-      "kazung/lra’uv",
+      "kazung",
       "水瓢(舀水用)"
     ],
     [
-      "kazungu/la’uvu",
+      "kazungu",
       "以杓汲水(祈使)"
     ],
     [
@@ -974,6 +1078,10 @@ export const TW_40 = {
       "挖掘"
     ],
     [
+      "kerutr",
+      "(用手)挖掘"
+    ],
+    [
       "ketket",
       "切"
     ],
@@ -986,6 +1094,10 @@ export const TW_40 = {
       "力量"
     ],
     [
+      "kezemel",
+      "厚的"
+    ],
+    [
       "kezeng",
       "拉"
     ],
@@ -994,7 +1106,7 @@ export const TW_40 = {
       "拉(上來)"
     ],
     [
-      "ki-/kiya-",
+      "ki-",
       "採收"
     ],
     [
@@ -1028,6 +1140,14 @@ export const TW_40 = {
     [
       "kinsas",
       "警察"
+    ],
+    [
+      "kiping",
+      "衣服"
+    ],
+    [
+      "kiping",
+      "上衣"
     ],
     [
       "kirepayapaya’",
@@ -1070,6 +1190,10 @@ export const TW_40 = {
       "借"
     ],
     [
+      "kiya-",
+      "採收"
+    ],
+    [
       "kiyakarukarun",
       "工具"
     ],
@@ -1078,11 +1202,11 @@ export const TW_40 = {
       "教會"
     ],
     [
-      "kizemel/treliving/kezemel",
+      "kizemel",
       "厚的"
     ],
     [
-      "ki’adeng/si’adeng",
+      "ki’adeng",
       "姑婆芋"
     ],
     [
@@ -1094,12 +1218,20 @@ export const TW_40 = {
       "我的"
     ],
     [
-      "kudumu/kadumu",
+      "kudumu",
       "玉米"
+    ],
+    [
+      "kuku",
+      "幼犬"
     ],
     [
       "kulang",
       "青菜"
+    ],
+    [
+      "kulavaw",
+      "田鼠"
     ],
     [
       "kulitr",
@@ -1110,11 +1242,19 @@ export const TW_40 = {
       "削(水果)"
     ],
     [
-      "kulrkulr/kerutr",
+      "kulravis",
+      "番石榴"
+    ],
+    [
+      "kulriyaves",
+      "番石榴"
+    ],
+    [
+      "kulrkulr",
       "(用手)挖掘"
     ],
     [
-      "kunvuwan/vara’",
+      "kunvuwan",
       "肺"
     ],
     [
@@ -1126,6 +1266,10 @@ export const TW_40 = {
       "弟媳"
     ],
     [
+      "kuraw",
+      "魚"
+    ],
+    [
       "kurelrang za anger",
       "隨意"
     ],
@@ -1134,7 +1278,7 @@ export const TW_40 = {
       "跌倒"
     ],
     [
-      "kurkur/tutuy/kuku",
+      "kurkur",
       "幼犬"
     ],
     [
@@ -1166,7 +1310,7 @@ export const TW_40 = {
       "生病"
     ],
     [
-      "kuwang/pazerung",
+      "kuwang",
       "槍"
     ],
     [
@@ -1174,11 +1318,23 @@ export const TW_40 = {
       "壞"
     ],
     [
-      "kuy/kuwi",
+      "kuwi",
       "腳"
     ],
     [
-      "lalapit/kalapit/lrapilrapitr",
+      "kuy",
+      "腳"
+    ],
+    [
+      "kuyan",
+      "蝦"
+    ],
+    [
+      "kuzkuz",
+      "揹負(物品)"
+    ],
+    [
+      "lalapit",
       "蝙蝠"
     ],
     [
@@ -1216,6 +1372,10 @@ export const TW_40 = {
     [
       "lawas",
       "(空間)寬敞"
+    ],
+    [
+      "la’uvu",
+      "以杓汲水(祈使)"
     ],
     [
       "leman",
@@ -1286,7 +1446,7 @@ export const TW_40 = {
       "牆壁"
     ],
     [
-      "liwlran/vali",
+      "liwlran",
       "味道"
     ],
     [
@@ -1322,7 +1482,7 @@ export const TW_40 = {
       "電冰箱"
     ],
     [
-      "lralrlralr/lraslras",
+      "lralrlralr",
       "蟬"
     ],
     [
@@ -1334,7 +1494,11 @@ export const TW_40 = {
       "愛護"
     ],
     [
-      "lramumu/lramuwamu",
+      "lramumu",
+      "圓葉胡椒"
+    ],
+    [
+      "lramuwamu",
       "圓葉胡椒"
     ],
     [
@@ -1342,8 +1506,24 @@ export const TW_40 = {
       "燒(如燒獵物的毛)"
     ],
     [
-      "lrawlraw/tinghuy",
+      "lrapilrapitr",
+      "蝙蝠"
+    ],
+    [
+      "lraslras",
+      "蟬"
+    ],
+    [
+      "lrawlraw",
+      "油脂"
+    ],
+    [
+      "lrawlraw",
       "電燈"
+    ],
+    [
+      "lrawlraw",
+      "油"
     ],
     [
       "lrayuwan",
@@ -1352,6 +1532,10 @@ export const TW_40 = {
     [
       "lra’itr",
       "疤"
+    ],
+    [
+      "lra’uv",
+      "水瓢(舀水用)"
     ],
     [
       "lrengaw",
@@ -1374,7 +1558,7 @@ export const TW_40 = {
       "短"
     ],
     [
-      "lripilrip/valratung",
+      "lripilrip",
       "長豆"
     ],
     [
@@ -1402,7 +1586,7 @@ export const TW_40 = {
       "揉搓(衣物)"
     ],
     [
-      "lruwang/vuwang",
+      "lruwang",
       "山洞"
     ],
     [
@@ -1430,7 +1614,7 @@ export const TW_40 = {
       "流氓"
     ],
     [
-      "lunain/paeretr",
+      "lunain",
       "腰帶"
     ],
     [
@@ -1438,7 +1622,7 @@ export const TW_40 = {
       "醃漬(祈使)"
     ],
     [
-      "lupas/kalrup",
+      "lupas",
       "桃子"
     ],
     [
@@ -1474,6 +1658,10 @@ export const TW_40 = {
       "熟"
     ],
     [
+      "maeres",
+      "捻線"
+    ],
+    [
       "maherareher",
       "嚇一跳"
     ],
@@ -1488,6 +1676,10 @@ export const TW_40 = {
     [
       "makazenazenan",
       "沿著山巒"
+    ],
+    [
+      "maketizir",
+      "站著"
     ],
     [
       "makiteng",
@@ -1526,8 +1718,16 @@ export const TW_40 = {
       "使用"
     ],
     [
-      "manuwad/manudan",
+      "manudan",
       "李子"
+    ],
+    [
+      "manuwad",
+      "李子"
+    ],
+    [
+      "mapiya; peniya",
+      "全部"
     ],
     [
       "mapungaw",
@@ -1558,6 +1758,10 @@ export const TW_40 = {
       "婚姻"
     ],
     [
+      "marenadek",
+      "汗水"
+    ],
+    [
       "marenem",
       "水鹿"
     ],
@@ -1570,7 +1774,7 @@ export const TW_40 = {
       "相同"
     ],
     [
-      "mareturus/zidēnsiya",
+      "mareturus",
       "腳踏車"
     ],
     [
@@ -1606,7 +1810,7 @@ export const TW_40 = {
       "滿滿"
     ],
     [
-      "matikezir/maketizir",
+      "matikezir",
       "站著"
     ],
     [
@@ -1618,7 +1822,7 @@ export const TW_40 = {
       "蹲下"
     ],
     [
-      "matungatung/helralretung",
+      "matungatung",
       "打瞌睡"
     ],
     [
@@ -1662,7 +1866,15 @@ export const TW_40 = {
       "僅僅"
     ],
     [
-      "mayman lra/kakuda lra",
+      "may-",
+      "穿(如穿衣服)"
+    ],
+    [
+      "may-",
+      "戴(如戴帽子)"
+    ],
+    [
+      "mayman lra",
       "沒關係"
     ],
     [
@@ -1678,12 +1890,12 @@ export const TW_40 = {
       "停止"
     ],
     [
-      "ma’at/mera’ara’at",
-      "未成熟的(果實)"
+      "ma’at",
+      "未熟的(如這塊肉是生的)"
     ],
     [
-      "ma’at/vaavaaw",
-      "未熟的(如這塊肉是生的)"
+      "ma’at",
+      "未成熟的(果實)"
     ],
     [
       "ma’a’izang",
@@ -1707,11 +1919,11 @@ export const TW_40 = {
     ],
     [
       "ma’izang",
-      "大的"
+      "百步蛇"
     ],
     [
-      "ma’izang/temuwan",
-      "百步蛇"
+      "ma’izang",
+      "大的"
     ],
     [
       "ma’udalr",
@@ -1726,15 +1938,15 @@ export const TW_40 = {
       "狗吠聲"
     ],
     [
+      "melavat",
+      "經過"
+    ],
+    [
       "melavat kana zinanuman",
       "越溪而過"
     ],
     [
-      "melavat/’emelivat",
-      "經過"
-    ],
-    [
-      "meletri’/mukirungetr",
+      "meletri’",
       "乾淨"
     ],
     [
@@ -1746,7 +1958,7 @@ export const TW_40 = {
       "游泳"
     ],
     [
-      "melringitr/meringitr",
+      "melringitr",
       "瞄準"
     ],
     [
@@ -1762,12 +1974,16 @@ export const TW_40 = {
       "觀察"
     ],
     [
-      "meranak/mipela’",
+      "meranak",
       "浪費"
     ],
     [
       "meravi",
       "開墾"
+    ],
+    [
+      "mera’ara’at",
+      "未成熟的(果實)"
     ],
     [
       "mera’at",
@@ -1778,31 +1994,55 @@ export const TW_40 = {
       "抵達"
     ],
     [
-      "mi-/ may-",
+      "meringitr",
+      "瞄準"
+    ],
+    [
+      "merunu",
+      "紫色的"
+    ],
+    [
+      "mi-",
+      "攜帶(如帶傘)"
+    ],
+    [
+      "mi-",
       "穿(如穿衣服)"
     ],
     [
-      "mi-/ may-",
+      "mi-",
       "戴(如戴帽子)"
     ],
     [
-      "mi; mi/niyam",
+      "mi; mi",
       "我們(排除式)"
+    ],
+    [
+      "mihelrep",
+      "彎腰"
     ],
     [
       "minatray",
       "死亡"
     ],
     [
-      "minuhun/mihelrep",
+      "minuhun",
       "彎腰"
+    ],
+    [
+      "mipela’",
+      "浪費"
     ],
     [
       "mipusu’",
       "化膿"
     ],
     [
-      "mudara’/mudamuk",
+      "mudamuk",
+      "流血"
+    ],
+    [
+      "mudara’",
       "流血"
     ],
     [
@@ -1810,8 +2050,20 @@ export const TW_40 = {
       "臉"
     ],
     [
+      "mugi",
+      "麥"
+    ],
+    [
       "muharaharang",
       "爬行"
+    ],
+    [
+      "muizel",
+      "鈍的"
+    ],
+    [
+      "mukirungetr",
+      "乾淨"
     ],
     [
       "mukulukulung",
@@ -1822,11 +2074,15 @@ export const TW_40 = {
       "去了"
     ],
     [
-      "mulretrelretr/zemangzang",
+      "mulretrelretr",
       "悶熱"
     ],
     [
-      "mulududu/’avuvung/muluduludu",
+      "mulududu",
+      "心臟"
+    ],
+    [
+      "muluduludu",
       "心臟"
     ],
     [
@@ -1834,7 +2090,11 @@ export const TW_40 = {
       "出現"
     ],
     [
-      "mupana na kadaw/mupana na ’unin",
+      "mupana na kadaw",
+      "日出"
+    ],
+    [
+      "mupana na ’unin",
       "日出"
     ],
     [
@@ -1854,7 +2114,7 @@ export const TW_40 = {
       "裂開"
     ],
     [
-      "murung/ mi-",
+      "murung",
       "攜帶(如帶傘)"
     ],
     [
@@ -1874,7 +2134,7 @@ export const TW_40 = {
       "獨立的小山頭"
     ],
     [
-      "musizel/muizel/’izelan",
+      "musizel",
       "鈍的"
     ],
     [
@@ -1922,6 +2182,10 @@ export const TW_40 = {
       "痛"
     ],
     [
+      "nana",
+      "辣"
+    ],
+    [
       "nawan",
       "飛鼠"
     ],
@@ -1958,7 +2222,7 @@ export const TW_40 = {
       "蒼蠅"
     ],
     [
-      "nganguwayan/ngawayan",
+      "nganguwayan",
       "前面"
     ],
     [
@@ -1970,7 +2234,19 @@ export const TW_40 = {
       "縫隙"
     ],
     [
-      "ngaydiran/ngidiran",
+      "ngawayan",
+      "前面"
+    ],
+    [
+      "ngaydiran",
+      "旁邊"
+    ],
+    [
+      "ngevut",
+      "松鼠"
+    ],
+    [
+      "ngidiran",
       "旁邊"
     ],
     [
@@ -2012,6 +2288,10 @@ export const TW_40 = {
     [
       "niwan",
       "賣"
+    ],
+    [
+      "niyam",
+      "我們(排除式)"
     ],
     [
       "ni’en",
@@ -2074,6 +2354,10 @@ export const TW_40 = {
       "餵食"
     ],
     [
+      "paeretr",
+      "腰帶"
+    ],
+    [
       "pahatrel",
       "抓癢"
     ],
@@ -2086,7 +2370,11 @@ export const TW_40 = {
       "錢"
     ],
     [
-      "pakaetim/puwaruma’/paveray",
+      "paiz",
+      "招手"
+    ],
+    [
+      "pakaetim",
       "結婚"
     ],
     [
@@ -2114,11 +2402,19 @@ export const TW_40 = {
       "肚兜"
     ],
     [
+      "paketizir",
+      "豎立"
+    ],
+    [
+      "pakipak",
+      "翅膀"
+    ],
+    [
       "pakiwalay",
       "一點點"
     ],
     [
-      "pakpak/pakipak",
+      "pakpak",
       "翅膀"
     ],
     [
@@ -2130,7 +2426,7 @@ export const TW_40 = {
       "相信"
     ],
     [
-      "palimi’/pamili’",
+      "palimi’",
       "挑選"
     ],
     [
@@ -2142,12 +2438,20 @@ export const TW_40 = {
       "車子"
     ],
     [
+      "palre’elre’etan",
+      "鍬形蟲"
+    ],
+    [
       "palrupe’",
       "閉(眼睛)"
     ],
     [
       "pamau",
       "正確"
+    ],
+    [
+      "pamili’",
+      "挑選"
     ],
     [
       "pana",
@@ -2174,11 +2478,15 @@ export const TW_40 = {
       "分(東西)"
     ],
     [
+      "paparetan",
+      "腰部"
+    ],
+    [
       "papida",
       "多少(人)"
     ],
     [
-      "papiya/mapiya; peniya",
+      "papiya",
       "全部"
     ],
     [
@@ -2210,7 +2518,7 @@ export const TW_40 = {
       "照起來／照明"
     ],
     [
-      "pasetik/sulretr",
+      "pasetik",
       "點火"
     ],
     [
@@ -2234,7 +2542,7 @@ export const TW_40 = {
       "直"
     ],
     [
-      "patikezir/paketizir",
+      "patikezir",
       "豎立"
     ],
     [
@@ -2262,6 +2570,10 @@ export const TW_40 = {
       "跑 (祈使)"
     ],
     [
+      "paveray",
+      "結婚"
+    ],
+    [
       "payas",
       "立即"
     ],
@@ -2274,12 +2586,16 @@ export const TW_40 = {
       "揹(人)"
     ],
     [
-      "pazek/kuzkuz",
+      "pazek",
       "揹負(物品)"
     ],
     [
-      "pazekan/vakar",
+      "pazekan",
       "女用揹籃"
+    ],
+    [
+      "pazerung",
+      "槍"
     ],
     [
       "pa’a",
@@ -2294,7 +2610,7 @@ export const TW_40 = {
       "鏡子"
     ],
     [
-      "pa’et’et/palre’elre’etan",
+      "pa’et’et",
       "鍬形蟲"
     ],
     [
@@ -2328,6 +2644,10 @@ export const TW_40 = {
     [
       "petrus",
       "拔出"
+    ],
+    [
+      "pi-",
+      "走(向某個方向)"
     ],
     [
       "pidaya",
@@ -2382,7 +2702,7 @@ export const TW_40 = {
       "下午"
     ],
     [
-      "piya-/ pi-",
+      "piya-",
       "走(向某個方向)"
     ],
     [
@@ -2390,7 +2710,7 @@ export const TW_40 = {
       "打(人)"
     ],
     [
-      "pulunainan/paparetan",
+      "pulunainan",
       "腰部"
     ],
     [
@@ -2438,6 +2758,10 @@ export const TW_40 = {
       "毛線"
     ],
     [
+      "punun",
+      "籃子"
+    ],
+    [
       "puran",
       "檳榔"
     ],
@@ -2454,7 +2778,7 @@ export const TW_40 = {
       "逃跑"
     ],
     [
-      "putaw/surip/suzip",
+      "putaw",
       "斧頭"
     ],
     [
@@ -2482,7 +2806,11 @@ export const TW_40 = {
       "遲到"
     ],
     [
-      "puwatilu’/sawail",
+      "puwaruma’",
+      "結婚"
+    ],
+    [
+      "puwatilu’",
       "套頸式繩索陷阱"
     ],
     [
@@ -2492,6 +2820,10 @@ export const TW_40 = {
     [
       "puwaturukukan",
       "雞寮"
+    ],
+    [
+      "puwavuevu",
+      "以籠捕魚蝦"
     ],
     [
       "puyung",
@@ -2504,6 +2836,10 @@ export const TW_40 = {
     [
       "rakaz",
       "樹頭"
+    ],
+    [
+      "rami",
+      "肝臟"
     ],
     [
       "rami",
@@ -2558,7 +2894,7 @@ export const TW_40 = {
       "掐住"
     ],
     [
-      "rina’/harang",
+      "rina’",
       "螃蟹"
     ],
     [
@@ -2576,6 +2912,10 @@ export const TW_40 = {
     [
       "rungirung",
       "野草莓"
+    ],
+    [
+      "rutu",
+      "男用背負網袋"
     ],
     [
       "ruvu",
@@ -2634,16 +2974,20 @@ export const TW_40 = {
       "種植"
     ],
     [
-      "salipiyang/salupiyang",
+      "salipiyang",
       "翻倒"
     ],
     [
-      "salrazan/’alunan",
+      "salrazan",
       "枕頭"
     ],
     [
       "salretrap",
       "撞到"
+    ],
+    [
+      "salupiyang",
+      "翻倒"
     ],
     [
       "sama’",
@@ -2662,11 +3006,15 @@ export const TW_40 = {
       "濕的"
     ],
     [
+      "sapupulran",
+      "小蕃茄"
+    ],
+    [
       "sara",
       "菜盤"
     ],
     [
-      "saringan/marenadek",
+      "saringan",
       "汗水"
     ],
     [
@@ -2706,11 +3054,19 @@ export const TW_40 = {
       "肥皂"
     ],
     [
+      "sawail",
+      "套頸式繩索陷阱"
+    ],
+    [
       "sawariyan",
       "久的"
     ],
     [
-      "sawvan/traruv",
+      "sawmi",
+      "蚱蜢"
+    ],
+    [
+      "sawvan",
       "棉被"
     ],
     [
@@ -2750,6 +3106,10 @@ export const TW_40 = {
       "屋頂"
     ],
     [
+      "sehiw",
+      "觸碰(如碰觸到身體)"
+    ],
+    [
       "sekatu",
       "裙子"
     ],
@@ -2766,11 +3126,15 @@ export const TW_40 = {
       "客家人"
     ],
     [
+      "sekiw",
+      "蝸牛"
+    ],
+    [
       "selrevu’",
       "染色"
     ],
     [
-      "selu’/sulu’",
+      "selu’",
       "竹筍"
     ],
     [
@@ -2798,7 +3162,11 @@ export const TW_40 = {
       "清晨"
     ],
     [
-      "semela’/semelavaw",
+      "semelavaw",
+      "溢出(如水溢出來)"
+    ],
+    [
+      "semela’",
       "溢出(如水溢出來)"
     ],
     [
@@ -2826,7 +3194,11 @@ export const TW_40 = {
       "胖(身形)"
     ],
     [
-      "semurenung/puwavuevu",
+      "semuli",
+      "蝸牛"
+    ],
+    [
+      "semurenung",
       "以籠捕魚蝦"
     ],
     [
@@ -2838,8 +3210,16 @@ export const TW_40 = {
       "剝枝葉"
     ],
     [
-      "sihiw/sehiw",
+      "sevuk",
+      "掩埋"
+    ],
+    [
+      "sihiw",
       "觸碰(如碰觸到身體)"
+    ],
+    [
+      "sikaw",
+      "男用背負網袋"
     ],
     [
       "siku",
@@ -2856,6 +3236,10 @@ export const TW_40 = {
     [
       "sirep",
       "吸"
+    ],
+    [
+      "sirusirupan",
+      "蝴蝶"
     ],
     [
       "siuy",
@@ -2882,6 +3266,14 @@ export const TW_40 = {
       "湯"
     ],
     [
+      "sizir",
+      "工寮"
+    ],
+    [
+      "si’adeng",
+      "姑婆芋"
+    ],
+    [
       "sudang",
       "船隻"
     ],
@@ -2898,6 +3290,14 @@ export const TW_40 = {
       "推"
     ],
     [
+      "sulretr",
+      "點火"
+    ],
+    [
+      "sulu’",
+      "竹筍"
+    ],
+    [
       "sungaw",
       "綠豆"
     ],
@@ -2906,16 +3306,28 @@ export const TW_40 = {
       "(將器具)磨利"
     ],
     [
+      "surip",
+      "斧頭"
+    ],
+    [
+      "suru",
+      "小米倉"
+    ],
+    [
       "susu",
       "乳房"
     ],
     [
-      "suvuk/sevuk",
+      "suvuk",
       "掩埋"
     ],
     [
       "suwan",
       "狗"
+    ],
+    [
+      "suzip",
+      "斧頭"
     ],
     [
       "su’ang",
@@ -2934,7 +3346,11 @@ export const TW_40 = {
       "咱們(包含式)"
     ],
     [
-      "taherang/taharang",
+      "taharang",
+      "胸腔"
+    ],
+    [
+      "taherang",
       "胸腔"
     ],
     [
@@ -2950,6 +3366,10 @@ export const TW_40 = {
       "杯子"
     ],
     [
+      "takulaw",
+      "喉嚨"
+    ],
+    [
       "takulris",
       "羊"
     ],
@@ -2958,7 +3378,11 @@ export const TW_40 = {
       "棉花"
     ],
     [
-      "takungkung/ingsay",
+      "takunga",
+      "烏鴉"
+    ],
+    [
+      "takungkung",
       "空心菜"
     ],
     [
@@ -2970,7 +3394,7 @@ export const TW_40 = {
       "阻擋"
     ],
     [
-      "talraviyaw/sizir",
+      "talraviyaw",
       "工寮"
     ],
     [
@@ -2978,7 +3402,11 @@ export const TW_40 = {
       "依賴"
     ],
     [
-      "talupung/kavung",
+      "talrisa’",
+      "瀑布"
+    ],
+    [
+      "talupung",
       "帽子"
     ],
     [
@@ -2986,7 +3414,7 @@ export const TW_40 = {
       "菸草"
     ],
     [
-      "tamurarang/sekiw/semuli",
+      "tamurarang",
       "蝸牛"
     ],
     [
@@ -2996,6 +3424,10 @@ export const TW_40 = {
     [
       "tanungen",
       "木耳"
+    ],
+    [
+      "tanuvan",
+      "山藥"
     ],
     [
       "taramaw",
@@ -3008,6 +3440,10 @@ export const TW_40 = {
     [
       "tarawiri",
       "左邊"
+    ],
+    [
+      "tatavang",
+      "蟑螂"
     ],
     [
       "tatelraw",
@@ -3030,12 +3466,20 @@ export const TW_40 = {
       "手指"
     ],
     [
+      "tavatavang",
+      "蟑螂"
+    ],
+    [
       "tavur",
       "飼養"
     ],
     [
-      "tavurayray/tanuvan",
+      "tavurayray",
       "山藥"
+    ],
+    [
+      "tavu’",
+      "甘甜"
     ],
     [
       "tawlung",
@@ -3066,7 +3510,11 @@ export const TW_40 = {
       "蒸(如蒸飯)"
     ],
     [
-      "telrisa’an/telrisa’/talrisa’",
+      "telrisa’",
+      "瀑布"
+    ],
+    [
+      "telrisa’an",
       "瀑布"
     ],
     [
@@ -3102,6 +3550,10 @@ export const TW_40 = {
       "孫子/孫女"
     ],
     [
+      "temuwan",
+      "百步蛇"
+    ],
+    [
       "tengatengalr",
       "崇山峻嶺"
     ],
@@ -3114,7 +3566,7 @@ export const TW_40 = {
       "剁"
     ],
     [
-      "tevu/’asepan",
+      "tevu",
       "甘蔗"
     ],
     [
@@ -3142,11 +3594,15 @@ export const TW_40 = {
       "布匹"
     ],
     [
+      "tinghuy",
+      "電燈"
+    ],
+    [
       "tinuma’izang i takesiyan",
       "校長"
     ],
     [
-      "tiwngan/’alum",
+      "tiwngan",
       "豬肉"
     ],
     [
@@ -3170,7 +3626,7 @@ export const TW_40 = {
       "偷竊"
     ],
     [
-      "tralinga/trangila",
+      "tralinga",
       "耳朵"
     ],
     [
@@ -3190,6 +3646,10 @@ export const TW_40 = {
       "草原"
     ],
     [
+      "trangila",
+      "耳朵"
+    ],
+    [
       "trangis",
       "哭"
     ],
@@ -3204,6 +3664,10 @@ export const TW_40 = {
     [
       "trarangtrang",
       "曬乾(如將衣服曬乾)"
+    ],
+    [
+      "traruv",
+      "棉被"
     ],
     [
       "traruv",
@@ -3250,7 +3714,11 @@ export const TW_40 = {
       "摺疊"
     ],
     [
-      "trematrali/maeres",
+      "treliving",
+      "厚的"
+    ],
+    [
+      "trematrali",
       "捻線"
     ],
     [
@@ -3274,6 +3742,10 @@ export const TW_40 = {
       "搖動的"
     ],
     [
+      "trilrtrilr",
+      "提著"
+    ],
+    [
       "trima’",
       "價格"
     ],
@@ -3282,8 +3754,12 @@ export const TW_40 = {
       "買、賣"
     ],
     [
-      "tringatring/trilrtrilr",
+      "tringatring",
       "提著"
+    ],
+    [
+      "trinun",
+      "蛋"
     ],
     [
       "tripe’",
@@ -3296,6 +3772,10 @@ export const TW_40 = {
     [
       "triyur",
       "攪動"
+    ],
+    [
+      "tri’ur",
+      "星星"
     ],
     [
       "trukap",
@@ -3314,7 +3794,7 @@ export const TW_40 = {
       "一串"
     ],
     [
-      "truvu/vira’",
+      "truvu",
       "葉子"
     ],
     [
@@ -3334,7 +3814,7 @@ export const TW_40 = {
       "他的"
     ],
     [
-      "tukeraw/takulaw",
+      "tukeraw",
       "喉嚨"
     ],
     [
@@ -3366,7 +3846,7 @@ export const TW_40 = {
       "額頭"
     ],
     [
-      "tuptup/tu’tu’",
+      "tuptup",
       "啄"
     ],
     [
@@ -3394,6 +3874,10 @@ export const TW_40 = {
       "野鴿子"
     ],
     [
+      "tutuy",
+      "幼犬"
+    ],
+    [
       "tuvang",
       "答應"
     ],
@@ -3410,7 +3894,7 @@ export const TW_40 = {
       "麵"
     ],
     [
-      "tuwap/paiz",
+      "tuwap",
       "招手"
     ],
     [
@@ -3420,6 +3904,10 @@ export const TW_40 = {
     [
       "tu’enunan",
       "頸子"
+    ],
+    [
+      "tu’tu’",
+      "啄"
     ],
     [
       "tēnnaw",
@@ -3458,11 +3946,11 @@ export const TW_40 = {
       "蛇"
     ],
     [
-      "ungas/’ungas",
+      "ungas",
       "剝皮"
     ],
     [
-      "ungas/’ungas",
+      "ungas",
       "剝樹皮"
     ],
     [
@@ -3472,6 +3960,14 @@ export const TW_40 = {
     [
       "ungetran",
       "鼻子"
+    ],
+    [
+      "uniyan",
+      "沒有"
+    ],
+    [
+      "uniyan",
+      "沒有(表擁有的否定詞)"
     ],
     [
       "upitr",
@@ -3490,7 +3986,11 @@ export const TW_40 = {
       "帶"
     ],
     [
-      "usannin/usaynin",
+      "usannin",
+      "讓開"
+    ],
+    [
+      "usaynin",
       "讓開"
     ],
     [
@@ -3506,8 +4006,16 @@ export const TW_40 = {
       "廁所"
     ],
     [
+      "vaavaaw",
+      "未熟的(如這塊肉是生的)"
+    ],
+    [
       "vaaw",
       "活的"
+    ],
+    [
+      "vakar",
+      "女用揹籃"
     ],
     [
       "vakesiw",
@@ -3522,11 +4030,11 @@ export const TW_40 = {
       "肋骨"
     ],
     [
-      "vala’ala’ang/karuzangzang/merunu",
+      "vala’ala’ang",
       "紫色的"
     ],
     [
-      "valenan/velenan",
+      "valenan",
       "水患"
     ],
     [
@@ -3534,8 +4042,16 @@ export const TW_40 = {
       "風"
     ],
     [
+      "vali",
+      "味道"
+    ],
+    [
       "valis",
       "替換(衣服)"
+    ],
+    [
+      "valratung",
+      "長豆"
     ],
     [
       "valray",
@@ -3546,7 +4062,15 @@ export const TW_40 = {
       "檜木"
     ],
     [
-      "valruvalrulren/valruvalrur/valruvalruran",
+      "valruvalrulren",
+      "蜻蜓"
+    ],
+    [
+      "valruvalrur",
+      "蜻蜓"
+    ],
+    [
+      "valruvalruran",
       "蜻蜓"
     ],
     [
@@ -3566,8 +4090,16 @@ export const TW_40 = {
       "平埔族"
     ],
     [
+      "varasarasa’",
+      "腎臟"
+    ],
+    [
       "varasa’",
       "石頭"
+    ],
+    [
+      "vara’",
+      "肺"
     ],
     [
       "varivariw",
@@ -3626,7 +4158,7 @@ export const TW_40 = {
       "新的"
     ],
     [
-      "vekelran/suru /’alili",
+      "vekelran",
       "小米倉"
     ],
     [
@@ -3636,6 +4168,10 @@ export const TW_40 = {
     [
       "velelruwan",
       "峽谷"
+    ],
+    [
+      "velenan",
+      "水患"
     ],
     [
       "veliyas",
@@ -3650,7 +4186,7 @@ export const TW_40 = {
       "香蕉"
     ],
     [
-      "venarasa’/varasarasa’",
+      "venarasa’",
       "腎臟"
     ],
     [
@@ -3674,7 +4210,7 @@ export const TW_40 = {
       "放屁"
     ],
     [
-      "venetratrili/kautrerahan/’emami",
+      "venetratrili",
       "秋天"
     ],
     [
@@ -3702,7 +4238,7 @@ export const TW_40 = {
       "冬天"
     ],
     [
-      "vetrinun/trinun",
+      "vetrinun",
       "蛋"
     ],
     [
@@ -3718,8 +4254,16 @@ export const TW_40 = {
       "留下"
     ],
     [
+      "vini’",
+      "種子"
+    ],
+    [
       "vinungvung",
       "鐵柄獵刀"
+    ],
+    [
+      "vira’",
+      "葉子"
     ],
     [
       "viruwa",
@@ -3742,7 +4286,7 @@ export const TW_40 = {
       "拔除"
     ],
     [
-      "vitu’en/tri’ur",
+      "vitu’en",
       "星星"
     ],
     [
@@ -3774,7 +4318,7 @@ export const TW_40 = {
       "傷口"
     ],
     [
-      "vulraw/kuraw",
+      "vulraw",
       "魚"
     ],
     [
@@ -3790,15 +4334,23 @@ export const TW_40 = {
       "藏起來"
     ],
     [
-      "vurasi/vunga",
+      "vunga",
       "甘藷"
     ],
     [
-      "vurasi/vunga",
+      "vunga",
       "地瓜"
     ],
     [
-      "vusur/kadalis",
+      "vurasi",
+      "甘藷"
+    ],
+    [
+      "vurasi",
+      "地瓜"
+    ],
+    [
+      "vusur",
       "弓"
     ],
     [
@@ -3808,6 +4360,10 @@ export const TW_40 = {
     [
       "vuut",
       "煞車"
+    ],
+    [
+      "vuwang",
+      "山洞"
     ],
     [
       "vuwa’",
@@ -3862,12 +4418,16 @@ export const TW_40 = {
       "天天"
     ],
     [
-      "wa’ewa’/takunga",
+      "wa’ewa’",
       "烏鴉"
     ],
     [
-      "zanum/’enay",
+      "zanum",
       "水"
+    ],
+    [
+      "zanuzanum",
+      "粥"
     ],
     [
       "zaul",
@@ -3898,6 +4458,10 @@ export const TW_40 = {
       "擦(如口紅；油漆)"
     ],
     [
+      "zemangzang",
+      "悶熱"
+    ],
+    [
       "zemiyar",
       "紅色"
     ],
@@ -3920,6 +4484,10 @@ export const TW_40 = {
     [
       "zi",
       "也"
+    ],
+    [
+      "zidēnsiya",
+      "腳踏車"
     ],
     [
       "ziketran",
@@ -3986,11 +4554,11 @@ export const TW_40 = {
       "二"
     ],
     [
-      "’adawisan/’alrawisan",
+      "’adawisan",
       "老鷹"
     ],
     [
-      "’alalaip/tatavang/tavatavang",
+      "’alalaip",
       "蟑螂"
     ],
     [
@@ -3998,11 +4566,15 @@ export const TW_40 = {
       "舔"
     ],
     [
+      "’alili",
+      "小米倉"
+    ],
+    [
       "’aliwanes",
       "彩虹"
     ],
     [
-      "’ali’/anay",
+      "’ali’",
       "朋友"
     ],
     [
@@ -4010,8 +4582,16 @@ export const TW_40 = {
       "敵人"
     ],
     [
-      "’alra na/’alra nu",
+      "’alra na",
       "因為"
+    ],
+    [
+      "’alra nu",
+      "因為"
+    ],
+    [
+      "’alrawisan",
+      "老鷹"
     ],
     [
       "’alretru",
@@ -4030,8 +4610,20 @@ export const TW_40 = {
       "門"
     ],
     [
-      "’alrivangvang/sirusirupan",
+      "’alrivangvang",
       "蝴蝶"
+    ],
+    [
+      "’alriwang",
+      "影子"
+    ],
+    [
+      "’alum",
+      "豬肉"
+    ],
+    [
+      "’alunan",
+      "枕頭"
     ],
     [
       "’ami",
@@ -4050,11 +4642,15 @@ export const TW_40 = {
       "膽囊"
     ],
     [
-      "’apelrin/’apelrilr",
+      "’apelrilr",
       "苦"
     ],
     [
-      "’apiyar/vini’",
+      "’apelrin",
+      "苦"
+    ],
+    [
+      "’apiyar",
       "種子"
     ],
     [
@@ -4066,11 +4662,11 @@ export const TW_40 = {
       "眼鏡蛇"
     ],
     [
-      "’ara/punun",
+      "’ara",
       "籃子"
     ],
     [
-      "’aratrip/’atringal",
+      "’aratrip",
       "夾子"
     ],
     [
@@ -4102,6 +4698,10 @@ export const TW_40 = {
       "澀澀的(味覺)"
     ],
     [
+      "’asepan",
+      "甘蔗"
+    ],
+    [
       "’asevan",
       "煙"
     ],
@@ -4122,12 +4722,16 @@ export const TW_40 = {
       "跳蚤"
     ],
     [
-      "’atray/rami",
+      "’atray",
       "肝臟"
     ],
     [
       "’atrengalran",
       "拇指"
+    ],
+    [
+      "’atringal",
+      "夾子"
     ],
     [
       "’atrusal",
@@ -4146,8 +4750,12 @@ export const TW_40 = {
       "老鼠(家鼠統稱)"
     ],
     [
-      "’avutar/kulavaw",
+      "’avutar",
       "田鼠"
+    ],
+    [
+      "’avuvung",
+      "心臟"
     ],
     [
       "’awat",
@@ -4194,24 +4802,32 @@ export const TW_40 = {
       "扇子"
     ],
     [
-      "’a’ezang/kuyan",
+      "’a’ezang",
       "蝦"
+    ],
+    [
+      "’edulr",
+      "蚱蜢"
     ],
     [
       "’ele’el",
       "咀嚼"
     ],
     [
-      "’elralriwang/’alriwang",
+      "’elralriwang",
       "影子"
     ],
     [
-      "’elresap/idap",
+      "’elresap",
       "打掃"
     ],
     [
       "’emalaz",
       "搭建圍籬"
+    ],
+    [
+      "’emami",
+      "秋天"
     ],
     [
       "’emanamanan",
@@ -4224,6 +4840,10 @@ export const TW_40 = {
     [
       "’emavu’avu",
       "灰色"
+    ],
+    [
+      "’emelivat",
+      "經過"
     ],
     [
       "’emetr",
@@ -4248,6 +4868,14 @@ export const TW_40 = {
     [
       "’emura’ura",
       "咖啡色"
+    ],
+    [
+      "’enay",
+      "水"
+    ],
+    [
+      "’ena’enay",
+      "粥"
     ],
     [
       "’eresur",
@@ -4306,6 +4934,10 @@ export const TW_40 = {
       "螞蟻"
     ],
     [
+      "’izelan",
+      "鈍的"
+    ],
+    [
       "’izus",
       "湯匙"
     ],
@@ -4336,6 +4968,18 @@ export const TW_40 = {
     [
       "’umuwaw",
       "做惡夢"
+    ],
+    [
+      "’ungas",
+      "剝皮"
+    ],
+    [
+      "’ungas",
+      "剝樹皮"
+    ],
+    [
+      "’unin",
+      "太陽"
     ],
     [
       "’uninan",

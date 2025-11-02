@@ -642,6 +642,10 @@ export const TW_01 = {
       "電燈"
     ],
     [
+      "dingwa",
+      "電話"
+    ],
+    [
       "dipung",
       "窩巢"
     ],
@@ -1006,6 +1010,10 @@ export const TW_01 = {
       "你們"
     ],
     [
+      "kamuraw",
+      "蕃茄"
+    ],
+    [
       "kanahatu",
       "雖然"
     ],
@@ -1284,6 +1292,10 @@ export const TW_01 = {
     [
       "kupit",
       "瘦(身形)"
+    ],
+    [
+      "kupu",
+      "杯子"
     ],
     [
       "kurukuru",
@@ -3062,7 +3074,7 @@ export const TW_01 = {
       "蓋子"
     ],
     [
-      "satakid/kupu",
+      "satakid",
       "杯子"
     ],
     [
@@ -3606,7 +3618,7 @@ export const TW_01 = {
       "套頸式繩索陷阱"
     ],
     [
-      "telay/dingwa",
+      "telay",
       "電話"
     ],
     [
@@ -3790,7 +3802,7 @@ export const TW_01 = {
       "跌倒"
     ],
     [
-      "tumatu/kamuraw",
+      "tumatu",
       "蕃茄"
     ],
     [
@@ -4011,11 +4023,11 @@ export const TW_01 = {
     ],
     [
       "vaki",
-      "(伯父；叔叔；舅舅)通稱"
+      "孫子/孫女"
     ],
     [
-      "vaki/vayi",
-      "孫子/孫女"
+      "vaki",
+      "(伯父；叔叔；舅舅)通稱"
     ],
     [
       "vakic",
@@ -4156,6 +4168,10 @@ export const TW_01 = {
     [
       "vayi",
       "女性長輩(祖母；外婆；岳母)"
+    ],
+    [
+      "vayi",
+      "孫子/孫女"
     ],
     [
       "vayi",

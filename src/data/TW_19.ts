@@ -14,7 +14,7 @@ export const TW_19 = {
       "狗"
     ],
     [
-      "al+/asa tu",
+      "al+",
       "應該"
     ],
     [
@@ -50,7 +50,7 @@ export const TW_19 = {
       "網子"
     ],
     [
-      "ami’/valu’",
+      "ami’",
       "魚網"
     ],
     [
@@ -94,6 +94,10 @@ export const TW_19 = {
       "也"
     ],
     [
+      "asa tu",
+      "應該"
+    ],
+    [
       "asu",
       "你"
     ],
@@ -106,7 +110,7 @@ export const TW_19 = {
       "小的"
     ],
     [
-      "atikic/tukuc",
+      "atikic",
       "少的"
     ],
     [
@@ -274,6 +278,10 @@ export const TW_19 = {
       "香蕉"
     ],
     [
+      "bungka’",
+      "文化"
+    ],
+    [
       "bunglai’",
       "鳳梨"
     ],
@@ -318,7 +326,7 @@ export const TW_19 = {
       "麻雀"
     ],
     [
-      "catlu/ saita’an",
+      "catlu",
       "汗水"
     ],
     [
@@ -384,6 +392,10 @@ export const TW_19 = {
     [
       "cungus",
       "後院"
+    ],
+    [
+      "cuzinsia’",
+      "腳踏車"
     ],
     [
       "dalapa",
@@ -466,6 +478,10 @@ export const TW_19 = {
       "上面"
     ],
     [
+      "da’uc",
+      "米糠"
+    ],
+    [
       "diki",
       "這裡"
     ],
@@ -523,11 +539,11 @@ export const TW_19 = {
     ],
     [
       "hanuin",
-      "來"
+      "(叫人)過來"
     ],
     [
-      "hanuin/kula",
-      "(叫人)過來"
+      "hanuin",
+      "來"
     ],
     [
       "haqas",
@@ -582,7 +598,7 @@ export const TW_19 = {
       "鵝"
     ],
     [
-      "hubung/lukbu’",
+      "hubung",
       "身體"
     ],
     [
@@ -596,6 +612,10 @@ export const TW_19 = {
     [
       "huhul",
       "岩洞"
+    ],
+    [
+      "huhul",
+      "山洞"
     ],
     [
       "huluc",
@@ -710,11 +730,11 @@ export const TW_19 = {
       "筆"
     ],
     [
-      "inuqumican/ bungka’",
+      "inuqumican",
       "文化"
     ],
     [
-      "iqtiv/qativ",
+      "iqtiv",
       "香菇"
     ],
     [
@@ -746,7 +766,7 @@ export const TW_19 = {
       "魚"
     ],
     [
-      "islungqu’an/niciuvi’",
+      "islungqu’an",
       "星期日"
     ],
     [
@@ -760,6 +780,10 @@ export const TW_19 = {
     [
       "ismut",
       "草"
+    ],
+    [
+      "isnanava’an",
+      "學生"
     ],
     [
       "isqaqisqis",
@@ -838,7 +862,7 @@ export const TW_19 = {
       "水果"
     ],
     [
-      "kaku’/sisipulan",
+      "kaku’",
       "學校"
     ],
     [
@@ -870,6 +894,10 @@ export const TW_19 = {
       "咀嚼"
     ],
     [
+      "kaliluvluv",
+      "刮颱風"
+    ],
+    [
       "kaliv",
       "苧麻"
     ],
@@ -882,7 +910,7 @@ export const TW_19 = {
       "織布用的素麻線"
     ],
     [
-      "kamacia’/satu’",
+      "kamacia’",
       "糖"
     ],
     [
@@ -910,7 +938,7 @@ export const TW_19 = {
       "(用腳)踏"
     ],
     [
-      "kanhu/navi’",
+      "kanhu",
       "湯鍋"
     ],
     [
@@ -958,8 +986,12 @@ export const TW_19 = {
       "鐮刀"
     ],
     [
-      "kaunaz / takzang",
+      "kaunaz",
       "躺"
+    ],
+    [
+      "kaupa",
+      "只有"
     ],
     [
       "kav",
@@ -978,7 +1010,7 @@ export const TW_19 = {
       "玩(球)"
     ],
     [
-      "kavila’/ paqainan",
+      "kavila’",
       "玩耍"
     ],
     [
@@ -1030,7 +1062,7 @@ export const TW_19 = {
       "放屁"
     ],
     [
-      "kituhulan/huhul",
+      "kituhulan",
       "山洞"
     ],
     [
@@ -1062,7 +1094,11 @@ export const TW_19 = {
       "工作"
     ],
     [
-      "kulali/taktiqabas",
+      "kula",
+      "(叫人)過來"
+    ],
+    [
+      "kulali",
       "舊的"
     ],
     [
@@ -1102,7 +1138,7 @@ export const TW_19 = {
       "指甲"
     ],
     [
-      "kuti’ / pu",
+      "kuti’",
       "女性生殖器"
     ],
     [
@@ -1126,6 +1162,10 @@ export const TW_19 = {
       "(植物的)果實"
     ],
     [
+      "lahamun",
+      "掩埋"
+    ],
+    [
       "laitilaiti",
       "樓梯"
     ],
@@ -1146,7 +1186,7 @@ export const TW_19 = {
       "何時(已發生)"
     ],
     [
-      "lalai/tukias",
+      "lalai",
       "蟬"
     ],
     [
@@ -1214,6 +1254,10 @@ export const TW_19 = {
       "可能"
     ],
     [
+      "lava",
+      "臀部"
+    ],
+    [
       "lehleh",
       "車子"
     ],
@@ -1222,7 +1266,7 @@ export const TW_19 = {
       "公車"
     ],
     [
-      "lehlehtanpu’/cuzinsia’",
+      "lehlehtanpu’",
       "腳踏車"
     ],
     [
@@ -1232,6 +1276,10 @@ export const TW_19 = {
     [
       "libus",
       "森林"
+    ],
+    [
+      "lingqaul",
+      "游泳"
     ],
     [
       "lingva’",
@@ -1246,7 +1294,7 @@ export const TW_19 = {
       "靠著"
     ],
     [
-      "lisqadi / matapdit",
+      "lisqadi",
       "壓住"
     ],
     [
@@ -1278,6 +1326,10 @@ export const TW_19 = {
       "陰天"
     ],
     [
+      "lukbu’",
+      "身體"
+    ],
+    [
       "lukic",
       "樹"
     ],
@@ -1294,11 +1346,15 @@ export const TW_19 = {
       "鳥"
     ],
     [
+      "lusbut",
+      "經常"
+    ],
+    [
       "luvluv",
       "風"
     ],
     [
-      "luvluvan/ kaliluvluv",
+      "luvluvan",
       "刮颱風"
     ],
     [
@@ -1336,6 +1392,10 @@ export const TW_19 = {
     [
       "mabuaq",
       "剖切"
+    ],
+    [
+      "mabulav",
+      "黃色的"
     ],
     [
       "mabulav",
@@ -1378,7 +1438,11 @@ export const TW_19 = {
       "削(水果)"
     ],
     [
-      "macampat /macamcam",
+      "macamcam",
+      "澀澀的(味覺)"
+    ],
+    [
+      "macampat",
       "澀澀的(味覺)"
     ],
     [
@@ -1402,7 +1466,7 @@ export const TW_19 = {
       "詢問"
     ],
     [
-      "macinhav / mabulav",
+      "macinhav",
       "黃色的"
     ],
     [
@@ -1590,6 +1654,10 @@ export const TW_19 = {
       "煮(菜)"
     ],
     [
+      "mahauqil",
+      "剝皮"
+    ],
+    [
       "mahau’",
       "謾罵"
     ],
@@ -1620,6 +1688,10 @@ export const TW_19 = {
     [
       "mahuqil",
       "剝樹皮"
+    ],
+    [
+      "mahuzak",
+      "翻動"
     ],
     [
       "makai",
@@ -1670,12 +1742,16 @@ export const TW_19 = {
       "冰冷"
     ],
     [
-      "makazkaz/mahuzak",
+      "makazkaz",
       "翻動"
     ],
     [
       "makiscaiv",
       "向人家要(東西)"
+    ],
+    [
+      "makiskis",
+      "刷除"
     ],
     [
       "maklang",
@@ -1722,6 +1798,10 @@ export const TW_19 = {
       "拔出"
     ],
     [
+      "malaitaz",
+      "懶惰"
+    ],
+    [
       "malalabas",
       "(人)眾多"
     ],
@@ -1750,6 +1830,10 @@ export const TW_19 = {
       "催熟(果實)"
     ],
     [
+      "malbubuntu",
+      "久的"
+    ],
+    [
       "maldiqanin",
       "整天"
     ],
@@ -1766,11 +1850,11 @@ export const TW_19 = {
       "趕上"
     ],
     [
-      "malintuaz/ma’aincun",
+      "malintuaz",
       "推"
     ],
     [
-      "malislis/ makiskis",
+      "malislis",
       "刷除"
     ],
     [
@@ -1818,6 +1902,10 @@ export const TW_19 = {
       "舌頭"
     ],
     [
+      "mamantuk",
+      "正確"
+    ],
+    [
       "mama’",
       "揹(人)"
     ],
@@ -1828,6 +1916,10 @@ export const TW_19 = {
     [
       "mamucqut",
       "掐住"
+    ],
+    [
+      "mamuqu’",
+      "累"
     ],
     [
       "mamu’mu’",
@@ -1842,7 +1934,7 @@ export const TW_19 = {
       "高興"
     ],
     [
-      "manahip/manaskal",
+      "manahip",
       "快樂"
     ],
     [
@@ -1866,11 +1958,15 @@ export const TW_19 = {
       "射擊"
     ],
     [
+      "manaskal",
+      "快樂"
+    ],
+    [
       "manau’az",
       "漂亮"
     ],
     [
-      "mangai/malaitaz",
+      "mangai",
       "懶惰"
     ],
     [
@@ -1918,7 +2014,7 @@ export const TW_19 = {
       "剝(花生；豆類)"
     ],
     [
-      "mapait/mahauqil",
+      "mapait",
       "剝皮"
     ],
     [
@@ -1954,7 +2050,7 @@ export const TW_19 = {
       "獨立的小山頭"
     ],
     [
-      "mapuk’un / maqatul",
+      "mapuk’un",
       "堆積"
     ],
     [
@@ -2042,7 +2138,7 @@ export const TW_19 = {
       "剪"
     ],
     [
-      "maqaltum/lahamun",
+      "maqaltum",
       "掩埋"
     ],
     [
@@ -2056,6 +2152,10 @@ export const TW_19 = {
     [
       "maqasmav",
       "勤勞"
+    ],
+    [
+      "maqatul",
+      "堆積"
     ],
     [
       "maqav",
@@ -2098,11 +2198,15 @@ export const TW_19 = {
       "多少(程度大小)"
     ],
     [
+      "maqun",
+      "砍除"
+    ],
+    [
       "masabaq",
       "睡覺"
     ],
     [
-      "masaingu’/ mamuqu’",
+      "masaingu’",
       "累"
     ],
     [
@@ -2202,6 +2306,10 @@ export const TW_19 = {
       "吞下"
     ],
     [
+      "masnava’",
+      "教(如教人寫字)"
+    ],
+    [
       "masoqbung",
       "重(重量)"
     ],
@@ -2212,6 +2320,10 @@ export const TW_19 = {
     [
       "mastan",
       "很"
+    ],
+    [
+      "mastutuh",
+      "跳舞"
     ],
     [
       "masuaq",
@@ -2238,7 +2350,7 @@ export const TW_19 = {
       "砍"
     ],
     [
-      "matabal/maqun",
+      "matabal",
       "砍除"
     ],
     [
@@ -2258,12 +2370,24 @@ export const TW_19 = {
       "打碎"
     ],
     [
+      "matapdiq",
+      "壓扁"
+    ],
+    [
       "matapdit",
       "按住"
     ],
     [
       "matapdit",
+      "壓住"
+    ],
+    [
+      "matapdit",
       "壓制"
+    ],
+    [
+      "matapha’",
+      "烤(如烤地瓜)"
     ],
     [
       "matapul",
@@ -2374,7 +2498,7 @@ export const TW_19 = {
       "蕃茄"
     ],
     [
-      "matunu/matapha’",
+      "matunu",
       "烤(如烤地瓜)"
     ],
     [
@@ -2438,12 +2562,20 @@ export const TW_19 = {
       "痠痛"
     ],
     [
-      "mazaipoq / mazaubun",
+      "mazaipoq",
       "軟"
     ],
     [
       "mazaszas",
       "散撒"
+    ],
+    [
+      "mazaubun",
+      "軟"
+    ],
+    [
+      "ma’aincun",
+      "推"
     ],
     [
       "ma’aiv",
@@ -2619,11 +2751,11 @@ export const TW_19 = {
     ],
     [
       "muaz",
-      "僅僅"
+      "只有"
     ],
     [
-      "muaz/kaupa",
-      "只有"
+      "muaz",
+      "僅僅"
     ],
     [
       "mucuqis",
@@ -2762,6 +2894,10 @@ export const TW_19 = {
       "外面"
     ],
     [
+      "navi’",
+      "湯鍋"
+    ],
+    [
       "ngaingai",
       "客家人"
     ],
@@ -2778,7 +2914,7 @@ export const TW_19 = {
       "暫時(離開一下)"
     ],
     [
-      "ngicngic/nimnim",
+      "ngicngic",
       "嘴唇"
     ],
     [
@@ -2806,19 +2942,31 @@ export const TW_19 = {
       "沒關係"
     ],
     [
-      "ni tu niap/ni tu qanciap",
+      "ni tu niap",
       "不知道"
     ],
     [
-      "nibu/puzac",
+      "ni tu qanciap",
+      "不知道"
+    ],
+    [
+      "nibu",
       "男性生殖器"
+    ],
+    [
+      "niciuvi’",
+      "星期日"
+    ],
+    [
+      "nimnim",
+      "嘴唇"
     ],
     [
       "ning’av",
       "湖泊"
     ],
     [
-      "nipaq / qua",
+      "nipaq",
       "痰"
     ],
     [
@@ -2846,7 +2994,7 @@ export const TW_19 = {
       "穀粒"
     ],
     [
-      "nukis/da’uc",
+      "nukis",
       "米糠"
     ],
     [
@@ -2898,8 +3046,16 @@ export const TW_19 = {
       "女用揹籃"
     ],
     [
+      "palaqa’tung",
+      "遇到"
+    ],
+    [
       "palasung saluzu’",
       "以籠捕魚蝦"
+    ],
+    [
+      "palatungtung",
+      "撞到"
     ],
     [
       "palka’un",
@@ -2963,14 +3119,14 @@ export const TW_19 = {
     ],
     [
       "pantungtung",
-      "撞擊某物"
-    ],
-    [
-      "pantungtung/palatungtung",
       "撞到"
     ],
     [
-      "pantu’/ isnanava’an",
+      "pantungtung",
+      "撞擊某物"
+    ],
+    [
+      "pantu’",
       "學生"
     ],
     [
@@ -2980,6 +3136,10 @@ export const TW_19 = {
     [
       "pan’ai’an",
       "湯"
+    ],
+    [
+      "paqainan",
+      "玩耍"
     ],
     [
       "paqanal",
@@ -2998,7 +3158,7 @@ export const TW_19 = {
       "分(東西)"
     ],
     [
-      "pasadu /palaqa’tung",
+      "pasadu",
       "遇到"
     ],
     [
@@ -3028,6 +3188,10 @@ export const TW_19 = {
     [
       "patas",
       "顏色"
+    ],
+    [
+      "patilacan",
+      "倉庫"
     ],
     [
       "patulkukan",
@@ -3098,11 +3262,15 @@ export const TW_19 = {
       "穿(如穿衣服)"
     ],
     [
+      "pinung",
+      "檳榔"
+    ],
+    [
       "piqatumu ima",
       "握拳"
     ],
     [
-      "piqepi/matapdiq",
+      "piqepi",
       "壓扁"
     ],
     [
@@ -3130,6 +3298,10 @@ export const TW_19 = {
       "烹煮(飯／肉／地瓜)"
     ],
     [
+      "pu",
+      "女性生殖器"
+    ],
+    [
       "puaq",
       "花朵"
     ],
@@ -3155,10 +3327,14 @@ export const TW_19 = {
     ],
     [
       "puzac",
+      "男性生殖器"
+    ],
+    [
+      "puzac",
       "雄性動物生殖器官"
     ],
     [
-      "qabang/ tapaha’",
+      "qabang",
       "棉被"
     ],
     [
@@ -3182,7 +3358,7 @@ export const TW_19 = {
       "山蘇"
     ],
     [
-      "qaidang/tiquc",
+      "qaidang",
       "血"
     ],
     [
@@ -3194,7 +3370,7 @@ export const TW_19 = {
       "天天"
     ],
     [
-      "qailic/lusbut",
+      "qailic",
       "經常"
     ],
     [
@@ -3330,6 +3506,10 @@ export const TW_19 = {
       "篩穀器具"
     ],
     [
+      "qasu’",
+      "豬肉"
+    ],
+    [
       "qatabang",
       "蟑螂"
     ],
@@ -3346,8 +3526,16 @@ export const TW_19 = {
       "溫泉"
     ],
     [
+      "qativ",
+      "香菇"
+    ],
+    [
       "qatnga’",
       "箭矢"
+    ],
+    [
+      "qatulan",
+      "穀倉"
     ],
     [
       "qatu’",
@@ -3380,6 +3568,10 @@ export const TW_19 = {
     [
       "qilqil",
       "峽谷"
+    ],
+    [
+      "qua",
+      "痰"
     ],
     [
       "quaz",
@@ -3482,6 +3674,10 @@ export const TW_19 = {
       "撫養"
     ],
     [
+      "saita’an",
+      "汗水"
+    ],
+    [
       "sai’iti’",
       "來過"
     ],
@@ -3535,15 +3731,19 @@ export const TW_19 = {
     ],
     [
       "sapuz",
-      "火"
+      "電燈"
     ],
     [
-      "sapuz/zingki’",
-      "電燈"
+      "sapuz",
+      "火"
     ],
     [
       "sasbinaz",
       "長官"
+    ],
+    [
+      "satu’",
+      "糖"
     ],
     [
       "sauhan",
@@ -3554,7 +3754,7 @@ export const TW_19 = {
       "涉水而過"
     ],
     [
-      "saviki/pinung",
+      "saviki",
       "檳榔"
     ],
     [
@@ -3646,6 +3846,10 @@ export const TW_19 = {
       "模仿"
     ],
     [
+      "sisipulan",
+      "學校"
+    ],
+    [
       "siva’",
       "九"
     ],
@@ -3674,12 +3878,12 @@ export const TW_19 = {
       "刮苧麻"
     ],
     [
-      "suku’/patilacan",
-      "倉庫"
+      "suku’",
+      "穀倉"
     ],
     [
-      "suku’/qatulan",
-      "穀倉"
+      "suku’",
+      "倉庫"
     ],
     [
       "suplakaz",
@@ -3750,8 +3954,12 @@ export const TW_19 = {
       "動物的內臟"
     ],
     [
-      "taki’an/lava",
+      "taki’an",
       "臀部"
+    ],
+    [
+      "taktiqabas",
+      "舊的"
     ],
     [
       "taku’",
@@ -3759,10 +3967,14 @@ export const TW_19 = {
     ],
     [
       "takzang",
+      "躺"
+    ],
+    [
+      "takzang",
       "躺臥"
     ],
     [
-      "taldanav/lingqaul",
+      "taldanav",
       "游泳"
     ],
     [
@@ -3774,7 +3986,7 @@ export const TW_19 = {
       "蝴蝶"
     ],
     [
-      "talmadia’/malbubuntu",
+      "talmadia’",
       "久的"
     ],
     [
@@ -3874,6 +4086,10 @@ export const TW_19 = {
       "聽說"
     ],
     [
+      "tapaha’",
+      "棉被"
+    ],
+    [
       "tapis",
       "男用遮陰布"
     ],
@@ -3890,7 +4106,7 @@ export const TW_19 = {
       "告訴(別人)"
     ],
     [
-      "taqu’/masnava’",
+      "taqu’",
       "教(如教人寫字)"
     ],
     [
@@ -4102,6 +4318,10 @@ export const TW_19 = {
       "玉米"
     ],
     [
+      "tiquc",
+      "血"
+    ],
+    [
       "tisbungu’",
       "頭帶(女用背籃用)"
     ],
@@ -4114,11 +4334,11 @@ export const TW_19 = {
       "腰帶"
     ],
     [
-      "titiba’bu’/qasu’",
+      "titiba’bu’",
       "豬肉"
     ],
     [
-      "toksu / tukisu’",
+      "toksu",
       "百香果"
     ],
     [
@@ -4138,12 +4358,24 @@ export const TW_19 = {
       "水滴"
     ],
     [
+      "tukias",
+      "蟬"
+    ],
+    [
+      "tukisu’",
+      "百香果"
+    ],
+    [
       "tuki’",
       "手錶"
     ],
     [
       "tuki’",
       "鐘錶"
+    ],
+    [
+      "tukuc",
+      "少的"
     ],
     [
       "tulkuk",
@@ -4202,7 +4434,7 @@ export const TW_19 = {
       "唱歌"
     ],
     [
-      "tutuza’ / mamantuk",
+      "tutuza’",
       "正確"
     ],
     [
@@ -4234,7 +4466,7 @@ export const TW_19 = {
       "粥"
     ],
     [
-      "uluzi’/mastutuh",
+      "uluzi’",
       "跳舞"
     ],
     [
@@ -4280,6 +4512,10 @@ export const TW_19 = {
     [
       "vali’",
       "太陽"
+    ],
+    [
+      "valu’",
+      "魚網"
     ],
     [
       "vanan",
@@ -4360,6 +4596,10 @@ export const TW_19 = {
     [
       "zaqzaq",
       "口水"
+    ],
+    [
+      "zingki’",
+      "電燈"
     ],
     [
       "zo’",

@@ -458,6 +458,10 @@ export const TW_29 = {
       "花朵"
     ],
     [
+      "bengka",
+      "文化"
+    ],
+    [
       "bibiya",
       "嘴唇"
     ],
@@ -814,6 +818,10 @@ export const TW_29 = {
       "一串"
     ],
     [
+      "ela",
+      "雪"
+    ],
+    [
       "eleba",
       "關上"
     ],
@@ -1138,7 +1146,7 @@ export const TW_29 = {
       "哥哥"
     ],
     [
-      "kakuakudha/bengka",
+      "kakuakudha",
       "文化"
     ],
     [
@@ -1470,7 +1478,7 @@ export const TW_29 = {
       "累"
     ],
     [
-      "kyagulrugulru/ kyakecekece",
+      "kyagulrugulru",
       "剪(頭髮)"
     ],
     [
@@ -1480,6 +1488,10 @@ export const TW_29 = {
     [
       "kyahagai",
       "快樂"
+    ],
+    [
+      "kyakecekece",
+      "剪(頭髮)"
     ],
     [
       "kyalibake",
@@ -1552,6 +1564,10 @@ export const TW_29 = {
     [
       "lakuni",
       "所以"
+    ],
+    [
+      "lali",
+      "朋友"
     ],
     [
       "lalikilika",
@@ -2158,6 +2174,10 @@ export const TW_29 = {
       "冰冷"
     ],
     [
+      "mangeale",
+      "十"
+    ],
+    [
       "mangeale si bangate",
       "十九"
     ],
@@ -2192,10 +2212,6 @@ export const TW_29 = {
     [
       "mangeale si valru",
       "十八"
-    ],
-    [
-      "mangeale/pulruku",
-      "十"
     ],
     [
       "mangeta",
@@ -2747,11 +2763,11 @@ export const TW_29 = {
     ],
     [
       "pasabu",
-      "霜"
+      "雪"
     ],
     [
-      "pasabu/ela",
-      "雪"
+      "pasabu",
+      "霜"
     ],
     [
       "pasawlra",
@@ -2850,12 +2866,20 @@ export const TW_29 = {
       "多少"
     ],
     [
+      "piya",
+      "多少(歲；物)"
+    ],
+    [
       "piya ki tuki",
       "(幾)點鐘"
     ],
     [
       "puku",
       "力量"
+    ],
+    [
+      "pulruku",
+      "十"
     ],
     [
       "pungudua",
@@ -3110,6 +3134,10 @@ export const TW_29 = {
       "細線"
     ],
     [
+      "singsi",
+      "老師"
+    ],
+    [
       "sipi",
       "夢"
     ],
@@ -3226,7 +3254,7 @@ export const TW_29 = {
       "烏鴉"
     ],
     [
-      "tahabulrubulru/singsi",
+      "tahabulrubulru",
       "老師"
     ],
     [
@@ -3234,7 +3262,7 @@ export const TW_29 = {
       "南瓜"
     ],
     [
-      "tahapiya/piya",
+      "tahapiya",
       "多少(歲；物)"
     ],
     [
@@ -3302,7 +3330,7 @@ export const TW_29 = {
       "跨過"
     ],
     [
-      "talragi/lali",
+      "talragi",
       "朋友"
     ],
     [

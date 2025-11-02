@@ -1227,6 +1227,10 @@ export const TW_15 = {
     ],
     [
       "kngkawas",
+      "多少(歲；物)"
+    ],
+    [
+      "kngkawas",
       "年"
     ],
     [
@@ -1982,12 +1986,16 @@ export const TW_15 = {
       "(伯父；叔叔；舅舅)通稱"
     ],
     [
-      "mnswayi snaw qridin",
-      "舅子"
+      "mnswayi qridin",
+      "堂、表兄弟姐妹"
     ],
     [
-      "mnswayi snaw/mnswayi qridin",
+      "mnswayi snaw",
       "堂、表兄弟姐妹"
+    ],
+    [
+      "mnswayi snaw qridin",
+      "舅子"
     ],
     [
       "mntna",
@@ -2627,11 +2635,11 @@ export const TW_15 = {
     ],
     [
       "piya",
-      "多少(程度大小)"
+      "多少(歲；物)"
     ],
     [
-      "piya/kngkawas",
-      "多少(歲；物)"
+      "piya",
+      "多少(程度大小)"
     ],
     [
       "pkadi qcurux mi bolung",

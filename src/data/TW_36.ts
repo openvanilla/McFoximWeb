@@ -478,12 +478,16 @@ export const TW_36 = {
       "左邊"
     ],
     [
-      "isa/isua",
+      "isa",
       "那個"
     ],
     [
       "isi",
       "這個"
+    ],
+    [
+      "isua",
+      "那個"
     ],
     [
       "ivata",

@@ -555,6 +555,10 @@ export const TW_14 = {
     ],
     [
       "iamin",
+      "我們"
+    ],
+    [
+      "iamin",
       "我們(排除式)"
     ],
     [
@@ -639,11 +643,11 @@ export const TW_14 = {
     ],
     [
       "ita",
-      "咱們(包含式)"
+      "我們"
     ],
     [
-      "ita/iamin",
-      "我們"
+      "ita",
+      "咱們(包含式)"
     ],
     [
       "itia",
@@ -1794,7 +1798,7 @@ export const TW_14 = {
       "採收"
     ],
     [
-      "mara binanau’az / mu’ayuzi",
+      "mara binanau’az",
       "結婚"
     ],
     [
@@ -2420,6 +2424,10 @@ export const TW_14 = {
     [
       "mu’apaw",
       "出現"
+    ],
+    [
+      "mu’ayuzi",
+      "結婚"
     ],
     [
       "naak",

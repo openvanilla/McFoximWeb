@@ -290,7 +290,7 @@ export const TW_09 = {
       "未來"
     ],
     [
-      "bagax/ranax",
+      "bagax",
       "男性生殖器"
     ],
     [
@@ -358,7 +358,7 @@ export const TW_09 = {
       "雷"
     ],
     [
-      "bang/syaw",
+      "bang",
       "旁邊"
     ],
     [
@@ -420,6 +420,10 @@ export const TW_09 = {
     [
       "benzyo’",
       "廁所"
+    ],
+    [
+      "bibiy",
+      "鴨"
     ],
     [
       "bicekun",
@@ -506,7 +510,11 @@ export const TW_09 = {
       "月亮"
     ],
     [
-      "cabilus/cabilis",
+      "cabilis",
+      "甘蔗"
+    ],
+    [
+      "cabilus",
       "甘蔗"
     ],
     [
@@ -596,6 +604,10 @@ export const TW_09 = {
     [
       "ci micuw",
       "剛才"
+    ],
+    [
+      "cimu",
+      "你們"
     ],
     [
       "cimunan",
@@ -698,12 +710,16 @@ export const TW_09 = {
       "文化"
     ],
     [
-      "gagra’/tane",
+      "gagra’",
       "種子"
     ],
     [
       "gahṟa’",
       "冷"
+    ],
+    [
+      "gako’",
+      "學校"
     ],
     [
       "galeng",
@@ -770,6 +786,10 @@ export const TW_09 = {
       "挑選"
     ],
     [
+      "gumoṟow",
+      "涉水而過"
+    ],
+    [
       "gungaṟgaṟ",
       "揉搓(衣物)"
     ],
@@ -834,7 +854,7 @@ export const TW_09 = {
       "這個"
     ],
     [
-      "hapuy/sax",
+      "hapuy",
       "槍"
     ],
     [
@@ -994,7 +1014,7 @@ export const TW_09 = {
       "船隻"
     ],
     [
-      "hune’/tataku’",
+      "hune’",
       "船"
     ],
     [
@@ -1088,6 +1108,10 @@ export const TW_09 = {
     [
       "inmagan",
       "混以某物"
+    ],
+    [
+      "inori’",
+      "禱告"
     ],
     [
       "inuw",
@@ -1266,6 +1290,10 @@ export const TW_09 = {
       "經常"
     ],
     [
+      "katacumuri’",
+      "蝸牛"
+    ],
+    [
       "katana’an",
       "年輕時"
     ],
@@ -1282,7 +1310,7 @@ export const TW_09 = {
       "石壓式陷阱"
     ],
     [
-      "kaweh/keweh",
+      "kaweh",
       "鐮刀"
     ],
     [
@@ -1308,6 +1336,10 @@ export const TW_09 = {
     [
       "kelan",
       "有"
+    ],
+    [
+      "keweh",
+      "鐮刀"
     ],
     [
       "keyto’",
@@ -1344,6 +1376,10 @@ export const TW_09 = {
     [
       "kinsaknaxan",
       "味道"
+    ],
+    [
+      "kira’",
+      "今天"
     ],
     [
       "kira’ haṟi’",
@@ -1410,7 +1446,7 @@ export const TW_09 = {
       "明年"
     ],
     [
-      "kukuk/bibiy",
+      "kukuk",
       "鴨"
     ],
     [
@@ -1562,6 +1598,10 @@ export const TW_09 = {
       "木臼"
     ],
     [
+      "lalabah",
+      "鋤頭"
+    ],
+    [
       "lalabu’",
       "矮(身高)"
     ],
@@ -1648,6 +1688,10 @@ export const TW_09 = {
     [
       "luṟi",
       "再"
+    ],
+    [
+      "ma",
+      "聽說"
     ],
     [
       "mababahiy",
@@ -1950,7 +1994,7 @@ export const TW_09 = {
       "要來"
     ],
     [
-      "mamu/cimu",
+      "mamu",
       "你們"
     ],
     [
@@ -2102,8 +2146,12 @@ export const TW_09 = {
       "越溪而過"
     ],
     [
-      "mascaṟak/gumoṟow",
+      "mascaṟak",
       "涉水而過"
+    ],
+    [
+      "mascik",
+      "翻倒"
     ],
     [
       "mase’",
@@ -2218,7 +2266,7 @@ export const TW_09 = {
       "壯碩"
     ],
     [
-      "matakur/mascik",
+      "matakur",
       "翻倒"
     ],
     [
@@ -2326,6 +2374,10 @@ export const TW_09 = {
       "活的"
     ],
     [
+      "mayugi’",
+      "跳舞"
+    ],
+    [
       "maṟabuna’",
       "清晨"
     ],
@@ -2347,15 +2399,15 @@ export const TW_09 = {
     ],
     [
       "maṟuy",
+      "跳舞"
+    ],
+    [
+      "maṟuy",
       "晃動"
     ],
     [
       "maṟuy",
       "振動"
-    ],
-    [
-      "maṟuy/mayugi’",
-      "跳舞"
     ],
     [
       "ma’abu’",
@@ -2534,6 +2586,10 @@ export const TW_09 = {
       "經過"
     ],
     [
+      "mukurakis",
+      "小姐"
+    ],
+    [
       "mukura’",
       "走(向某個方向)"
     ],
@@ -2646,7 +2702,7 @@ export const TW_09 = {
       "工寮"
     ],
     [
-      "nawilung/rengwa",
+      "nawilung",
       "電話"
     ],
     [
@@ -2762,7 +2818,7 @@ export const TW_09 = {
       "春天"
     ],
     [
-      "pakalimu’/inori’",
+      "pakalimu’",
       "禱告"
     ],
     [
@@ -2830,7 +2886,7 @@ export const TW_09 = {
       "鉤子"
     ],
     [
-      "papasba’an ci ke’/gako’",
+      "papasba’an ci ke’",
       "學校"
     ],
     [
@@ -2916,6 +2972,10 @@ export const TW_09 = {
     [
       "pasboru’",
       "玩(球)"
+    ],
+    [
+      "pasbureki’",
+      "煞車"
     ],
     [
       "pascik",
@@ -3042,7 +3102,7 @@ export const TW_09 = {
       "婚姻"
     ],
     [
-      "pinah/lalabah",
+      "pinah",
       "鋤頭"
     ],
     [
@@ -3050,7 +3110,7 @@ export const TW_09 = {
       "電冰箱"
     ],
     [
-      "pinungan/ma",
+      "pinungan",
       "聽說"
     ],
     [
@@ -3080,6 +3140,10 @@ export const TW_09 = {
     [
       "puing kahuni’",
       "樹頭"
+    ],
+    [
+      "pulici",
+      "將水排出(疏減)"
     ],
     [
       "pumahun",
@@ -3155,6 +3219,10 @@ export const TW_09 = {
     ],
     [
       "ranax",
+      "男性生殖器"
+    ],
+    [
+      "ranax",
       "雄性動物生殖器官"
     ],
     [
@@ -3206,6 +3274,10 @@ export const TW_09 = {
       "電燈"
     ],
     [
+      "rengwa",
+      "電話"
+    ],
+    [
       "rex",
       "日子"
     ],
@@ -3246,7 +3318,7 @@ export const TW_09 = {
       "編網針"
     ],
     [
-      "rosi/mukurakis",
+      "rosi",
       "小姐"
     ],
     [
@@ -3290,7 +3362,7 @@ export const TW_09 = {
       "爬上(去)"
     ],
     [
-      "runru’/pasbureki’",
+      "runru’",
       "煞車"
     ],
     [
@@ -3372,6 +3444,10 @@ export const TW_09 = {
     [
       "saupang",
       "澀澀的(味覺)"
+    ],
+    [
+      "sax",
+      "槍"
     ],
     [
       "saṟik",
@@ -3462,7 +3538,7 @@ export const TW_09 = {
       "倉庫"
     ],
     [
-      "soni’/kira’",
+      "soni’",
       "今天"
     ],
     [
@@ -3578,6 +3654,10 @@ export const TW_09 = {
       "完成"
     ],
     [
+      "syaw",
+      "旁邊"
+    ],
+    [
       "syaw wacilung",
       "海邊"
     ],
@@ -3620,6 +3700,10 @@ export const TW_09 = {
     [
       "tana’",
       "足夠"
+    ],
+    [
+      "tane",
+      "種子"
     ],
     [
       "tangahen",
@@ -3670,8 +3754,12 @@ export const TW_09 = {
       "膝蓋"
     ],
     [
-      "tatacumuri’/katacumuri’",
+      "tatacumuri’",
       "蝸牛"
+    ],
+    [
+      "tataku’",
+      "船"
     ],
     [
       "tatalang",
@@ -3726,12 +3814,16 @@ export const TW_09 = {
       "電腦"
     ],
     [
-      "tensu’/terebi",
+      "tensu’",
       "電視"
     ],
     [
-      "tepeh/tipeh",
+      "tepeh",
       "湯鍋"
+    ],
+    [
+      "terebi",
+      "電視"
     ],
     [
       "te’ung",
@@ -3758,11 +3850,15 @@ export const TW_09 = {
       "餌"
     ],
     [
+      "tipeh",
+      "湯鍋"
+    ],
+    [
       "ti’uti’",
       "放屁"
     ],
     [
-      "ti’uṟa’ /waṟu’",
+      "ti’uṟa’",
       "捕鳥陷阱"
     ],
     [
@@ -3910,7 +4006,7 @@ export const TW_09 = {
       "男孩"
     ],
     [
-      "ulici/pulici",
+      "ulici",
       "將水排出(疏減)"
     ],
     [
@@ -3946,7 +4042,7 @@ export const TW_09 = {
       "剪"
     ],
     [
-      "umatang/untang",
+      "umatang",
       "吞嚥"
     ],
     [
@@ -4020,6 +4116,10 @@ export const TW_09 = {
     [
       "unruṟux",
       "長"
+    ],
+    [
+      "untang",
+      "吞嚥"
     ],
     [
       "upak pagiy",
@@ -4152,6 +4252,10 @@ export const TW_09 = {
     [
       "waṟiy nuka’",
       "苧麻線"
+    ],
+    [
+      "waṟu’",
+      "捕鳥陷阱"
     ],
     [
       "yaba’",

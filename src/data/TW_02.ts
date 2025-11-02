@@ -10,6 +10,10 @@ export const TW_02 = {
       "跳躍"
     ],
     [
+      "aa",
+      "鴨"
+    ],
+    [
       "adada^",
       "痛"
     ],
@@ -22,11 +26,11 @@ export const TW_02 = {
       "多"
     ],
     [
-      "aka a pisangodongodo / hanto",
+      "aka a pisangodongodo",
       "不客氣"
     ],
     [
-      "akaa / tatiih",
+      "akaa",
       "不可以"
     ],
     [
@@ -42,7 +46,7 @@ export const TW_02 = {
       "拿取"
     ],
     [
-      "alem’em/rama^",
+      "alem’em",
       "痠痛"
     ],
     [
@@ -50,7 +54,7 @@ export const TW_02 = {
       "老鷹"
     ],
     [
-      "alonah / kakonah",
+      "alonah",
       "螞蟻"
     ],
     [
@@ -62,8 +66,16 @@ export const TW_02 = {
       "今天"
     ],
     [
+      "aniwac",
+      "綠豆"
+    ],
+    [
       "ano ......i",
       "如果"
+    ],
+    [
+      "ano haco:wa",
+      "未來"
     ],
     [
       "ano mahaen i",
@@ -82,11 +94,11 @@ export const TW_02 = {
       "明天"
     ],
     [
-      "ano’a:yaw/ano haco:wa",
+      "ano’a:yaw",
       "未來"
     ],
     [
-      "apa^/pela",
+      "apa^",
       "傻瓜"
     ],
     [
@@ -98,6 +110,10 @@ export const TW_02 = {
       "坐著"
     ],
     [
+      "asimaan",
+      "沒關係"
+    ],
+    [
       "ato",
       "和"
     ],
@@ -106,7 +122,11 @@ export const TW_02 = {
       "沒有"
     ],
     [
-      "a’ilocan/li’el",
+      "a’ilocan",
+      "脖子"
+    ],
+    [
+      "a’ilocan",
       "頸子"
     ],
     [
@@ -114,7 +134,7 @@ export const TW_02 = {
       "額頭"
     ],
     [
-      "caay / cai",
+      "caay",
       "不是(回答用)"
     ],
     [
@@ -142,7 +162,11 @@ export const TW_02 = {
       "不該"
     ],
     [
-      "cacilakan/linay/sawong",
+      "caay to kanga’ay",
+      "壞掉"
+    ],
+    [
+      "cacilakan",
       "雨傘"
     ],
     [
@@ -162,8 +186,16 @@ export const TW_02 = {
       "雲"
     ],
     [
+      "cahiw",
+      "餓"
+    ],
+    [
       "caho^",
       "還(尚未)"
+    ],
+    [
+      "cai",
+      "不是(回答用)"
     ],
     [
       "caira",
@@ -174,7 +206,7 @@ export const TW_02 = {
       "買"
     ],
     [
-      "cakelis/timpo",
+      "cakelis",
       "斧頭"
     ],
     [
@@ -188,6 +220,10 @@ export const TW_02 = {
     [
       "capay",
       "男用耳環"
+    ],
+    [
+      "capo’",
+      "砍"
     ],
     [
       "caracar",
@@ -242,6 +278,10 @@ export const TW_02 = {
       "一雙"
     ],
     [
+      "ceka^",
+      "刺"
+    ],
+    [
       "cekel",
       "低下頭"
     ],
@@ -266,6 +306,10 @@ export const TW_02 = {
       "水管"
     ],
     [
+      "ciciw",
+      "乳豬"
+    ],
+    [
       "cidal",
       "太陽"
     ],
@@ -278,7 +322,7 @@ export const TW_02 = {
       "切"
     ],
     [
-      "cikcik/tonton",
+      "cikcik",
       "剁"
     ],
     [
@@ -310,8 +354,16 @@ export const TW_02 = {
       "姻親"
     ],
     [
+      "cinglaw",
+      "語言"
+    ],
+    [
       "cipat",
       "(有東西)附著"
+    ],
+    [
+      "cirep",
+      "麻雀"
     ],
     [
       "citiyad",
@@ -322,7 +374,7 @@ export const TW_02 = {
       "乳房"
     ],
     [
-      "cocok/ceka^",
+      "cocok",
       "刺"
     ],
     [
@@ -338,7 +390,7 @@ export const TW_02 = {
       "折返"
     ],
     [
-      "cofok/moco’",
+      "cofok",
       "角落"
     ],
     [
@@ -350,12 +402,20 @@ export const TW_02 = {
       "鞋子"
     ],
     [
-      "cokar/cokas",
+      "cokar",
+      "踢"
+    ],
+    [
+      "cokas",
       "踢"
     ],
     [
       "cokeroh",
       "推"
+    ],
+    [
+      "cokowi",
+      "桌子"
     ],
     [
       "colo’",
@@ -402,11 +462,15 @@ export const TW_02 = {
       "蟬"
     ],
     [
-      "dadinas/safinalan",
+      "dadinas",
       "頭飾"
     ],
     [
-      "dadingoan/dadingo^",
+      "dadingo^",
+      "鏡子"
+    ],
+    [
+      "dadingoan",
       "鏡子"
     ],
     [
@@ -426,7 +490,7 @@ export const TW_02 = {
       "草原"
     ],
     [
-      "damaen/penecen",
+      "damaen",
       "按住"
     ],
     [
@@ -470,8 +534,12 @@ export const TW_02 = {
       "山洞"
     ],
     [
-      "dimokos / simokod",
+      "dimokos",
       "愛護"
+    ],
+    [
+      "dinget",
+      "鼻涕"
     ],
     [
       "dingki^",
@@ -490,6 +558,10 @@ export const TW_02 = {
       "量測"
     ],
     [
+      "dofot",
+      "袋子"
+    ],
+    [
       "doka^",
       "傷口"
     ],
@@ -498,7 +570,7 @@ export const TW_02 = {
       "偷偷地"
     ],
     [
-      "dongdong/lilis",
+      "dongdong",
       "沿著山巒"
     ],
     [
@@ -510,7 +582,7 @@ export const TW_02 = {
       "麥"
     ],
     [
-      "edo^ no wa’ay/’amatorod",
+      "edo^ no wa’ay",
       "小腿肚"
     ],
     [
@@ -526,7 +598,7 @@ export const TW_02 = {
       "貓頭鷹"
     ],
     [
-      "emecen/’imecen",
+      "emecen",
       "掐住"
     ],
     [
@@ -546,7 +618,7 @@ export const TW_02 = {
       "酒"
     ],
     [
-      "erid/keliw",
+      "erid",
       "細線"
     ],
     [
@@ -570,7 +642,7 @@ export const TW_02 = {
       "炎熱"
     ],
     [
-      "faeket/kareteng",
+      "faeket",
       "重(重量)"
     ],
     [
@@ -582,23 +654,31 @@ export const TW_02 = {
       "揹(人)"
     ],
     [
-      "fafaed/fafaled",
+      "fafaed",
       "上面"
+    ],
+    [
+      "fafahiyan",
+      "女性"
+    ],
+    [
+      "fafahiyan a kaka",
+      "姊姊"
     ],
     [
       "fafahiyan a wawa^",
       "女孩"
     ],
     [
-      "fafahiyan/fayfahi",
-      "女性"
+      "fafaled",
+      "上面"
     ],
     [
       "fafaway",
       "長官"
     ],
     [
-      "fafokod / riri’",
+      "fafokod",
       "蚱蜢"
     ],
     [
@@ -614,8 +694,20 @@ export const TW_02 = {
       "檜木"
     ],
     [
-      "fahoy/laplap",
+      "fahkol",
+      "丟棄"
+    ],
+    [
+      "fahoy",
       "趕走"
+    ],
+    [
+      "fakar",
+      "穀物乾燥簍"
+    ],
+    [
+      "fakeloh",
+      "石頭"
     ],
     [
       "faki^",
@@ -630,8 +722,12 @@ export const TW_02 = {
       "水桶"
     ],
     [
-      "falah/fahkol",
+      "falah",
       "丟棄"
+    ],
+    [
+      "falalotong",
+      "蜘蛛"
     ],
     [
       "fala’",
@@ -678,6 +774,10 @@ export const TW_02 = {
       "湖泊"
     ],
     [
+      "fana’inay",
+      "男性"
+    ],
+    [
       "fanges",
       "皮"
     ],
@@ -706,7 +806,7 @@ export const TW_02 = {
       "砍除"
     ],
     [
-      "fari’ingan/tatihi",
+      "fari’ingan",
       "旁邊"
     ],
     [
@@ -718,16 +818,28 @@ export const TW_02 = {
       "公車"
     ],
     [
+      "fatawngi’",
+      "木耳"
+    ],
+    [
       "fata’an",
       "樹豆"
     ],
     [
-      "fawah / fohat",
+      "fatikar",
+      "腳踏車"
+    ],
+    [
+      "fawah",
       "打開"
     ],
     [
-      "fawahan/pa^nan",
+      "fawahan",
       "門"
+    ],
+    [
+      "fayfahi",
+      "女性"
     ],
     [
       "fayi^",
@@ -742,12 +854,12 @@ export const TW_02 = {
       "丈夫"
     ],
     [
-      "fa’inayan a wawa^",
-      "男孩"
+      "fa’inayan",
+      "男性"
     ],
     [
-      "fa’inayan/fana’inay",
-      "男性"
+      "fa’inayan a wawa^",
+      "男孩"
     ],
     [
       "fecacido’",
@@ -758,7 +870,7 @@ export const TW_02 = {
       "白米"
     ],
     [
-      "felalotong/folalotong/falalotong",
+      "felalotong",
       "蜘蛛"
     ],
     [
@@ -782,11 +894,11 @@ export const TW_02 = {
       "嘴唇"
     ],
     [
-      "filowa^/fakar",
+      "filowa^",
       "穀物乾燥簍"
     ],
     [
-      "fitawngi’/fatawngi’",
+      "fitawngi’",
       "木耳"
     ],
     [
@@ -802,7 +914,7 @@ export const TW_02 = {
       "胃"
     ],
     [
-      "fitowal/’iwal",
+      "fitowal",
       "撬開"
     ],
     [
@@ -810,16 +922,20 @@ export const TW_02 = {
       "箭矢"
     ],
     [
-      "fodoy / riko’",
+      "fodoy",
       "衣服"
     ],
     [
-      "fodoy / riko’",
+      "fodoy",
       "上衣"
     ],
     [
-      "foekan/ciciw",
+      "foekan",
       "乳豬"
+    ],
+    [
+      "fohat",
+      "打開"
     ],
     [
       "fohecalay",
@@ -834,7 +950,7 @@ export const TW_02 = {
       "松鼠"
     ],
     [
-      "fokeloh / fakeloh",
+      "fokeloh",
       "石頭"
     ],
     [
@@ -846,19 +962,23 @@ export const TW_02 = {
       "月亮"
     ],
     [
+      "folalotong",
+      "蜘蛛"
+    ],
+    [
       "folesak",
       "散撒"
     ],
     [
-      "fonak/tafok",
+      "fonak",
       "沙子"
     ],
     [
-      "fonga / konga",
+      "fonga",
       "甘藷"
     ],
     [
-      "fonga / konga",
+      "fonga",
       "地瓜"
     ],
     [
@@ -884,6 +1004,10 @@ export const TW_02 = {
     [
       "fotili’",
       "雷"
+    ],
+    [
+      "fotili’",
+      "閃電"
     ],
     [
       "foting",
@@ -934,7 +1058,11 @@ export const TW_02 = {
       "久的"
     ],
     [
-      "harateng / safaloco’",
+      "hanto",
+      "不客氣"
+    ],
+    [
+      "harateng",
       "想(思考)"
     ],
     [
@@ -962,6 +1090,10 @@ export const TW_02 = {
       "嗎(用在問句)"
     ],
     [
+      "hecek",
+      "柱子"
+    ],
+    [
       "heci^",
       "(植物的)果實"
     ],
@@ -986,11 +1118,11 @@ export const TW_02 = {
       "外省人"
     ],
     [
-      "howad/walin",
+      "howad",
       "翻動"
     ],
     [
-      "howak / aa",
+      "howak",
       "鴨"
     ],
     [
@@ -1094,11 +1226,11 @@ export const TW_02 = {
       "春天"
     ],
     [
-      "kacedah / kahecid",
+      "kacedah",
       "鹹"
     ],
     [
-      "kaciherangan/lalood",
+      "kaciherangan",
       "夏天"
     ],
     [
@@ -1138,16 +1270,28 @@ export const TW_02 = {
       "刮颱風"
     ],
     [
+      "kafang",
+      "棉被"
+    ],
+    [
       "kafarawfawan",
       "秋天"
     ],
     [
-      "kafi^/kohaw",
+      "kafi^",
       "湯"
     ],
     [
-      "kafoti’an / takar",
+      "kafong",
+      "帽子"
+    ],
+    [
+      "kafoti’an",
       "床舖"
+    ],
+    [
+      "kahecid",
+      "鹹"
     ],
     [
       "kahemaw",
@@ -1170,7 +1314,7 @@ export const TW_02 = {
       "兄長"
     ],
     [
-      "kaka^ to fafahian / fafahiyan a kaka",
+      "kaka^ to fafahian",
       "姊姊"
     ],
     [
@@ -1186,7 +1330,7 @@ export const TW_02 = {
       "天空"
     ],
     [
-      "kakawit/kawkaw",
+      "kakawit",
       "鐮刀"
     ],
     [
@@ -1210,7 +1354,11 @@ export const TW_02 = {
       "眼鏡蛇"
     ],
     [
-      "kakoyen /tatoyen",
+      "kakonah",
+      "螞蟻"
+    ],
+    [
+      "kakoyen",
       "提著"
     ],
     [
@@ -1226,7 +1374,7 @@ export const TW_02 = {
       "螃蟹"
     ],
     [
-      "kalapiyat/fotili’",
+      "kalapiyat",
       "閃電"
     ],
     [
@@ -1254,7 +1402,7 @@ export const TW_02 = {
       "黃色的"
     ],
     [
-      "kam-piw-ta^/ting-naw",
+      "kam-piw-ta^",
       "電腦"
     ],
     [
@@ -1264,6 +1412,10 @@ export const TW_02 = {
     [
       "kamay",
       "手"
+    ],
+    [
+      "kamayi’an",
+      "廁所"
     ],
     [
       "kameleng",
@@ -1294,6 +1446,10 @@ export const TW_02 = {
       "綠色"
     ],
     [
+      "kangkang",
+      "犁"
+    ],
+    [
       "kanoos",
       "指甲"
     ],
@@ -1310,6 +1466,10 @@ export const TW_02 = {
       "長"
     ],
     [
+      "kareteng",
+      "重(重量)"
+    ],
+    [
       "karkar",
       "挖掘"
     ],
@@ -1318,7 +1478,7 @@ export const TW_02 = {
       "(用鋤具)挖掘"
     ],
     [
-      "karo’/wirok",
+      "karo’",
       "柚子"
     ],
     [
@@ -1339,7 +1499,15 @@ export const TW_02 = {
     ],
     [
       "katayni",
+      "(叫人)過來"
+    ],
+    [
+      "katayni",
       "來"
+    ],
+    [
+      "kawal",
+      "樓梯"
     ],
     [
       "kawanan",
@@ -1358,6 +1526,10 @@ export const TW_02 = {
       "左邊"
     ],
     [
+      "kawkaw",
+      "鐮刀"
+    ],
+    [
       "kay^ing",
       "小姐"
     ],
@@ -1366,7 +1538,7 @@ export const TW_02 = {
       "橋樑"
     ],
     [
-      "kayat/misolot",
+      "kayat",
       "拉(上來)"
     ],
     [
@@ -1376,6 +1548,14 @@ export const TW_02 = {
     [
       "ka’ayaw",
       "前面"
+    ],
+    [
+      "keletan",
+      "腰部"
+    ],
+    [
+      "keliw",
+      "細線"
     ],
     [
       "keliw",
@@ -1402,19 +1582,23 @@ export const TW_02 = {
       "割"
     ],
     [
-      "ki-kung/mararamod",
+      "ki-kung",
       "結婚"
+    ],
+    [
+      "kifetol",
+      "粗(物)"
     ],
     [
       "kifetolay",
       "厚的"
     ],
     [
-      "kihepicay/kohepicay",
+      "kihepicay",
       "薄的"
     ],
     [
-      "kihpic / kohpic",
+      "kihpic",
       "細"
     ],
     [
@@ -1440,6 +1624,10 @@ export const TW_02 = {
     [
       "kinacecay",
       "一次"
+    ],
+    [
+      "kirikiri’",
+      "搔癢"
     ],
     [
       "kiso",
@@ -1470,8 +1658,20 @@ export const TW_02 = {
       "瓶子"
     ],
     [
+      "kohaw",
+      "湯"
+    ],
+    [
+      "kohepicay",
+      "薄的"
+    ],
+    [
       "kohetingay",
       "黑色"
+    ],
+    [
+      "kohpic",
+      "細"
     ],
     [
       "koleto^",
@@ -1482,19 +1682,31 @@ export const TW_02 = {
       "冰"
     ],
     [
-      "koliciw/fatikar",
+      "koliciw",
       "腳踏車"
+    ],
+    [
+      "koliniw",
+      "偷竊"
     ],
     [
       "kolong",
       "牛"
     ],
     [
+      "konga",
+      "甘藷"
+    ],
+    [
+      "konga",
+      "地瓜"
+    ],
+    [
       "kopal",
       "男用遮陰布"
     ],
     [
-      "kori^ /makodos",
+      "kori^",
       "瘦(身形)"
     ],
     [
@@ -1510,7 +1722,7 @@ export const TW_02 = {
       "抓癢"
     ],
     [
-      "koskos / kirikiri’",
+      "koskos",
       "搔癢"
     ],
     [
@@ -1522,7 +1734,7 @@ export const TW_02 = {
       "槍"
     ],
     [
-      "koyod / tamorong",
+      "koyod",
       "揹負(物品)"
     ],
     [
@@ -1542,11 +1754,15 @@ export const TW_02 = {
       "扯斷"
     ],
     [
+      "laheci",
+      "完成"
+    ],
+    [
       "lakec",
       "涉水而過"
     ],
     [
-      "lakec to ’alo^/mikicaw",
+      "lakec to ’alo^",
       "越溪而過"
     ],
     [
@@ -1554,7 +1770,7 @@ export const TW_02 = {
       "道路"
     ],
     [
-      "lalangaw/likes",
+      "lalangaw",
       "蒼蠅"
     ],
     [
@@ -1562,7 +1778,7 @@ export const TW_02 = {
       "逃跑"
     ],
     [
-      "lalo^ / misenger",
+      "lalo^",
       "浸泡"
     ],
     [
@@ -1574,12 +1790,20 @@ export const TW_02 = {
       "動物的內臟"
     ],
     [
+      "lalood",
+      "夏天"
+    ],
+    [
       "lamal",
       "火"
     ],
     [
       "lamit",
       "樹根"
+    ],
+    [
+      "laplap",
+      "趕走"
     ],
     [
       "lawac no riyar",
@@ -1590,7 +1814,7 @@ export const TW_02 = {
       "飛鼠"
     ],
     [
-      "lemed/sinitiih",
+      "lemed",
       "夢"
     ],
     [
@@ -1614,7 +1838,7 @@ export const TW_02 = {
       "冰冷"
     ],
     [
-      "lifadic/podac",
+      "lifadic",
       "剝樹皮"
     ],
     [
@@ -1626,12 +1850,32 @@ export const TW_02 = {
       "腫"
     ],
     [
+      "likakong",
+      "彎曲"
+    ],
+    [
+      "likes",
+      "蚊子"
+    ],
+    [
+      "likes",
+      "蒼蠅"
+    ],
+    [
+      "lilis",
+      "沿著山巒"
+    ],
+    [
       "lima^",
       "五"
     ],
     [
       "lima^ polo’",
       "五十"
+    ],
+    [
+      "linay",
+      "雨傘"
     ],
     [
       "lipahak",
@@ -1646,6 +1890,10 @@ export const TW_02 = {
       "剝葉"
     ],
     [
+      "lipowak",
+      "裂開"
+    ],
+    [
       "lisin to pifolesakan",
       "播種祭"
     ],
@@ -1658,8 +1906,12 @@ export const TW_02 = {
       "百"
     ],
     [
-      "li’el / a’ilocan",
+      "li’el",
       "脖子"
+    ],
+    [
+      "li’el",
+      "頸子"
     ],
     [
       "lodak",
@@ -1670,7 +1922,7 @@ export const TW_02 = {
       "豹"
     ],
     [
-      "lokic / panga^",
+      "lokic",
       "男性生殖器"
     ],
     [
@@ -1690,7 +1942,7 @@ export const TW_02 = {
       "地震"
     ],
     [
-      "lonic / lotalot",
+      "lonic",
       "揉搓(衣物)"
     ],
     [
@@ -1698,7 +1950,7 @@ export const TW_02 = {
       "桃子"
     ],
     [
-      "lopo^ / saso’ot",
+      "lopo^",
       "繩索"
     ],
     [
@@ -1714,6 +1966,10 @@ export const TW_02 = {
       "收拾(祈使，如收拾東西)"
     ],
     [
+      "lotalot",
+      "揉搓(衣物)"
+    ],
+    [
       "lotong",
       "猴子"
     ],
@@ -1724,6 +1980,10 @@ export const TW_02 = {
     [
       "lumuwa",
       "流氓"
+    ],
+    [
+      "maacang",
+      "慶祝"
     ],
     [
       "maan",
@@ -1738,11 +1998,19 @@ export const TW_02 = {
       "擠"
     ],
     [
+      "macedet",
+      "燙到"
+    ],
+    [
       "macekok",
       "嚇一跳"
     ],
     [
-      "macicih/matepong",
+      "macepa’",
+      "濕的"
+    ],
+    [
+      "macicih",
       "破掉"
     ],
     [
@@ -1778,11 +2046,11 @@ export const TW_02 = {
       "化膿"
     ],
     [
-      "maferoh/macedet",
+      "maferoh",
       "燙到"
     ],
     [
-      "mafodih / mapohaw",
+      "mafodih",
       "瞎了"
     ],
     [
@@ -1790,11 +2058,11 @@ export const TW_02 = {
       "睡覺"
     ],
     [
-      "maherek / laheci",
+      "maherek",
       "完成"
     ],
     [
-      "mailoh/todoh",
+      "mailoh",
       "燃燒"
     ],
     [
@@ -1806,6 +2074,10 @@ export const TW_02 = {
       "漫罵"
     ],
     [
+      "mainget",
+      "生氣"
+    ],
+    [
       "makapah",
       "漂亮"
     ],
@@ -1814,8 +2086,12 @@ export const TW_02 = {
       "跳舞"
     ],
     [
-      "maketer/mainget",
+      "maketer",
       "生氣"
+    ],
+    [
+      "makodos",
+      "瘦(身形)"
     ],
     [
       "makorahay",
@@ -1835,19 +2111,23 @@ export const TW_02 = {
     ],
     [
       "malahad",
-      "生長"
+      "(植物)生長"
     ],
     [
-      "malahad / mengaw",
-      "(植物)生長"
+      "malahad",
+      "生長"
     ],
     [
       "malahok",
       "吃午餐"
     ],
     [
-      "malakapah/salongan/tanestes",
+      "malakapah",
       "英俊"
+    ],
+    [
+      "malalesay",
+      "鈍的"
     ],
     [
       "malaliyas",
@@ -1858,7 +2138,7 @@ export const TW_02 = {
       "勤勞"
     ],
     [
-      "malangto^ / ma’onged",
+      "malangto^",
       "燒焦"
     ],
     [
@@ -1874,7 +2154,7 @@ export const TW_02 = {
       "相同"
     ],
     [
-      "maledat / lipowak",
+      "maledat",
       "裂開"
     ],
     [
@@ -1888,6 +2168,10 @@ export const TW_02 = {
     [
       "malitemoh",
       "遇到"
+    ],
+    [
+      "maliwliw",
+      "旋轉"
     ],
     [
       "maloloay",
@@ -1906,7 +2190,7 @@ export const TW_02 = {
       "怎麼"
     ],
     [
-      "mamaan to / simaan / asimaan",
+      "mamaan to",
       "沒關係"
     ],
     [
@@ -1934,11 +2218,15 @@ export const TW_02 = {
       "少許"
     ],
     [
-      "mami^ / mami’",
+      "mami^",
       "柑橘"
     ],
     [
-      "mamoni’ay/ ’omaingay",
+      "mami’",
+      "柑橘"
+    ],
+    [
+      "mamoni’ay",
       "軟"
     ],
     [
@@ -1946,7 +2234,7 @@ export const TW_02 = {
       "山羌"
     ],
     [
-      "mangiraw / maacang",
+      "mangiraw",
       "慶祝"
     ],
     [
@@ -1970,8 +2258,20 @@ export const TW_02 = {
       "崩落"
     ],
     [
-      "mapilih/mapi’iw",
+      "mapilih",
       "跛腳"
+    ],
+    [
+      "mapi’iw",
+      "跛腳"
+    ],
+    [
+      "mapohaw",
+      "瞎了"
+    ],
+    [
+      "mapolin",
+      "跌倒"
     ],
     [
       "mapolin",
@@ -1986,6 +2286,10 @@ export const TW_02 = {
       "吃早餐"
     ],
     [
+      "mararamod",
+      "結婚"
+    ],
+    [
       "mararamoday",
       "夫妻"
     ],
@@ -1998,7 +2302,7 @@ export const TW_02 = {
       "流血"
     ],
     [
-      "maringer/maliwliw",
+      "maringer",
       "旋轉"
     ],
     [
@@ -2058,6 +2362,10 @@ export const TW_02 = {
       "天黑"
     ],
     [
+      "masetol",
+      "撞到"
+    ],
+    [
       "masiday",
       "遺失"
     ],
@@ -2090,8 +2398,16 @@ export const TW_02 = {
       "害怕"
     ],
     [
-      "matalesay/malalesay",
+      "matalesay",
       "鈍的"
+    ],
+    [
+      "matama",
+      "正確"
+    ],
+    [
+      "matama",
+      "找到"
     ],
     [
       "matayal",
@@ -2106,7 +2422,7 @@ export const TW_02 = {
       "被(搖)動的"
     ],
     [
-      "matekonf/masetol",
+      "matekonf",
       "撞到"
     ],
     [
@@ -2114,8 +2430,12 @@ export const TW_02 = {
       "舊的"
     ],
     [
-      "matepa^/matama",
+      "matepa^",
       "找到"
+    ],
+    [
+      "matepong",
+      "破掉"
     ],
     [
       "matini",
@@ -2138,7 +2458,7 @@ export const TW_02 = {
       "打瞌睡"
     ],
     [
-      "matolo’/mapolin",
+      "matolo’",
       "跌倒"
     ],
     [
@@ -2150,7 +2470,7 @@ export const TW_02 = {
       "趕上"
     ],
     [
-      "ma’edil / ta^engal",
+      "ma’edil",
       "明亮"
     ],
     [
@@ -2170,11 +2490,15 @@ export const TW_02 = {
       "噎到"
     ],
     [
+      "ma’onged",
+      "燒焦"
+    ],
+    [
       "ma’opic",
       "全濕透"
     ],
     [
-      "ma’opicay / macepa’",
+      "ma’opicay",
       "濕的"
     ],
     [
@@ -2184,6 +2508,10 @@ export const TW_02 = {
     [
       "ma’oripay",
       "活的"
+    ],
+    [
+      "mengaw",
+      "(植物)生長"
     ],
     [
       "mero^",
@@ -2198,7 +2526,7 @@ export const TW_02 = {
       "握著"
     ],
     [
-      "miaheng/milada’",
+      "miaheng",
       "向人家要(東西)"
     ],
     [
@@ -2238,23 +2566,31 @@ export const TW_02 = {
       "洗(衣物)"
     ],
     [
-      "mifadahong/mifohdit",
+      "mifadahong",
       "蓋屋頂"
     ],
     [
-      "mifangah / mi’is’is",
+      "mifangah",
       "剪(頭髮)"
     ],
     [
-      "mifohci/mipodac",
+      "mifohci",
       "剝皮"
+    ],
+    [
+      "mifohdit",
+      "蓋屋頂"
+    ],
+    [
+      "mihayda",
+      "答應"
     ],
     [
       "mihayhay",
       "晾乾"
     ],
     [
-      "mihayi/mihayda",
+      "mihayi",
       "答應"
     ],
     [
@@ -2262,16 +2598,28 @@ export const TW_02 = {
       "年"
     ],
     [
+      "mika^red",
+      "捻線"
+    ],
+    [
       "mikadafo^ i roma^ a finacadan",
       "嫁給非本族群的族人"
     ],
     [
-      "mikayakay / mikalic",
+      "mikalic",
+      "爬上(去)"
+    ],
+    [
+      "mikayakay",
       "爬上(去)"
     ],
     [
       "mikeling to kodasing",
       "炒(如炒花生)"
+    ],
+    [
+      "mikicaw",
+      "越溪而過"
     ],
     [
       "mikorih",
@@ -2282,12 +2630,20 @@ export const TW_02 = {
       "射擊"
     ],
     [
+      "milada’",
+      "向人家要(東西)"
+    ],
+    [
       "milalang",
       "禁止"
     ],
     [
       "milicay",
       "詢問"
+    ],
+    [
+      "milikat",
+      "點火"
     ],
     [
       "miliso’",
@@ -2306,7 +2662,7 @@ export const TW_02 = {
       "採收"
     ],
     [
-      "miliwasak / miwadwad",
+      "miliwasak",
       "亂翻"
     ],
     [
@@ -2322,7 +2678,11 @@ export const TW_02 = {
       "學習"
     ],
     [
-      "minoka^/mika^red",
+      "minanom",
+      "喝(水)"
+    ],
+    [
+      "minoka^",
       "捻線"
     ],
     [
@@ -2334,16 +2694,28 @@ export const TW_02 = {
       "梅子"
     ],
     [
+      "miocor",
+      "使喚"
+    ],
+    [
       "mipa^pa’",
       "咀嚼"
     ],
     [
-      "mipacok / mitefok",
+      "mipacok",
       "殺牲畜"
     ],
     [
       "mipodac",
+      "剝皮"
+    ],
+    [
+      "mipodac",
       "削(水果)"
+    ],
+    [
+      "mirmir",
+      "發抖"
     ],
     [
       "mirohem",
@@ -2366,12 +2738,20 @@ export const TW_02 = {
       "製作(物品)"
     ],
     [
-      "misa’olam/palamlam",
+      "misa’olam",
       "混以某物"
+    ],
+    [
+      "misenger",
+      "浸泡"
     ],
     [
       "misipasip",
       "擦(如口紅；油漆)"
+    ],
+    [
+      "misolot",
+      "拉(上來)"
     ],
     [
       "mitafi",
@@ -2382,7 +2762,7 @@ export const TW_02 = {
       "打包"
     ],
     [
-      "mitahidang / miocor",
+      "mitahidang",
       "使喚"
     ],
     [
@@ -2398,11 +2778,19 @@ export const TW_02 = {
       "巫術"
     ],
     [
+      "mitarakar",
+      "陷獵"
+    ],
+    [
       "mitefing",
       "觸碰(如碰觸到身體)"
     ],
     [
-      "miteker / mitarakar",
+      "mitefok",
+      "殺牲畜"
+    ],
+    [
+      "miteker",
       "陷獵"
     ],
     [
@@ -2414,16 +2802,36 @@ export const TW_02 = {
       "碾(米)"
     ],
     [
+      "miwadwad",
+      "亂翻"
+    ],
+    [
       "mi’adipel",
       "搭建圍籬"
     ],
     [
-      "mi’inip/minanom",
+      "mi’enaf",
+      "燒(如燒稻草)"
+    ],
+    [
+      "mi’inip",
       "喝(水)"
+    ],
+    [
+      "mi’is’is",
+      "剪(頭髮)"
+    ],
+    [
+      "moco’",
+      "角落"
     ],
     [
       "moecel",
       "直"
+    ],
+    [
+      "moho^",
+      "彎腰"
     ],
     [
       "molimoli^",
@@ -2434,7 +2842,7 @@ export const TW_02 = {
       "女性長褲"
     ],
     [
-      "nacnac/rihenac",
+      "nacnac",
       "舔"
     ],
     [
@@ -2454,7 +2862,7 @@ export const TW_02 = {
       "從某處"
     ],
     [
-      "naniwac/aniwac",
+      "naniwac",
       "綠豆"
     ],
     [
@@ -2506,7 +2914,7 @@ export const TW_02 = {
       "名字"
     ],
     [
-      "ngapa^/ngoyos",
+      "ngapa^",
       "嘴巴"
     ],
     [
@@ -2558,8 +2966,20 @@ export const TW_02 = {
       "(搖)動"
     ],
     [
-      "ngolngolan / pokoh",
+      "ngolngolan",
       "關節"
+    ],
+    [
+      "ngoso’",
+      "鼻子"
+    ],
+    [
+      "ngoyos",
+      "嘴巴"
+    ],
+    [
+      "nian",
+      "這個"
     ],
     [
       "niira",
@@ -2610,11 +3030,11 @@ export const TW_02 = {
       "屬格標記(各族用語)"
     ],
     [
-      "noni/nian",
+      "noni",
       "這個"
     ],
     [
-      "nora/raan",
+      "nora",
       "那個"
     ],
     [
@@ -2634,7 +3054,7 @@ export const TW_02 = {
       "所以"
     ],
     [
-      "oray/kafang",
+      "oray",
       "棉被"
     ],
     [
@@ -2644,6 +3064,10 @@ export const TW_02 = {
     [
       "pa^kel",
       "壓制"
+    ],
+    [
+      "pa^nan",
+      "門"
     ],
     [
       "pa^pa^",
@@ -2658,7 +3082,7 @@ export const TW_02 = {
       "回應"
     ],
     [
-      "pacefol /pakaen",
+      "pacefol",
       "餵食"
     ],
     [
@@ -2666,7 +3090,7 @@ export const TW_02 = {
       "幫忙"
     ],
     [
-      "padawdawen/palikaten",
+      "padawdawen",
       "照起來／照明"
     ],
     [
@@ -2686,6 +3110,10 @@ export const TW_02 = {
       "給"
     ],
     [
+      "pahafay",
+      "飼養"
+    ],
+    [
       "pahanhan",
       "停止"
     ],
@@ -2702,7 +3130,11 @@ export const TW_02 = {
       "會(做某事)"
     ],
     [
-      "pakaen/pahafay",
+      "pakaen",
+      "餵食"
+    ],
+    [
+      "pakaen",
       "飼養"
     ],
     [
@@ -2714,12 +3146,20 @@ export const TW_02 = {
       "生火"
     ],
     [
-      "palamal/milikat",
+      "palamal",
       "點火"
+    ],
+    [
+      "palamlam",
+      "混以某物"
     ],
     [
       "paliding",
       "車子"
+    ],
+    [
+      "palikaten",
+      "照起來／照明"
     ],
     [
       "paliyas",
@@ -2751,6 +3191,10 @@ export const TW_02 = {
     ],
     [
       "panga^",
+      "男性生殖器"
+    ],
+    [
+      "panga^",
       "雄性動物生殖器官"
     ],
     [
@@ -2770,11 +3214,15 @@ export const TW_02 = {
       "外面"
     ],
     [
+      "parar",
+      "桌子"
+    ],
+    [
       "parawraw",
       "找碴"
     ],
     [
-      "parikor/patorod",
+      "parikor",
       "交代(事情)"
     ],
     [
@@ -2810,7 +3258,7 @@ export const TW_02 = {
       "開墾"
     ],
     [
-      "patahtah / pila’om",
+      "patahtah",
       "浪費"
     ],
     [
@@ -2842,6 +3290,10 @@ export const TW_02 = {
       "設置"
     ],
     [
+      "patorod",
+      "交代(事情)"
+    ],
+    [
       "pawali^",
       "曬乾(如將衣服曬乾)"
     ],
@@ -2862,6 +3314,10 @@ export const TW_02 = {
       "摘取"
     ],
     [
+      "pela",
+      "傻瓜"
+    ],
+    [
       "pela’",
       "剖切"
     ],
@@ -2878,6 +3334,10 @@ export const TW_02 = {
       "壓扁"
     ],
     [
+      "penecen",
+      "按住"
+    ],
+    [
       "perperen",
       "打碎"
     ],
@@ -2892,6 +3352,10 @@ export const TW_02 = {
     [
       "pidapidacan a lotok",
       "崇山峻嶺"
+    ],
+    [
+      "pila’om",
+      "浪費"
     ],
     [
       "pilipayan",
@@ -2946,7 +3410,7 @@ export const TW_02 = {
       "肚兜"
     ],
     [
-      "pi’elokan/takolaw",
+      "pi’elokan",
       "喉嚨"
     ],
     [
@@ -2962,6 +3426,10 @@ export const TW_02 = {
       "拔除"
     ],
     [
+      "podac",
+      "剝樹皮"
+    ],
+    [
       "podadoki^",
       "蝙蝠"
     ],
@@ -2970,7 +3438,7 @@ export const TW_02 = {
       "矮(身高)"
     ],
     [
-      "pohay/katayni",
+      "pohay",
       "(叫人)過來"
     ],
     [
@@ -2980,6 +3448,10 @@ export const TW_02 = {
     [
       "poki^",
       "女性生殖器"
+    ],
+    [
+      "pokoh",
+      "關節"
     ],
     [
       "polo’",
@@ -3006,6 +3478,10 @@ export const TW_02 = {
       "小刀"
     ],
     [
+      "raan",
+      "那個"
+    ],
+    [
       "raay",
       "遠"
     ],
@@ -3024,6 +3500,10 @@ export const TW_02 = {
     [
       "rakar",
       "以籠捕魚蝦"
+    ],
+    [
+      "rama^",
+      "痠痛"
     ],
     [
       "ramod ato pisaparod",
@@ -3058,12 +3538,28 @@ export const TW_02 = {
       "草"
     ],
     [
+      "rihenac",
+      "舔"
+    ],
+    [
+      "riko’",
+      "衣服"
+    ],
+    [
+      "riko’",
+      "上衣"
+    ],
+    [
       "rinom",
       "針"
     ],
     [
       "ripa’",
       "(用腳)踏"
+    ],
+    [
+      "riri’",
+      "蚱蜢"
     ],
     [
       "riwariw",
@@ -3074,7 +3570,7 @@ export const TW_02 = {
       "花朵"
     ],
     [
-      "roho^/moho^",
+      "roho^",
       "彎腰"
     ],
     [
@@ -3130,6 +3626,10 @@ export const TW_02 = {
       "穀粒"
     ],
     [
+      "safaloco’",
+      "想(思考)"
+    ],
+    [
       "safatel",
       "腰帶"
     ],
@@ -3174,8 +3674,20 @@ export const TW_02 = {
       "煮(菜)"
     ],
     [
+      "safinalan",
+      "頭飾"
+    ],
+    [
+      "safit",
+      "揹帶"
+    ],
+    [
       "safit",
       "揹小孩的背帶"
+    ],
+    [
+      "safitay",
+      "篩子"
     ],
     [
       "safon",
@@ -3198,6 +3710,14 @@ export const TW_02 = {
       "(像)這樣"
     ],
     [
+      "sakadademak",
+      "工具"
+    ],
+    [
+      "sakadat",
+      "梳子"
+    ],
+    [
       "sakafongen",
       "戴(如戴帽子)"
     ],
@@ -3206,11 +3726,11 @@ export const TW_02 = {
       "輕快"
     ],
     [
-      "sakales/sakadat",
+      "sakales",
       "梳子"
     ],
     [
-      "sakanit/sakawit",
+      "sakanit",
       "編網針"
     ],
     [
@@ -3218,8 +3738,12 @@ export const TW_02 = {
       "踩踏"
     ],
     [
-      "sakatayal/sakadademak",
+      "sakatayal",
       "工具"
+    ],
+    [
+      "sakawit",
+      "編網針"
     ],
     [
       "sakelilic",
@@ -3262,6 +3786,10 @@ export const TW_02 = {
       "拇指"
     ],
     [
+      "salongan",
+      "英俊"
+    ],
+    [
       "samamolen",
       "瞄準"
     ],
@@ -3282,7 +3810,7 @@ export const TW_02 = {
       "鐵釘"
     ],
     [
-      "sapad / cokowi / parar",
+      "sapad",
       "桌子"
     ],
     [
@@ -3306,7 +3834,7 @@ export const TW_02 = {
       "釣竿"
     ],
     [
-      "sapifafa^/safit",
+      "sapifafa^",
       "揹帶"
     ],
     [
@@ -3330,7 +3858,7 @@ export const TW_02 = {
       "腳掌"
     ],
     [
-      "sariri^/hecek",
+      "sariri^",
       "柱子"
     ],
     [
@@ -3363,18 +3891,22 @@ export const TW_02 = {
     ],
     [
       "sasiwasiw",
+      "篩子"
+    ],
+    [
+      "sasiwasiw",
       "篩穀器具"
     ],
     [
-      "sasiwasiw/safitay",
-      "篩子"
+      "saso’ot",
+      "繩索"
     ],
     [
       "satahaf",
       "蓋子"
     ],
     [
-      "satapang / teka^",
+      "satapang",
       "開始"
     ],
     [
@@ -3384,6 +3916,10 @@ export const TW_02 = {
     [
       "sawara’an no picodadan",
       "校長"
+    ],
+    [
+      "sawong",
+      "雨傘"
     ],
     [
       "say-taw",
@@ -3398,7 +3934,11 @@ export const TW_02 = {
       "剪"
     ],
     [
-      "sa’atem/sa’atim",
+      "sa’atem",
+      "夾子"
+    ],
+    [
+      "sa’atim",
       "夾子"
     ],
     [
@@ -3434,7 +3974,7 @@ export const TW_02 = {
       "文化"
     ],
     [
-      "setep/capo’",
+      "setep",
       "砍"
     ],
     [
@@ -3446,12 +3986,20 @@ export const TW_02 = {
       "冷"
     ],
     [
+      "sifo’",
+      "中間"
+    ],
+    [
       "sikaen",
       "菜餚"
     ],
     [
       "sikeliw",
       "刮苧麻"
+    ],
+    [
+      "simaan",
+      "沒關係"
     ],
     [
       "simal",
@@ -3466,6 +4014,14 @@ export const TW_02 = {
       "藏起來"
     ],
     [
+      "simokod",
+      "愛護"
+    ],
+    [
+      "sinaet",
+      "悶熱"
+    ],
+    [
       "sing-pu^",
       "神父"
     ],
@@ -3474,7 +4030,11 @@ export const TW_02 = {
       "老師"
     ],
     [
-      "sinoet/sinaet",
+      "sinitiih",
+      "夢"
+    ],
+    [
+      "sinoet",
       "悶熱"
     ],
     [
@@ -3506,6 +4066,10 @@ export const TW_02 = {
       "九十"
     ],
     [
+      "sofok",
+      "袋子"
+    ],
+    [
       "sokayap",
       "(藤類植物)攀爬"
     ],
@@ -3518,15 +4082,15 @@ export const TW_02 = {
       "雪"
     ],
     [
-      "solep/cahiw",
+      "solep",
       "餓"
     ],
     [
-      "songet/dinget",
+      "songet",
       "鼻涕"
     ],
     [
-      "songetan/ngoso’",
+      "songetan",
       "鼻子"
     ],
     [
@@ -3534,7 +4098,7 @@ export const TW_02 = {
       "聲響"
     ],
     [
-      "sowal /cinglaw",
+      "sowal",
       "語言"
     ],
     [
@@ -3543,15 +4107,19 @@ export const TW_02 = {
     ],
     [
       "so’elinay",
-      "真的"
+      "正確"
     ],
     [
-      "so’elinay/matama",
-      "正確"
+      "so’elinay",
+      "真的"
     ],
     [
       "sya-sing",
       "相片"
+    ],
+    [
+      "ta^engal",
+      "明亮"
     ],
     [
       "tada",
@@ -3566,7 +4134,7 @@ export const TW_02 = {
       "疼愛"
     ],
     [
-      "tadiwaa’ / likes",
+      "tadiwaa’",
       "蚊子"
     ],
     [
@@ -3574,12 +4142,20 @@ export const TW_02 = {
       "姑婆芋"
     ],
     [
-      "tafi / kangkang",
+      "tafi",
       "犁"
+    ],
+    [
+      "tafok",
+      "沙子"
     ],
     [
       "tahenay",
       "很快"
+    ],
+    [
+      "takar",
+      "床舖"
     ],
     [
       "takaraw",
@@ -3590,7 +4166,7 @@ export const TW_02 = {
       "高瘦(身材)"
     ],
     [
-      "takaw / koliniw",
+      "takaw",
       "偷竊"
     ],
     [
@@ -3598,7 +4174,15 @@ export const TW_02 = {
       "胸腔"
     ],
     [
-      "takola^ / takora’",
+      "takola^",
+      "青蛙"
+    ],
+    [
+      "takolaw",
+      "喉嚨"
+    ],
+    [
+      "takora’",
       "青蛙"
     ],
     [
@@ -3646,7 +4230,7 @@ export const TW_02 = {
       "船"
     ],
     [
-      "tamohong / kafong",
+      "tamohong",
       "帽子"
     ],
     [
@@ -3658,8 +4242,16 @@ export const TW_02 = {
       "扛"
     ],
     [
+      "tamorong",
+      "揹負(物品)"
+    ],
+    [
       "tanektek",
       "壯碩"
+    ],
+    [
+      "tanestes",
+      "英俊"
     ],
     [
       "tangafolan",
@@ -3694,7 +4286,11 @@ export const TW_02 = {
       "樹頭"
     ],
     [
-      "tapolong/tapenih",
+      "tapenih",
+      "倒(水)"
+    ],
+    [
+      "tapolong",
       "倒(水)"
     ],
     [
@@ -3718,7 +4314,7 @@ export const TW_02 = {
       "枕頭"
     ],
     [
-      "tatayi’an/kamayi’an",
+      "tatayi’an",
       "廁所"
     ],
     [
@@ -3730,16 +4326,28 @@ export const TW_02 = {
       "虎頭蜂"
     ],
     [
-      "tatelecan/keletan",
+      "tatelecan",
       "腰部"
     ],
     [
-      "tatiih / caay to kanga’ay",
+      "tatihi",
+      "旁邊"
+    ],
+    [
+      "tatiih",
       "壞掉"
+    ],
+    [
+      "tatiih",
+      "不可以"
     ],
     [
       "tatodong",
       "用途"
+    ],
+    [
+      "tatoyen",
+      "提著"
     ],
     [
       "taw-^iw",
@@ -3786,7 +4394,7 @@ export const TW_02 = {
       "大的"
     ],
     [
-      "ta’ang /kifetol",
+      "ta’ang",
       "粗(物)"
     ],
     [
@@ -3808,6 +4416,10 @@ export const TW_02 = {
     [
       "tefo’",
       "竹筍"
+    ],
+    [
+      "teka^",
+      "開始"
     ],
     [
       "teker ni Idek",
@@ -3842,16 +4454,16 @@ export const TW_02 = {
       "水滴"
     ],
     [
-      "terek/’osaw",
+      "terek",
       "留下"
+    ],
+    [
+      "terong",
+      "中間"
     ],
     [
       "terong no lafii^",
       "半夜"
-    ],
-    [
-      "terong/sifo’",
-      "中間"
     ],
     [
       "tifek",
@@ -3870,6 +4482,14 @@ export const TW_02 = {
       "電視"
     ],
     [
+      "timpo",
+      "斧頭"
+    ],
+    [
+      "ting-naw",
+      "電腦"
+    ],
+    [
       "tingas",
       "卡在牙縫之物"
     ],
@@ -3882,7 +4502,7 @@ export const TW_02 = {
       "在來米"
     ],
     [
-      "tir^tir/mirmir",
+      "tir^tir",
       "發抖"
     ],
     [
@@ -3915,6 +4535,10 @@ export const TW_02 = {
     ],
     [
       "todoh",
+      "燒(如燒稻草)"
+    ],
+    [
+      "todoh",
       "烤(如烤地瓜)"
     ],
     [
@@ -3922,16 +4546,20 @@ export const TW_02 = {
       "燒(如燒獵物的毛)"
     ],
     [
-      "todoh / mi’enaf",
-      "燒(如燒稻草)"
+      "todoh",
+      "燃燒"
     ],
     [
       "todong",
       "模仿"
     ],
     [
-      "tokar/kawal",
+      "tokar",
       "樓梯"
+    ],
+    [
+      "toki",
+      "(幾)點鐘"
     ],
     [
       "toki^",
@@ -4002,6 +4630,10 @@ export const TW_02 = {
       "峽谷"
     ],
     [
+      "tonton",
+      "剁"
+    ],
+    [
       "toor",
       "追"
     ],
@@ -4070,6 +4702,10 @@ export const TW_02 = {
       "麵"
     ],
     [
+      "walin",
+      "翻動"
+    ],
+    [
       "waneng",
       "蜜"
     ],
@@ -4094,8 +4730,12 @@ export const TW_02 = {
       "鐘錶"
     ],
     [
-      "widi^/toki",
+      "widi^",
       "(幾)點鐘"
+    ],
+    [
+      "wirok",
+      "柚子"
     ],
     [
       "yo o kapah ho",
@@ -4138,7 +4778,7 @@ export const TW_02 = {
       "蝦"
     ],
     [
-      "’afel/’atang",
+      "’afel",
       "木炭"
     ],
     [
@@ -4158,7 +4798,7 @@ export const TW_02 = {
       "梗"
     ],
     [
-      "’akong / ’ikakong/likakong",
+      "’akong",
       "彎曲"
     ],
     [
@@ -4174,7 +4814,7 @@ export const TW_02 = {
       "嫂嫂"
     ],
     [
-      "’alic / cirep",
+      "’alic",
       "麻雀"
     ],
     [
@@ -4186,12 +4826,16 @@ export const TW_02 = {
       "河流"
     ],
     [
-      "’alofo/sofok/dofot",
+      "’alofo",
       "袋子"
     ],
     [
       "’aloman",
       "(人)眾多"
+    ],
+    [
+      "’amatorod",
+      "小腿肚"
     ],
     [
       "’amciya",
@@ -4206,7 +4850,7 @@ export const TW_02 = {
       "酸臭"
     ],
     [
-      "’angrer / ’arenger",
+      "’angrer",
       "苦"
     ],
     [
@@ -4216,6 +4860,10 @@ export const TW_02 = {
     [
       "’aredet",
       "甘甜"
+    ],
+    [
+      "’arenger",
+      "苦"
     ],
     [
       "’ariray",
@@ -4236,6 +4884,10 @@ export const TW_02 = {
     [
       "’asolo^",
       "木杵"
+    ],
+    [
+      "’atang",
+      "木炭"
     ],
     [
       "’atay",
@@ -4318,12 +4970,28 @@ export const TW_02 = {
       "矛"
     ],
     [
+      "’ikakong",
+      "彎曲"
+    ],
+    [
+      "’imecen",
+      "掐住"
+    ],
+    [
       "’imoc",
       "山胡椒"
     ],
     [
+      "’iwal",
+      "撬開"
+    ],
+    [
       "’odal",
       "蜜蜂"
+    ],
+    [
+      "’omaingay",
+      "軟"
     ],
     [
       "’oner",
@@ -4332,6 +5000,10 @@ export const TW_02 = {
     [
       "’ongcoy",
       "岩石"
+    ],
+    [
+      "’oning",
+      "污垢"
     ],
     [
       "’opo^",
@@ -4346,8 +5018,12 @@ export const TW_02 = {
       "雨"
     ],
     [
-      "’or’or /’oning",
+      "’or’or",
       "污垢"
+    ],
+    [
+      "’osaw",
+      "留下"
     ],
     [
       "’osaw",

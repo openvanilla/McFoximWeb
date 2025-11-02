@@ -10,15 +10,23 @@ export const TW_25 = {
       "這個"
     ],
     [
-      "akuazua/aku",
+      "aku",
       "為什麼"
     ],
     [
-      "alatjuqan / vetjuwar",
+      "akuazua",
+      "為什麼"
+    ],
+    [
+      "alatjuqan",
       "捕鳥陷阱"
     ],
     [
-      "alay / kala",
+      "alay",
+      "細線"
+    ],
+    [
+      "alay",
       "織布用的素麻線"
     ],
     [
@@ -27,11 +35,11 @@ export const TW_25 = {
     ],
     [
       "alju",
-      "糖"
+      "蜜"
     ],
     [
-      "alju / tjainan",
-      "蜜"
+      "alju",
+      "糖"
     ],
     [
       "alu",
@@ -42,12 +50,12 @@ export const TW_25 = {
       "八十"
     ],
     [
-      "ami / aray",
-      "魚網"
+      "ami",
+      "網子"
     ],
     [
-      "ami / bangtjay",
-      "網子"
+      "ami",
+      "魚網"
     ],
     [
       "amin a..",
@@ -66,11 +74,15 @@ export const TW_25 = {
       "很"
     ],
     [
+      "aray",
+      "魚網"
+    ],
+    [
       "asav",
       "葉子"
     ],
     [
-      "auta / uta",
+      "auta",
       "再"
     ],
     [
@@ -88,6 +100,10 @@ export const TW_25 = {
     [
       "azukizuki",
       "綠豆"
+    ],
+    [
+      "bangtjay",
+      "網子"
     ],
     [
       "basu",
@@ -122,11 +138,19 @@ export const TW_25 = {
       "灰色"
     ],
     [
-      "buru / mari",
+      "buru",
       "球"
     ],
     [
-      "cacukcukan / paljangpang",
+      "butj",
+      "松鼠"
+    ],
+    [
+      "cacarag",
+      "蚊子"
+    ],
+    [
+      "cacukcukan",
       "烏龜"
     ],
     [
@@ -134,8 +158,20 @@ export const TW_25 = {
       "遠"
     ],
     [
-      "caitav / taicav",
+      "caingan",
+      "懷孕"
+    ],
+    [
+      "caitav",
+      "胡蘿蔔"
+    ],
+    [
+      "caitav",
       "白蘿蔔"
+    ],
+    [
+      "caku",
+      "肥皂"
     ],
     [
       "calag",
@@ -154,16 +190,24 @@ export const TW_25 = {
       "手指"
     ],
     [
+      "cangpulu",
+      "飯鍋"
+    ],
+    [
       "capan",
       "穀物乾燥簍"
     ],
     [
-      "caqeljip / qezetj",
+      "caqeljip",
       "石壓式陷阱"
     ],
     [
       "caqev",
       "蓋子"
+    ],
+    [
+      "casav",
+      "出去"
     ],
     [
       "caucau",
@@ -206,7 +250,7 @@ export const TW_25 = {
       "捻線"
     ],
     [
-      "cemalivat / seqaliyus",
+      "cemalivat",
       "經過"
     ],
     [
@@ -234,7 +278,11 @@ export const TW_25 = {
       "日出"
     ],
     [
-      "cemekecek / temecek",
+      "cemekalj",
+      "翻動"
+    ],
+    [
+      "cemekecek",
       "插"
     ],
     [
@@ -254,7 +302,7 @@ export const TW_25 = {
       "摺疊"
     ],
     [
-      "cemiyan / semereser",
+      "cemiyan",
       "炒(飯菜)"
     ],
     [
@@ -294,12 +342,20 @@ export const TW_25 = {
       "卡在牙縫之物"
     ],
     [
+      "ciniluqan",
+      "懷孕"
+    ],
+    [
       "cinuacuan",
       "女性長褲"
     ],
     [
       "ciqav",
       "魚"
+    ],
+    [
+      "cirat",
+      "蝸牛"
     ],
     [
       "culj",
@@ -322,11 +378,15 @@ export const TW_25 = {
       "豆芽"
     ],
     [
-      "daikung / caitav",
+      "daikung",
       "胡蘿蔔"
     ],
     [
-      "daluwalut / djaluwalut",
+      "dalut",
+      "滑掉"
+    ],
+    [
+      "daluwalut",
       "滑"
     ],
     [
@@ -354,8 +414,12 @@ export const TW_25 = {
       "應該"
     ],
     [
-      "djalut / dalut",
+      "djalut",
       "滑掉"
+    ],
+    [
+      "djaluwalut",
+      "滑"
     ],
     [
       "djamay",
@@ -406,28 +470,44 @@ export const TW_25 = {
       "岩石"
     ],
     [
-      "djeljeseljesem / liljualjuas / qaljengeljenger",
+      "djeljeseljesem",
       "綠色"
     ],
     [
-      "djemakadjak / tjemakidr",
+      "djemakadjak",
       "踢"
+    ],
+    [
+      "djemaljeng",
+      "綁住"
     ],
     [
       "djemaljun",
       "抵達"
     ],
     [
-      "djemapes / djemasep",
+      "djemapes",
       "吹"
     ],
     [
-      "djemaulj / semeged",
+      "djemapipiq",
+      "壓扁"
+    ],
+    [
+      "djemasep",
+      "吹"
+    ],
+    [
+      "djemaulj",
       "邀請"
     ],
     [
       "djemavac",
       "走路"
+    ],
+    [
+      "djemedje",
+      "天天"
     ],
     [
       "djemekep",
@@ -482,7 +562,15 @@ export const TW_25 = {
       "籃子"
     ],
     [
-      "dremaiyan / zimiyan",
+      "drail",
+      "猴子"
+    ],
+    [
+      "draqar",
+      "套頸式繩索陷阱"
+    ],
+    [
+      "dremaiyan",
       "跳舞"
     ],
     [
@@ -574,7 +662,7 @@ export const TW_25 = {
       "外省人"
     ],
     [
-      "gakku / kakituluan",
+      "gakku",
       "學校"
     ],
     [
@@ -590,12 +678,16 @@ export const TW_25 = {
       "沿著山巒"
     ],
     [
-      "gemalalj / gumalalj",
+      "gemalalj",
       "鬼魂"
     ],
     [
       "gememegem",
       "握著"
+    ],
+    [
+      "gemuacuy",
+      "鋤草"
     ],
     [
       "gemucal",
@@ -614,7 +706,11 @@ export const TW_25 = {
       "狗吠聲"
     ],
     [
-      "gung / ljuwang",
+      "gumalalj",
+      "鬼魂"
+    ],
+    [
+      "gung",
       "牛"
     ],
     [
@@ -622,7 +718,7 @@ export const TW_25 = {
       "流氓"
     ],
     [
-      "hutju / siyutju / pakupaku",
+      "hutju",
       "菜刀"
     ],
     [
@@ -634,7 +730,11 @@ export const TW_25 = {
       "正在"
     ],
     [
-      "i paqadaqada / i ljaqediqedi",
+      "i ljaqediqedi",
+      "旁邊"
+    ],
+    [
+      "i paqadaqada",
       "旁邊"
     ],
     [
@@ -730,8 +830,12 @@ export const TW_25 = {
       "庭院"
     ],
     [
-      "kacikacing / cirat / ngaci",
+      "kacikacing",
       "蝸牛"
+    ],
+    [
+      "kaciyan",
+      "剪刀"
     ],
     [
       "kacuin",
@@ -746,8 +850,24 @@ export const TW_25 = {
       "早上"
     ],
     [
+      "kadralju",
+      "瓶子"
+    ],
+    [
+      "kadrangu",
+      "簍子"
+    ],
+    [
       "kadrangu",
       "腰簍"
+    ],
+    [
+      "kadray",
+      "簍子"
+    ],
+    [
+      "kadriyadri",
+      "蝴蝶"
     ],
     [
       "kaiv",
@@ -774,6 +894,10 @@ export const TW_25 = {
       "小的"
     ],
     [
+      "kakituluan",
+      "學校"
+    ],
+    [
       "kakudan",
       "文化"
     ],
@@ -786,11 +910,27 @@ export const TW_25 = {
       "電冰箱"
     ],
     [
-      "kala / alay / kalaulay",
+      "kala",
       "細線"
     ],
     [
-      "kalavaan/maluyamuy",
+      "kala",
+      "織布用的素麻線"
+    ],
+    [
+      "kalabiyabi",
+      "蝴蝶"
+    ],
+    [
+      "kalakalav",
+      "老鷹"
+    ],
+    [
+      "kalaulay",
+      "細線"
+    ],
+    [
+      "kalavaan",
       "臀部"
     ],
     [
@@ -802,6 +942,10 @@ export const TW_25 = {
       "天空"
     ],
     [
+      "kaljaljaljeqelan",
+      "冬天"
+    ],
+    [
       "kaljauragan",
       "秋天"
     ],
@@ -810,7 +954,7 @@ export const TW_25 = {
       "春天"
     ],
     [
-      "kaljavuceleljang / kaljaljaljeqelan",
+      "kaljavuceleljang",
       "冬天"
     ],
     [
@@ -858,15 +1002,15 @@ export const TW_25 = {
       "褲子"
     ],
     [
-      "katiyav/sitiyavan",
+      "katiyav",
       "昨天"
     ],
     [
-      "kausua / ljaung",
+      "kausua",
       "雨傘"
     ],
     [
-      "kavikavican / puararadjan",
+      "kavikavican",
       "男用背負網袋"
     ],
     [
@@ -878,7 +1022,11 @@ export const TW_25 = {
       "語言"
     ],
     [
-      "kaziyazi / kadriyadri / kalabiyabi",
+      "kaya",
+      "廁所"
+    ],
+    [
+      "kaziyazi",
       "蝴蝶"
     ],
     [
@@ -914,7 +1062,7 @@ export const TW_25 = {
       "咬"
     ],
     [
-      "kemacian / qemecap",
+      "kemacian",
       "剪"
     ],
     [
@@ -922,11 +1070,11 @@ export const TW_25 = {
       "攜帶(如帶傘)"
     ],
     [
-      "kemadradray / kemuridru",
+      "kemadradray",
       "提著"
     ],
     [
-      "kemadrang / tjimingkav",
+      "kemadrang",
       "跨過"
     ],
     [
@@ -946,12 +1094,20 @@ export const TW_25 = {
       "吃(東西)"
     ],
     [
-      "kemarakim / kemarikim",
+      "kemarakim",
+      "尋找"
+    ],
+    [
+      "kemarikim",
       "尋找"
     ],
     [
       "kemasi...",
       "(從某處)到某處"
+    ],
+    [
+      "kemavakav",
+      "游泳"
     ],
     [
       "kemavulj",
@@ -978,7 +1134,11 @@ export const TW_25 = {
       "(藤類植物)攀爬"
     ],
     [
-      "kemeriz / kemeridr",
+      "kemeridr",
+      "割"
+    ],
+    [
+      "kemeriz",
       "割"
     ],
     [
@@ -990,11 +1150,11 @@ export const TW_25 = {
       "如何"
     ],
     [
-      "kemudra / gemuacuy",
+      "kemudra",
       "鋤草"
     ],
     [
-      "kemudra / tjematjukun",
+      "kemudra",
       "(用鋤具)挖掘"
     ],
     [
@@ -1006,20 +1166,36 @@ export const TW_25 = {
       "將水排出(疏減)"
     ],
     [
+      "kemuridru",
+      "提著"
+    ],
+    [
       "kemusekus",
       "刷除"
+    ],
+    [
+      "kemuseta",
+      "煞車"
     ],
     [
       "kenama",
       "吃早餐"
     ],
     [
+      "kengkeng",
+      "蚊子"
+    ],
+    [
       "kericing",
       "湯鍋"
     ],
     [
-      "kevutj / butj / vutj",
+      "kevutj",
       "松鼠"
+    ],
+    [
+      "kezekez",
+      "鐵釘"
     ],
     [
       "kiamin",
@@ -1032,6 +1208,10 @@ export const TW_25 = {
     [
       "kicaquan",
       "學習"
+    ],
+    [
+      "kiciluq",
+      "播種祭"
     ],
     [
       "kidjuas",
@@ -1062,7 +1242,7 @@ export const TW_25 = {
       "搖動"
     ],
     [
-      "kiljaljava / kitjakaljava",
+      "kiljaljava",
       "等待"
     ],
     [
@@ -1070,11 +1250,11 @@ export const TW_25 = {
       "愛護"
     ],
     [
-      "kimalji kikemuda / kumalji kikemuda",
+      "kimalji kikemuda",
       "不論"
     ],
     [
-      "kimaljiki / kumaljiki",
+      "kimaljiki",
       "雖然"
     ],
     [
@@ -1090,7 +1270,7 @@ export const TW_25 = {
       "吃午餐"
     ],
     [
-      "kindraljum / kadralju",
+      "kindraljum",
       "瓶子"
     ],
     [
@@ -1108,6 +1288,10 @@ export const TW_25 = {
     [
       "kipavalit",
       "替換(衣服)"
+    ],
+    [
+      "kipurapalj",
+      "照顧"
     ],
     [
       "kiqaung",
@@ -1150,7 +1334,11 @@ export const TW_25 = {
       "火車"
     ],
     [
-      "kisululjayan / kisuzeliyan",
+      "kisululjayan",
+      "休息"
+    ],
+    [
+      "kisuzeliyan",
       "休息"
     ],
     [
@@ -1170,8 +1358,12 @@ export const TW_25 = {
       "答應"
     ],
     [
-      "kitimitim / kiciluq",
+      "kitimitim",
       "播種祭"
+    ],
+    [
+      "kitjakaljava",
+      "等待"
     ],
     [
       "kitjara maitazua",
@@ -1198,8 +1390,12 @@ export const TW_25 = {
       "模仿"
     ],
     [
-      "kiveliqad /cemekalj",
+      "kiveliqad",
       "翻動"
+    ],
+    [
+      "kiyaping",
+      "冰"
     ],
     [
       "kiyav",
@@ -1218,7 +1414,7 @@ export const TW_25 = {
       "湯匙"
     ],
     [
-      "kizuken / zemukum",
+      "kizuken",
       "低下頭"
     ],
     [
@@ -1234,11 +1430,11 @@ export const TW_25 = {
       "孫子/孫女"
     ],
     [
-      "kubav / salang",
+      "kubav",
       "穀倉"
     ],
     [
-      "kubav / salang",
+      "kubav",
       "倉庫"
     ],
     [
@@ -1250,8 +1446,16 @@ export const TW_25 = {
       "頭蝨"
     ],
     [
+      "kucu",
+      "鞋子"
+    ],
+    [
       "kudamunu",
       "水果"
+    ],
+    [
+      "kudjis",
+      "桃子"
     ],
     [
       "kudrakudral",
@@ -1290,6 +1494,14 @@ export const TW_25 = {
       "蜘蛛"
     ],
     [
+      "kumalji kikemuda",
+      "不論"
+    ],
+    [
+      "kumaljiki",
+      "雖然"
+    ],
+    [
       "kun",
       "傳統女裙"
     ],
@@ -1306,7 +1518,7 @@ export const TW_25 = {
       "髒"
     ],
     [
-      "kungay / ngelec",
+      "kungay",
       "污垢"
     ],
     [
@@ -1314,16 +1526,20 @@ export const TW_25 = {
       "杯子"
     ],
     [
-      "kura / tjatjukun / vatjukun",
+      "kura",
       "鋤頭"
     ],
     [
-      "kuri / kiyaping",
+      "kuri",
       "冰"
     ],
     [
       "kutji",
       "女性生殖器"
+    ],
+    [
+      "kuval",
+      "擋胸巾"
     ],
     [
       "kuwang",
@@ -1358,11 +1574,15 @@ export const TW_25 = {
       "水管"
     ],
     [
+      "lamug",
+      "麵粉"
+    ],
+    [
       "laqulj",
       "書"
     ],
     [
-      "laqulj / qadupu",
+      "laqulj",
       "紙張"
     ],
     [
@@ -1382,6 +1602,10 @@ export const TW_25 = {
       "苧麻線"
     ],
     [
+      "lemadenga",
+      "聽"
+    ],
+    [
       "lemadi",
       "犁田"
     ],
@@ -1390,7 +1614,7 @@ export const TW_25 = {
       "追"
     ],
     [
-      "lemaing / qemaljup",
+      "lemaing",
       "追捕"
     ],
     [
@@ -1398,7 +1622,7 @@ export const TW_25 = {
       "吞下"
     ],
     [
-      "lemangda / lemadenga",
+      "lemangda",
       "聽"
     ],
     [
@@ -1422,7 +1646,7 @@ export const TW_25 = {
       "設置"
     ],
     [
-      "lemivek / qemapaz",
+      "lemivek",
       "搭建圍籬"
     ],
     [
@@ -1438,6 +1662,10 @@ export const TW_25 = {
       "豹"
     ],
     [
+      "liljualjuas",
+      "綠色"
+    ],
+    [
       "lima",
       "五"
     ],
@@ -1450,7 +1678,7 @@ export const TW_25 = {
       "五十"
     ],
     [
-      "linudruludr / namapaculuculu",
+      "linudruludr",
       "石堆"
     ],
     [
@@ -1460,6 +1688,10 @@ export const TW_25 = {
     [
       "liyav",
       "多"
+    ],
+    [
+      "ljacadjau",
+      "讓開"
     ],
     [
       "ljaceng",
@@ -1474,11 +1706,23 @@ export const TW_25 = {
       "咬人貓"
     ],
     [
+      "ljaljeqel",
+      "冷"
+    ],
+    [
       "ljaqic",
       "疤"
     ],
     [
-      "ljavingan / drail / zinazav / qadadavan",
+      "ljaung",
+      "雨傘"
+    ],
+    [
+      "ljavatj",
+      "番石榴"
+    ],
+    [
+      "ljavingan",
       "猴子"
     ],
     [
@@ -1494,7 +1738,7 @@ export const TW_25 = {
       "燒(如燒稻草)"
     ],
     [
-      "ljemangui / kemavakav",
+      "ljemangui",
       "游泳"
     ],
     [
@@ -1514,7 +1758,7 @@ export const TW_25 = {
       "慢慢"
     ],
     [
-      "ljemita tu qadav/ djemedje",
+      "ljemita tu qadav",
       "天天"
     ],
     [
@@ -1558,12 +1802,20 @@ export const TW_25 = {
       "紫色的"
     ],
     [
+      "ljumesamesay",
+      "高瘦(身材)"
+    ],
+    [
       "ljungpav",
       "傳統女上衣"
     ],
     [
       "ljusepisepit",
       "薄的"
+    ],
+    [
+      "ljuwang",
+      "牛"
     ],
     [
       "lubuk",
@@ -1614,7 +1866,7 @@ export const TW_25 = {
       "燙"
     ],
     [
-      "macululj / mapiljay",
+      "macululj",
       "跛腳"
     ],
     [
@@ -1638,6 +1890,22 @@ export const TW_25 = {
       "(獵物掉入陷阱)陷中"
     ],
     [
+      "madrumulj",
+      "觸碰(如碰觸到身體)"
+    ],
+    [
+      "madudu",
+      "生氣"
+    ],
+    [
+      "magac",
+      "縫隙"
+    ],
+    [
+      "maipuq",
+      "跌倒"
+    ],
+    [
       "maipuq",
       "倒(下)"
     ],
@@ -1658,7 +1926,11 @@ export const TW_25 = {
       "壞掉"
     ],
     [
-      "makinamalji / madudu",
+      "makelu",
+      "(植物的果實)掉落"
+    ],
+    [
+      "makinamalji",
       "生氣"
     ],
     [
@@ -1678,7 +1950,7 @@ export const TW_25 = {
       "隨意"
     ],
     [
-      "malaljalalja / ngilungilu",
+      "malaljalalja",
       "溫的(水)"
     ],
     [
@@ -1730,6 +2002,10 @@ export const TW_25 = {
       "成熟(果實)"
     ],
     [
+      "maluyamuy",
+      "臀部"
+    ],
+    [
       "mamav",
       "相同"
     ],
@@ -1738,7 +2014,7 @@ export const TW_25 = {
       "(像)這樣"
     ],
     [
-      "mangilu/mapungal",
+      "mangilu",
       "痠痛"
     ],
     [
@@ -1778,8 +2054,16 @@ export const TW_25 = {
       "扯斷"
     ],
     [
+      "mapiljay",
+      "跛腳"
+    ],
+    [
       "mapulav",
       "酒醉"
+    ],
+    [
+      "mapungal",
+      "痠痛"
     ],
     [
       "mapuzangal",
@@ -1802,6 +2086,10 @@ export const TW_25 = {
       "一雙"
     ],
     [
+      "maqaquljuc",
+      "打架"
+    ],
+    [
       "maqati",
       "能夠"
     ],
@@ -1818,7 +2106,7 @@ export const TW_25 = {
       "害怕"
     ],
     [
-      "marengedrungedruq/marevetjevetjek",
+      "marengedrungedruq",
       "兄弟姊妹"
     ],
     [
@@ -1826,15 +2114,27 @@ export const TW_25 = {
       "堂、表兄弟姐妹"
     ],
     [
+      "marevetjevetjek",
+      "兄弟姊妹"
+    ],
+    [
+      "mari",
+      "球"
+    ],
+    [
       "mariljay",
       "瘦(身形)"
     ],
     [
-      "marivu / maqaquljuc",
+      "marivu",
       "打架"
     ],
     [
-      "masalitj / maruqu",
+      "maruqu",
+      "滾落"
+    ],
+    [
+      "masalitj",
       "滾落"
     ],
     [
@@ -1846,7 +2146,7 @@ export const TW_25 = {
       "謝謝"
     ],
     [
-      "masengseng / sengsengan",
+      "masengseng",
       "工作"
     ],
     [
@@ -1878,7 +2178,7 @@ export const TW_25 = {
       "未成熟的(果實)"
     ],
     [
-      "matjani / maipuq",
+      "matjani",
       "跌倒"
     ],
     [
@@ -1892,6 +2192,10 @@ export const TW_25 = {
     [
       "maulav",
       "遺失"
+    ],
+    [
+      "maung",
+      "過貓"
     ],
     [
       "mavacuk",
@@ -1922,7 +2226,7 @@ export const TW_25 = {
       "懶惰"
     ],
     [
-      "mavunglay / caingan / ciniluqan",
+      "mavunglay",
       "懷孕"
     ],
     [
@@ -1942,7 +2246,7 @@ export const TW_25 = {
       "燃燒"
     ],
     [
-      "mekelj / mintuluq",
+      "mekelj",
       "跑 (祈使)"
     ],
     [
@@ -1958,11 +2262,11 @@ export const TW_25 = {
       "生長"
     ],
     [
-      "merem / remuljem",
+      "merem",
       "染色"
     ],
     [
-      "mesuav / misuav",
+      "mesuav",
       "打哈欠"
     ],
     [
@@ -1974,24 +2278,48 @@ export const TW_25 = {
       "發抖"
     ],
     [
-      "minbuk / minkub",
+      "minbuk",
       "跳躍"
     ],
     [
-      "minqut / piljavak",
+      "minelayap",
+      "飛"
+    ],
+    [
+      "minkub",
+      "跳躍"
+    ],
+    [
+      "minperav",
+      "飛"
+    ],
+    [
+      "minqut",
       "出現"
+    ],
+    [
+      "mintiyav",
+      "麵"
     ],
     [
       "mintjus",
       "嚇一跳"
     ],
     [
+      "mintuluq",
+      "跑 (祈使)"
+    ],
+    [
       "minvalak",
       "腫"
     ],
     [
-      "mipereper / minelayap / minperav",
+      "mipereper",
       "飛"
+    ],
+    [
+      "misuav",
+      "打哈欠"
     ],
     [
       "mitung",
@@ -2002,7 +2330,7 @@ export const TW_25 = {
       "臉"
     ],
     [
-      "mukav / maung",
+      "mukav",
       "過貓"
     ],
     [
@@ -2010,11 +2338,15 @@ export const TW_25 = {
       "溢出(如水溢出來)"
     ],
     [
+      "mumu",
+      "桃子"
+    ],
+    [
       "muremmerem",
       "浮織"
     ],
     [
-      "muri mangtjez / uri mangetjez",
+      "muri mangtjez",
       "要來"
     ],
     [
@@ -2036,6 +2368,10 @@ export const TW_25 = {
     [
       "namaljenguaq",
       "好好的"
+    ],
+    [
+      "namapaculuculu",
+      "石堆"
     ],
     [
       "namavacalj",
@@ -2082,7 +2418,7 @@ export const TW_25 = {
       "李子"
     ],
     [
-      "navatj / ljavatj / vanatj",
+      "navatj",
       "番石榴"
     ],
     [
@@ -2098,6 +2434,10 @@ export const TW_25 = {
       "沒有(表擁有的否定詞)"
     ],
     [
+      "ngaci",
+      "蝸牛"
+    ],
+    [
       "ngadan",
       "名字"
     ],
@@ -2106,12 +2446,20 @@ export const TW_25 = {
       "口水"
     ],
     [
-      "ngasa / magac",
+      "ngasa",
       "縫隙"
+    ],
+    [
+      "ngelec",
+      "污垢"
     ],
     [
       "ngilngil",
       "香菇"
+    ],
+    [
+      "ngilungilu",
+      "溫的(水)"
     ],
     [
       "ngiyav",
@@ -2214,7 +2562,7 @@ export const TW_25 = {
       "超過"
     ],
     [
-      "pacegeceg / kezekez",
+      "pacegeceg",
       "鐵釘"
     ],
     [
@@ -2246,7 +2594,7 @@ export const TW_25 = {
       "閩南人"
     ],
     [
-      "paisu / valjitjuq",
+      "paisu",
       "錢"
     ],
     [
@@ -2260,6 +2608,10 @@ export const TW_25 = {
     [
       "pakirimu",
       "立即"
+    ],
+    [
+      "pakupaku",
+      "菜刀"
     ],
     [
       "palamu",
@@ -2276,6 +2628,10 @@ export const TW_25 = {
     [
       "palisi",
       "禁忌"
+    ],
+    [
+      "paljangpang",
+      "烏龜"
     ],
     [
       "paljezaya",
@@ -2314,7 +2670,11 @@ export const TW_25 = {
       "點火"
     ],
     [
-      "papinseg / sikaqilji",
+      "papiceqan",
+      "關節"
+    ],
+    [
+      "papinseg",
       "禁止"
     ],
     [
@@ -2358,7 +2718,7 @@ export const TW_25 = {
       "走(向某個方向)"
     ],
     [
-      "pasekez / kemuseta",
+      "pasekez",
       "煞車"
     ],
     [
@@ -2380,6 +2740,10 @@ export const TW_25 = {
     [
       "patekuteku",
       "某物之下"
+    ],
+    [
+      "patjekai",
+      "說"
     ],
     [
       "pavai",
@@ -2426,6 +2790,14 @@ export const TW_25 = {
       "挑選"
     ],
     [
+      "picaq",
+      "關節"
+    ],
+    [
+      "piceq",
+      "關節"
+    ],
+    [
       "picul",
       "力量"
     ],
@@ -2440,6 +2812,10 @@ export const TW_25 = {
     [
       "piku",
       "手肘"
+    ],
+    [
+      "piljavak",
+      "出現"
     ],
     [
       "pinatatarevan",
@@ -2466,6 +2842,10 @@ export const TW_25 = {
       "傷口"
     ],
     [
+      "pisangasu",
+      "讓開"
+    ],
+    [
       "piteval",
       "浪費"
     ],
@@ -2478,11 +2858,11 @@ export const TW_25 = {
       "七十"
     ],
     [
-      "piyaq / usara",
+      "piyaq",
       "菜盤"
     ],
     [
-      "piyumaumaq / kipurapalj",
+      "piyumaumaq",
       "照顧"
     ],
     [
@@ -2492,6 +2872,10 @@ export const TW_25 = {
     [
       "pualang",
       "收拾(祈使，如收拾東西)"
+    ],
+    [
+      "puararadjan",
+      "男用背負網袋"
     ],
     [
       "pucekelj",
@@ -2538,7 +2922,7 @@ export const TW_25 = {
       "慶祝"
     ],
     [
-      "puqacangan / kaya",
+      "puqacangan",
       "廁所"
     ],
     [
@@ -2546,7 +2930,7 @@ export const TW_25 = {
       "觀察"
     ],
     [
-      "puqupuqut / picaq / papiceqan / piceq",
+      "puqupuqut",
       "關節"
     ],
     [
@@ -2554,7 +2938,7 @@ export const TW_25 = {
       "以籠捕魚蝦"
     ],
     [
-      "purur / kadray / rumuk / kadrangu",
+      "purur",
       "簍子"
     ],
     [
@@ -2586,12 +2970,16 @@ export const TW_25 = {
       "肝臟"
     ],
     [
-      "qacengecengel / qucengecengel",
+      "qacengecengel",
       "黑色"
     ],
     [
       "qaciljay",
       "石頭"
+    ],
+    [
+      "qadadavan",
+      "猴子"
     ],
     [
       "qadav",
@@ -2604,6 +2992,10 @@ export const TW_25 = {
     [
       "qadjav",
       "不知道"
+    ],
+    [
+      "qadupu",
+      "紙張"
     ],
     [
       "qailjungan",
@@ -2642,6 +3034,10 @@ export const TW_25 = {
       "酸"
     ],
     [
+      "qaljengeljenger",
+      "綠色"
+    ],
+    [
       "qaljic",
       "皮"
     ],
@@ -2674,12 +3070,16 @@ export const TW_25 = {
       "烏鴉"
     ],
     [
-      "qaqaljic / qaqudruy",
+      "qaqaljic",
       "蝙蝠"
     ],
     [
       "qaqilj",
       "山藥"
+    ],
+    [
+      "qaqudruy",
+      "蝙蝠"
     ],
     [
       "qaqumain",
@@ -2750,7 +3150,7 @@ export const TW_25 = {
       "鳥"
     ],
     [
-      "qecap / kaciyan",
+      "qecap",
       "剪刀"
     ],
     [
@@ -2778,7 +3178,15 @@ export const TW_25 = {
       "蓋屋頂"
     ],
     [
-      "qemapipi / djemapipiq",
+      "qemaljup",
+      "追捕"
+    ],
+    [
+      "qemapaz",
+      "搭建圍籬"
+    ],
+    [
+      "qemapipi",
       "壓扁"
     ],
     [
@@ -2794,6 +3202,10 @@ export const TW_25 = {
       "阻擋"
     ],
     [
+      "qemecap",
+      "剪"
+    ],
+    [
       "qemeljev",
       "關上"
     ],
@@ -2802,7 +3214,7 @@ export const TW_25 = {
       "關(門；窗)"
     ],
     [
-      "qemezetj / zemepetj",
+      "qemezetj",
       "壓住"
     ],
     [
@@ -2818,7 +3230,7 @@ export const TW_25 = {
       "擠"
     ],
     [
-      "qemu / lamug",
+      "qemu",
       "麵粉"
     ],
     [
@@ -2846,6 +3258,10 @@ export const TW_25 = {
       "晚上"
     ],
     [
+      "qezetj",
+      "石壓式陷阱"
+    ],
+    [
       "qezung",
       "窗戶"
     ],
@@ -2866,7 +3282,7 @@ export const TW_25 = {
       "部落"
     ],
     [
-      "qinasav / ukayu",
+      "qinasav",
       "粥"
     ],
     [
@@ -2874,11 +3290,15 @@ export const TW_25 = {
       "泥土"
     ],
     [
-      "qivu / patjekai",
+      "qivu",
       "說"
     ],
     [
-      "qudis / kudjis / mumu",
+      "qucengecengel",
+      "黑色"
+    ],
+    [
+      "qudis",
       "桃子"
     ],
     [
@@ -2892,6 +3312,14 @@ export const TW_25 = {
     [
       "qudjidjilj",
       "紅色"
+    ],
+    [
+      "qulivalivay",
+      "黃色的"
+    ],
+    [
+      "quljangaljangas",
+      "黃色的"
     ],
     [
       "quljav",
@@ -2950,6 +3378,10 @@ export const TW_25 = {
       "炒(如炒花生)"
     ],
     [
+      "remuljem",
+      "染色"
+    ],
+    [
       "remumaljimaljian",
       "謾罵"
     ],
@@ -2974,6 +3406,10 @@ export const TW_25 = {
       "故意"
     ],
     [
+      "rumuk",
+      "簍子"
+    ],
+    [
       "rutulutulu",
       "老師"
     ],
@@ -2990,15 +3426,27 @@ export const TW_25 = {
       "輕(重量)"
     ],
     [
+      "sadesad",
+      "蟬"
+    ],
+    [
       "sadjelung",
       "重(重量)"
     ],
     [
-      "sadjesadj / viyar / sadesad",
+      "sadjesadj",
       "蟬"
     ],
     [
-      "salapeljan / kengkeng / sulapeljan / cacarag",
+      "salang",
+      "穀倉"
+    ],
+    [
+      "salang",
+      "倉庫"
+    ],
+    [
+      "salapeljan",
       "蚊子"
     ],
     [
@@ -3010,11 +3458,11 @@ export const TW_25 = {
       "喜歡"
     ],
     [
-      "saljuvasiv / ljumesamesay",
+      "saljuvasiv",
       "高瘦(身材)"
     ],
     [
-      "samapesap / semapesap",
+      "samapesap",
       "(用手)挖掘"
     ],
     [
@@ -3022,7 +3470,7 @@ export const TW_25 = {
       "枕頭"
     ],
     [
-      "sangpulu / cangpulu",
+      "sangpulu",
       "飯鍋"
     ],
     [
@@ -3030,7 +3478,7 @@ export const TW_25 = {
       "很好吃"
     ],
     [
-      "sapung / caku",
+      "sapung",
       "肥皂"
     ],
     [
@@ -3047,14 +3495,14 @@ export const TW_25 = {
     ],
     [
       "sara",
-      "濾酒渣網"
-    ],
-    [
-      "sara / vitay",
       "篩子"
     ],
     [
-      "sasav / casav",
+      "sara",
+      "濾酒渣網"
+    ],
+    [
+      "sasav",
       "出去"
     ],
     [
@@ -3066,7 +3514,7 @@ export const TW_25 = {
       "螞蟻"
     ],
     [
-      "sasuav / makelu",
+      "sasuav",
       "(植物的果實)掉落"
     ],
     [
@@ -3087,10 +3535,14 @@ export const TW_25 = {
     ],
     [
       "secevung",
+      "撞到"
+    ],
+    [
+      "secevung",
       "遇到"
     ],
     [
-      "secevung / secugecug",
+      "secugecug",
       "撞到"
     ],
     [
@@ -3114,11 +3566,15 @@ export const TW_25 = {
       "遲到"
     ],
     [
-      "selangedangeda/seladengadenga",
+      "seladengadenga",
       "聽說"
     ],
     [
-      "seluc / draqar",
+      "selangedangeda",
+      "聽說"
+    ],
+    [
+      "seluc",
       "套頸式繩索陷阱"
     ],
     [
@@ -3132,6 +3588,18 @@ export const TW_25 = {
     [
       "semanljaceng",
       "煮(菜)"
+    ],
+    [
+      "semapesap",
+      "(用手)挖掘"
+    ],
+    [
+      "semaqumaqan",
+      "進入"
+    ],
+    [
+      "semeged",
+      "邀請"
     ],
     [
       "semekam",
@@ -3170,8 +3638,12 @@ export const TW_25 = {
       "聞(如聞味道)"
     ],
     [
-      "semerep / temepetep",
+      "semerep",
       "吸"
+    ],
+    [
+      "semereser",
+      "炒(飯菜)"
     ],
     [
       "semevalj",
@@ -3191,19 +3663,27 @@ export const TW_25 = {
     ],
     [
       "semucaqev",
-      "掀開(如掀開蓋子)"
+      "打開"
     ],
     [
-      "semucaqev / semuqeljev",
-      "打開"
+      "semucaqev",
+      "掀開(如掀開蓋子)"
     ],
     [
       "semupu",
       "讀書"
     ],
     [
+      "semuqeljev",
+      "打開"
+    ],
+    [
       "senay",
       "歌"
+    ],
+    [
+      "sengsengan",
+      "工作"
     ],
     [
       "sepatj",
@@ -3216,6 +3696,10 @@ export const TW_25 = {
     [
       "sepi",
       "夢"
+    ],
+    [
+      "seqaliyus",
+      "經過"
     ],
     [
       "sequ",
@@ -3234,6 +3718,10 @@ export const TW_25 = {
       "棉被"
     ],
     [
+      "sicekaukau",
+      "用途"
+    ],
+    [
       "siceljiceljis",
       "(竹製的)刮麻具"
     ],
@@ -3242,7 +3730,7 @@ export const TW_25 = {
       "刮苧麻"
     ],
     [
-      "siciyaciyan / siseresereser",
+      "siciyaciyan",
       "鍋鏟"
     ],
     [
@@ -3250,16 +3738,28 @@ export const TW_25 = {
       "久的"
     ],
     [
+      "sigecegecel",
+      "夾子"
+    ],
+    [
+      "sikaqilji",
+      "禁止"
+    ],
+    [
       "sikatjeluwan",
       "前天"
     ],
     [
-      "sikeljangan / vinavarungan",
+      "sikeljangan",
       "感覺"
     ],
     [
-      "siladiladi / tjavavua",
+      "siladiladi",
       "犁"
+    ],
+    [
+      "sileduwan",
+      "動物的內臟"
     ],
     [
       "silisili",
@@ -3310,7 +3810,7 @@ export const TW_25 = {
       "餌"
     ],
     [
-      "siqecaqecap / sigecegecel",
+      "siqecaqecap",
       "夾子"
     ],
     [
@@ -3326,8 +3826,16 @@ export const TW_25 = {
       "剛剛"
     ],
     [
-      "siseljudjan/sicekaukau",
+      "siseljudjan",
       "用途"
+    ],
+    [
+      "siseresereser",
+      "鍋鏟"
+    ],
+    [
+      "sitiyavan",
+      "昨天"
     ],
     [
       "situngan",
@@ -3342,8 +3850,12 @@ export const TW_25 = {
       "九十"
     ],
     [
-      "sivangvang / vangvang / sileduwan",
+      "sivangvang",
       "動物的內臟"
+    ],
+    [
+      "siyak",
+      "南瓜"
     ],
     [
       "siyalja",
@@ -3354,6 +3866,10 @@ export const TW_25 = {
       "揹小孩的背帶"
     ],
     [
+      "siyat",
+      "腰帶"
+    ],
+    [
       "siyav",
       "湯"
     ],
@@ -3362,12 +3878,20 @@ export const TW_25 = {
       "腰部"
     ],
     [
+      "siyutju",
+      "菜刀"
+    ],
+    [
       "sizi",
       "羊"
     ],
     [
       "sudip",
       "毛"
+    ],
+    [
+      "sulapeljan",
+      "蚊子"
     ],
     [
       "sulja",
@@ -3386,6 +3910,14 @@ export const TW_25 = {
       "神父"
     ],
     [
+      "tadalj",
+      "橋樑"
+    ],
+    [
+      "taicav",
+      "白蘿蔔"
+    ],
+    [
       "taiday",
       "一百"
     ],
@@ -3394,7 +3926,7 @@ export const TW_25 = {
       "山羌"
     ],
     [
-      "takit /tjait",
+      "takit",
       "獵刀"
     ],
     [
@@ -3486,7 +4018,7 @@ export const TW_25 = {
       "醬油"
     ],
     [
-      "tedep / semaqumaqan",
+      "tedep",
       "進入"
     ],
     [
@@ -3514,6 +4046,10 @@ export const TW_25 = {
       "撬開"
     ],
     [
+      "temecek",
+      "插"
+    ],
+    [
       "temekel",
       "喝"
     ],
@@ -3526,8 +4062,16 @@ export const TW_25 = {
       "明亮"
     ],
     [
+      "temepetep",
+      "吸"
+    ],
+    [
       "temevela",
       "回應"
+    ],
+    [
+      "temiditidiv",
+      "水滴"
     ],
     [
       "temulu",
@@ -3538,15 +4082,19 @@ export const TW_25 = {
       "打碎"
     ],
     [
-      "teqic / teqican",
+      "teqic",
       "編網針"
     ],
     [
-      "tevet / tjevet",
+      "teqican",
+      "編網針"
+    ],
+    [
+      "tevet",
       "男用遮陰布"
     ],
     [
-      "tezak / tjezak / temiditidiv",
+      "tezak",
       "水滴"
     ],
     [
@@ -3638,12 +4186,24 @@ export const TW_25 = {
       "左邊"
     ],
     [
+      "tjainan",
+      "蜜"
+    ],
+    [
       "tjainu",
       "哪一個"
     ],
     [
-      "tjaiqayav / tjaisangas",
+      "tjaiqayav",
       "前面"
+    ],
+    [
+      "tjaisangas",
+      "前面"
+    ],
+    [
+      "tjait",
+      "獵刀"
     ],
     [
       "tjaiteku",
@@ -3654,7 +4214,7 @@ export const TW_25 = {
       "親戚"
     ],
     [
-      "tjakanga / kalakalav",
+      "tjakanga",
       "老鷹"
     ],
     [
@@ -3706,8 +4266,16 @@ export const TW_25 = {
       "女用揹籃"
     ],
     [
+      "tjatjukun",
+      "鋤頭"
+    ],
+    [
       "tjaukaljiya",
       "清晨"
+    ],
+    [
+      "tjavavua",
+      "犁"
     ],
     [
       "tjavulung a kaka a uqaljay",
@@ -3726,7 +4294,7 @@ export const TW_25 = {
       "蜜蜂"
     ],
     [
-      "tjekeza / tadalj",
+      "tjekeza",
       "橋樑"
     ],
     [
@@ -3746,12 +4314,20 @@ export const TW_25 = {
       "剁"
     ],
     [
+      "tjemakidr",
+      "踢"
+    ],
+    [
       "tjemalupung",
       "戴(如戴帽子)"
     ],
     [
-      "tjemapis / madrumulj",
+      "tjemapis",
       "觸碰(如碰觸到身體)"
+    ],
+    [
+      "tjematjukun",
+      "(用鋤具)挖掘"
     ],
     [
       "tjemeljev",
@@ -3782,7 +4358,7 @@ export const TW_25 = {
       "招手"
     ],
     [
-      "tjemugut / venusam",
+      "tjemugut",
       "播種"
     ],
     [
@@ -3806,6 +4382,10 @@ export const TW_25 = {
       "喜愛"
     ],
     [
+      "tjevet",
+      "男用遮陰布"
+    ],
+    [
       "tjevetjeveng",
       "濕的"
     ],
@@ -3818,11 +4398,19 @@ export const TW_25 = {
       "剩下"
     ],
     [
+      "tjezak",
+      "水滴"
+    ],
+    [
       "tjikezem",
       "閉(眼睛)"
     ],
     [
-      "tjingkuy/siyak",
+      "tjimingkav",
+      "跨過"
+    ],
+    [
+      "tjingkuy",
       "南瓜"
     ],
     [
@@ -3842,7 +4430,7 @@ export const TW_25 = {
       "虎頭蜂"
     ],
     [
-      "tjukap / kucu",
+      "tjukap",
       "鞋子"
     ],
     [
@@ -3902,16 +4490,20 @@ export const TW_25 = {
       "乳房"
     ],
     [
-      "ubi / siyat",
+      "ubi",
       "腰帶"
     ],
     [
-      "udung / mintiyav",
+      "udung",
       "麵"
     ],
     [
       "ui",
       "是的"
+    ],
+    [
+      "ukayu",
+      "粥"
     ],
     [
       "umaq",
@@ -3944,6 +4536,18 @@ export const TW_25 = {
     [
       "uqaljay",
       "雄性(動物)"
+    ],
+    [
+      "uri mangetjez",
+      "要來"
+    ],
+    [
+      "usara",
+      "菜盤"
+    ],
+    [
+      "uta",
+      "再"
     ],
     [
       "va",
@@ -4002,6 +4606,10 @@ export const TW_25 = {
       "斧頭"
     ],
     [
+      "valjitjuq",
+      "錢"
+    ],
+    [
       "valjualjut",
       "活的"
     ],
@@ -4010,8 +4618,16 @@ export const TW_25 = {
       "土蜂"
     ],
     [
+      "vanatj",
+      "番石榴"
+    ],
+    [
       "vangalj",
       "(植物的)果實"
+    ],
+    [
+      "vangvang",
+      "動物的內臟"
     ],
     [
       "vaqu",
@@ -4034,7 +4650,7 @@ export const TW_25 = {
       "胸腔"
     ],
     [
-      "varuvarungen / vinarungan",
+      "varuvarungen",
       "目標"
     ],
     [
@@ -4046,6 +4662,10 @@ export const TW_25 = {
       "穀粒"
     ],
     [
+      "vatjukun",
+      "鋤頭"
+    ],
+    [
       "vatu",
       "狗"
     ],
@@ -4054,11 +4674,11 @@ export const TW_25 = {
       "藤蔓類"
     ],
     [
-      "vava / vawa",
+      "vava",
       "酒"
     ],
     [
-      "vavaiku / ljacadjau / pisangasu",
+      "vavaiku",
       "讓開"
     ],
     [
@@ -4078,7 +4698,11 @@ export const TW_25 = {
       "山豬"
     ],
     [
-      "vayar / kuval",
+      "vawa",
+      "酒"
+    ],
+    [
+      "vayar",
       "擋胸巾"
     ],
     [
@@ -4106,7 +4730,7 @@ export const TW_25 = {
       "刮颱風"
     ],
     [
-      "venaljes / venlaq",
+      "venaljes",
       "劈(木材)"
     ],
     [
@@ -4134,7 +4758,11 @@ export const TW_25 = {
       "學生"
     ],
     [
-      "venelak / venelaq",
+      "venelak",
+      "剖切"
+    ],
+    [
+      "venelaq",
       "剖切"
     ],
     [
@@ -4146,11 +4774,11 @@ export const TW_25 = {
       "拔除"
     ],
     [
-      "veneljuc / veniljevilj",
+      "veneljuc",
       "拔出"
     ],
     [
-      "venengetj / djemaljeng",
+      "venengetj",
       "綁住"
     ],
     [
@@ -4171,7 +4799,15 @@ export const TW_25 = {
     ],
     [
       "veniljevilj",
+      "拔出"
+    ],
+    [
+      "veniljevilj",
       "拉(上來)"
+    ],
+    [
+      "venlaq",
+      "劈(木材)"
     ],
     [
       "venseqitj",
@@ -4194,6 +4830,10 @@ export const TW_25 = {
       "找碴"
     ],
     [
+      "venusam",
+      "播種"
+    ],
+    [
       "venuta",
       "趕上"
     ],
@@ -4202,8 +4842,16 @@ export const TW_25 = {
       "疼愛"
     ],
     [
-      "vetjelatan/vetelatan",
+      "vetelatan",
       "弓"
+    ],
+    [
+      "vetjelatan",
+      "弓"
+    ],
+    [
+      "vetjuwar",
+      "捕鳥陷阱"
     ],
     [
       "vicuka",
@@ -4214,15 +4862,35 @@ export const TW_25 = {
       "肋骨"
     ],
     [
+      "vinarungan",
+      "目標"
+    ],
+    [
+      "vinavarungan",
+      "感覺"
+    ],
+    [
+      "vitay",
+      "篩子"
+    ],
+    [
       "vitjuqan",
       "星星"
+    ],
+    [
+      "viyar",
+      "蟬"
+    ],
+    [
+      "vucelacelay",
+      "白色"
     ],
     [
       "vucelecelelj",
       "冰冷"
     ],
     [
-      "vucelelj / ljaljeqel",
+      "vucelelj",
       "冷"
     ],
     [
@@ -4262,7 +4930,7 @@ export const TW_25 = {
       "幼苗"
     ],
     [
-      "vuqavuqalj / vucelacelay",
+      "vuqavuqalj",
       "白色"
     ],
     [
@@ -4274,12 +4942,16 @@ export const TW_25 = {
       "地瓜"
     ],
     [
-      "vuravurav / qulivalivay / quljangaljangas",
+      "vuravurav",
       "黃色的"
     ],
     [
       "vutevutan",
       "小腿肚"
+    ],
+    [
+      "vutj",
+      "松鼠"
     ],
     [
       "vutjulj",
@@ -4318,6 +4990,14 @@ export const TW_25 = {
       "按住"
     ],
     [
+      "zemepetj",
+      "壓住"
+    ],
+    [
+      "zemukum",
+      "低下頭"
+    ],
+    [
       "zemulek",
       "悶熱"
     ],
@@ -4336,6 +5016,14 @@ export const TW_25 = {
     [
       "zidinsiya",
       "腳踏車"
+    ],
+    [
+      "zimiyan",
+      "跳舞"
+    ],
+    [
+      "zinazav",
+      "猴子"
     ],
     [
       "zu",

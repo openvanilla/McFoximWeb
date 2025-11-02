@@ -2,7 +2,19 @@ export const TW_21 = {
   "name": "巒群布農語",
   "data": [
     [
-      "Ngaingai / Kelaang",
+      "Kaqabu",
+      "平埔族"
+    ],
+    [
+      "Kelaang",
+      "客家人"
+    ],
+    [
+      "Kiukai(外)",
+      "教會"
+    ],
+    [
+      "Ngaingai",
       "客家人"
     ],
     [
@@ -10,7 +22,7 @@ export const TW_21 = {
       "閩南人"
     ],
     [
-      "Tangavulan/ Kaqabu",
+      "Tangavulan",
       "平埔族"
     ],
     [
@@ -22,20 +34,40 @@ export const TW_21 = {
       "主格標記(各族用語)"
     ],
     [
-      "aaq / akaak",
+      "aaq",
       "烏鴉"
     ],
     [
-      "aas / is’aas",
+      "aas",
       "針"
+    ],
+    [
+      "akaak",
+      "烏鴉"
     ],
     [
       "akitmata’an",
       "目標"
     ],
     [
-      "altupatu / anatupatu",
+      "aktasun",
+      "扯斷"
+    ],
+    [
+      "altupatu",
       "不論"
+    ],
+    [
+      "ami",
+      "網子"
+    ],
+    [
+      "ami",
+      "魚網"
+    ],
+    [
+      "amin",
+      "全部"
     ],
     [
       "amin",
@@ -46,27 +78,35 @@ export const TW_21 = {
       "都"
     ],
     [
-      "amin / sikaupa",
-      "全部"
+      "amu",
+      "你們"
     ],
     [
-      "amu / mu’u",
-      "你們"
+      "anana",
+      "好痛"
     ],
     [
       "anatupa tu",
       "雖然"
     ],
     [
+      "anatupatu",
+      "不論"
+    ],
+    [
       "anbubuut",
       "懷孕"
+    ],
+    [
+      "andaza’an",
+      "倉庫"
     ],
     [
       "angkus",
       "提著"
     ],
     [
-      "angqai / laidazun",
+      "angqai",
       "經過"
     ],
     [
@@ -80,6 +120,10 @@ export const TW_21 = {
     [
       "ansaqan",
       "搬運"
+    ],
+    [
+      "antala",
+      "答應"
     ],
     [
       "antalam",
@@ -98,7 +142,7 @@ export const TW_21 = {
       "觸碰(如碰觸到身體)"
     ],
     [
-      "apap / sungqaqaul",
+      "apap",
       "游泳"
     ],
     [
@@ -110,20 +154,28 @@ export const TW_21 = {
       "一定"
     ],
     [
+      "aski’aun",
+      "丟棄"
+    ],
+    [
+      "asu",
+      "你"
+    ],
+    [
       "asu",
       "狗"
     ],
     [
-      "asu / sasu",
-      "你"
+      "ata",
+      "我們"
     ],
     [
-      "ata / mita",
+      "ata",
       "咱們(包含式)"
     ],
     [
-      "ata/mita",
-      "我們"
+      "atikis",
+      "一些"
     ],
     [
       "atikis",
@@ -135,7 +187,15 @@ export const TW_21 = {
     ],
     [
       "atikis",
+      "少的"
+    ],
+    [
+      "atikis",
       "少許"
+    ],
+    [
+      "aukauk",
+      "青蛙"
     ],
     [
       "auklumun",
@@ -146,16 +206,24 @@ export const TW_21 = {
       "乳豬"
     ],
     [
-      "auqsa / tuqnu",
-      "種子"
-    ],
-    [
-      "auqsa/samang",
+      "auqsa",
       "幼苗"
     ],
     [
-      "avula(外)/nuqus",
+      "auqsa",
+      "種子"
+    ],
+    [
+      "avula(外)",
       "油"
+    ],
+    [
+      "azak",
+      "我"
+    ],
+    [
+      "azaq",
+      "不要"
     ],
     [
       "babaas",
@@ -194,16 +262,20 @@ export const TW_21 = {
       "肋骨"
     ],
     [
-      "balivusan / luvluvan",
+      "balivusan",
       "颱風"
     ],
     [
-      "balivusan / luvluvan",
+      "balivusan",
       "刮颱風"
     ],
     [
       "baluku",
       "碗"
+    ],
+    [
+      "baluku",
+      "杯子"
     ],
     [
       "bananaz",
@@ -226,12 +298,20 @@ export const TW_21 = {
       "腳"
     ],
     [
-      "banuaz / bunuaz",
+      "banuaz",
       "梅子"
+    ],
+    [
+      "baqan",
+      "臀部"
     ],
     [
       "baqlu",
       "新的"
+    ],
+    [
+      "baqusaz",
+      "蜜蜂"
     ],
     [
       "baqusaz",
@@ -242,7 +322,7 @@ export const TW_21 = {
       "虎頭蜂"
     ],
     [
-      "basu(外) / laihli",
+      "basu(外)",
       "公車"
     ],
     [
@@ -254,8 +334,12 @@ export const TW_21 = {
       "石頭"
     ],
     [
-      "bauzaq/vakicu(外)",
+      "bauzaq",
       "水桶"
+    ],
+    [
+      "bazbaz",
+      "說"
     ],
     [
       "bazu",
@@ -278,7 +362,7 @@ export const TW_21 = {
       "女性"
     ],
     [
-      "binanau’az / talbinau’az",
+      "binanau’az",
       "小姐"
     ],
     [
@@ -298,7 +382,11 @@ export const TW_21 = {
       "胡瓜"
     ],
     [
-      "bizakbizak/ vinduqvinduq",
+      "bizakbizak",
+      "晃動"
+    ],
+    [
+      "bizakbizak",
       "(搖)動"
     ],
     [
@@ -310,11 +398,15 @@ export const TW_21 = {
       "月亮"
     ],
     [
-      "buat / luak",
+      "buat",
       "縫隙"
     ],
     [
-      "bukzavan / masu’ismutan",
+      "buil",
+      "球"
+    ],
+    [
+      "bukzavan",
       "草原"
     ],
     [
@@ -346,11 +438,15 @@ export const TW_21 = {
       "李子"
     ],
     [
-      "bunuk / zaas",
+      "bunuaz",
+      "梅子"
+    ],
+    [
+      "bunuk",
       "沙子"
     ],
     [
-      "bunul / ning’av",
+      "bunul",
       "湖泊"
     ],
     [
@@ -360,6 +456,10 @@ export const TW_21 = {
     [
       "buqan",
       "飽食"
+    ],
+    [
+      "buqtung",
+      "膝蓋"
     ],
     [
       "buqtung",
@@ -374,6 +474,10 @@ export const TW_21 = {
       "裂開"
     ],
     [
+      "busuk",
+      "酒醉"
+    ],
+    [
       "busul",
       "槍"
     ],
@@ -382,11 +486,15 @@ export const TW_21 = {
       "弓"
     ],
     [
-      "butqul / mumudan",
+      "busziq",
+      "稀爛的"
+    ],
+    [
+      "butqul",
       "喉嚨"
     ],
     [
-      "ciqutciqut / mumuan",
+      "ciqutciqut",
       "蝸牛"
     ],
     [
@@ -406,7 +514,7 @@ export const TW_21 = {
       "攪動"
     ],
     [
-      "daiza / ita",
+      "daiza",
       "那裡"
     ],
     [
@@ -458,11 +566,15 @@ export const TW_21 = {
       "臉"
     ],
     [
+      "daqu",
+      "肥皂"
+    ],
+    [
       "daqvisan",
       "遠"
     ],
     [
-      "daukdauk / mudaukdauk",
+      "daukdauk",
       "慢慢"
     ],
     [
@@ -492,6 +604,10 @@ export const TW_21 = {
     [
       "daza",
       "上面"
+    ],
+    [
+      "dii",
+      "這個"
     ],
     [
       "dimal",
@@ -526,7 +642,7 @@ export const TW_21 = {
       "污垢"
     ],
     [
-      "haip / laupaku",
+      "haip",
       "今天"
     ],
     [
@@ -538,24 +654,36 @@ export const TW_21 = {
       "遲到"
     ],
     [
-      "hanuin(呼喚小孩) / kula",
+      "hanuin(呼喚小孩)",
       "(叫人)過來"
     ],
     [
-      "haqas / nuka",
+      "haqas",
       "疤"
+    ],
+    [
+      "haqil",
+      "書"
     ],
     [
       "haqil",
       "紙張"
     ],
     [
-      "haqu / haqubatu / haqubantiq",
+      "haqu",
       "石壓式陷阱"
     ],
     [
-      "haqu / sinpalasung",
+      "haqu",
       "陷獵"
+    ],
+    [
+      "haqubantiq",
+      "石壓式陷阱"
+    ],
+    [
+      "haqubatu",
+      "石壓式陷阱"
     ],
     [
       "haqumusqut",
@@ -566,7 +694,7 @@ export const TW_21 = {
       "捕鳥陷阱"
     ],
     [
-      "hatal / hundul",
+      "hatal",
       "橋樑"
     ],
     [
@@ -598,6 +726,10 @@ export const TW_21 = {
       "門"
     ],
     [
+      "hiliu(外)",
+      "肥料"
+    ],
+    [
       "hima",
       "五"
     ],
@@ -623,18 +755,22 @@ export const TW_21 = {
     ],
     [
       "hulus",
+      "衣服"
+    ],
+    [
+      "hulus",
       "傳統女上衣"
     ],
     [
-      "hulus / pinainuk",
-      "衣服"
+      "hundul",
+      "橋樑"
     ],
     [
       "hungku",
       "峽谷"
     ],
     [
-      "hunul / luak",
+      "hunul",
       "洞穴"
     ],
     [
@@ -654,16 +790,24 @@ export const TW_21 = {
       "猴子"
     ],
     [
+      "huung(外)",
+      "書"
+    ],
+    [
       "huzuq",
       "竹筍"
     ],
     [
-      "i / ki",
+      "i",
       "屬格標記(各族用語)"
     ],
     [
       "ihaan",
       "在(這裡)"
+    ],
+    [
+      "ikma’ai’un",
+      "工具"
     ],
     [
       "ikul",
@@ -674,12 +818,16 @@ export const TW_21 = {
       "手"
     ],
     [
-      "imita / inaam",
-      "咱們的"
+      "imi(外)",
+      "意義"
     ],
     [
-      "imita/inaam",
+      "imita",
       "我們的"
+    ],
+    [
+      "imita",
+      "咱們的"
     ],
     [
       "imuu",
@@ -690,15 +838,35 @@ export const TW_21 = {
       "我的"
     ],
     [
-      "inai / inaita",
+      "inaam",
+      "我們的"
+    ],
+    [
+      "inaam",
+      "咱們的"
+    ],
+    [
+      "inai",
       "他們的"
     ],
     [
-      "iqtiiz / quung",
+      "inaita",
+      "他們的"
+    ],
+    [
+      "iqmut",
+      "半夜"
+    ],
+    [
+      "iqtiiz",
       "香菇"
     ],
     [
-      "isaq / i’isaq",
+      "isaq",
+      "哪一個"
+    ],
+    [
+      "isaq",
       "哪裡"
     ],
     [
@@ -714,6 +882,10 @@ export const TW_21 = {
       "天黑"
     ],
     [
+      "ishasul",
+      "水瓢(舀水用)"
+    ],
+    [
       "isiata",
       "他的"
     ],
@@ -722,7 +894,7 @@ export const TW_21 = {
       "是誰的"
     ],
     [
-      "ising / mapa’iu",
+      "ising",
       "醫生"
     ],
     [
@@ -746,6 +918,10 @@ export const TW_21 = {
       "星期日"
     ],
     [
+      "isluslus",
+      "橡皮擦"
+    ],
+    [
       "ismuut",
       "雜草"
     ],
@@ -758,7 +934,15 @@ export const TW_21 = {
       "學生"
     ],
     [
-      "ispakaun / ispalasung",
+      "isnaq",
+      "髒"
+    ],
+    [
+      "ispakaun",
+      "餌"
+    ],
+    [
+      "ispalasung",
       "餌"
     ],
     [
@@ -766,7 +950,7 @@ export const TW_21 = {
       "筆"
     ],
     [
-      "ispatal’ia / hiliu(外)",
+      "ispatal’ia",
       "肥料"
     ],
     [
@@ -778,15 +962,19 @@ export const TW_21 = {
       "妝扮飾物"
     ],
     [
-      "isqaisqais /isluslus",
+      "isqaisqais",
       "橡皮擦"
     ],
     [
-      "isqasisi / qasisi’an",
+      "isqasisi",
       "濾酒渣網"
     ],
     [
-      "istala / antala",
+      "isquul",
+      "菜餚"
+    ],
+    [
+      "istala",
       "答應"
     ],
     [
@@ -794,11 +982,11 @@ export const TW_21 = {
       "雌性(動物)"
     ],
     [
-      "istin’un / is’aas",
+      "istin’un",
       "編網針"
     ],
     [
-      "istivuq / qaidasu",
+      "istivuq",
       "鍋鏟"
     ],
     [
@@ -807,15 +995,31 @@ export const TW_21 = {
     ],
     [
       "isvaqun",
+      "褲子"
+    ],
+    [
+      "isvaqun",
       "女性長褲"
     ],
     [
-      "isvaqun / sisvaqun",
-      "褲子"
+      "is’aas",
+      "針"
+    ],
+    [
+      "is’aas",
+      "編網針"
+    ],
+    [
+      "ita",
+      "那裡"
     ],
     [
       "iti",
       "這裡"
+    ],
+    [
+      "itqaal",
+      "知道"
     ],
     [
       "iu",
@@ -839,11 +1043,23 @@ export const TW_21 = {
     ],
     [
       "i’isaq",
+      "哪裡"
+    ],
+    [
+      "i’isaq",
       "在某處"
+    ],
+    [
+      "kaav",
+      "額頭"
     ],
     [
       "kadidazun",
       "疼愛"
+    ],
+    [
+      "kadidazun",
+      "愛護"
     ],
     [
       "kadu’anan",
@@ -852,6 +1068,10 @@ export const TW_21 = {
     [
       "kahung",
       "皮"
+    ],
+    [
+      "kailakinang",
+      "好可憐"
     ],
     [
       "kakalang",
@@ -898,7 +1118,7 @@ export const TW_21 = {
       "飯鍋"
     ],
     [
-      "kamasia/ satuu(外)",
+      "kamasia",
       "糖"
     ],
     [
@@ -910,7 +1130,7 @@ export const TW_21 = {
       "偷偷地"
     ],
     [
-      "kananaq / qainusnus",
+      "kananaq",
       "化膿"
     ],
     [
@@ -918,7 +1138,7 @@ export const TW_21 = {
       "完成"
     ],
     [
-      "kanaviq / tumatu(外)",
+      "kanaviq",
       "蕃茄"
     ],
     [
@@ -942,7 +1162,7 @@ export const TW_21 = {
       "胸腔"
     ],
     [
-      "kan’asang / pinkanaang",
+      "kan’asang",
       "找碴"
     ],
     [
@@ -950,7 +1170,7 @@ export const TW_21 = {
       "爬行"
     ],
     [
-      "kasalpu’un / kailakinang",
+      "kasalpu’un",
       "好可憐"
     ],
     [
@@ -962,7 +1182,7 @@ export const TW_21 = {
       "隨意"
     ],
     [
-      "katmang / qamqam",
+      "katmang",
       "隨意"
     ],
     [
@@ -974,31 +1194,51 @@ export const TW_21 = {
       "鐮刀"
     ],
     [
-      "kaupa / lusqa / muhaz",
-      "僅僅"
+      "kaunun",
+      "菸草"
     ],
     [
-      "kaupa / muhaz",
+      "kaupa",
       "只有"
+    ],
+    [
+      "kaupa",
+      "僅僅"
     ],
     [
       "kava",
       "鉤子"
     ],
     [
-      "kaviaz / pakasvala’an",
+      "kaviaz",
       "朋友"
+    ],
+    [
+      "kaviaz",
+      "百步蛇"
     ],
     [
       "kavung",
       "彎曲"
     ],
     [
-      "ka’aun / ka’a",
+      "ka’a",
+      "不要"
+    ],
+    [
+      "ka’a",
       "不要(祈使句用)"
     ],
     [
-      "kikilkil/kukulkul",
+      "ka’aun",
+      "不要(祈使句用)"
+    ],
+    [
+      "ki",
+      "屬格標記(各族用語)"
+    ],
+    [
+      "kikilkil",
       "發抖"
     ],
     [
@@ -1006,11 +1246,23 @@ export const TW_21 = {
       "尋找"
     ],
     [
+      "kinitda’an",
+      "剩下"
+    ],
+    [
+      "kipliq",
+      "放屁"
+    ],
+    [
+      "kipsit",
+      "放屁"
+    ],
+    [
       "kisacu(外)",
       "警察"
     ],
     [
-      "kisia(外)/ laihli sapuz",
+      "kisia(外)",
       "火車"
     ],
     [
@@ -1018,7 +1270,7 @@ export const TW_21 = {
       "燙到"
     ],
     [
-      "kislupa / matusuk",
+      "kislupa",
       "刺"
     ],
     [
@@ -1030,15 +1282,19 @@ export const TW_21 = {
       "倒入"
     ],
     [
+      "kis’ing",
+      "放屁"
+    ],
+    [
       "kitngaa",
       "開始"
     ],
     [
-      "kitnus / kis’ing / kipsit / kipliq",
+      "kitnus",
       "放屁"
     ],
     [
-      "kua / qua",
+      "kua",
       "痰"
     ],
     [
@@ -1046,11 +1302,27 @@ export const TW_21 = {
       "校長"
     ],
     [
+      "kukuav(中)",
+      "老鷹"
+    ],
+    [
+      "kukulaz",
+      "木耳"
+    ],
+    [
+      "kukulkul",
+      "發抖"
+    ],
+    [
+      "kula",
+      "(叫人)過來"
+    ],
+    [
       "kula",
       "來"
     ],
     [
-      "kulazkulaz / kukulaz",
+      "kulazkulaz",
       "木耳"
     ],
     [
@@ -1074,7 +1346,7 @@ export const TW_21 = {
       "裡面"
     ],
     [
-      "kupu(外) / baluku",
+      "kupu(外)",
       "杯子"
     ],
     [
@@ -1090,8 +1362,16 @@ export const TW_21 = {
       "腋窩"
     ],
     [
+      "kuti",
+      "女性生殖器"
+    ],
+    [
       "kutu",
       "頭蝨"
+    ],
+    [
+      "kutun",
+      "明天"
     ],
     [
       "kuus",
@@ -1103,11 +1383,31 @@ export const TW_21 = {
     ],
     [
       "laas",
+      "肉"
+    ],
+    [
+      "laas",
       "(植物的)果實"
+    ],
+    [
+      "laidazun",
+      "經過"
+    ],
+    [
+      "laihli",
+      "公車"
     ],
     [
       "laihli",
       "車子"
+    ],
+    [
+      "laihli sapuz",
+      "火車"
+    ],
+    [
+      "lailai",
+      "蟬"
     ],
     [
       "lainsav",
@@ -1118,7 +1418,7 @@ export const TW_21 = {
       "樓梯"
     ],
     [
-      "lakangkang/ laqanvang",
+      "lakangkang",
       "犁田"
     ],
     [
@@ -1134,6 +1434,14 @@ export const TW_21 = {
       "樹根"
     ],
     [
+      "laning’avan",
+      "水患"
+    ],
+    [
+      "lapaspas",
+      "巫術"
+    ],
+    [
       "lapat",
       "番石榴"
     ],
@@ -1142,23 +1450,31 @@ export const TW_21 = {
       "壓扁"
     ],
     [
-      "lapunalan / laning’avan",
+      "lapunalan",
       "水患"
+    ],
+    [
+      "laqanvang",
+      "犁田"
     ],
     [
       "laqanvang",
       "犁"
     ],
     [
-      "laqbing / kutun",
+      "laqbing",
       "明天"
     ],
     [
-      "laqbing/ tingmut",
+      "laqbing",
       "早上"
     ],
     [
-      "laqdutan / taqdutan",
+      "laqbing",
+      "清晨"
+    ],
+    [
+      "laqdutan",
       "阻擋"
     ],
     [
@@ -1170,6 +1486,14 @@ export const TW_21 = {
       "相信"
     ],
     [
+      "laula(大)",
+      "老鷹"
+    ],
+    [
+      "laupaku",
+      "今天"
+    ],
+    [
       "laupaku",
       "現在"
     ],
@@ -1178,8 +1502,16 @@ export const TW_21 = {
       "正在"
     ],
     [
-      "laupang / sangan",
+      "laupang",
+      "剛剛"
+    ],
+    [
+      "laupang",
       "剛才"
+    ],
+    [
+      "lauqu",
+      "可能"
     ],
     [
       "la’ian",
@@ -1206,12 +1538,16 @@ export const TW_21 = {
       "葉子"
     ],
     [
-      "liskadaan / sasbinaz",
+      "liskadaan",
       "長官"
     ],
     [
       "liskidaz",
       "靠著"
+    ],
+    [
+      "liskidaz",
+      "依賴"
     ],
     [
       "listudul",
@@ -1220,6 +1556,14 @@ export const TW_21 = {
     [
       "li’li’",
       "過貓"
+    ],
+    [
+      "luak",
+      "縫隙"
+    ],
+    [
+      "luak",
+      "洞穴"
     ],
     [
       "luhum",
@@ -1234,7 +1578,7 @@ export const TW_21 = {
       "樹"
     ],
     [
-      "luklas/ tudaniv",
+      "luklas",
       "叫喚(如餵雞前會叫喚)"
     ],
     [
@@ -1242,12 +1586,20 @@ export const TW_21 = {
       "狗吠聲"
     ],
     [
-      "lumaq / taluqan",
+      "lumaq",
       "家"
     ],
     [
       "lungqu",
       "坐下"
+    ],
+    [
+      "lungqu’an",
+      "椅子"
+    ],
+    [
+      "luqai’az",
+      "幼犬"
     ],
     [
       "luqus",
@@ -1256,6 +1608,14 @@ export const TW_21 = {
     [
       "luqus",
       "捆綁"
+    ],
+    [
+      "lusbut",
+      "經常"
+    ],
+    [
+      "lusqa",
+      "僅僅"
     ],
     [
       "lus’an",
@@ -1270,15 +1630,35 @@ export const TW_21 = {
       "身體"
     ],
     [
+      "luup",
+      "袋子"
+    ],
+    [
       "luvluv",
       "風"
+    ],
+    [
+      "luvluvan",
+      "颱風"
+    ],
+    [
+      "luvluvan",
+      "刮颱風"
     ],
     [
       "luvus",
       "濕的"
     ],
     [
-      "maaki / maaqis",
+      "lu’lu’",
+      "傷口"
+    ],
+    [
+      "maaki",
+      "如果"
+    ],
+    [
+      "maaqis",
       "如果"
     ],
     [
@@ -1286,7 +1666,7 @@ export const TW_21 = {
       "買"
     ],
     [
-      "mabalung / masuduh",
+      "mabalung",
       "搭建圍籬"
     ],
     [
@@ -1294,12 +1674,20 @@ export const TW_21 = {
       "燙"
     ],
     [
-      "mabulsuk / maqaliv",
+      "mabual",
+      "瞎了"
+    ],
+    [
+      "mabulsuk",
       "乾的"
     ],
     [
       "mabusziq",
       "敲碎"
+    ],
+    [
+      "mabusziq",
+      "打碎"
     ],
     [
       "mabutiqu",
@@ -1310,11 +1698,15 @@ export const TW_21 = {
       "脆弱(如這根鐵絲易斷裂)"
     ],
     [
+      "madadaingaz",
+      "老人家"
+    ],
+    [
       "madaidaz",
       "喜愛"
     ],
     [
-      "madaidaz / kadidazun",
+      "madaidaz",
       "愛護"
     ],
     [
@@ -1322,11 +1714,11 @@ export const TW_21 = {
       "大的"
     ],
     [
-      "madaingaz / madadaingaz",
+      "madaingaz",
       "老人家"
     ],
     [
-      "madaingazan / puzas",
+      "madaingazan",
       "雄性動物生殖器官"
     ],
     [
@@ -1334,11 +1726,11 @@ export const TW_21 = {
       "傍晚"
     ],
     [
-      "madamu / masinap",
+      "madamu",
       "追捕"
     ],
     [
-      "madamu / masinap",
+      "madamu",
       "捕抓"
     ],
     [
@@ -1382,19 +1774,31 @@ export const TW_21 = {
       "小米"
     ],
     [
+      "maduu",
+      "喜歡"
+    ],
+    [
       "mahailang",
       "碾(米)"
     ],
     [
-      "mahaluq / mazaubun / mazaipuq",
+      "mahaipi",
+      "很快"
+    ],
+    [
+      "mahaluq",
       "軟"
     ],
     [
-      "mahanat / mapit’ia",
+      "mahanat",
       "煮(菜)"
     ],
     [
-      "mahansum / manambuq",
+      "mahanat",
+      "烹煮(飯／肉／地瓜)"
+    ],
+    [
+      "mahansum",
       "很好吃"
     ],
     [
@@ -1402,8 +1806,16 @@ export const TW_21 = {
       "以杓汲水(祈使)"
     ],
     [
-      "mahau / tubangnu",
+      "mahau",
       "謾罵"
+    ],
+    [
+      "mahau",
+      "生氣"
+    ],
+    [
+      "mahiav",
+      "很快"
     ],
     [
       "mahima’un",
@@ -1415,18 +1827,26 @@ export const TW_21 = {
     ],
     [
       "mahulav",
+      "摘取"
+    ],
+    [
+      "mahulav",
       "採收"
     ],
     [
-      "mahuvaiv / malunsais",
+      "mahuvaiv",
       "替換(衣服)"
     ],
     [
-      "maibabu/ titi",
+      "maibabu",
       "豬肉"
     ],
     [
-      "maikikingna / mailalangna",
+      "maikikingna",
+      "孫子/孫女"
+    ],
+    [
+      "mailalangna",
       "孫子/孫女"
     ],
     [
@@ -1435,19 +1855,23 @@ export const TW_21 = {
     ],
     [
       "makai",
+      "(用手)挖掘"
+    ],
+    [
+      "makai",
       "(用鋤具)挖掘"
     ],
     [
-      "makai / makazkaz",
-      "(用手)挖掘"
+      "makaiha",
+      "掛"
     ],
     [
       "makaiha",
       "晾乾"
     ],
     [
-      "makaiha / mavilis",
-      "掛"
+      "makaiha",
+      "懸掛(祈使)"
     ],
     [
       "makalav",
@@ -1478,7 +1902,7 @@ export const TW_21 = {
       "招手"
     ],
     [
-      "makaus / mapatas",
+      "makaus",
       "畫圖"
     ],
     [
@@ -1490,8 +1914,16 @@ export const TW_21 = {
       "冰冷"
     ],
     [
+      "makazkaz",
+      "(用手)挖掘"
+    ],
+    [
       "makisaiv",
       "向人家要(東西)"
+    ],
+    [
+      "maki’aa",
+      "不客氣"
     ],
     [
       "maklang",
@@ -1502,28 +1934,28 @@ export const TW_21 = {
       "炎熱"
     ],
     [
-      "makuis / manisbis",
-      "細"
+      "makuis",
+      "瘦(身形)"
     ],
     [
-      "makuis / mataukhav",
+      "makuis",
       "高瘦(身材)"
     ],
     [
-      "makuis /mataukhav",
-      "瘦(身形)"
+      "makuis",
+      "細"
     ],
     [
       "makusia",
       "使用"
     ],
     [
-      "maku’aq / mavia",
-      "怎麼"
+      "maku’aq",
+      "如何"
     ],
     [
-      "maku’aq / miku’aq",
-      "如何"
+      "maku’aq",
+      "怎麼"
     ],
     [
       "malabut",
@@ -1550,11 +1982,15 @@ export const TW_21 = {
       "咖啡色"
     ],
     [
+      "malaungkav",
+      "壯碩"
+    ],
+    [
       "maldikus",
       "握著"
     ],
     [
-      "mali/buil",
+      "mali",
       "球"
     ],
     [
@@ -1566,8 +2002,16 @@ export const TW_21 = {
       "久的"
     ],
     [
-      "malinsun / matungqaz",
+      "malinsun",
       "推"
+    ],
+    [
+      "malinsup",
+      "插"
+    ],
+    [
+      "malisihal",
+      "好好的"
     ],
     [
       "malqumis",
@@ -1590,7 +2034,7 @@ export const TW_21 = {
       "打(人)"
     ],
     [
-      "maludaq / ma’anak",
+      "maludaq",
       "鞭打"
     ],
     [
@@ -1598,20 +2042,36 @@ export const TW_21 = {
       "燒(如燒獵物的毛)"
     ],
     [
-      "malungqu / mal’anuqu",
+      "malungqu",
       "坐著"
+    ],
+    [
+      "malunsais",
+      "替換(衣服)"
     ],
     [
       "malusapuz",
       "生火"
     ],
     [
+      "malusapuz",
+      "點火"
+    ],
+    [
       "maluvus",
       "全濕透"
     ],
     [
-      "mal’asang / takihaan",
+      "mal’anuqu",
+      "坐著"
+    ],
+    [
+      "mal’asang",
       "(居)住"
+    ],
+    [
+      "mal’uu",
+      "停止"
     ],
     [
       "mal’uu",
@@ -1642,7 +2102,7 @@ export const TW_21 = {
       "掐住"
     ],
     [
-      "mamu’mu’ / lapaspas",
+      "mamu’mu’",
       "巫術"
     ],
     [
@@ -1662,19 +2122,27 @@ export const TW_21 = {
       "(往)上坡"
     ],
     [
-      "manakisa / mundaza’a",
+      "manakisa",
       "爬上(去)"
+    ],
+    [
+      "manambuq",
+      "很好吃"
+    ],
+    [
+      "manami",
+      "暖和"
     ],
     [
       "manami",
       "溫的(水)"
     ],
     [
-      "manami / manangqat",
+      "manangqat",
       "暖和"
     ],
     [
-      "manaq / santanam",
+      "manaq",
       "射擊"
     ],
     [
@@ -1690,23 +2158,43 @@ export const TW_21 = {
       "啃"
     ],
     [
-      "mangaspaq / malaungkav",
+      "mangaspaq",
       "壯碩"
+    ],
+    [
+      "mangaz’aq",
+      "(空間)寬敞"
+    ],
+    [
+      "maningzav",
+      "乾淨"
     ],
     [
       "manisbis",
       "薄的"
     ],
     [
-      "manisnis/maputis",
+      "manisbis",
+      "細"
+    ],
+    [
+      "manisnis",
       "矮(身高)"
+    ],
+    [
+      "manququ",
+      "頂"
     ],
     [
       "manumun",
       "六十"
     ],
     [
-      "mapadusa/ misqang",
+      "mapadangi",
+      "婚姻"
+    ],
+    [
+      "mapadusa",
       "一半"
     ],
     [
@@ -1726,15 +2214,19 @@ export const TW_21 = {
       "砍伐"
     ],
     [
-      "mapapaq / sapaqsapaq",
+      "mapapaq",
       "咀嚼"
+    ],
+    [
+      "mapasaqna",
+      "再見(如互道再見)"
     ],
     [
       "mapasiza",
       "結婚"
     ],
     [
-      "mapasiza / mapadangi",
+      "mapasiza",
       "婚姻"
     ],
     [
@@ -1746,7 +2238,7 @@ export const TW_21 = {
       "贈送(禮物)"
     ],
     [
-      "mapasnava / mapinqasiap",
+      "mapasnava",
       "學習"
     ],
     [
@@ -1756,6 +2248,10 @@ export const TW_21 = {
     [
       "mapatala",
       "以籠捕魚蝦"
+    ],
+    [
+      "mapatas",
+      "畫圖"
     ],
     [
       "mapataz sinaipuk",
@@ -1770,8 +2266,16 @@ export const TW_21 = {
       "苦"
     ],
     [
+      "mapa’iu",
+      "醫生"
+    ],
+    [
       "mapibaqis",
       "蒸(如蒸飯)"
+    ],
+    [
+      "mapinqasiap",
+      "學習"
     ],
     [
       "mapiqa",
@@ -1798,11 +2302,15 @@ export const TW_21 = {
       "七十"
     ],
     [
-      "mapit’ia / mahanat",
+      "mapit’ia",
+      "煮(菜)"
+    ],
+    [
+      "mapit’ia",
       "烹煮(飯／肉／地瓜)"
     ],
     [
-      "mapulpul / mabusziq",
+      "mapulpul",
       "打碎"
     ],
     [
@@ -1834,23 +2342,27 @@ export const TW_21 = {
       "灰色"
     ],
     [
+      "maputis",
+      "矮(身高)"
+    ],
+    [
       "maputul",
       "短"
     ],
     [
-      "maqaihav / patas",
-      "顏色"
+      "maqaihav",
+      "布匹"
     ],
     [
-      "maqaihav / pusut",
-      "布匹"
+      "maqaihav",
+      "顏色"
     ],
     [
       "maqainan",
       "笑"
     ],
     [
-      "maqaingil / masisala",
+      "maqaingil",
       "(傾)斜"
     ],
     [
@@ -1874,6 +2386,10 @@ export const TW_21 = {
       "酸"
     ],
     [
+      "maqaliv",
+      "乾的"
+    ],
+    [
       "maqaltis",
       "剪"
     ],
@@ -1884,6 +2400,10 @@ export const TW_21 = {
     [
       "maqanal",
       "剪(頭髮)"
+    ],
+    [
+      "maqansiap",
+      "會(做某事)"
     ],
     [
       "maqaqaltis",
@@ -1902,15 +2422,27 @@ export const TW_21 = {
       "堆積"
     ],
     [
-      "maqav / qaimus",
+      "maqav",
       "山胡椒"
     ],
     [
-      "maqmut / iqmut",
+      "maqmut",
+      "晚上"
+    ],
+    [
+      "maqmut",
       "半夜"
     ],
     [
-      "maqsiam / maqsial",
+      "maqmut",
+      "夜"
+    ],
+    [
+      "maqsial",
+      "滑"
+    ],
+    [
+      "maqsiam",
       "滑"
     ],
     [
@@ -1918,16 +2450,20 @@ export const TW_21 = {
       "擠"
     ],
     [
-      "maqtu / maqansiap",
+      "maqtu",
       "會(做某事)"
     ],
     [
-      "maqtu / mintuza",
+      "maqtu",
       "能夠"
     ],
     [
-      "maqtu/ mintuza",
+      "maqtu",
       "可以(做某事)"
+    ],
+    [
+      "maqulpiq",
+      "胖(身形)"
     ],
     [
       "maqulpiq",
@@ -1966,7 +2502,7 @@ export const TW_21 = {
       "給"
     ],
     [
-      "masakbit / anana",
+      "masakbit",
       "好痛"
     ],
     [
@@ -1994,11 +2530,11 @@ export const TW_21 = {
       "染色"
     ],
     [
-      "masaningsing / maningzav",
+      "masaningsing",
       "乾淨"
     ],
     [
-      "masansan / matangsi",
+      "masansan",
       "直"
     ],
     [
@@ -2039,14 +2575,22 @@ export const TW_21 = {
     ],
     [
       "masihal",
-      "好的"
-    ],
-    [
-      "masihal / malisihal",
       "好好的"
     ],
     [
-      "masinaubah / naubah",
+      "masihal",
+      "好的"
+    ],
+    [
+      "masinap",
+      "追捕"
+    ],
+    [
+      "masinap",
+      "捕抓"
+    ],
+    [
+      "masinaubah",
       "(弟弟；妹妹)通稱"
     ],
     [
@@ -2066,15 +2610,19 @@ export const TW_21 = {
       "數(計算)"
     ],
     [
-      "masipul patasan / saduu patasan",
+      "masipul patasan",
       "讀書"
     ],
     [
-      "masituqas / tuqas",
+      "masisala",
+      "(傾)斜"
+    ],
+    [
+      "masituqas",
       "兄長"
     ],
     [
-      "masituqas/tuqasnanaz",
+      "masituqas",
       "哥哥"
     ],
     [
@@ -2083,19 +2631,23 @@ export const TW_21 = {
     ],
     [
       "maskalun",
-      "使喚"
-    ],
-    [
-      "maskalun / tukakiiv",
       "交代(事情)"
     ],
     [
-      "masmudun / masmuu",
+      "maskalun",
+      "使喚"
+    ],
+    [
+      "masmudun",
       "吞嚥"
     ],
     [
-      "masmuq / maqulpiq",
+      "masmuq",
       "胖(身形)"
+    ],
+    [
+      "masmuu",
+      "吞嚥"
     ],
     [
       "masnanava",
@@ -2122,11 +2674,15 @@ export const TW_21 = {
       "種植"
     ],
     [
+      "masuduh",
+      "搭建圍籬"
+    ],
+    [
       "masuludun",
       "崇山峻嶺"
     ],
     [
-      "masumsum / pisvangdu",
+      "masumsum",
       "禱告"
     ],
     [
@@ -2146,16 +2702,20 @@ export const TW_21 = {
       "低下頭"
     ],
     [
-      "masuqnuq / mahau",
+      "masuqnuq",
       "生氣"
     ],
     [
-      "masuqsuq / malinsup",
+      "masuqsuq",
       "插"
     ],
     [
       "masutavi",
       "蓋屋頂"
+    ],
+    [
+      "masu’ismutan",
+      "草原"
     ],
     [
       "maszang",
@@ -2210,27 +2770,35 @@ export const TW_21 = {
       "砍除"
     ],
     [
-      "mataimang / mataula",
+      "matabdit",
+      "壓住"
+    ],
+    [
+      "mataimang",
       "傻瓜"
     ],
     [
-      "matakunav / aski’aun",
+      "matakunav",
       "丟棄"
     ],
     [
-      "matalaq / matuk’a",
+      "matalaq",
       "剖切"
     ],
     [
-      "mataliskang / mahaipi / mahiav",
+      "mataliskang",
       "很快"
+    ],
+    [
+      "matangsi",
+      "直"
     ],
     [
       "matapdit",
       "壓制"
     ],
     [
-      "mataqdung / isnaq",
+      "mataqdung",
       "髒"
     ],
     [
@@ -2242,6 +2810,18 @@ export const TW_21 = {
       "量測"
     ],
     [
+      "mataukhav",
+      "瘦(身形)"
+    ],
+    [
+      "mataukhav",
+      "高瘦(身材)"
+    ],
+    [
+      "mataula",
+      "傻瓜"
+    ],
+    [
       "mataz",
       "死亡"
     ],
@@ -2250,11 +2830,15 @@ export const TW_21 = {
       "觸摸(物品)"
     ],
     [
-      "matingus / mahulav",
+      "matihaul",
+      "瞄準"
+    ],
+    [
+      "matingus",
       "摘取"
     ],
     [
-      "matinsuqis / maukbaas",
+      "matinsuqis",
       "折返"
     ],
     [
@@ -2270,8 +2854,16 @@ export const TW_21 = {
       "摺疊"
     ],
     [
-      "matiqav / mabual",
+      "matiqav",
       "瞎了"
+    ],
+    [
+      "matistup",
+      "剁"
+    ],
+    [
+      "matitkal",
+      "撬開"
     ],
     [
       "mati’un",
@@ -2294,12 +2886,20 @@ export const TW_21 = {
       "睏(想睡覺)"
     ],
     [
-      "matuktuk / matistup",
+      "matuktuk",
       "剁"
+    ],
+    [
+      "matuk’a",
+      "剖切"
     ],
     [
       "matumbak",
       "掀開(如掀開蓋子)"
+    ],
+    [
+      "matungqaz",
+      "推"
     ],
     [
       "matunu",
@@ -2308,6 +2908,10 @@ export const TW_21 = {
     [
       "matuqtuq",
       "啄"
+    ],
+    [
+      "matusuk",
+      "刺"
     ],
     [
       "mat’aq",
@@ -2322,7 +2926,11 @@ export const TW_21 = {
       "三十一"
     ],
     [
-      "maupat / lauqu",
+      "maukbaas",
+      "折返"
+    ],
+    [
+      "maupat",
       "可能"
     ],
     [
@@ -2334,8 +2942,12 @@ export const TW_21 = {
       "因為"
     ],
     [
-      "mavai / atikis",
+      "mavai",
       "少的"
+    ],
+    [
+      "mavala",
+      "親戚"
     ],
     [
       "mavala",
@@ -2346,15 +2958,11 @@ export const TW_21 = {
       "姻親"
     ],
     [
-      "mavala / tais’aan",
-      "親戚"
-    ],
-    [
       "mavasvas",
       "散撒"
     ],
     [
-      "mavaunglav / mangaz’aq",
+      "mavaunglav",
       "(空間)寬敞"
     ],
     [
@@ -2362,11 +2970,23 @@ export const TW_21 = {
       "八十"
     ],
     [
-      "mavia/mavia tu",
+      "mavia",
+      "怎麼"
+    ],
+    [
+      "mavia",
       "為什麼"
     ],
     [
-      "mavilis / makaiha",
+      "mavia tu",
+      "為什麼"
+    ],
+    [
+      "mavilis",
+      "掛"
+    ],
+    [
+      "mavilis",
       "懸掛(祈使)"
     ],
     [
@@ -2378,20 +2998,36 @@ export const TW_21 = {
       "痠痛"
     ],
     [
-      "mazima / maduu",
+      "mazaipuq",
+      "軟"
+    ],
+    [
+      "mazaubun",
+      "軟"
+    ],
+    [
+      "mazima",
       "喜歡"
+    ],
+    [
+      "ma’anak",
+      "鞭打"
     ],
     [
       "ma’apdit",
       "按住"
     ],
     [
-      "ma’apdit / matabdit",
+      "ma’apdit",
       "壓住"
     ],
     [
       "ma’aq",
       "什麼"
+    ],
+    [
+      "ma’aq",
+      "哪一個"
     ],
     [
       "ma’asik",
@@ -2434,6 +3070,10 @@ export const TW_21 = {
       "生病"
     ],
     [
+      "miku’aq",
+      "如何"
+    ],
+    [
       "miliskin",
       "想(思考)"
     ],
@@ -2466,7 +3106,7 @@ export const TW_21 = {
       "來過"
     ],
     [
-      "minkailas / min’anuqu",
+      "minkailas",
       "起床"
     ],
     [
@@ -2482,31 +3122,47 @@ export const TW_21 = {
       "秋天"
     ],
     [
-      "minsuma vali",
-      "日出"
+      "minsuma",
+      "出現"
     ],
     [
-      "minsuma/ mintasal",
-      "出現"
+      "minsuma vali",
+      "日出"
     ],
     [
       "mintalabal",
       "春天"
     ],
     [
+      "mintasal",
+      "出現"
+    ],
+    [
       "mintun",
       "偶爾"
+    ],
+    [
+      "mintuza",
+      "能夠"
+    ],
+    [
+      "mintuza",
+      "可以(做某事)"
     ],
     [
       "minvaaz",
       "分開"
     ],
     [
+      "min’anuqu",
+      "起床"
+    ],
+    [
       "miqan",
       "後天"
     ],
     [
-      "misbusuk / busuk",
+      "misbusuk",
       "酒醉"
     ],
     [
@@ -2523,10 +3179,14 @@ export const TW_21 = {
     ],
     [
       "misqang",
+      "一半"
+    ],
+    [
+      "misqang",
       "中間"
     ],
     [
-      "misqulung/qansubanan",
+      "misqulung",
       "燒焦"
     ],
     [
@@ -2534,11 +3194,23 @@ export const TW_21 = {
       "燃燒"
     ],
     [
-      "mua/talimua",
+      "mita",
+      "我們"
+    ],
+    [
+      "mita",
+      "咱們(包含式)"
+    ],
+    [
+      "mua",
       "棉花"
     ],
     [
-      "mubusziq / busziq",
+      "mubuat",
+      "破掉"
+    ],
+    [
+      "mubusziq",
       "稀爛的"
     ],
     [
@@ -2546,7 +3218,7 @@ export const TW_21 = {
       "走(離開)"
     ],
     [
-      "mudadaan / tan’anak",
+      "mudadaan",
       "走路"
     ],
     [
@@ -2554,7 +3226,7 @@ export const TW_21 = {
       "脖子"
     ],
     [
-      "mudana / unipin",
+      "mudana",
       "讓開"
     ],
     [
@@ -2562,7 +3234,27 @@ export const TW_21 = {
       "逛一逛"
     ],
     [
-      "mukhiv / muhiav",
+      "mudaukdauk",
+      "慢慢"
+    ],
+    [
+      "muhaz",
+      "只有"
+    ],
+    [
+      "muhaz",
+      "僅僅"
+    ],
+    [
+      "muhiav",
+      "一下子"
+    ],
+    [
+      "muhiav",
+      "立即"
+    ],
+    [
+      "mukhiv",
       "一下子"
     ],
     [
@@ -2578,12 +3270,28 @@ export const TW_21 = {
       "滾落"
     ],
     [
-      "muliqliq / mubuat",
+      "muliqliq",
       "破掉"
+    ],
+    [
+      "muluslus",
+      "滑掉"
+    ],
+    [
+      "mumuan",
+      "蝸牛"
+    ],
+    [
+      "mumudan",
+      "喉嚨"
     ],
     [
       "munata",
       "出去"
+    ],
+    [
+      "mundaza’a",
+      "爬上(去)"
     ],
     [
       "mundiip",
@@ -2606,7 +3314,11 @@ export const TW_21 = {
       "日落"
     ],
     [
-      "muqaivusvus/ muqaizungzung",
+      "muqaivusvus",
+      "旋轉"
+    ],
+    [
+      "muqaizungzung",
       "旋轉"
     ],
     [
@@ -2614,7 +3326,7 @@ export const TW_21 = {
       "(植物的果實)掉落"
     ],
     [
-      "muqna / muqnang",
+      "muqna",
       "再"
     ],
     [
@@ -2622,7 +3334,11 @@ export const TW_21 = {
       "接續"
     ],
     [
-      "muqnang mapasaduu/ mapasaqna",
+      "muqnang",
+      "再"
+    ],
+    [
+      "muqnang mapasaduu",
       "再見(如互道再見)"
     ],
     [
@@ -2630,7 +3346,7 @@ export const TW_21 = {
       "逃跑"
     ],
     [
-      "musuu / muhiav",
+      "musuu",
       "立即"
     ],
     [
@@ -2638,11 +3354,15 @@ export const TW_21 = {
       "一次"
     ],
     [
-      "mutda / kinitda’an",
+      "mutaq",
+      "吐"
+    ],
+    [
+      "mutda",
       "剩下"
     ],
     [
-      "mutingkul / tiskapat",
+      "mutingkul",
       "跌倒"
     ],
     [
@@ -2650,23 +3370,31 @@ export const TW_21 = {
       "倒(下)"
     ],
     [
-      "naingka / naita",
+      "mu’u",
+      "你們"
+    ],
+    [
+      "naingka",
       "他們"
     ],
     [
-      "naipa / siata",
+      "naipa",
       "他"
     ],
     [
-      "naipa / siata",
+      "naipa",
       "那個"
     ],
     [
-      "naipi / dii",
+      "naipi",
       "這個"
     ],
     [
-      "namaupata / maki’aa",
+      "naita",
+      "他們"
+    ],
+    [
+      "namaupata",
       "不客氣"
     ],
     [
@@ -2694,6 +3422,10 @@ export const TW_21 = {
       "外面"
     ],
     [
+      "naubah",
+      "(弟弟；妹妹)通稱"
+    ],
+    [
       "naubahnanaz",
       "弟弟"
     ],
@@ -2710,7 +3442,11 @@ export const TW_21 = {
       "名字"
     ],
     [
-      "ngalan / sila",
+      "ngabul",
+      "(動物的)角"
+    ],
+    [
+      "ngalan",
       "旁邊"
     ],
     [
@@ -2734,23 +3470,31 @@ export const TW_21 = {
       "鼻子"
     ],
     [
+      "niap",
+      "知道"
+    ],
+    [
       "nibu",
       "蛋"
+    ],
+    [
+      "nii",
+      "不要"
     ],
     [
       "nii",
       "不是(回答用)"
     ],
     [
-      "nii / ka’a / azaq",
-      "不要"
-    ],
-    [
       "nimnim",
       "嘴唇"
     ],
     [
-      "nipaq / zaqzaq",
+      "ning’av",
+      "湖泊"
+    ],
+    [
+      "nipaq",
       "口水"
     ],
     [
@@ -2770,6 +3514,10 @@ export const TW_21 = {
       "沒關係"
     ],
     [
+      "nitu maqansiap",
+      "不知道"
+    ],
+    [
       "nitu maqtu",
       "不可以"
     ],
@@ -2778,7 +3526,7 @@ export const TW_21 = {
       "不該"
     ],
     [
-      "nitu niap / nitu maqansiap",
+      "nitu niap",
       "不知道"
     ],
     [
@@ -2786,12 +3534,20 @@ export const TW_21 = {
       "還(尚未)"
     ],
     [
-      "nuka/lu’lu’",
+      "nuka",
       "傷口"
+    ],
+    [
+      "nuka",
+      "疤"
     ],
     [
       "nukis",
       "米糠"
+    ],
+    [
+      "nuqus",
+      "油"
     ],
     [
       "nusung",
@@ -2834,12 +3590,16 @@ export const TW_21 = {
       "稻穀"
     ],
     [
-      "painsanan / qamisan",
+      "painsanan",
       "年"
     ],
     [
       "pais",
       "敵人"
+    ],
+    [
+      "pakasvala’an",
+      "朋友"
     ],
     [
       "pakatuszang",
@@ -2850,7 +3610,7 @@ export const TW_21 = {
       "夫妻"
     ],
     [
-      "paka’un / sasngaq",
+      "paka’un",
       "餵食"
     ],
     [
@@ -2866,7 +3626,11 @@ export const TW_21 = {
       "圓形竹簍"
     ],
     [
-      "palusu/lungqu’an",
+      "palaptuq",
+      "撞擊某物"
+    ],
+    [
+      "palusu",
       "椅子"
     ],
     [
@@ -2875,11 +3639,11 @@ export const TW_21 = {
     ],
     [
       "panduu",
-      "煞車"
+      "停止"
     ],
     [
-      "panduu/ mal’uu",
-      "停止"
+      "panduu",
+      "煞車"
     ],
     [
       "pangka",
@@ -2894,6 +3658,10 @@ export const TW_21 = {
       "翅膀"
     ],
     [
+      "panpungul",
+      "忘記(祈使)"
+    ],
+    [
       "panqudasun",
       "男性長輩(祖父；外公；岳父)"
     ],
@@ -2902,7 +3670,7 @@ export const TW_21 = {
       "女性長輩(祖母；外婆；岳母)"
     ],
     [
-      "panqutngal / pantugntung / palaptuq",
+      "panqutngal",
       "撞擊某物"
     ],
     [
@@ -2926,24 +3694,28 @@ export const TW_21 = {
       "(伯母；嬸嬸；舅母)通稱"
     ],
     [
+      "pantugntung",
+      "撞擊某物"
+    ],
+    [
       "pantungtung",
       "撞到"
     ],
     [
-      "pan’ai’an / vuus",
+      "pan’ai’an",
+      "菜餚"
+    ],
+    [
+      "pan’ai’an",
       "湯"
     ],
     [
-      "pan’ai’an/ isquul",
-      "菜餚"
+      "papia",
+      "一些"
     ],
     [
       "papia",
       "(人)眾多"
-    ],
-    [
-      "papia / atikis",
-      "一些"
     ],
     [
       "papiaq",
@@ -2966,24 +3738,44 @@ export const TW_21 = {
       "鋪床"
     ],
     [
+      "pasilaubu",
+      "跳舞"
+    ],
+    [
       "pasnanava’an",
       "學校"
     ],
     [
-      "patasan / haqil / huung(外)",
+      "patas",
+      "顏色"
+    ],
+    [
+      "patasan",
       "書"
+    ],
+    [
+      "pattaki’an",
+      "廁所"
     ],
     [
       "pattilasan",
       "穀倉"
     ],
     [
-      "pattilasan / andaza’an",
+      "pattilasan",
       "倉庫"
     ],
     [
       "pattulkukan",
       "雞寮"
+    ],
+    [
+      "patunpaklis",
+      "電話"
+    ],
+    [
+      "patunqaulta",
+      "電話"
     ],
     [
       "piaq",
@@ -2996,6 +3788,10 @@ export const TW_21 = {
     [
       "pinahiva",
       "故意"
+    ],
+    [
+      "pinainuk",
+      "衣服"
     ],
     [
       "pinasaq",
@@ -3018,7 +3814,15 @@ export const TW_21 = {
       "媳婦"
     ],
     [
-      "pinma’az / pinsaqlaz",
+      "pinkanaang",
+      "找碴"
+    ],
+    [
+      "pinma’az",
+      "浪費"
+    ],
+    [
+      "pinsaqlaz",
       "浪費"
     ],
     [
@@ -3038,7 +3842,7 @@ export const TW_21 = {
       "流血"
     ],
     [
-      "pisqasibang/ pistanaqtaq",
+      "pisqasibang",
       "玩耍"
     ],
     [
@@ -3046,8 +3850,16 @@ export const TW_21 = {
       "燒(如燒稻草)"
     ],
     [
-      "pistabah / malusapuz",
+      "pistabah",
       "點火"
+    ],
+    [
+      "pistanaqtaq",
+      "玩耍"
+    ],
+    [
+      "pisvangdu",
+      "禱告"
     ],
     [
       "pitu",
@@ -3066,16 +3878,36 @@ export const TW_21 = {
       "松鼠"
     ],
     [
-      "pus’aq / mutaq",
+      "pusut",
+      "布匹"
+    ],
+    [
+      "pus’aq",
       "吐"
+    ],
+    [
+      "puu",
+      "女性生殖器"
+    ],
+    [
+      "puzas",
+      "男性生殖器"
+    ],
+    [
+      "puzas",
+      "雄性動物生殖器官"
     ],
     [
       "pu’i",
       "玉米"
     ],
     [
-      "qaa / buqtung",
+      "qaa",
       "膝蓋"
+    ],
+    [
+      "qabang",
+      "棉被"
     ],
     [
       "qabasin",
@@ -3094,19 +3926,35 @@ export const TW_21 = {
       "血"
     ],
     [
-      "qaimagnsut/ ikma’ai’un",
+      "qaidasu",
+      "鍋鏟"
+    ],
+    [
+      "qailis",
+      "經常"
+    ],
+    [
+      "qaimagnsut",
       "工具"
+    ],
+    [
+      "qaimus",
+      "山胡椒"
+    ],
+    [
+      "qainusnus",
+      "化膿"
     ],
     [
       "qaising",
       "飯"
     ],
     [
-      "qai’az/ luqai’az",
+      "qai’az",
       "幼犬"
     ],
     [
-      "qai’ung / baqan",
+      "qai’ung",
       "臀部"
     ],
     [
@@ -3116,6 +3964,10 @@ export const TW_21 = {
     [
       "qalinga",
       "語言"
+    ],
+    [
+      "qalisva",
+      "枝條"
     ],
     [
       "qaltis",
@@ -3142,7 +3994,7 @@ export const TW_21 = {
       "桃子"
     ],
     [
-      "qaluup / luup",
+      "qaluup",
       "袋子"
     ],
     [
@@ -3150,11 +4002,19 @@ export const TW_21 = {
       "冬天"
     ],
     [
+      "qamisan",
+      "年"
+    ],
+    [
+      "qamqam",
+      "隨意"
+    ],
+    [
       "qamutis",
       "老鼠(統稱)"
     ],
     [
-      "qanglas / qailis / lusbut",
+      "qanglas",
       "經常"
     ],
     [
@@ -3174,7 +4034,7 @@ export const TW_21 = {
       "彩虹"
     ],
     [
-      "qani’an / tusqang",
+      "qani’an",
       "白天"
     ],
     [
@@ -3182,8 +4042,12 @@ export const TW_21 = {
       "日子"
     ],
     [
-      "qansiap / itqaal / niap",
+      "qansiap",
       "知道"
+    ],
+    [
+      "qansubanan",
+      "燒焦"
     ],
     [
       "qanvang",
@@ -3194,7 +4058,7 @@ export const TW_21 = {
       "水鹿"
     ],
     [
-      "qapdal / kaav",
+      "qapdal",
       "額頭"
     ],
     [
@@ -3204,6 +4068,10 @@ export const TW_21 = {
     [
       "qapung",
       "篩穀器具"
+    ],
+    [
+      "qaputung",
+      "心臟"
     ],
     [
       "qasbing",
@@ -3218,16 +4086,24 @@ export const TW_21 = {
       "烏龜"
     ],
     [
+      "qasisi’an",
+      "濾酒渣網"
+    ],
+    [
       "qatabang",
       "蟑螂"
     ],
     [
-      "qatas / puzas",
+      "qatas",
       "男性生殖器"
     ],
     [
       "qataz",
       "肝臟"
+    ],
+    [
+      "qatibing",
+      "蚊子"
     ],
     [
       "qatu",
@@ -3242,11 +4118,11 @@ export const TW_21 = {
       "柱子"
     ],
     [
-      "qavis / kuti / puu",
+      "qavis",
       "女性生殖器"
     ],
     [
-      "qavit/kaviaz",
+      "qavit",
       "百步蛇"
     ],
     [
@@ -3258,7 +4134,15 @@ export const TW_21 = {
       "水鳥"
     ],
     [
-      "quaz/valu",
+      "qinanup",
+      "獵物(統稱)"
+    ],
+    [
+      "qua",
+      "痰"
+    ],
+    [
+      "quaz",
       "藤類"
     ],
     [
@@ -3278,7 +4162,7 @@ export const TW_21 = {
       "旱田"
     ],
     [
-      "qumun/qaputung",
+      "qumun",
       "心臟"
     ],
     [
@@ -3286,7 +4170,7 @@ export const TW_21 = {
       "木炭"
     ],
     [
-      "qusau / tultul",
+      "qusau",
       "木杵"
     ],
     [
@@ -3306,15 +4190,19 @@ export const TW_21 = {
       "喝(水)"
     ],
     [
-      "saak / azak",
+      "quung",
+      "香菇"
+    ],
+    [
+      "saak",
       "我"
     ],
     [
-      "saak / sakunun",
+      "saak",
       "聞(如聞味道)"
     ],
     [
-      "saam / zami / samin",
+      "saam",
       "我們(排除式)"
     ],
     [
@@ -3328,6 +4216,10 @@ export const TW_21 = {
     [
       "saduu",
       "看"
+    ],
+    [
+      "saduu patasan",
+      "讀書"
     ],
     [
       "sadu’an",
@@ -3350,8 +4242,12 @@ export const TW_21 = {
       "痛"
     ],
     [
-      "sakun / tu’uni",
+      "sakun",
       "味道"
+    ],
+    [
+      "sakunun",
+      "聞(如聞味道)"
     ],
     [
       "sakut",
@@ -3374,7 +4270,7 @@ export const TW_21 = {
       "蝙蝠"
     ],
     [
-      "salinbunuaz / tumpu",
+      "salinbunuaz",
       "蜻蜓"
     ],
     [
@@ -3382,20 +4278,36 @@ export const TW_21 = {
       "蔥"
     ],
     [
+      "samang",
+      "幼苗"
+    ],
+    [
+      "samin",
+      "我們(排除式)"
+    ],
+    [
       "samu",
       "禁忌"
     ],
     [
-      "sanavan / maqmut",
+      "sanavan",
       "晚上"
     ],
     [
-      "sanavan / maqmut",
+      "sanavan",
       "夜"
     ],
     [
-      "sangan / laupang",
+      "sangan",
       "剛剛"
+    ],
+    [
+      "sangan",
+      "剛才"
+    ],
+    [
+      "sanganin",
+      "待會兒"
     ],
     [
       "sanglav",
@@ -3414,7 +4326,11 @@ export const TW_21 = {
       "咬人貓"
     ],
     [
-      "santanam / matihaul",
+      "santanam",
+      "射擊"
+    ],
+    [
+      "santanam",
       "瞄準"
     ],
     [
@@ -3426,6 +4342,10 @@ export const TW_21 = {
       "床舖"
     ],
     [
+      "sapaqsapaq",
+      "咀嚼"
+    ],
+    [
       "sapil",
       "鞋子"
     ],
@@ -3434,12 +4354,36 @@ export const TW_21 = {
       "火"
     ],
     [
-      "saqsial / muluslus",
+      "saqdilan",
+      "關上"
+    ],
+    [
+      "saqsial",
       "滑掉"
+    ],
+    [
+      "sasbinaz",
+      "長官"
     ],
     [
       "saslu",
       "汗水"
+    ],
+    [
+      "sasngaq",
+      "餵食"
+    ],
+    [
+      "sasu",
+      "你"
+    ],
+    [
+      "satuu(外)",
+      "糖"
+    ],
+    [
+      "satu’an",
+      "廁所"
     ],
     [
       "sauqbung",
@@ -3454,8 +4398,24 @@ export const TW_21 = {
       "檳榔"
     ],
     [
+      "siata",
+      "他"
+    ],
+    [
+      "siata",
+      "那個"
+    ],
+    [
+      "sibinsiq",
+      "挑選"
+    ],
+    [
       "sibus",
       "甘蔗"
+    ],
+    [
+      "sibutbut",
+      "拉"
     ],
     [
       "sidih",
@@ -3466,15 +4426,27 @@ export const TW_21 = {
       "和"
     ],
     [
-      "siiq/ishasul",
+      "siiq",
       "水瓢(舀水用)"
     ],
     [
-      "siking/ daqu",
+      "sikaupa",
+      "全部"
+    ],
+    [
+      "siking",
       "肥皂"
     ],
     [
-      "sikvin / sila",
+      "sikvin",
+      "角落"
+    ],
+    [
+      "sila",
+      "旁邊"
+    ],
+    [
+      "sila",
       "角落"
     ],
     [
@@ -3487,18 +4459,18 @@ export const TW_21 = {
     ],
     [
       "silulu",
-      "拉(上來)"
+      "拉"
     ],
     [
-      "silulu / sibutbut",
-      "拉"
+      "silulu",
+      "拉(上來)"
     ],
     [
       "simaq",
       "誰"
     ],
     [
-      "simaq / isaq / ma’aq",
+      "simaq",
       "哪一個"
     ],
     [
@@ -3526,7 +4498,7 @@ export const TW_21 = {
       "黃色的"
     ],
     [
-      "sinhu / sinpusama",
+      "sinhu",
       "神父"
     ],
     [
@@ -3534,11 +4506,23 @@ export const TW_21 = {
       "價格"
     ],
     [
-      "sinpaqusil/sinpavaaz",
+      "sinpalasung",
+      "陷獵"
+    ],
+    [
+      "sinpaqusil",
       "種類"
     ],
     [
-      "sintupa / imi(外)",
+      "sinpavaaz",
+      "種類"
+    ],
+    [
+      "sinpusama",
+      "神父"
+    ],
+    [
+      "sintupa",
       "意義"
     ],
     [
@@ -3558,11 +4542,11 @@ export const TW_21 = {
       "(有東西)附著"
     ],
     [
-      "sipungul / panpungul",
+      "sipungul",
       "忘記(祈使)"
     ],
     [
-      "siqailaz / sibinsiq",
+      "siqailaz",
       "挑選"
     ],
     [
@@ -3570,27 +4554,31 @@ export const TW_21 = {
       "樹枝"
     ],
     [
-      "siqi / qalisva",
+      "siqi",
       "枝條"
     ],
     [
-      "siquis(小)/kukuav(中)/laula(大)",
+      "siquis(小)",
       "老鷹"
     ],
     [
-      "sisdang / liskidaz",
+      "sisdang",
       "依賴"
     ],
     [
-      "sisiuq / aukauk",
+      "sisiuq",
       "青蛙"
     ],
     [
-      "sisqat/ aktasun/ tasqatun",
+      "sisqat",
       "扯斷"
     ],
     [
-      "situmbak / matitkal",
+      "sisvaqun",
+      "褲子"
+    ],
+    [
+      "situmbak",
       "撬開"
     ],
     [
@@ -3602,7 +4590,7 @@ export const TW_21 = {
       "女用揹籃"
     ],
     [
-      "sivsiv / taul",
+      "sivsiv",
       "小溪"
     ],
     [
@@ -3630,7 +4618,7 @@ export const TW_21 = {
       "頸子"
     ],
     [
-      "sukudan / saqdilan",
+      "sukudan",
       "關上"
     ],
     [
@@ -3644,6 +4632,10 @@ export const TW_21 = {
     [
       "sungkat",
       "涉水而過"
+    ],
+    [
+      "sungqaqaul",
+      "游泳"
     ],
     [
       "supsup",
@@ -3662,6 +4654,18 @@ export const TW_21 = {
       "打哈欠"
     ],
     [
+      "suzainsia(外)",
+      "腳踏車"
+    ],
+    [
+      "suzukan",
+      "獨立的小山頭"
+    ],
+    [
+      "tabal",
+      "砍"
+    ],
+    [
       "tai",
       "芋頭"
     ],
@@ -3678,7 +4682,7 @@ export const TW_21 = {
       "夢"
     ],
     [
-      "taisis’aan / tais’aan",
+      "taisis’aan",
       "兄弟姊妹"
     ],
     [
@@ -3686,11 +4690,23 @@ export const TW_21 = {
       "亮光"
     ],
     [
+      "tais’aan",
+      "親戚"
+    ],
+    [
+      "tais’aan",
+      "兄弟姊妹"
+    ],
+    [
       "taki",
       "大便"
     ],
     [
-      "takiluqaz / tanduluq",
+      "takihaan",
+      "(居)住"
+    ],
+    [
+      "takiluqaz",
       "蚯蚓"
     ],
     [
@@ -3718,7 +4734,11 @@ export const TW_21 = {
       "夏天"
     ],
     [
-      "taldaing / tal’ia",
+      "talbinau’az",
+      "小姐"
+    ],
+    [
+      "taldaing",
       "生長"
     ],
     [
@@ -3728,6 +4748,10 @@ export const TW_21 = {
     [
       "talikuan",
       "蝴蝶"
+    ],
+    [
+      "talimua",
+      "棉花"
     ],
     [
       "talmaiduu’ang",
@@ -3743,6 +4767,10 @@ export const TW_21 = {
     ],
     [
       "taluqan",
+      "家"
+    ],
+    [
+      "taluqan",
       "工寮"
     ],
     [
@@ -3750,11 +4778,15 @@ export const TW_21 = {
       "(植物)生長"
     ],
     [
+      "tal’ia",
+      "生長"
+    ],
+    [
       "tama",
       "爸爸"
     ],
     [
-      "tamaku / kaunun",
+      "tamaku",
       "菸草"
     ],
     [
@@ -3790,6 +4822,10 @@ export const TW_21 = {
       "枕頭"
     ],
     [
+      "tanduluq",
+      "蚯蚓"
+    ],
+    [
       "tangaa",
       "鋤頭"
     ],
@@ -3798,7 +4834,7 @@ export const TW_21 = {
       "哭"
     ],
     [
-      "tangqapu lukis/ tuqu lukis",
+      "tangqapu lukis",
       "樹頭"
     ],
     [
@@ -3806,12 +4842,16 @@ export const TW_21 = {
       "偷竊"
     ],
     [
-      "tangtang / uzungku(外)",
+      "tangtang",
       "麵粉"
     ],
     [
       "tanhiku",
       "後院"
+    ],
+    [
+      "tantini",
+      "獨自一人"
     ],
     [
       "tantungu",
@@ -3830,11 +4870,19 @@ export const TW_21 = {
       "聽"
     ],
     [
+      "tan’ali",
+      "邀請"
+    ],
+    [
+      "tan’anak",
+      "走路"
+    ],
+    [
       "tan’aun",
       "感覺"
     ],
     [
-      "tapaha/qabang",
+      "tapaha",
       "棉被"
     ],
     [
@@ -3850,7 +4898,11 @@ export const TW_21 = {
       "黑色"
     ],
     [
-      "taqu / tupa",
+      "taqdutan",
+      "阻擋"
+    ],
+    [
+      "taqu",
       "告訴(別人)"
     ],
     [
@@ -3858,16 +4910,32 @@ export const TW_21 = {
       "超過"
     ],
     [
+      "tasqatun",
+      "扯斷"
+    ],
+    [
       "tastas",
       "瀑布"
     ],
     [
-      "tastulinuqus / tastubuqul",
+      "tastubuqul",
       "一綑"
     ],
     [
-      "tastuqani’an / tastudiqanin",
+      "tastudiqanin",
       "整天"
+    ],
+    [
+      "tastulinuqus",
+      "一綑"
+    ],
+    [
+      "tastuqani’an",
+      "整天"
+    ],
+    [
+      "tastusabah",
+      "一百"
     ],
     [
       "tas’a",
@@ -3878,11 +4946,11 @@ export const TW_21 = {
       "一千"
     ],
     [
-      "tas’a sabah/ tastusabah",
+      "tas’a sabah",
       "一百"
     ],
     [
-      "tas’asikis / uma",
+      "tas’asikis",
       "馬"
     ],
     [
@@ -3898,16 +4966,20 @@ export const TW_21 = {
       "一雙"
     ],
     [
+      "taul",
+      "小溪"
+    ],
+    [
       "taulas-dangqas",
       "胡蘿蔔"
     ],
     [
       "tauntun",
-      "輪胎"
+      "腳踏車"
     ],
     [
-      "tauntun / suzainsia(外)",
-      "腳踏車"
+      "tauntun",
+      "輪胎"
     ],
     [
       "tauzu",
@@ -3926,7 +4998,7 @@ export const TW_21 = {
       "揹小孩的背帶"
     ],
     [
-      "tavukul / ami / vavalu",
+      "tavukul",
       "網子"
     ],
     [
@@ -3950,7 +5022,7 @@ export const TW_21 = {
       "扇子"
     ],
     [
-      "tikas / qatibing",
+      "tikas",
       "蚊子"
     ],
     [
@@ -3995,14 +5067,22 @@ export const TW_21 = {
     ],
     [
       "tingmut",
-      "上午"
+      "早上"
     ],
     [
-      "tingmut / laqbing",
+      "tingmut",
       "清晨"
     ],
     [
-      "tingquza/ tingqut’az",
+      "tingmut",
+      "上午"
+    ],
+    [
+      "tingqut’az",
+      "嚇一跳"
+    ],
+    [
+      "tingquza",
       "嚇一跳"
     ],
     [
@@ -4018,7 +5098,11 @@ export const TW_21 = {
       "睜眼"
     ],
     [
-      "tinsusupak / tinsusuak",
+      "tinsusuak",
+      "眼鏡蛇"
+    ],
+    [
+      "tinsusupak",
       "眼鏡蛇"
     ],
     [
@@ -4038,6 +5122,10 @@ export const TW_21 = {
       "(獵物掉入陷阱)陷中"
     ],
     [
+      "tiskapat",
+      "跌倒"
+    ],
+    [
       "tisqaqainaz",
       "跳躍"
     ],
@@ -4050,16 +5138,28 @@ export const TW_21 = {
       "腰部"
     ],
     [
-      "titi / laas",
+      "titi",
       "肉"
     ],
     [
-      "titi/qinanup",
+      "titi",
       "獵物(統稱)"
     ],
     [
-      "tudaniv / tan’ali",
+      "titi",
+      "豬肉"
+    ],
+    [
+      "tubangnu",
+      "謾罵"
+    ],
+    [
+      "tudaniv",
       "邀請"
+    ],
+    [
+      "tudaniv",
+      "叫喚(如餵雞前會叫喚)"
     ],
     [
       "tudiip",
@@ -4078,7 +5178,15 @@ export const TW_21 = {
       "水滴"
     ],
     [
-      "tukias / lailai",
+      "tuhulan",
+      "斧頭"
+    ],
+    [
+      "tukakiiv",
+      "交代(事情)"
+    ],
+    [
+      "tukias",
       "蟬"
     ],
     [
@@ -4094,7 +5202,7 @@ export const TW_21 = {
       "百香果"
     ],
     [
-      "tuktuk / tabal",
+      "tuktuk",
       "砍"
     ],
     [
@@ -4118,6 +5226,14 @@ export const TW_21 = {
       "毛線"
     ],
     [
+      "tultul",
+      "木杵"
+    ],
+    [
+      "tumatu(外)",
+      "蕃茄"
+    ],
+    [
       "tumaz",
       "熊"
     ],
@@ -4134,7 +5250,11 @@ export const TW_21 = {
       "麵"
     ],
     [
-      "tumpu / tuhulan",
+      "tumpu",
+      "蜻蜓"
+    ],
+    [
+      "tumpu",
       "斧頭"
     ],
     [
@@ -4142,11 +5262,11 @@ export const TW_21 = {
       "抵達"
     ],
     [
-      "tungku / manququ",
+      "tungku",
       "頂"
     ],
     [
-      "tungku’an / suzukan",
+      "tungku’an",
       "獨立的小山頭"
     ],
     [
@@ -4186,11 +5306,27 @@ export const TW_21 = {
       "崩落"
     ],
     [
-      "tupa / bazbaz",
+      "tupa",
       "說"
     ],
     [
-      "tuqasnanaz / tuqasnau’az",
+      "tupa",
+      "告訴(別人)"
+    ],
+    [
+      "tuqas",
+      "兄長"
+    ],
+    [
+      "tuqasnanaz",
+      "(哥哥；姊姊)通稱"
+    ],
+    [
+      "tuqasnanaz",
+      "哥哥"
+    ],
+    [
+      "tuqasnau’az",
       "(哥哥；姊姊)通稱"
     ],
     [
@@ -4202,8 +5338,16 @@ export const TW_21 = {
       "蓋子"
     ],
     [
+      "tuqnu",
+      "種子"
+    ],
+    [
       "tuqtuq",
       "鐵釘"
+    ],
+    [
+      "tuqu lukis",
+      "樹頭"
     ],
     [
       "tuquu",
@@ -4218,8 +5362,16 @@ export const TW_21 = {
       "詢問"
     ],
     [
+      "tusqang",
+      "白天"
+    ],
+    [
       "tuza",
       "真的"
+    ],
+    [
+      "tuza?",
+      "是嗎(語助詞)"
     ],
     [
       "tu’iu(外)",
@@ -4228,6 +5380,10 @@ export const TW_21 = {
     [
       "tu’un",
       "岩石"
+    ],
+    [
+      "tu’uni",
+      "味道"
     ],
     [
       "uka",
@@ -4242,7 +5398,11 @@ export const TW_21 = {
       "粥"
     ],
     [
-      "unata’an /pattaki’an /satu’an",
+      "uma",
+      "馬"
+    ],
+    [
+      "unata’an",
       "廁所"
     ],
     [
@@ -4250,11 +5410,15 @@ export const TW_21 = {
       "謝謝"
     ],
     [
-      "unisin / sanganin",
+      "unipin",
+      "讓開"
+    ],
+    [
+      "unisin",
       "待會兒"
     ],
     [
-      "untini’an / tantini",
+      "untini’an",
       "獨自一人"
     ],
     [
@@ -4266,19 +5430,27 @@ export const TW_21 = {
       "好(指沒問題)"
     ],
     [
-      "uu? / tuza?",
+      "uu?",
       "是嗎(語助詞)"
     ],
     [
-      "uvaz’az / uvavaz’az",
+      "uvavaz’az",
       "孩童"
     ],
     [
-      "uzuli(外) / pasilaubu",
+      "uvaz’az",
+      "孩童"
+    ],
+    [
+      "uzuli(外)",
       "跳舞"
     ],
     [
-      "u’ampukan / Kiukai(外)",
+      "uzungku(外)",
+      "麵粉"
+    ],
+    [
+      "u’ampukan",
       "教會"
     ],
     [
@@ -4286,11 +5458,19 @@ export const TW_21 = {
       "各色各樣"
     ],
     [
+      "vakicu(外)",
+      "水桶"
+    ],
+    [
       "vali",
       "太陽"
     ],
     [
-      "valu / ami",
+      "valu",
+      "藤類"
+    ],
+    [
+      "valu",
       "魚網"
     ],
     [
@@ -4307,14 +5487,14 @@ export const TW_21 = {
     ],
     [
       "vanu",
-      "蜜"
-    ],
-    [
-      "vanu / baqusaz",
       "蜜蜂"
     ],
     [
-      "vaqa/ngabul",
+      "vanu",
+      "蜜"
+    ],
+    [
+      "vaqa",
       "(動物的)角"
     ],
     [
@@ -4324,6 +5504,10 @@ export const TW_21 = {
     [
       "vau",
       "八"
+    ],
+    [
+      "vavalu",
+      "網子"
     ],
     [
       "va’u",
@@ -4342,6 +5526,10 @@ export const TW_21 = {
       "直形獵刀"
     ],
     [
+      "vinduqvinduq",
+      "(搖)動"
+    ],
+    [
       "vivii",
       "鴨"
     ],
@@ -4350,8 +5538,16 @@ export const TW_21 = {
       "被(搖)動的"
     ],
     [
-      "vuvuqvuq / bizakbizak",
+      "vuus",
+      "湯"
+    ],
+    [
+      "vuvuqvuq",
       "晃動"
+    ],
+    [
+      "zaas",
+      "沙子"
     ],
     [
       "zailai paaz",
@@ -4362,11 +5558,19 @@ export const TW_21 = {
       "受格標記(各族用語)"
     ],
     [
+      "zami",
+      "我們(排除式)"
+    ],
+    [
+      "zaqzaq",
+      "口水"
+    ],
+    [
       "zingki(外)",
       "電燈"
     ],
     [
-      "zingva / patunpaklis/ patunqaulta",
+      "zingva",
       "電話"
     ],
     [

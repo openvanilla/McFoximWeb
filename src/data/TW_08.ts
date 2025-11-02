@@ -14,7 +14,11 @@ export const TW_08 = {
       "播種祭"
     ],
     [
-      "Kamciyulang/ Hulu’",
+      "Hulu’",
+      "閩南人"
+    ],
+    [
+      "Kamciyulang",
       "閩南人"
     ],
     [
@@ -54,27 +58,55 @@ export const TW_08 = {
       "頭髮"
     ],
     [
-      "aimag cu raramat/ paptupiyux cu raramat",
+      "aba’",
+      "爸爸"
+    ],
+    [
+      "abuhan",
+      "觸摸(物品)"
+    ],
+    [
+      "aimag cu raramat",
       "鍋鏟"
     ],
     [
-      "amil/ wamil",
+      "aki’",
+      "女性長輩(祖母；外婆)"
+    ],
+    [
+      "alun",
+      "拿取"
+    ],
+    [
+      "amil",
       "鞋子"
+    ],
+    [
+      "anahmuhmut",
+      "隨意"
     ],
     [
       "anan",
       "右邊"
     ],
     [
+      "anay",
+      "舅子"
+    ],
+    [
       "ani humicuwa’",
       "不論"
     ],
     [
-      "ani humicuwa’ ga/ ini’  ",
+      "ani humicuwa’ ga",
       "從不"
     ],
     [
-      "apit/ yapit/ wapit",
+      "aping na baru’",
+      "海邊"
+    ],
+    [
+      "apit",
       "飛鼠"
     ],
     [
@@ -90,24 +122,44 @@ export const TW_08 = {
       "做惡夢"
     ],
     [
-      "aruwa la",
-      "去了"
+      "aruwa",
+      "去"
     ],
     [
-      "aruwa/ musa’/ usa’",
-      "去"
+      "aruwa la",
+      "去了"
     ],
     [
       "asi cubalay ki",
       "應該"
     ],
     [
-      "asigi/ asinku",
+      "asigi",
       "(像)這樣"
+    ],
+    [
+      "asinku",
+      "(像)這樣"
+    ],
+    [
+      "ata’",
+      "伯母；嬸嬸；舅母；姑姑(通稱)"
+    ],
+    [
+      "atukun",
+      "啄"
     ],
     [
       "atu’ na",
       "如果"
+    ],
+    [
+      "aubaaq",
+      "樓梯"
+    ],
+    [
+      "aubaqan",
+      "樓梯"
     ],
     [
       "aumuk",
@@ -122,6 +174,14 @@ export const TW_08 = {
       "蕃茄"
     ],
     [
+      "autuan cu kulu’",
+      "車站"
+    ],
+    [
+      "awngay",
+      "猴子"
+    ],
+    [
       "awpun",
       "褲子"
     ],
@@ -130,7 +190,23 @@ export const TW_08 = {
       "女性長褲"
     ],
     [
-      "a’nata’/ a’nataan/ aubaaq/ aubaqan",
+      "ayaan",
+      "雌性(動物)"
+    ],
+    [
+      "aya’",
+      "媽媽"
+    ],
+    [
+      "aynu’",
+      "哪裡"
+    ],
+    [
+      "a’nataan",
+      "樓梯"
+    ],
+    [
+      "a’nata’",
       "樓梯"
     ],
     [
@@ -138,16 +214,32 @@ export const TW_08 = {
       "會(做某事)"
     ],
     [
+      "baays mu",
+      "配偶"
+    ],
+    [
+      "baays mu",
+      "丈夫"
+    ],
+    [
       "babaan na nayp",
       "釣竿"
     ],
     [
-      "babaw na kinriaxan",
-      "下午"
+      "babangteq",
+      "草原"
     ],
     [
-      "babaw/ riyatux",
+      "babaqun",
+      "能夠"
+    ],
+    [
+      "babaw",
       "上面"
+    ],
+    [
+      "babaw na kinriaxan",
+      "下午"
     ],
     [
       "babayqan",
@@ -156,6 +248,10 @@ export const TW_08 = {
     [
       "bagati’",
       "姑婆芋"
+    ],
+    [
+      "bahagun",
+      "追"
     ],
     [
       "bahagun rumakaap",
@@ -170,11 +266,15 @@ export const TW_08 = {
       "肺"
     ],
     [
-      "bakas/ kapil",
+      "bahngun",
+      "模仿"
+    ],
+    [
+      "bakas",
       "疤"
     ],
     [
-      "balas/ maknathuk/ qabatingan",
+      "balas",
       "雄性(動物)"
     ],
     [
@@ -186,7 +286,7 @@ export const TW_08 = {
       "喜歡"
     ],
     [
-      "balayq/ uwal",
+      "balayq",
       "好"
     ],
     [
@@ -198,7 +298,7 @@ export const TW_08 = {
       "竹筍"
     ],
     [
-      "baluku’/ ginu’",
+      "baluku’",
       "圓箕"
     ],
     [
@@ -210,7 +310,7 @@ export const TW_08 = {
       "女用耳環"
     ],
     [
-      "baqaw ta’/ ini’ baqi",
+      "baqaw ta’",
       "不知道"
     ],
     [
@@ -218,7 +318,7 @@ export const TW_08 = {
       "知道"
     ],
     [
-      "baqun/ babaqun",
+      "baqun",
       "能夠"
     ],
     [
@@ -226,7 +326,15 @@ export const TW_08 = {
       "棉花"
     ],
     [
-      "batah na kahuneq/batah na kahuneq kahuy",
+      "bas’",
+      "公車"
+    ],
+    [
+      "batah na kahuneq",
+      "木炭"
+    ],
+    [
+      "batah na kahuneq kahuy",
       "木炭"
     ],
     [
@@ -294,7 +402,7 @@ export const TW_08 = {
       "男性生殖器"
     ],
     [
-      "buhinu/ tawnux",
+      "buhinu",
       "弓"
     ],
     [
@@ -342,7 +450,11 @@ export const TW_08 = {
       "(植物的)果實"
     ],
     [
-      "buwayng/ hiyng",
+      "buway",
+      "給"
+    ],
+    [
+      "buwayng",
       "蜜蜂"
     ],
     [
@@ -350,7 +462,7 @@ export const TW_08 = {
       "一半"
     ],
     [
-      "buwinah/ mabuwinah",
+      "buwinah",
       "折返"
     ],
     [
@@ -362,19 +474,31 @@ export const TW_08 = {
       "打包"
     ],
     [
-      "cacapngan cu riax/ tuki",
+      "cacapngan cu riax",
       "手錶"
     ],
     [
-      "cacapngan cu riax/ tuki",
+      "cacapngan cu riax",
       "鐘錶"
+    ],
+    [
+      "caciax",
+      "電燈(照明燈具之統稱)"
+    ],
+    [
+      "caciax",
+      "照起來；燈具"
     ],
     [
       "camcum",
       "收拾(祈使，如收拾東西)"
     ],
     [
-      "cami/ icami",
+      "cami",
+      "我們"
+    ],
+    [
+      "cami",
       "我們(排除式)"
     ],
     [
@@ -382,15 +506,31 @@ export const TW_08 = {
       "耳朵"
     ],
     [
+      "capaang",
+      "正確"
+    ],
+    [
+      "capang",
+      "布匹"
+    ],
+    [
       "capang",
       "舊的"
+    ],
+    [
+      "caqrux",
+      "站著"
+    ],
+    [
+      "caqrux",
+      "起立"
     ],
     [
       "casan",
       "明天"
     ],
     [
-      "cawman/ cumawm",
+      "cawman",
       "擦(如口紅；油漆)"
     ],
     [
@@ -410,31 +550,47 @@ export const TW_08 = {
       "胡蘿蔔"
     ],
     [
-      "ca’rux/ caqrux",
+      "ca’rux",
+      "站著"
+    ],
+    [
+      "ca’rux",
       "起立"
+    ],
+    [
+      "ci",
+      "我"
     ],
     [
       "ciax",
       "亮光"
     ],
     [
-      "ciax na Utux/ taptap na Utux",
+      "ciax na Utux",
       "閃電"
+    ],
+    [
+      "ciaxi; papaglag",
+      "照起來；燈具"
     ],
     [
       "ciceq",
       "腋窩"
     ],
     [
-      "cigiaring/ tasiaring",
+      "cigiaring",
       "生火"
+    ],
+    [
+      "cigiaring",
+      "點火"
     ],
     [
       "cikung",
       "飯鍋"
     ],
     [
-      "cimu/ icimu",
+      "cimu",
       "你們"
     ],
     [
@@ -455,11 +611,19 @@ export const TW_08 = {
     ],
     [
       "cu",
+      "我"
+    ],
+    [
+      "cu",
       "主格標記(各族用語)"
     ],
     [
       "cu pilapiylag",
       "立即"
+    ],
+    [
+      "cubalay",
+      "正確"
     ],
     [
       "cubalay",
@@ -478,7 +642,11 @@ export const TW_08 = {
       "昨天"
     ],
     [
-      "culingun/ culingaw/ cumulingay",
+      "culingaw",
+      "燙到"
+    ],
+    [
+      "culingun",
       "燙到"
     ],
     [
@@ -499,10 +667,14 @@ export const TW_08 = {
     ],
     [
       "cumawm",
+      "擦(如口紅；油漆)"
+    ],
+    [
+      "cumawm",
       "擦拭"
     ],
     [
-      "cuma’cu’/ sipapahub",
+      "cuma’cu’",
       "插"
     ],
     [
@@ -530,6 +702,10 @@ export const TW_08 = {
       "燒(如燒稻草)"
     ],
     [
+      "cumulingay",
+      "燙到"
+    ],
+    [
       "cumuloh",
       "烤(如烤地瓜)"
     ],
@@ -540,6 +716,22 @@ export const TW_08 = {
     [
       "cumxu’",
       "碾(米)"
+    ],
+    [
+      "cungs niya’",
+      "沒關係"
+    ],
+    [
+      "cuquleq",
+      "人"
+    ],
+    [
+      "cuweq",
+      "倒入"
+    ],
+    [
+      "cuwiqani",
+      "倒入"
     ],
     [
       "gabagan",
@@ -558,7 +750,7 @@ export const TW_08 = {
       "晚上"
     ],
     [
-      "gagalgan cu kulu’/ autuan cu kulu’",
+      "gagalgan cu kulu’",
       "車站"
     ],
     [
@@ -570,7 +762,7 @@ export const TW_08 = {
       "篩子"
     ],
     [
-      "galgan ku kisleq/ anahmuhmut",
+      "galgan ku kisleq",
       "隨意"
     ],
     [
@@ -578,20 +770,40 @@ export const TW_08 = {
       "沿著山巒"
     ],
     [
-      "gamil na kahuneq/gamil na kahuy",
+      "gamil na kahuneq",
       "樹根"
     ],
     [
-      "gamugamun/ pasikanun/ pasikanan",
+      "gamil na kahuy",
+      "樹根"
+    ],
+    [
+      "gamugamun",
       "咀嚼"
+    ],
+    [
+      "gawah",
+      "打開"
     ],
     [
       "gawng",
       "小溪"
     ],
     [
+      "gibaun",
+      "抱著"
+    ],
+    [
+      "gilahang",
+      "(空間)寬敞"
+    ],
+    [
       "ginabgab",
       "粥"
+    ],
+    [
+      "ginu’",
+      "圓箕"
     ],
     [
       "giqas",
@@ -606,11 +818,11 @@ export const TW_08 = {
       "污垢"
     ],
     [
-      "glu mu/ baays mu/ kanayril mu/ mamaliku mu",
+      "glu mu",
       "配偶"
     ],
     [
-      "glu mu/ baays mu/ mamaliku mu",
+      "glu mu",
       "丈夫"
     ],
     [
@@ -618,16 +830,24 @@ export const TW_08 = {
       "煙"
     ],
     [
-      "guma cu ki’man/ gumba cu ki’man",
+      "guma cu ki’man",
       "鋤草"
+    ],
+    [
+      "gumabil",
+      "(藤類植物)攀爬"
+    ],
+    [
+      "gumawah",
+      "打開"
     ],
     [
       "gumawah",
       "掀開(如掀開蓋子)"
     ],
     [
-      "gumawah/ gawah",
-      "打開"
+      "gumba cu ki’man",
+      "鋤草"
     ],
     [
       "gumbul",
@@ -638,7 +858,15 @@ export const TW_08 = {
       "烹煮(飯)"
     ],
     [
-      "gumiba’/ gibaun",
+      "gumhap",
+      "播種"
+    ],
+    [
+      "gumhap",
+      "散撒"
+    ],
+    [
+      "gumiba’",
       "抱著"
     ],
     [
@@ -646,16 +874,28 @@ export const TW_08 = {
       "愛護"
     ],
     [
-      "guqiloh/ guqoh",
+      "guqiloh",
       "香蕉"
     ],
     [
-      "gusugusun/ gurugurun",
+      "guqoh",
+      "香蕉"
+    ],
+    [
+      "gurugurun",
+      "刷除"
+    ],
+    [
+      "gusugusun",
       "刷除"
     ],
     [
       "habaag",
       "(人)眾多"
+    ],
+    [
+      "habangan",
+      "錢"
     ],
     [
       "habhab",
@@ -682,7 +922,11 @@ export const TW_08 = {
       "揹小孩的背帶"
     ],
     [
-      "hahgub/ hahgup",
+      "hahgub",
+      "法器(巫醫治病用)"
+    ],
+    [
+      "hahgup",
       "法器(巫醫治病用)"
     ],
     [
@@ -694,16 +938,32 @@ export const TW_08 = {
       "鋸子"
     ],
     [
-      "hahngeq/ hahngaw/ pauhngeq/ pauhngaw",
+      "hahngaw",
       "煞車"
     ],
     [
-      "hakri’ na Utux/ hakaw na Utux",
+      "hahngeq",
+      "煞車"
+    ],
+    [
+      "hakaw",
+      "橋樑"
+    ],
+    [
+      "hakaw na Utux",
       "彩虹"
     ],
     [
-      "hakri’/ hakaw",
+      "hakri’",
       "橋樑"
+    ],
+    [
+      "hakri’ na Utux",
+      "彩虹"
+    ],
+    [
+      "hakucun",
+      "搬運"
     ],
     [
       "halhul",
@@ -726,15 +986,19 @@ export const TW_08 = {
       "這個"
     ],
     [
+      "hanuan",
+      "沒關係"
+    ],
+    [
       "hanuan ga",
       "不客氣"
     ],
     [
-      "hanuan/ cungs niya’",
-      "沒關係"
+      "hapuneq",
+      "火"
     ],
     [
-      "hapuneq/ hapuy",
+      "hapuy",
       "火"
     ],
     [
@@ -746,7 +1010,7 @@ export const TW_08 = {
       "腰部"
     ],
     [
-      "hawsuwa/ tabakuy",
+      "hawsuwa",
       "雨傘"
     ],
     [
@@ -754,12 +1018,16 @@ export const TW_08 = {
       "滑"
     ],
     [
-      "haylag/ lehka’",
+      "haylag",
       "很快"
     ],
     [
       "hbing na qusiya’",
       "水滴"
+    ],
+    [
+      "hiani",
+      "倒入"
     ],
     [
       "hihihi’",
@@ -774,12 +1042,16 @@ export const TW_08 = {
       "手肘"
     ],
     [
-      "hinasun/ inuwahan",
+      "hinasun",
       "經過"
     ],
     [
-      "hiya’/ ihya’",
+      "hiya’",
       "他"
+    ],
+    [
+      "hiyng",
+      "蜜蜂"
     ],
     [
       "hiyng",
@@ -790,8 +1062,12 @@ export const TW_08 = {
       "舌頭"
     ],
     [
-      "hugal/ yahu’",
+      "hugal",
       "下面"
+    ],
+    [
+      "hukuun",
+      "摺疊"
     ],
     [
       "hulaqi",
@@ -818,15 +1094,19 @@ export const TW_08 = {
       "刺"
     ],
     [
+      "humakas",
+      "禁止"
+    ],
+    [
       "humakay",
       "走路"
     ],
     [
-      "humakhuk/ humupung",
+      "humakhuk",
       "蒸(如蒸飯)"
     ],
     [
-      "humakut/ hakucun",
+      "humakut",
       "搬運"
     ],
     [
@@ -842,11 +1122,19 @@ export const TW_08 = {
       "切"
     ],
     [
+      "humawu",
+      "倒(水)"
+    ],
+    [
       "humaynas",
       "超過"
     ],
     [
-      "humgub/ humgup",
+      "humgub",
+      "巫術"
+    ],
+    [
+      "humgup",
       "巫術"
     ],
     [
@@ -874,7 +1162,7 @@ export const TW_08 = {
       "蓋被子"
     ],
     [
-      "humiyi’/ humawu",
+      "humiyi’",
       "倒(水)"
     ],
     [
@@ -882,16 +1170,20 @@ export const TW_08 = {
       "剝葉"
     ],
     [
+      "humupung",
+      "蒸(如蒸飯)"
+    ],
+    [
       "hyi’",
       "肉"
     ],
     [
-      "hyi’ na bawwak",
-      "豬肉"
+      "hyi’",
+      "倒入"
     ],
     [
-      "hyi’/ hiani/ cuweq/ cuwiqani",
-      "倒入"
+      "hyi’ na bawwak",
+      "豬肉"
     ],
     [
       "ibabaweq",
@@ -902,7 +1194,11 @@ export const TW_08 = {
       "高瘦(身材)"
     ],
     [
-      "ibhung/ iblung",
+      "ibhung",
+      "米糠"
+    ],
+    [
+      "iblung",
       "米糠"
     ],
     [
@@ -914,7 +1210,27 @@ export const TW_08 = {
       "來"
     ],
     [
-      "ikuwing/ kuwing/ cu/ ci",
+      "icami",
+      "我們"
+    ],
+    [
+      "icami",
+      "我們(排除式)"
+    ],
+    [
+      "icimu",
+      "你們"
+    ],
+    [
+      "ihya’",
+      "他"
+    ],
+    [
+      "ikmi’",
+      "閉(眼睛)"
+    ],
+    [
+      "ikuwing",
       "我"
     ],
     [
@@ -926,6 +1242,10 @@ export const TW_08 = {
       "混以某物"
     ],
     [
+      "imagun",
+      "攪動"
+    ],
+    [
       "ima’",
       "誰"
     ],
@@ -934,11 +1254,15 @@ export const TW_08 = {
       "是誰的"
     ],
     [
+      "imu",
+      "家"
+    ],
+    [
       "imuleq",
       "重(重量)"
     ],
     [
-      "imuwag/imu",
+      "imuwag",
       "家"
     ],
     [
@@ -954,32 +1278,56 @@ export const TW_08 = {
       "生日"
     ],
     [
+      "inha’",
+      "他們"
+    ],
+    [
+      "ini’",
+      "從不"
+    ],
+    [
+      "ini’ baqi",
+      "不知道"
+    ],
+    [
       "ini’ ginii",
       "不該"
+    ],
+    [
+      "ini’ na’",
+      "待會兒"
     ],
     [
       "ini’ saluwi",
       "黑暗"
     ],
     [
+      "ini’ saluwi a kaal la",
+      "天黑了"
+    ],
+    [
+      "inuwahan",
+      "經過"
+    ],
+    [
+      "inu’",
+      "哪裡"
+    ],
+    [
       "inu’ ku hani",
       "什麼地方"
     ],
     [
-      "inu’/ aynu’",
-      "哪裡"
+      "ipu’",
+      "雌性(動物)"
     ],
     [
-      "ipu’/ tinawx/ ayaan",
-      "雌性(動物)"
+      "iqaat",
+      "不是(回答用)"
     ],
     [
       "iqaat lupung na Itaal ku usalan",
       "嫁給非本族群的族人"
-    ],
-    [
-      "iqaat/ qaat",
-      "不是(回答用)"
     ],
     [
       "iqung",
@@ -1002,11 +1350,27 @@ export const TW_08 = {
       "短"
     ],
     [
-      "itaal/ cuquleq",
+      "isu’",
+      "你"
+    ],
+    [
+      "itaal",
       "人"
     ],
     [
-      "iyah/ qumisuwan na kanayril",
+      "ita’",
+      "我們"
+    ],
+    [
+      "ita’",
+      "咱們(包含式)"
+    ],
+    [
+      "ita’",
+      "咱們的"
+    ],
+    [
+      "iyah",
       "姊姊"
     ],
     [
@@ -1014,7 +1378,7 @@ export const TW_08 = {
       "裡面"
     ],
     [
-      "iyk na …/ yahu’ na ...",
+      "iyk na …",
       "某物之下"
     ],
     [
@@ -1032,6 +1396,14 @@ export const TW_08 = {
     [
       "iyu’",
       "藥物"
+    ],
+    [
+      "kaa",
+      "不要"
+    ],
+    [
+      "kaa",
+      "不可以"
     ],
     [
       "kaa",
@@ -1066,7 +1438,15 @@ export const TW_08 = {
       "製作(物品)"
     ],
     [
-      "kabaxan/ kabaxaw/ kabawx",
+      "kabawx",
+      "借"
+    ],
+    [
+      "kabaxan",
+      "借"
+    ],
+    [
+      "kabaxaw",
       "借"
     ],
     [
@@ -1094,7 +1474,15 @@ export const TW_08 = {
       "現在"
     ],
     [
-      "kahuneq/ kahuy",
+      "kahi’",
+      "所以"
+    ],
+    [
+      "kahuneq",
+      "樹"
+    ],
+    [
+      "kahuy",
       "樹"
     ],
     [
@@ -1110,7 +1498,11 @@ export const TW_08 = {
       "指甲"
     ],
     [
-      "kakian/ magaga’",
+      "kakayr",
+      "鉤子"
+    ],
+    [
+      "kakian",
       "懷孕"
     ],
     [
@@ -1118,7 +1510,7 @@ export const TW_08 = {
       "雜草"
     ],
     [
-      "kakumay/ kuwi’",
+      "kakumay",
       "蟲(統稱)"
     ],
     [
@@ -1126,12 +1518,20 @@ export const TW_08 = {
       "蝦"
     ],
     [
-      "kamilan/ kikuwikan",
+      "kamilan",
       "搔癢"
     ],
     [
-      "kanayril/ kanawnu’",
+      "kanawnu’",
       "女性"
+    ],
+    [
+      "kanayril",
+      "女性"
+    ],
+    [
+      "kanayril mu",
+      "配偶"
     ],
     [
       "kangahag",
@@ -1150,8 +1550,16 @@ export const TW_08 = {
       "何時(已發生)"
     ],
     [
+      "kapil",
+      "疤"
+    ],
+    [
       "kariariax",
       "天天"
+    ],
+    [
+      "kariariax",
+      "經常"
     ],
     [
       "kari’",
@@ -1178,11 +1586,11 @@ export const TW_08 = {
       "蜘蛛"
     ],
     [
-      "kawbeh/ sasuway",
+      "kawbeh",
       "湯匙"
     ],
     [
-      "kawsu’/ pakaroh",
+      "kawsu’",
       "鋤頭"
     ],
     [
@@ -1194,7 +1602,7 @@ export const TW_08 = {
       "語言"
     ],
     [
-      "kayi’ na qanawan/ tiyenxuwa’",
+      "kayi’ na qanawan",
       "電話"
     ],
     [
@@ -1206,8 +1614,12 @@ export const TW_08 = {
       "苧麻"
     ],
     [
-      "ki/ ru/ kinku",
+      "ki",
       "和"
+    ],
+    [
+      "kia",
+      "有"
     ],
     [
       "kii",
@@ -1218,6 +1630,10 @@ export const TW_08 = {
       "可能"
     ],
     [
+      "kikuwikan",
+      "搔癢"
+    ],
+    [
       "kinabahan",
       "孫子(女)"
     ],
@@ -1226,11 +1642,15 @@ export const TW_08 = {
       "幼苗"
     ],
     [
+      "kinku",
+      "和"
+    ],
+    [
       "kinqiyanux na masasiahag",
       "婚姻"
     ],
     [
-      "kinsat/ tawki’",
+      "kinsat",
       "警察"
     ],
     [
@@ -1246,12 +1666,28 @@ export const TW_08 = {
       "意義"
     ],
     [
+      "kisleq",
+      "感覺"
+    ],
+    [
       "kithu",
       "胖(身形)"
     ],
     [
       "kithu",
       "粗(物)"
+    ],
+    [
+      "kituwa’",
+      "多少"
+    ],
+    [
+      "kituwa’",
+      "多少(歲；物)"
+    ],
+    [
+      "kiya",
+      "有"
     ],
     [
       "kiya",
@@ -1264,10 +1700,6 @@ export const TW_08 = {
     [
       "kiya tagi ...",
       "在某處"
-    ],
-    [
-      "kiya/ kia",
-      "有"
     ],
     [
       "kiyl",
@@ -1286,12 +1718,24 @@ export const TW_08 = {
       "屬格標記(各族用語)"
     ],
     [
-      "kucu’/ kuhing",
+      "kucu’",
       "頭蝨"
+    ],
+    [
+      "kuhing",
+      "頭蝨"
+    ],
+    [
+      "kukcu",
+      "穀倉"
     ],
     [
       "kukuy",
       "腳"
+    ],
+    [
+      "kulu’",
+      "公車"
     ],
     [
       "kulu’",
@@ -1302,11 +1746,7 @@ export const TW_08 = {
       "火車"
     ],
     [
-      "kulu’/ bas’",
-      "公車"
-    ],
-    [
-      "kumaal/ panqaquu’",
+      "kumaal",
       "告訴(別人)"
     ],
     [
@@ -1326,15 +1766,27 @@ export const TW_08 = {
       "以籠捕魚蝦"
     ],
     [
-      "kumayhu na qaba’/ kumayi’ na qaba’",
-      "(用手)挖掘"
-    ],
-    [
-      "kumayhu/ kumayi’",
+      "kumayhu",
       "(用鋤具)挖掘"
     ],
     [
-      "kumayk, kumayhu/ kumayi’",
+      "kumayhu na qaba’",
+      "(用手)挖掘"
+    ],
+    [
+      "kumayi’",
+      "挖掘"
+    ],
+    [
+      "kumayi’",
+      "(用鋤具)挖掘"
+    ],
+    [
+      "kumayi’ na qaba’",
+      "(用手)挖掘"
+    ],
+    [
+      "kumayk, kumayhu",
       "挖掘"
     ],
     [
@@ -1348,6 +1800,10 @@ export const TW_08 = {
     [
       "kumiyum",
       "尋找"
+    ],
+    [
+      "kumloh",
+      "採收"
     ],
     [
       "kumnapung",
@@ -1374,11 +1830,15 @@ export const TW_08 = {
       "吃午餐"
     ],
     [
-      "kumurungun/ kumurungu’",
+      "kumurungun",
       "邀請"
     ],
     [
-      "kura’/ siqa’",
+      "kumurungu’",
+      "邀請"
+    ],
+    [
+      "kura’",
       "讓開"
     ],
     [
@@ -1406,8 +1866,16 @@ export const TW_08 = {
       "老鷹"
     ],
     [
-      "kuwisang/ sinsang",
+      "kuwing",
+      "我"
+    ],
+    [
+      "kuwisang",
       "醫生"
+    ],
+    [
+      "kuwi’",
+      "蟲(統稱)"
     ],
     [
       "kuwi’",
@@ -1418,24 +1886,28 @@ export const TW_08 = {
       "扯斷"
     ],
     [
-      "laciyaw/ quriyux na Kinuhukul",
+      "laciyaw",
       "辣椒"
     ],
     [
-      "lahulahu/ magalahu",
+      "lahulahu",
       "山林"
     ],
     [
-      "lahulahu/ magalahu",
+      "lahulahu",
       "森林"
     ],
     [
-      "lalabah/ capang",
+      "lalabah",
       "布匹"
     ],
     [
       "lalamu’",
       "編網針"
+    ],
+    [
+      "lalangagan",
+      "目標"
     ],
     [
       "lalapaq",
@@ -1454,27 +1926,55 @@ export const TW_08 = {
       "柱子"
     ],
     [
-      "langaag/ lalangagan",
+      "lamuun",
+      "摘取"
+    ],
+    [
+      "langaag",
       "目標"
     ],
     [
-      "latanux na imuwag/ suug na imuwag/ lata’ na imu/ suug na imu",
-      "後院"
+      "langaag",
+      "走(向某個方向)"
     ],
     [
-      "latanux/ lata’",
+      "langagun",
+      "走(向某個方向)"
+    ],
+    [
+      "latanux",
       "庭院"
     ],
     [
-      "latanux/ lata’",
+      "latanux",
       "外面"
     ],
     [
-      "laxi/ kaa",
+      "latanux na imuwag",
+      "後院"
+    ],
+    [
+      "lata’",
+      "庭院"
+    ],
+    [
+      "lata’",
+      "外面"
+    ],
+    [
+      "lata’ na imu",
+      "後院"
+    ],
+    [
+      "lawwi niya’",
+      "再"
+    ],
+    [
+      "laxi",
       "不要"
     ],
     [
-      "laxi/ kaa",
+      "laxi",
       "不可以"
     ],
     [
@@ -1484,6 +1984,10 @@ export const TW_08 = {
     [
       "lehka’",
       "輕(重量)"
+    ],
+    [
+      "lehka’",
+      "很快"
     ],
     [
       "lehpeq",
@@ -1502,11 +2006,15 @@ export const TW_08 = {
       "額頭"
     ],
     [
+      "liliqun",
+      "提著"
+    ],
+    [
       "limuk",
       "湯鍋"
     ],
     [
-      "linanglung/ kisleq",
+      "linanglung",
       "感覺"
     ],
     [
@@ -1514,11 +2022,19 @@ export const TW_08 = {
       "藏起來"
     ],
     [
-      "lpug/ lumpug",
+      "lpug",
       "數(計算)"
     ],
     [
-      "luhiyung/ luhung",
+      "luhingun",
+      "接續"
+    ],
+    [
+      "luhiyung",
+      "木臼"
+    ],
+    [
+      "luhung",
       "木臼"
     ],
     [
@@ -1526,15 +2042,19 @@ export const TW_08 = {
       "河流"
     ],
     [
-      "lumamu’/ lamuun",
+      "lumamu’",
       "摘取"
     ],
     [
-      "lumamu’/ qumapar/ kumloh",
+      "lumamu’",
       "採收"
     ],
     [
-      "lumangaag/ langagun/ langaag",
+      "luman",
+      "流氓"
+    ],
+    [
+      "lumangaag",
       "走(向某個方向)"
     ],
     [
@@ -1546,7 +2066,11 @@ export const TW_08 = {
       "游泳"
     ],
     [
-      "lumuhing/ luhingun",
+      "lumpug",
+      "數(計算)"
+    ],
+    [
+      "lumuhing",
       "接續"
     ],
     [
@@ -1554,15 +2078,27 @@ export const TW_08 = {
       "找到"
     ],
     [
-      "maaboh/ magqabuli’",
+      "maaboh",
       "灰色"
+    ],
+    [
+      "maanrakiyas",
+      "(植物)生長"
+    ],
+    [
+      "mabaay",
+      "買"
+    ],
+    [
+      "mabaciyak",
+      "打架"
     ],
     [
       "mabahoq",
       "洗(衣物)"
     ],
     [
-      "mabaynay/ mabaay",
+      "mabaynay",
       "買"
     ],
     [
@@ -1586,19 +2122,27 @@ export const TW_08 = {
       "瞎了"
     ],
     [
-      "mabusinuk/ mabusuk",
+      "mabusinuk",
       "酒醉"
     ],
     [
-      "macay/ matanah",
+      "mabusuk",
+      "酒醉"
+    ],
+    [
+      "mabuwinah",
+      "折返"
+    ],
+    [
+      "macay",
       "熟"
     ],
     [
-      "macay/ matanah",
+      "macay",
       "成熟(果實)"
     ],
     [
-      "macialax/ magayh",
+      "macialax",
       "分開"
     ],
     [
@@ -1610,6 +2154,10 @@ export const TW_08 = {
       "燃燒"
     ],
     [
+      "macuqi’",
+      "遲到"
+    ],
+    [
       "macuweq",
       "溢出(如水溢出來)"
     ],
@@ -1618,11 +2166,23 @@ export const TW_08 = {
       "遺失"
     ],
     [
-      "magal/ alun",
+      "magaga’",
+      "懷孕"
+    ],
+    [
+      "magal",
       "拿取"
     ],
     [
-      "magalawa’/ magauu’",
+      "magalahu",
+      "山林"
+    ],
+    [
+      "magalahu",
+      "森林"
+    ],
+    [
+      "magalawa’",
       "黑色"
     ],
     [
@@ -1678,8 +2238,16 @@ export const TW_08 = {
       "玩(球)"
     ],
     [
-      "magautux/ luman",
+      "magautux",
       "流氓"
+    ],
+    [
+      "magauu’",
+      "黑色"
+    ],
+    [
+      "magayh",
+      "分開"
     ],
     [
       "magbatunux",
@@ -1690,19 +2258,31 @@ export const TW_08 = {
       "英俊"
     ],
     [
+      "magiyay",
+      "走(離開)"
+    ],
+    [
       "magmug",
       "剖切"
     ],
     [
-      "magnaciyuk/ mataku",
+      "magnaciyuk",
       "翻倒"
+    ],
+    [
+      "magqabuli’",
+      "灰色"
+    ],
+    [
+      "magqaxqux",
+      "紫色的"
     ],
     [
       "magrarusa’",
       "一雙"
     ],
     [
-      "magtayaung/ magqaxqux",
+      "magtayaung",
       "紫色的"
     ],
     [
@@ -1710,12 +2290,16 @@ export const TW_08 = {
       "黃色的"
     ],
     [
-      "magunawu’/ mugunawu’",
+      "magunawu’",
       "玩耍"
     ],
     [
-      "mahaag/ bahagun",
+      "mahaag",
       "追"
+    ],
+    [
+      "mahahiyaw",
+      "慢慢"
     ],
     [
       "mahananu’ ga",
@@ -1730,11 +2314,11 @@ export const TW_08 = {
       "夜"
     ],
     [
-      "mahantan a kaal la/ ini’ saluwi a kaal la",
+      "mahantan a kaal la",
       "天黑了"
     ],
     [
-      "mahi/ tumuting",
+      "mahi",
       "打(人)"
     ],
     [
@@ -1778,7 +2362,7 @@ export const TW_08 = {
       "脆弱(如這根鐵絲易斷裂)"
     ],
     [
-      "makahtu/ pakahtu",
+      "makahtu",
       "出現"
     ],
     [
@@ -1842,11 +2426,15 @@ export const TW_08 = {
       "(居)住"
     ],
     [
+      "maknathuk",
+      "雄性(動物)"
+    ],
+    [
       "makrakiyas",
       "(往)上坡"
     ],
     [
-      "maksicuqi’/ macuqi’",
+      "maksicuqi’",
       "遲到"
     ],
     [
@@ -1858,7 +2446,7 @@ export const TW_08 = {
       "照顧"
     ],
     [
-      "malalawloq/ yugi’",
+      "malalawloq",
       "跳舞"
     ],
     [
@@ -1868,6 +2456,14 @@ export const TW_08 = {
     [
       "mamaliku",
       "男性"
+    ],
+    [
+      "mamaliku mu",
+      "配偶"
+    ],
+    [
+      "mamaliku mu",
+      "丈夫"
     ],
     [
       "mamaqisu’",
@@ -1890,7 +2486,7 @@ export const TW_08 = {
       "很硬"
     ],
     [
-      "mamati’/ kariariax",
+      "mamati’",
       "經常"
     ],
     [
@@ -1934,7 +2530,7 @@ export const TW_08 = {
       "嚇一跳"
     ],
     [
-      "manaqru’/ naqarun",
+      "manaqru’",
       "完成"
     ],
     [
@@ -1966,7 +2562,11 @@ export const TW_08 = {
       "故意"
     ],
     [
-      "manca’rux/ mancaqrux/ ca’rux/ caqrux",
+      "mancaqrux",
+      "站著"
+    ],
+    [
+      "manca’rux",
       "站著"
     ],
     [
@@ -1994,8 +2594,12 @@ export const TW_08 = {
       "偷偷地"
     ],
     [
-      "mankaki’man/ babangteq",
+      "mankaki’man",
       "草原"
+    ],
+    [
+      "manlaglag",
+      "振動"
     ],
     [
       "manrakiyas",
@@ -2030,8 +2634,12 @@ export const TW_08 = {
       "受傷"
     ],
     [
-      "mapapugagayay ta’ la/ mapugagayay ta’ la/ masasugagayay ta’ la/ masugagayay ta’ la",
+      "mapapugagayay ta’ la",
       "再見(如互道再見)"
+    ],
+    [
+      "mapaqas nku...",
+      "慶祝"
     ],
     [
       "mapitu’",
@@ -2044,6 +2652,10 @@ export const TW_08 = {
     [
       "mapngu",
       "鈍的"
+    ],
+    [
+      "mapugagayay ta’ la",
+      "再見(如互道再見)"
     ],
     [
       "mapusal",
@@ -2070,7 +2682,11 @@ export const TW_08 = {
       "二十二"
     ],
     [
-      "maqabubing/ maqabubu’",
+      "maqabubing",
+      "戴(如戴帽子)"
+    ],
+    [
+      "maqabubu’",
       "戴(如戴帽子)"
     ],
     [
@@ -2086,11 +2702,11 @@ export const TW_08 = {
       "快樂"
     ],
     [
-      "maqas nku.../ mapaqas nku...",
+      "maqas nku...",
       "慶祝"
     ],
     [
-      "maqasu/ qumasu",
+      "maqasu",
       "分(東西)"
     ],
     [
@@ -2122,6 +2738,14 @@ export const TW_08 = {
       "崇山峻嶺"
     ],
     [
+      "marangi’",
+      "模仿"
+    ],
+    [
+      "maras",
+      "帶"
+    ],
+    [
       "maras",
       "攜帶(如帶傘)"
     ],
@@ -2140,6 +2764,10 @@ export const TW_08 = {
     [
       "maru’",
       "咖啡色"
+    ],
+    [
+      "masacka’",
+      "接(人)"
     ],
     [
       "masagsug",
@@ -2162,11 +2790,19 @@ export const TW_08 = {
       "夫妻"
     ],
     [
+      "masasugagayay ta’ la",
+      "再見(如互道再見)"
+    ],
+    [
+      "mascka’",
+      "遇到"
+    ],
+    [
       "masihmoq",
       "小便"
     ],
     [
-      "masihwaw/ masiqru’",
+      "masihwaw",
       "(植物的果實)掉落"
     ],
     [
@@ -2182,11 +2818,15 @@ export const TW_08 = {
       "崩落"
     ],
     [
+      "masiqru’",
+      "(植物的果實)掉落"
+    ],
+    [
       "masiqun",
       "結婚"
     ],
     [
-      "masituwing/ masiyatu’",
+      "masituwing",
       "穿(如穿衣服)"
     ],
     [
@@ -2194,11 +2834,15 @@ export const TW_08 = {
       "笑"
     ],
     [
-      "maskakaru’/ mitaal",
+      "masiyatu’",
+      "穿(如穿衣服)"
+    ],
+    [
+      "maskakaru’",
       "拜訪"
     ],
     [
-      "maslaglag/ manlaglag",
+      "maslaglag",
       "振動"
     ],
     [
@@ -2234,6 +2878,10 @@ export const TW_08 = {
       "跳躍"
     ],
     [
+      "masugagayay ta’ la",
+      "再見(如互道再見)"
+    ],
+    [
       "masupatul",
       "四十"
     ],
@@ -2247,11 +2895,11 @@ export const TW_08 = {
     ],
     [
       "matahunak",
-      "坐下"
+      "坐著"
     ],
     [
-      "matahunak/ tahunak",
-      "坐著"
+      "matahunak",
+      "坐下"
     ],
     [
       "matakakil",
@@ -2263,10 +2911,14 @@ export const TW_08 = {
     ],
     [
       "mataku",
+      "翻倒"
+    ],
+    [
+      "mataku",
       "跌倒"
     ],
     [
-      "mataku/ mubqa",
+      "mataku",
       "倒(下)"
     ],
     [
@@ -2274,12 +2926,44 @@ export const TW_08 = {
       "紅色"
     ],
     [
+      "matanah",
+      "熟"
+    ],
+    [
+      "matanah",
+      "成熟(果實)"
+    ],
+    [
+      "mataq",
+      "未熟的(如這塊肉是生的)"
+    ],
+    [
+      "mataq",
+      "未成熟的(果實)"
+    ],
+    [
+      "matas",
+      "讀書"
+    ],
+    [
+      "matas cu qalimu’",
+      "畫圖"
+    ],
+    [
+      "matasasuwayi’",
+      "堂、表兄弟姐妹"
+    ],
+    [
       "matasasuwayi’",
       "兄弟姊妹"
     ],
     [
-      "mataseq/ mawaseq",
+      "mataseq",
       "綠色"
+    ],
+    [
+      "matasna’",
+      "學生"
     ],
     [
       "matawwaw",
@@ -2290,19 +2974,23 @@ export const TW_08 = {
       "壯碩"
     ],
     [
-      "mateq cu qalimu’/ matas cu qalimu’",
-      "畫圖"
-    ],
-    [
-      "mateq/ matas",
+      "mateq",
       "讀書"
     ],
     [
-      "mateqna’/ matasna’",
+      "mateq cu qalimu’",
+      "畫圖"
+    ],
+    [
+      "mateqna’",
       "學生"
     ],
     [
-      "matgi latanux/ matgi lata’",
+      "matgi latanux",
+      "出去"
+    ],
+    [
+      "matgi lata’",
       "出去"
     ],
     [
@@ -2310,20 +2998,24 @@ export const TW_08 = {
       "悶熱"
     ],
     [
-      "matibaay/ patibaay",
+      "matibaay",
       "賣"
     ],
     [
-      "matiloq/ mataq",
+      "matiloq",
       "未熟的(如這塊肉是生的)"
     ],
     [
-      "matiloq/ mataq",
+      "matiloq",
       "未成熟的(果實)"
     ],
     [
       "matisa’",
       "捻線"
+    ],
+    [
+      "mati’",
+      "力量"
     ],
     [
       "matkayran",
@@ -2346,7 +3038,7 @@ export const TW_08 = {
       "燒焦"
     ],
     [
-      "matuting/ mabaciyak",
+      "matuting",
       "打架"
     ],
     [
@@ -2370,28 +3062,56 @@ export const TW_08 = {
       "髒"
     ],
     [
-      "mawgi’/ pugian",
+      "mawaseq",
+      "綠色"
+    ],
+    [
+      "mawgi’",
       "曬乾(如將衣服曬乾)"
     ],
     [
-      "mawgi’/pugian/ pasbayhu",
+      "mawgi’",
       "晾乾"
+    ],
+    [
+      "mawiwi’",
+      "晃動"
     ],
     [
       "mawp",
       "進入"
     ],
     [
-      "mawwi’/ mawiwi’",
+      "mawwi’",
       "晃動"
     ],
     [
-      "mayhul/ pehlan",
+      "mawxa’",
+      "痛"
+    ],
+    [
+      "mawxa’",
+      "生病"
+    ],
+    [
+      "mawxa’ cubalay",
+      "好痛"
+    ],
+    [
+      "mayhul",
       "(用腳)踏"
     ],
     [
       "maymal",
       "五十"
+    ],
+    [
+      "mayq",
+      "給"
+    ],
+    [
+      "ma’buk",
+      "累"
     ],
     [
       "ma’mu’",
@@ -2406,7 +3126,7 @@ export const TW_08 = {
       "未來"
     ],
     [
-      "ma’uway/ ma’buk",
+      "ma’uway",
       "累"
     ],
     [
@@ -2414,19 +3134,27 @@ export const TW_08 = {
       "捆綁"
     ],
     [
-      "mhung/ bahngun/ marangi’",
+      "mhung",
       "模仿"
+    ],
+    [
+      "mica na’",
+      "剛剛"
     ],
     [
       "mickacka’",
       "半夜"
     ],
     [
+      "mickacka’",
+      "中間"
+    ],
+    [
       "micuwa’",
       "為什麼"
     ],
     [
-      "mikmi’/ ikmi’",
+      "mikmi’",
       "閉(眼睛)"
     ],
     [
@@ -2450,8 +3178,12 @@ export const TW_08 = {
       "低下頭"
     ],
     [
-      "mit/ miyt",
+      "mit",
       "羊"
+    ],
+    [
+      "mitaal",
+      "拜訪"
     ],
     [
       "mitaal",
@@ -2462,12 +3194,20 @@ export const TW_08 = {
       "觀察"
     ],
     [
-      "mitutuleq/ mitutul",
+      "mitutul",
+      "起床"
+    ],
+    [
+      "mitutuleq",
       "起床"
     ],
     [
       "miyenfun",
       "麵粉"
+    ],
+    [
+      "miyt",
+      "羊"
     ],
     [
       "mu",
@@ -2478,6 +3218,10 @@ export const TW_08 = {
       "日落"
     ],
     [
+      "mubqa",
+      "倒(下)"
+    ],
+    [
       "mugi’",
       "麥"
     ],
@@ -2486,7 +3230,15 @@ export const TW_08 = {
       "青年/ 壯年"
     ],
     [
-      "muhngeq/ muhngaw",
+      "mugunawu’",
+      "玩耍"
+    ],
+    [
+      "muhngaw",
+      "休息"
+    ],
+    [
+      "muhngeq",
       "休息"
     ],
     [
@@ -2502,6 +3254,10 @@ export const TW_08 = {
       "種植"
     ],
     [
+      "musa’",
+      "去"
+    ],
+    [
       "mutaq",
       "吐"
     ],
@@ -2514,7 +3270,7 @@ export const TW_08 = {
       "砍"
     ],
     [
-      "muwag / wagan",
+      "muwag",
       "挑選"
     ],
     [
@@ -2526,7 +3282,7 @@ export const TW_08 = {
       "如此"
     ],
     [
-      "muway/ buway/ mayq",
+      "muway",
       "給"
     ],
     [
@@ -2534,16 +3290,16 @@ export const TW_08 = {
       "大腿"
     ],
     [
-      "muxaal cubalay/ mawxa’ cubalay",
-      "好痛"
-    ],
-    [
-      "muxaal/ mawxa’",
+      "muxaal",
       "痛"
     ],
     [
-      "muxaal/ mawxa’",
+      "muxaal",
       "生病"
+    ],
+    [
+      "muxaal cubalay",
+      "好痛"
     ],
     [
       "nabakis",
@@ -2566,7 +3322,7 @@ export const TW_08 = {
       "稻草"
     ],
     [
-      "nahiyahiyaw/ mahahiyaw",
+      "nahiyahiyaw",
       "慢慢"
     ],
     [
@@ -2580,6 +3336,14 @@ export const TW_08 = {
     [
       "nanuwan",
       "什麼"
+    ],
+    [
+      "naqarun",
+      "完成"
+    ],
+    [
+      "nay",
+      "舅子"
     ],
     [
       "na’",
@@ -2619,11 +3383,11 @@ export const TW_08 = {
     ],
     [
       "nha’",
-      "他們的"
+      "他們"
     ],
     [
-      "nha’/ inha’",
-      "他們"
+      "nha’",
+      "他們的"
     ],
     [
       "ni",
@@ -2646,7 +3410,7 @@ export const TW_08 = {
       "他的"
     ],
     [
-      "nuhanhan/ ini’ na’",
+      "nuhanhan",
       "待會兒"
     ],
     [
@@ -2654,15 +3418,27 @@ export const TW_08 = {
       "等待"
     ],
     [
-      "pacaarxun/ pacaqarxun",
+      "pacaarxun",
       "豎立"
     ],
     [
-      "pacigha/ pacirpak",
+      "pacaqarxun",
+      "豎立"
+    ],
+    [
+      "pacigha",
       "胸膛"
     ],
     [
-      "pagalagi/ ciaxi; papaglag/ caciax",
+      "pacirpak",
+      "胸膛"
+    ],
+    [
+      "pagagay",
+      "贈送(禮物)"
+    ],
+    [
+      "pagalagi",
       "照起來；燈具"
     ],
     [
@@ -2674,7 +3450,7 @@ export const TW_08 = {
       "叫喚(如餵雞前會叫喚)"
     ],
     [
-      "pagiyay/ magiyay",
+      "pagiyay",
       "走(離開)"
     ],
     [
@@ -2682,8 +3458,16 @@ export const TW_08 = {
       "花朵"
     ],
     [
+      "pakahtu",
+      "出現"
+    ],
+    [
       "pakahtu a wagi’",
       "日出"
+    ],
+    [
+      "pakaroh",
+      "鋤頭"
     ],
     [
       "pakati’",
@@ -2698,7 +3482,11 @@ export const TW_08 = {
       "跑 (祈使)"
     ],
     [
-      "palangaag/ palangagan",
+      "palangaag",
+      "瞄準"
+    ],
+    [
+      "palangagan",
       "瞄準"
     ],
     [
@@ -2726,27 +3514,47 @@ export const TW_08 = {
       "跨過"
     ],
     [
-      "papagiyay/ papgiyayun",
+      "panqaquu’",
+      "告訴(別人)"
+    ],
+    [
+      "papagiyay",
       "趕走"
     ],
     [
-      "papaglag/ caciax",
+      "papaglag",
       "電燈(照明燈具之統稱)"
     ],
     [
-      "papasqutian/ papashamqan",
+      "papashamqan",
       "廁所"
     ],
     [
-      "papateq/ papatas",
+      "papasqutian",
+      "廁所"
+    ],
+    [
+      "papatas",
       "筆"
     ],
     [
-      "papatiqan/ papatasan",
+      "papatasan",
       "學校"
     ],
     [
-      "papawng cu pinateq/ papawng cu pinatas",
+      "papateq",
+      "筆"
+    ],
+    [
+      "papatiqan",
+      "學校"
+    ],
+    [
+      "papawng cu pinatas",
+      "橡皮擦"
+    ],
+    [
+      "papawng cu pinateq",
       "橡皮擦"
     ],
     [
@@ -2758,6 +3566,10 @@ export const TW_08 = {
       "肥皂"
     ],
     [
+      "papgiyayun",
+      "趕走"
+    ],
+    [
       "papinubuwan",
       "關節"
     ],
@@ -2766,16 +3578,24 @@ export const TW_08 = {
       "多少(人數)"
     ],
     [
-      "papkarangi’/ quti’na Utux",
+      "papkarangi’",
       "油"
     ],
     [
-      "papsibaq/ sinsi’",
+      "papsacka’",
+      "接(人)"
+    ],
+    [
+      "papsibaq",
       "老師"
     ],
     [
       "paptawwaw",
       "工具"
+    ],
+    [
+      "paptupiyux cu raramat",
+      "鍋鏟"
     ],
     [
       "paputtrang",
@@ -2810,11 +3630,15 @@ export const TW_08 = {
       "山羌"
     ],
     [
-      "parnah/ qasu’",
+      "paris",
+      "敵人"
+    ],
+    [
+      "parnah",
       "船隻"
     ],
     [
-      "parnah/qasu",
+      "parnah",
       "船"
     ],
     [
@@ -2822,20 +3646,36 @@ export const TW_08 = {
       "青菜"
     ],
     [
-      "pasacka’/ mascka’",
-      "遇到"
+      "pasacka’",
+      "接(人)"
     ],
     [
-      "pasacka’/ papsacka’/ masacka’",
-      "接(人)"
+      "pasacka’",
+      "遇到"
     ],
     [
       "pasaqit",
       "剪(頭髮)"
     ],
     [
-      "pasgahawti’/ pashawti’",
+      "pasbayhu",
+      "晾乾"
+    ],
+    [
+      "pasgahawti’",
       "滑掉"
+    ],
+    [
+      "pashawti’",
+      "滑掉"
+    ],
+    [
+      "pasiahag",
+      "靠著"
+    ],
+    [
+      "pasiahag",
+      "依賴"
     ],
     [
       "pasibaq",
@@ -2846,11 +3686,23 @@ export const TW_08 = {
       "裂開"
     ],
     [
-      "pasilingay/ paslingayan",
+      "pasikanan",
+      "咀嚼"
+    ],
+    [
+      "pasikanun",
+      "咀嚼"
+    ],
+    [
+      "pasilingay",
       "圍著某物"
     ],
     [
-      "pasnacxu’/ pasnatuting",
+      "paslingayan",
+      "圍著某物"
+    ],
+    [
+      "pasnacxu’",
       "撞到"
     ],
     [
@@ -2858,11 +3710,19 @@ export const TW_08 = {
       "撞擊某物"
     ],
     [
+      "pasnatuting",
+      "撞到"
+    ],
+    [
       "patiasi",
       "打噴嚏"
     ],
     [
-      "patiyuya’/ pasiahag",
+      "patibaay",
+      "賣"
+    ],
+    [
+      "patiyuya’",
       "靠著"
     ],
     [
@@ -2872,6 +3732,10 @@ export const TW_08 = {
     [
       "pati’",
       "稻子"
+    ],
+    [
+      "patpirayun",
+      "扭轉"
     ],
     [
       "patpiyuxun",
@@ -2886,12 +3750,28 @@ export const TW_08 = {
       "槍"
     ],
     [
+      "pauhngaw",
+      "煞車"
+    ],
+    [
+      "pauhngeq",
+      "煞車"
+    ],
+    [
+      "paysan",
+      "禁忌"
+    ],
+    [
       "payux",
       "多"
     ],
     [
       "pehlan",
       "踩踏"
+    ],
+    [
+      "pehlan",
+      "(用腳)踏"
     ],
     [
       "pilapilag",
@@ -2902,7 +3782,7 @@ export const TW_08 = {
       "暫時(離開一下)"
     ],
     [
-      "pila’/ habangan",
+      "pila’",
       "錢"
     ],
     [
@@ -2914,7 +3794,7 @@ export const TW_08 = {
       "種類"
     ],
     [
-      "pincakaan/ matasasuwayi’",
+      "pincakaan",
       "堂、表兄弟姐妹"
     ],
     [
@@ -2930,19 +3810,19 @@ export const TW_08 = {
       "聽說"
     ],
     [
-      "pirayun/ patpirayun",
+      "pirayun",
       "扭轉"
     ],
     [
-      "pisaneq/ paysan",
+      "pisaneq",
       "禁忌"
     ],
     [
-      "piya’ / kituwa’",
+      "piya’",
       "多少"
     ],
     [
-      "piya’ / kituwa’",
+      "piya’",
       "多少(歲；物)"
     ],
     [
@@ -2954,8 +3834,16 @@ export const TW_08 = {
       "剝(花生；豆類)"
     ],
     [
-      "pugagay/ pagagay",
+      "pugagay",
       "贈送(禮物)"
+    ],
+    [
+      "pugian",
+      "曬乾(如將衣服曬乾)"
+    ],
+    [
+      "pugian",
+      "晾乾"
     ],
     [
       "puhiya",
@@ -2966,7 +3854,7 @@ export const TW_08 = {
       "折斷"
     ],
     [
-      "puqing na ragiyax/ yahu’ na ragiyax",
+      "puqing na ragiyax",
       "山腳下"
     ],
     [
@@ -2982,7 +3870,7 @@ export const TW_08 = {
       "貓頭鷹"
     ],
     [
-      "puwaqan/ mickacka’",
+      "puwaqan",
       "中間"
     ],
     [
@@ -2990,15 +3878,27 @@ export const TW_08 = {
       "肋骨"
     ],
     [
+      "qaat",
+      "不是(回答用)"
+    ],
+    [
+      "qabatingan",
+      "雄性(動物)"
+    ],
+    [
       "qaba’",
       "手"
     ],
     [
-      "qabqub/ kukcu",
+      "qabqub",
       "穀倉"
     ],
     [
-      "qabubing/ qabubu’",
+      "qabubing",
+      "帽子"
+    ],
+    [
+      "qabubu’",
       "帽子"
     ],
     [
@@ -3018,8 +3918,16 @@ export const TW_08 = {
       "豆類"
     ],
     [
+      "qahyi",
+      "杯子"
+    ],
+    [
       "qali",
       "關上"
+    ],
+    [
+      "qali",
+      "關(門；窗)"
     ],
     [
       "qalimu’",
@@ -3094,7 +4002,7 @@ export const TW_08 = {
       "釣具"
     ],
     [
-      "qaricuwal/ paris",
+      "qaricuwal",
       "敵人"
     ],
     [
@@ -3106,8 +4014,16 @@ export const TW_08 = {
       "獵物(統稱)"
     ],
     [
+      "qasu",
+      "船"
+    ],
+    [
       "qasuu’",
       "木杵"
+    ],
+    [
+      "qasu’",
+      "船隻"
     ],
     [
       "qatahi’",
@@ -3142,6 +4058,10 @@ export const TW_08 = {
       "山櫻花"
     ],
     [
+      "qcu",
+      "喉嚨"
+    ],
+    [
       "qibing",
       "眼鏡蛇"
     ],
@@ -3158,7 +4078,7 @@ export const TW_08 = {
       "峽谷"
     ],
     [
-      "qlu’/ qali/ qumlu’",
+      "qlu’",
       "關(門；窗)"
     ],
     [
@@ -3170,7 +4090,7 @@ export const TW_08 = {
       "魚"
     ],
     [
-      "quluwang/ tuquwaq/ talnga’",
+      "quluwang",
       "套頸式繩索陷阱"
     ],
     [
@@ -3182,7 +4102,7 @@ export const TW_08 = {
       "女性生殖器"
     ],
     [
-      "qumalang/qumiriyang",
+      "qumalang",
       "搭建圍籬"
     ],
     [
@@ -3190,16 +4110,48 @@ export const TW_08 = {
       "剝皮"
     ],
     [
-      "qumali’ cu qali’ na kahuneq/ qumali’ cu qali’ na kahuy",
+      "qumali’ cu qali’ na kahuneq",
       "剝樹皮"
+    ],
+    [
+      "qumali’ cu qali’ na kahuy",
+      "剝樹皮"
+    ],
+    [
+      "qumapar",
+      "採收"
+    ],
+    [
+      "qumasu",
+      "分(東西)"
     ],
     [
       "qumhut",
       "阻擋"
     ],
     [
+      "qumiriyang",
+      "搭建圍籬"
+    ],
+    [
       "qumisuwan",
       "哥哥、姊姊(通稱)；對比自己年長者之尊稱"
+    ],
+    [
+      "qumisuwan na kanayril",
+      "姊姊"
+    ],
+    [
+      "qumisuwan na mamaliku",
+      "兄長"
+    ],
+    [
+      "qumisuwan na mamaliku",
+      "哥哥"
+    ],
+    [
+      "qumlu’",
+      "關(門；窗)"
     ],
     [
       "qumtam",
@@ -3226,12 +4178,16 @@ export const TW_08 = {
       "下雨"
     ],
     [
-      "qupun/ hukuun",
+      "qupun",
       "摺疊"
     ],
     [
       "ququlun",
       "門牙"
+    ],
+    [
+      "quriyux na Kinuhukul",
+      "辣椒"
     ],
     [
       "quru’",
@@ -3244,6 +4200,10 @@ export const TW_08 = {
     [
       "quti’",
       "大便"
+    ],
+    [
+      "quti’na Utux",
+      "油"
     ],
     [
       "qutux",
@@ -3274,6 +4234,14 @@ export const TW_08 = {
       "懸掛(祈使)"
     ],
     [
+      "raan",
+      "道路"
+    ],
+    [
+      "raaran",
+      "按住"
+    ],
+    [
       "ragum",
       "針"
     ],
@@ -3282,11 +4250,11 @@ export const TW_08 = {
       "大的"
     ],
     [
-      "rahuwal/ wahti’/ gilahang",
+      "rahuwal",
       "(空間)寬敞"
     ],
     [
-      "rakiyas/ rumakiyas",
+      "rakiyas",
       "爬上(去)"
     ],
     [
@@ -3302,12 +4270,16 @@ export const TW_08 = {
       "血"
     ],
     [
-      "raneq/ raan",
+      "raneq",
       "道路"
     ],
     [
       "rangay",
       "石壓式陷阱"
+    ],
+    [
+      "rapal",
+      "捕鳥陷阱"
     ],
     [
       "raqinas",
@@ -3318,7 +4290,11 @@ export const TW_08 = {
       "枝條"
     ],
     [
-      "raqni’ na kahuneq/ raqni’ na kahuy",
+      "raqni’ na kahuneq",
+      "樹枝"
+    ],
+    [
+      "raqni’ na kahuy",
       "樹枝"
     ],
     [
@@ -3330,11 +4306,11 @@ export const TW_08 = {
       "菜餚"
     ],
     [
-      "rasun/ maras",
+      "rasun",
       "帶"
     ],
     [
-      "raung/ kakayr",
+      "raung",
       "鉤子"
     ],
     [
@@ -3342,7 +4318,7 @@ export const TW_08 = {
       "山蘇"
     ],
     [
-      "rawin/ wagi’",
+      "rawin",
       "朋友"
     ],
     [
@@ -3382,8 +4358,16 @@ export const TW_08 = {
       "汗水"
     ],
     [
-      "rngu’/ mati’",
+      "riyatux",
+      "上面"
+    ],
+    [
+      "rngu’",
       "力量"
+    ],
+    [
+      "ru",
+      "和"
     ],
     [
       "rumag",
@@ -3398,23 +4382,31 @@ export const TW_08 = {
       "捕抓"
     ],
     [
-      "rumakiyas/ gumabil",
-      "(藤類植物)攀爬"
-    ],
-    [
-      "rumakiyas/ maanrakiyas",
+      "rumakiyas",
       "(植物)生長"
     ],
     [
-      "rumamuwag/ rumamu",
+      "rumakiyas",
+      "(藤類植物)攀爬"
+    ],
+    [
+      "rumakiyas",
+      "爬上(去)"
+    ],
+    [
+      "rumamu",
       "蓋屋頂"
     ],
     [
-      "ruma’ru’/ sira’ru’/ raaran",
+      "rumamuwag",
+      "蓋屋頂"
+    ],
+    [
+      "ruma’ru’",
       "按住"
     ],
     [
-      "rumileq/ liliqun",
+      "rumileq",
       "提著"
     ],
     [
@@ -3422,7 +4414,11 @@ export const TW_08 = {
       "(將器具)磨利"
     ],
     [
-      "rumuruwag/ rumuru",
+      "rumuru",
+      "推"
+    ],
+    [
+      "rumuruwag",
       "推"
     ],
     [
@@ -3438,12 +4434,12 @@ export const TW_08 = {
       "紙張"
     ],
     [
-      "ru’/ kahi’",
-      "所以"
+      "ru’",
+      "再"
     ],
     [
-      "ru’/ lawwi niya’",
-      "再"
+      "ru’",
+      "所以"
     ],
     [
       "sababul",
@@ -3452,6 +4448,10 @@ export const TW_08 = {
     [
       "sabaciyakan",
       "噎到"
+    ],
+    [
+      "sabalayqun",
+      "喜愛"
     ],
     [
       "sabayhu cu mamati’",
@@ -3468,6 +4468,10 @@ export const TW_08 = {
     [
       "salaman",
       "碗"
+    ],
+    [
+      "salangaan",
+      "趕上"
     ],
     [
       "sali",
@@ -3506,11 +4510,15 @@ export const TW_08 = {
       "土蜂"
     ],
     [
+      "sasuway",
+      "湯匙"
+    ],
+    [
       "sawbeh",
       "近"
     ],
     [
-      "sawkan/ sibabu/ simamacaw",
+      "sawkan",
       "酸臭"
     ],
     [
@@ -3530,15 +4538,19 @@ export const TW_08 = {
       "好可憐"
     ],
     [
-      "sbil/ sinbil",
+      "sbil",
       "留下"
+    ],
+    [
+      "sibabu",
+      "酸臭"
     ],
     [
       "sigawah",
       "將水排出(疏減)"
     ],
     [
-      "sighap/ gumhap",
+      "sighap",
       "散撒"
     ],
     [
@@ -3546,16 +4558,32 @@ export const TW_08 = {
       "疼愛"
     ],
     [
-      "sihakas/ humakas",
+      "sihakas",
       "禁止"
+    ],
+    [
+      "sihuban",
+      "吸"
     ],
     [
       "siksagsug",
       "酸"
     ],
     [
-      "silaglag/ siwiwi’",
+      "silaglag",
       "搖動"
+    ],
+    [
+      "silnga’",
+      "趕上"
+    ],
+    [
+      "simamacaw",
+      "酸臭"
+    ],
+    [
+      "sinbil",
+      "留下"
     ],
     [
       "sinbuwangan",
@@ -3570,32 +4598,80 @@ export const TW_08 = {
       "繩索"
     ],
     [
-      "sipacpung/ pasiahag",
+      "sinsang",
+      "醫生"
+    ],
+    [
+      "sinsi’",
+      "老師"
+    ],
+    [
+      "sipacpung",
       "依賴"
     ],
     [
-      "sipaqarax/ siquwi’",
+      "sipapahub",
+      "插"
+    ],
+    [
+      "sipaqarax",
       "掛"
     ],
     [
-      "situwing/ siyatu’",
+      "sipbabaw",
+      "捕鳥陷阱"
+    ],
+    [
+      "siqa’",
+      "讓開"
+    ],
+    [
+      "siquwi’",
+      "掛"
+    ],
+    [
+      "sira’ru’",
+      "按住"
+    ],
+    [
+      "situwing",
       "衣服"
     ],
     [
-      "situwing/ siyatu’",
+      "situwing",
       "上衣"
+    ],
+    [
+      "siutu’",
+      "堆積"
+    ],
+    [
+      "siwitwit",
+      "被(搖)動的"
+    ],
+    [
+      "siwiwi’",
+      "搖動"
     ],
     [
       "siwiwi’",
       "(搖)動"
     ],
     [
-      "siwiwi’/ siwitwit",
+      "siwiwi’",
       "被(搖)動的"
     ],
     [
-      "siyag na baru’/ aping na baru’",
+      "siyag na baru’",
       "海邊"
+    ],
+    [
+      "siyatu’",
+      "衣服"
+    ],
+    [
+      "siyatu’",
+      "上衣"
     ],
     [
       "siyawcang",
@@ -3638,7 +4714,7 @@ export const TW_08 = {
       "鎖上"
     ],
     [
-      "sumbalayq/ sabalayqun",
+      "sumbalayq",
       "喜愛"
     ],
     [
@@ -3650,7 +4726,7 @@ export const TW_08 = {
       "開墾"
     ],
     [
-      "sumihub/ sihuban",
+      "sumihub",
       "吸"
     ],
     [
@@ -3658,7 +4734,7 @@ export const TW_08 = {
       "鞭打"
     ],
     [
-      "sumilnga’/ salangaan/ silnga’",
+      "sumilnga’",
       "趕上"
     ],
     [
@@ -3686,7 +4762,15 @@ export const TW_08 = {
       "相信"
     ],
     [
-      "suwagi’/ yangu’",
+      "suug na imu",
+      "後院"
+    ],
+    [
+      "suug na imuwag",
+      "後院"
+    ],
+    [
+      "suwagi’",
       "弟媳"
     ],
     [
@@ -3707,11 +4791,19 @@ export const TW_08 = {
     ],
     [
       "su’",
+      "你"
+    ],
+    [
+      "su’",
       "你的"
     ],
     [
-      "su’/ isu’",
-      "你"
+      "taang",
+      "鐵釘"
+    ],
+    [
+      "tabakuy",
+      "雨傘"
     ],
     [
       "taba’",
@@ -3722,6 +4814,10 @@ export const TW_08 = {
       "逃跑"
     ],
     [
+      "tagiququun",
+      "掐住"
+    ],
+    [
       "tagleq",
       "瀑布"
     ],
@@ -3730,8 +4826,16 @@ export const TW_08 = {
       "水管"
     ],
     [
-      "tagqaqan/ tagiququun",
+      "tagqaqan",
       "掐住"
+    ],
+    [
+      "tahunak",
+      "坐著"
+    ],
+    [
+      "tahunakan",
+      "椅子"
     ],
     [
       "tahusan",
@@ -3766,6 +4870,14 @@ export const TW_08 = {
       "冰冷"
     ],
     [
+      "talnga’",
+      "套頸式繩索陷阱"
+    ],
+    [
+      "talnga’",
+      "捕鳥陷阱"
+    ],
+    [
       "tamaku’",
       "菸草"
     ],
@@ -3778,7 +4890,7 @@ export const TW_08 = {
       "輪胎"
     ],
     [
-      "tang/ taang",
+      "tang",
       "鐵釘"
     ],
     [
@@ -3790,11 +4902,19 @@ export const TW_08 = {
       "(動物的)角"
     ],
     [
+      "taptap na Utux",
+      "閃電"
+    ],
+    [
       "taqaqinug",
       "香菇"
     ],
     [
-      "taqiyng na kahuneq/ taqiyng na kahuy",
+      "taqiyng na kahuneq",
+      "樹頭"
+    ],
+    [
+      "taqiyng na kahuy",
       "樹頭"
     ],
     [
@@ -3806,11 +4926,15 @@ export const TW_08 = {
       "膝蓋"
     ],
     [
-      "tarunaw/ qahyi",
+      "tarunaw",
       "杯子"
     ],
     [
-      "tasiaring/ cigiaring",
+      "tasiaring",
+      "生火"
+    ],
+    [
+      "tasiaring",
       "點火"
     ],
     [
@@ -3826,11 +4950,15 @@ export const TW_08 = {
       "工寮"
     ],
     [
+      "tatapsan",
+      "篩穀器具"
+    ],
+    [
       "tataptap",
       "扇子"
     ],
     [
-      "tatapus/ tatapsan",
+      "tatapus",
       "篩穀器具"
     ],
     [
@@ -3838,7 +4966,7 @@ export const TW_08 = {
       "蝴蝶"
     ],
     [
-      "tathunakan/ tahunakan",
+      "tathunakan",
       "椅子"
     ],
     [
@@ -3878,6 +5006,14 @@ export const TW_08 = {
       "長官"
     ],
     [
+      "tawki’",
+      "警察"
+    ],
+    [
+      "tawnux",
+      "弓"
+    ],
+    [
       "tawyah",
       "肚兜"
     ],
@@ -3898,23 +5034,23 @@ export const TW_08 = {
       "田鼠"
     ],
     [
-      "ta’/ ita’",
+      "ta’",
+      "我們"
+    ],
+    [
+      "ta’",
       "咱們(包含式)"
     ],
     [
-      "ta’/ ita’",
+      "ta’",
       "咱們的"
-    ],
-    [
-      "ta’/ ita’/ cami/ icami",
-      "我們"
     ],
     [
       "ta’tu’",
       "剁"
     ],
     [
-      "tha/ tra’",
+      "tha",
       "剩下"
     ],
     [
@@ -3954,6 +5090,10 @@ export const TW_08 = {
       "鹽"
     ],
     [
+      "tinawx",
+      "雌性(動物)"
+    ],
+    [
       "tincacpangan",
       "百步蛇"
     ],
@@ -3966,8 +5106,12 @@ export const TW_08 = {
       "部落"
     ],
     [
-      "tiqapun/ tumiqap",
+      "tiqapun",
       "劈(木材)"
+    ],
+    [
+      "tiruwiqun",
+      "(獵物掉入陷阱)陷中"
     ],
     [
       "tiwayan",
@@ -3986,7 +5130,15 @@ export const TW_08 = {
       "電視"
     ],
     [
-      "truwiqun/ tiruwiqun",
+      "tiyenxuwa’",
+      "電話"
+    ],
+    [
+      "tra’",
+      "剩下"
+    ],
+    [
+      "truwiqun",
       "(獵物掉入陷阱)陷中"
     ],
     [
@@ -3998,6 +5150,14 @@ export const TW_08 = {
       "窗戶"
     ],
     [
+      "tuki",
+      "手錶"
+    ],
+    [
+      "tuki",
+      "鐘錶"
+    ],
+    [
       "tukisu",
       "百香果"
     ],
@@ -4006,7 +5166,7 @@ export const TW_08 = {
       "犁田"
     ],
     [
-      "tumagaq/ tumaq",
+      "tumagaq",
       "削(水果)"
     ],
     [
@@ -4018,8 +5178,20 @@ export const TW_08 = {
       "招手"
     ],
     [
-      "tuminoq/ tuminun",
+      "tumaq",
+      "削(水果)"
+    ],
+    [
+      "tuminoq",
       "編織"
+    ],
+    [
+      "tuminun",
+      "編織"
+    ],
+    [
+      "tumiqap",
+      "劈(木材)"
     ],
     [
       "tumubun",
@@ -4030,12 +5202,20 @@ export const TW_08 = {
       "打瞌睡"
     ],
     [
-      "tumubux/ gumhap",
+      "tumubux",
       "播種"
     ],
     [
       "tumung",
+      "觸摸(物品)"
+    ],
+    [
+      "tumung",
       "觸碰"
+    ],
+    [
+      "tumuting",
+      "打(人)"
     ],
     [
       "tumuting cu ...",
@@ -4046,11 +5226,19 @@ export const TW_08 = {
       "痰"
     ],
     [
+      "tungun",
+      "觸摸(物品)"
+    ],
+    [
       "tunux",
       "頭"
     ],
     [
-      "tuquwaq/ rapal/ sipbabaw/  talnga’",
+      "tuquwaq",
+      "套頸式繩索陷阱"
+    ],
+    [
+      "tuquwaq",
       "捕鳥陷阱"
     ],
     [
@@ -4062,7 +5250,7 @@ export const TW_08 = {
       "使喚"
     ],
     [
-      "ubing/ ubut",
+      "ubing",
       "袋子"
     ],
     [
@@ -4070,19 +5258,35 @@ export const TW_08 = {
       "醃漬(祈使)"
     ],
     [
-      "ubuani/ umubu’",
+      "ubuani",
       "亂翻"
     ],
     [
-      "ubugan/ umubu",
+      "ubugan",
+      "催熟(果實)"
+    ],
+    [
+      "ubugan",
       "浸泡"
+    ],
+    [
+      "ubut",
+      "袋子"
+    ],
+    [
+      "uhakun",
+      "拔除"
     ],
     [
       "uhakun",
       "拔出"
     ],
     [
-      "uhngeq/ uhngaw",
+      "uhngaw",
+      "停止"
+    ],
+    [
+      "uhngeq",
       "停止"
     ],
     [
@@ -4122,15 +5326,15 @@ export const TW_08 = {
       "餌"
     ],
     [
-      "umaboh/abuhan/ tumung/ tungun",
+      "umaboh",
       "觸摸(物品)"
     ],
     [
-      "umatuk/ atukun",
+      "umatuk",
       "啄"
     ],
     [
-      "umimag/ imagun",
+      "umimag",
       "攪動"
     ],
     [
@@ -4142,23 +5346,35 @@ export const TW_08 = {
       "吹"
     ],
     [
-      "umuhak/ uhakun",
+      "umubu",
+      "浸泡"
+    ],
+    [
+      "umubu’",
+      "亂翻"
+    ],
+    [
+      "umuhak",
       "拔除"
     ],
     [
-      "umumu’/ ubugan",
+      "umumu’",
       "催熟(果實)"
     ],
     [
-      "umutu’/ siutu’",
+      "umutu’",
       "堆積"
     ],
     [
-      "ungay/ awngay",
+      "ungay",
       "猴子"
     ],
     [
-      "ungi’/ ungii",
+      "ungii",
+      "忘記(祈使)"
+    ],
+    [
+      "ungi’",
       "忘記(祈使)"
     ],
     [
@@ -4174,6 +5390,14 @@ export const TW_08 = {
       "兩百"
     ],
     [
+      "usa’",
+      "去"
+    ],
+    [
+      "utas",
+      "男性長輩(祖父；外公)"
+    ],
+    [
       "utu’ na batbatunux",
       "石堆"
     ],
@@ -4184,6 +5408,10 @@ export const TW_08 = {
     [
       "uwal",
       "是的"
+    ],
+    [
+      "uwal",
+      "好"
     ],
     [
       "uwal",
@@ -4226,6 +5454,14 @@ export const TW_08 = {
       "湖泊"
     ],
     [
+      "wagan",
+      "挑選"
+    ],
+    [
+      "wagi’",
+      "朋友"
+    ],
+    [
       "wagi’",
       "太陽"
     ],
@@ -4234,7 +5470,15 @@ export const TW_08 = {
       "藤類"
     ],
     [
-      "wakhul/ wakbul",
+      "wahti’",
+      "(空間)寬敞"
+    ],
+    [
+      "wakbul",
+      "穀倉(高腳糧倉)"
+    ],
+    [
+      "wakhul",
       "穀倉(高腳糧倉)"
     ],
     [
@@ -4246,8 +5490,20 @@ export const TW_08 = {
       "頭帶(女用背籃用)"
     ],
     [
-      "wangri’/ wangaw",
+      "wamil",
+      "鞋子"
+    ],
+    [
+      "wangaw",
       "蒼蠅"
+    ],
+    [
+      "wangri’",
+      "蒼蠅"
+    ],
+    [
+      "wapit",
+      "飛鼠"
     ],
     [
       "waqanux",
@@ -4258,7 +5514,7 @@ export const TW_08 = {
       "圓形竹簍"
     ],
     [
-      "waqcu/qcu",
+      "waqcu",
       "喉嚨"
     ],
     [
@@ -4306,19 +5562,31 @@ export const TW_08 = {
       "乳房"
     ],
     [
-      "yaba’ na tatiruling",
-      "大拇指"
+      "yaba’",
+      "爸爸"
     ],
     [
-      "yaba’/ aba’",
-      "爸爸"
+      "yaba’ na tatiruling",
+      "大拇指"
     ],
     [
       "yabung",
       "柚子"
     ],
     [
-      "yaki’/ aki’",
+      "yahu’",
+      "下面"
+    ],
+    [
+      "yahu’ na ...",
+      "某物之下"
+    ],
+    [
+      "yahu’ na ragiyax",
+      "山腳下"
+    ],
+    [
+      "yaki’",
       "女性長輩(祖母；外婆)"
     ],
     [
@@ -4330,20 +5598,32 @@ export const TW_08 = {
       "腎臟"
     ],
     [
-      "yanay/ anay/ nay",
+      "yanay",
       "舅子"
     ],
     [
-      "yani ku inu’/ yani ku aynu’",
+      "yangu’",
+      "弟媳"
+    ],
+    [
+      "yani",
+      "正確"
+    ],
+    [
+      "yani ku aynu’",
       "哪一個"
     ],
     [
-      "yani na’/mica na’",
+      "yani ku inu’",
+      "哪一個"
+    ],
+    [
+      "yani na’",
       "剛剛"
     ],
     [
-      "yani/ cubalay/ capaang",
-      "正確"
+      "yapit",
+      "飛鼠"
     ],
     [
       "yasam",
@@ -4354,19 +5634,23 @@ export const TW_08 = {
       "幼犬"
     ],
     [
-      "yata’/ ata’",
+      "yata’",
       "伯母；嬸嬸；舅母；姑姑(通稱)"
     ],
     [
-      "yaya’/ aya’",
+      "yaya’",
       "媽媽"
     ],
     [
-      "yulah/ qumisuwan na mamaliku",
+      "yugi’",
+      "跳舞"
+    ],
+    [
+      "yulah",
       "兄長"
     ],
     [
-      "yulah/ qumisuwan na mamaliku",
+      "yulah",
       "哥哥"
     ],
     [
@@ -4374,7 +5658,7 @@ export const TW_08 = {
       "心臟"
     ],
     [
-      "yutas/ utas",
+      "yutas",
       "男性長輩(祖父；外公)"
     ]
   ]

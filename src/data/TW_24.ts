@@ -1450,6 +1450,10 @@ export const TW_24 = {
       "李子"
     ],
     [
+      "livalivay",
+      "旁邊"
+    ],
+    [
       "li’u",
       "脖子"
     ],
@@ -1623,6 +1627,10 @@ export const TW_24 = {
     ],
     [
       "maculju",
+      "燙到"
+    ],
+    [
+      "maculju",
       "燙"
     ],
     [
@@ -1698,6 +1706,10 @@ export const TW_24 = {
       "破掉"
     ],
     [
+      "malaing",
+      "隨意"
+    ],
+    [
       "malang",
       "製作(物品)"
     ],
@@ -1710,7 +1722,7 @@ export const TW_24 = {
       "滑掉"
     ],
     [
-      "mala’it/maculju",
+      "mala’it",
       "燙到"
     ],
     [
@@ -2290,7 +2302,7 @@ export const TW_24 = {
       "正確"
     ],
     [
-      "pagidigidi/livalivay",
+      "pagidigidi",
       "旁邊"
     ],
     [
@@ -2994,7 +3006,7 @@ export const TW_24 = {
       "隨意"
     ],
     [
-      "silaing/malaing",
+      "silaing",
       "隨意"
     ],
     [

@@ -23,6 +23,10 @@ export const TW_39 = {
     ],
     [
       "a haremay",
+      "剛剛"
+    ],
+    [
+      "a haremay",
       "剛才"
     ],
     [
@@ -110,12 +114,12 @@ export const TW_39 = {
       "(伯父；叔叔；舅舅)通稱"
     ],
     [
-      "amanan na",
-      "不要(祈使句用)"
+      "amanan",
+      "不要"
     ],
     [
-      "amanan/ inau",
-      "不要"
+      "amanan na",
+      "不要(祈使句用)"
     ],
     [
       "anamu",
@@ -174,6 +178,10 @@ export const TW_39 = {
       "平埔族"
     ],
     [
+      "awa",
+      "嗎(用在問句)"
+    ],
+    [
       "ayawan",
       "長官"
     ],
@@ -186,7 +194,11 @@ export const TW_39 = {
       "腳踏車"
     ],
     [
-      "dalan/ dadalan",
+      "dadalan",
+      "道路"
+    ],
+    [
+      "dalan",
       "道路"
     ],
     [
@@ -306,6 +318,10 @@ export const TW_39 = {
       "木臼"
     ],
     [
+      "elra",
+      "隨意"
+    ],
+    [
       "eman",
       "什麼"
     ],
@@ -422,11 +438,19 @@ export const TW_39 = {
       "兄長"
     ],
     [
-      "i valri na ma’inay/ i vau na ma’inay",
+      "i valri na ma’inay",
       "哥哥"
     ],
     [
-      "i valri na vavayan/ i vau na vavayan",
+      "i valri na vavayan",
+      "姊姊"
+    ],
+    [
+      "i vau na ma’inay",
+      "哥哥"
+    ],
+    [
+      "i vau na vavayan",
       "姊姊"
     ],
     [
@@ -460,6 +484,10 @@ export const TW_39 = {
     [
       "inaekan na vuwa’",
       "水果"
+    ],
+    [
+      "inau",
+      "不要"
     ],
     [
       "ini",
@@ -616,6 +644,10 @@ export const TW_39 = {
     [
       "karauv",
       "晚上"
+    ],
+    [
+      "karawrauv",
+      "傍晚"
     ],
     [
       "karayup",
@@ -1126,6 +1158,10 @@ export const TW_39 = {
       "味道"
     ],
     [
+      "liyus",
+      "旋轉"
+    ],
+    [
       "lizing",
       "男用耳環"
     ],
@@ -1578,7 +1614,7 @@ export const TW_39 = {
       "僅僅"
     ],
     [
-      "maw ziya/a haremay",
+      "maw ziya",
       "剛剛"
     ],
     [
@@ -1822,7 +1858,7 @@ export const TW_39 = {
       "水患"
     ],
     [
-      "muliyus/ liyus",
+      "muliyus",
       "旋轉"
     ],
     [
@@ -1950,7 +1986,7 @@ export const TW_39 = {
       "主格標記(各族用語)"
     ],
     [
-      "na iyan/nay iyan",
+      "na iyan",
       "哪一個"
     ],
     [
@@ -1990,12 +2026,20 @@ export const TW_39 = {
       "飛鼠"
     ],
     [
-      "nay/awa",
+      "nay",
       "嗎(用在問句)"
+    ],
+    [
+      "nay iyan",
+      "哪一個"
     ],
     [
       "nazu",
       "他們"
+    ],
+    [
+      "nem pulu’",
+      "六十"
     ],
     [
       "ngadan",
@@ -2226,7 +2270,7 @@ export const TW_39 = {
       "鳳梨"
     ],
     [
-      "papidaya/saeman",
+      "papidaya",
       "一些"
     ],
     [
@@ -2234,7 +2278,7 @@ export const TW_39 = {
       "剖切"
     ],
     [
-      "papiya/peniya",
+      "papiya",
       "都"
     ],
     [
@@ -2396,6 +2440,10 @@ export const TW_39 = {
     [
       "peniya",
       "全部"
+    ],
+    [
+      "peniya",
+      "都"
     ],
     [
       "penusar",
@@ -2667,6 +2715,10 @@ export const TW_39 = {
     ],
     [
       "saeman",
+      "一些"
+    ],
+    [
+      "saeman",
       "少的"
     ],
     [
@@ -2790,7 +2842,7 @@ export const TW_39 = {
       "竹筍"
     ],
     [
-      "semadulu / elra",
+      "semadulu",
       "隨意"
     ],
     [
@@ -3170,7 +3222,11 @@ export const TW_39 = {
       "回應"
     ],
     [
-      "temuwan na ma’inay/temuwan na vavayan",
+      "temuwan na ma’inay",
+      "孫子/孫女"
+    ],
+    [
+      "temuwan na vavayan",
       "孫子/孫女"
     ],
     [
@@ -3490,7 +3546,7 @@ export const TW_39 = {
       "六"
     ],
     [
-      "unem pulu’/nem pulu’",
+      "unem pulu’",
       "六十"
     ],
     [
@@ -4082,7 +4138,7 @@ export const TW_39 = {
       "穿山甲"
     ],
     [
-      "’aremameremeng lra/ karawrauv",
+      "’aremameremeng lra",
       "傍晚"
     ],
     [

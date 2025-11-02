@@ -14,7 +14,11 @@ export const TW_16 = {
       "客家人"
     ],
     [
-      "Plmukan/Klmukan",
+      "Klmukan",
+      "閩南人"
+    ],
+    [
+      "Plmukan",
       "閩南人"
     ],
     [
@@ -290,8 +294,12 @@ export const TW_16 = {
       "動物的內臟"
     ],
     [
-      "bindo/sbiki",
+      "bindo",
       "檳榔"
+    ],
+    [
+      "biqi",
+      "給"
     ],
     [
       "biqir",
@@ -806,7 +814,7 @@ export const TW_16 = {
       "也"
     ],
     [
-      "ege/biqi",
+      "ege",
       "給"
     ],
     [
@@ -842,6 +850,10 @@ export const TW_16 = {
       "來"
     ],
     [
+      "ga",
+      "正在"
+    ],
+    [
       "ga hini",
       "在(這裡)"
     ],
@@ -850,16 +862,16 @@ export const TW_16 = {
       "在某處"
     ],
     [
-      "ga/gaga",
-      "正在"
-    ],
-    [
       "gabil",
       "拔出"
     ],
     [
       "gaga",
       "那個；正在"
+    ],
+    [
+      "gaga",
+      "正在"
     ],
     [
       "gagi",
@@ -1050,6 +1062,10 @@ export const TW_16 = {
       "吸"
     ],
     [
+      "hginuk",
+      "腰部"
+    ],
+    [
       "hhuwaun",
       "用途"
     ],
@@ -1162,7 +1178,7 @@ export const TW_16 = {
       "留下"
     ],
     [
-      "hwinuk/hginuk",
+      "hwinuk",
       "腰部"
     ],
     [
@@ -1738,7 +1754,11 @@ export const TW_16 = {
       "揹負(物品)"
     ],
     [
-      "maruy/mari",
+      "mari",
+      "買"
+    ],
+    [
+      "maruy",
       "買"
     ],
     [
@@ -1978,7 +1998,7 @@ export const TW_16 = {
       "完成"
     ],
     [
-      "mhenuk/mrubu",
+      "mhenuk",
       "軟"
     ],
     [
@@ -2032,6 +2052,10 @@ export const TW_16 = {
     [
       "misan",
       "冬天"
+    ],
+    [
+      "mkaro",
+      "(藤類植物)攀爬"
     ],
     [
       "mkaro",
@@ -2238,6 +2262,10 @@ export const TW_16 = {
       "五十"
     ],
     [
+      "mrubu",
+      "軟"
+    ],
+    [
       "msange",
       "休息"
     ],
@@ -2310,7 +2338,7 @@ export const TW_16 = {
       "再見(如互道再見)"
     ],
     [
-      "mtakil/mkaro",
+      "mtakil",
       "(藤類植物)攀爬"
     ],
     [
@@ -2586,7 +2614,7 @@ export const TW_16 = {
       "鋤頭"
     ],
     [
-      "paru/poraq",
+      "paru",
       "大的"
     ],
     [
@@ -2716,6 +2744,10 @@ export const TW_16 = {
     [
       "pnqidil",
       "嫁給非本族群的族人"
+    ],
+    [
+      "poraq",
+      "大的"
     ],
     [
       "posa",
@@ -3062,12 +3094,16 @@ export const TW_16 = {
       "螞蟻"
     ],
     [
-      "qtehur",
-      "粗(物)"
+      "qteban",
+      "胖(身形)"
     ],
     [
-      "qtehur/qteban",
+      "qtehur",
       "胖(身形)"
+    ],
+    [
+      "qtehur",
+      "粗(物)"
     ],
     [
       "quhing",
@@ -3426,6 +3462,10 @@ export const TW_16 = {
       "刮颱風"
     ],
     [
+      "sbiki",
+      "檳榔"
+    ],
+    [
       "sbrangan",
       "矛"
     ],
@@ -3707,10 +3747,14 @@ export const TW_16 = {
     ],
     [
       "so kiya",
+      "像這樣/像那樣"
+    ],
+    [
+      "so kiya",
       "如此"
     ],
     [
-      "so nii/so kiya",
+      "so nii",
       "像這樣/像那樣"
     ],
     [

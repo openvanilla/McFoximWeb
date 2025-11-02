@@ -55,11 +55,11 @@ export const TW_32 = {
     ],
     [
       "akaodho",
-      "沒有(表擁有的否定詞)"
+      "沒有"
     ],
     [
-      "akaodho/ikaodho/okaodho",
-      "沒有"
+      "akaodho",
+      "沒有(表擁有的否定詞)"
     ],
     [
       "akasavahe",
@@ -550,6 +550,10 @@ export const TW_32 = {
       "沙子"
     ],
     [
+      "gako",
+      "學校"
+    ],
+    [
       "hacale",
       "疤"
     ],
@@ -664,6 +668,10 @@ export const TW_32 = {
     [
       "ihie",
       "左邊"
+    ],
+    [
+      "ikaodho",
+      "沒有"
     ],
     [
       "ilrae",
@@ -1938,6 +1946,10 @@ export const TW_32 = {
       "很硬"
     ],
     [
+      "matodhalri’ae",
+      "懷孕"
+    ],
+    [
       "matoladhame",
       "觀察"
     ],
@@ -2272,6 +2284,10 @@ export const TW_32 = {
     [
       "okane maelre aha’a",
       "吃早餐"
+    ],
+    [
+      "okaodho",
+      "沒有"
     ],
     [
       "oka’o acilai",
@@ -2790,7 +2806,7 @@ export const TW_32 = {
       "老師"
     ],
     [
-      "sivahange/matodhalri’ae",
+      "sivahange",
       "懷孕"
     ],
     [
@@ -3126,7 +3142,7 @@ export const TW_32 = {
       "醫生"
     ],
     [
-      "tasolasolatae/gako",
+      "tasolasolatae",
       "學校"
     ],
     [

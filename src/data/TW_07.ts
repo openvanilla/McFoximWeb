@@ -174,6 +174,10 @@ export const TW_07 = {
       "姊姊"
     ],
     [
+      "batu",
+      "男性生殖器"
+    ],
+    [
       "bawli",
       "釣竿"
     ],
@@ -506,7 +510,7 @@ export const TW_07 = {
       "這個"
     ],
     [
-      "hani/shani",
+      "hani",
       "這裡"
     ],
     [
@@ -767,11 +771,19 @@ export const TW_07 = {
     ],
     [
       "ini",
+      "沒關係"
+    ],
+    [
+      "ini",
       "沒有(表擁有的否定詞)"
     ],
     [
       "ini khu’in",
       "未成熟的(果實)"
+    ],
+    [
+      "ini kpyux",
+      "一些"
     ],
     [
       "ini kusa maha",
@@ -784,10 +796,6 @@ export const TW_07 = {
     [
       "ini sbehuy",
       "悶熱"
-    ],
-    [
-      "ini/ nway iri",
-      "沒關係"
     ],
     [
       "inpit",
@@ -1138,6 +1146,10 @@ export const TW_07 = {
       "吃早餐"
     ],
     [
+      "kocyo",
+      "校長"
+    ],
+    [
       "kopu",
       "杯子"
     ],
@@ -1206,7 +1218,7 @@ export const TW_07 = {
       "主格標記(各族用語)"
     ],
     [
-      "kucyu/kocyo",
+      "kucyu",
       "校長"
     ],
     [
@@ -1346,7 +1358,7 @@ export const TW_07 = {
       "衣服"
     ],
     [
-      "latan/snuyuw",
+      "latan",
       "傳統女上衣"
     ],
     [
@@ -1366,7 +1378,7 @@ export const TW_07 = {
       "不可以"
     ],
     [
-      "la’ i /maguw",
+      "la’ i",
       "孫子/孫女"
     ],
     [
@@ -1550,6 +1562,10 @@ export const TW_07 = {
       "受傷"
     ],
     [
+      "maguw",
+      "孫子/孫女"
+    ],
+    [
       "maha nanu",
       "怎麼"
     ],
@@ -1708,6 +1724,10 @@ export const TW_07 = {
     [
       "mgyay",
       "逃跑"
+    ],
+    [
+      "mgyebu",
+      "上午"
     ],
     [
       "mhawni",
@@ -2314,7 +2334,7 @@ export const TW_07 = {
       "活的"
     ],
     [
-      "myebu/mgyebu",
+      "myebu",
       "上午"
     ],
     [
@@ -2486,6 +2506,10 @@ export const TW_07 = {
       "來過"
     ],
     [
+      "nway iri",
+      "沒關係"
+    ],
+    [
       "nya",
       "他的"
     ],
@@ -2518,7 +2542,7 @@ export const TW_07 = {
       "稻穀"
     ],
     [
-      "pakarip/wa’it",
+      "pakarip",
       "鍬形蟲"
     ],
     [
@@ -2974,6 +2998,10 @@ export const TW_07 = {
       "山林"
     ],
     [
+      "rrusa",
+      "一雙"
+    ],
+    [
       "ru",
       "和"
     ],
@@ -3118,12 +3146,12 @@ export const TW_07 = {
       "二"
     ],
     [
-      "sazing kbhun",
-      "兩百"
+      "sazing",
+      "一雙"
     ],
     [
-      "sazing/rrusa",
-      "一雙"
+      "sazing kbhun",
+      "兩百"
     ],
     [
       "sbehuy rhuyan",
@@ -3172,6 +3200,10 @@ export const TW_07 = {
     [
       "sgayang",
       "散撒"
+    ],
+    [
+      "shani",
+      "這裡"
     ],
     [
       "shri cikay",
@@ -3330,7 +3362,11 @@ export const TW_07 = {
       "烤(如烤地瓜)"
     ],
     [
-      "smuran/smuwan",
+      "smuran",
+      "舊的"
+    ],
+    [
+      "smuwan",
       "舊的"
     ],
     [
@@ -3368,6 +3404,10 @@ export const TW_07 = {
     [
       "snunux",
       "頭髮"
+    ],
+    [
+      "snuyuw",
+      "傳統女上衣"
     ],
     [
       "snyuw",
@@ -3434,7 +3474,11 @@ export const TW_07 = {
       "你的"
     ],
     [
-      "sunbu/sunfu",
+      "sunbu",
+      "神父"
+    ],
+    [
+      "sunfu",
       "神父"
     ],
     [
@@ -3714,7 +3758,7 @@ export const TW_07 = {
       "滑"
     ],
     [
-      "tikay /ini kpyux",
+      "tikay",
       "一些"
     ],
     [
@@ -3998,7 +4042,7 @@ export const TW_07 = {
       "大便"
     ],
     [
-      "ugiy/batu",
+      "ugiy",
       "男性生殖器"
     ],
     [
@@ -4114,6 +4158,10 @@ export const TW_07 = {
       "水鹿"
     ],
     [
+      "wa’it",
+      "鍬形蟲"
+    ],
+    [
       "wilung",
       "雞"
     ],
@@ -4134,11 +4182,19 @@ export const TW_07 = {
       "爸爸"
     ],
     [
+      "yaba",
+      "男性長輩(祖父；外公；岳父)"
+    ],
+    [
       "yabung",
       "柚子"
     ],
     [
-      "yaki/yaki/yaya",
+      "yaki",
+      "女性長輩(祖母；外婆；岳母)"
+    ],
+    [
+      "yaki",
       "女性長輩(祖母；外婆；岳母)"
     ],
     [
@@ -4194,8 +4250,16 @@ export const TW_07 = {
       "媽媽"
     ],
     [
+      "yaya",
+      "女性長輩(祖母；外婆；岳母)"
+    ],
+    [
       "yayutas",
       "老人家"
+    ],
+    [
+      "ya’aya",
+      "工具"
     ],
     [
       "ya’aya phgup",
@@ -4238,7 +4302,7 @@ export const TW_07 = {
       "石堆"
     ],
     [
-      "ye’aya / ya’aya",
+      "ye’aya",
       "工具"
     ],
     [
@@ -4282,7 +4346,11 @@ export const TW_07 = {
       "柑橘"
     ],
     [
-      "yutas/yutas/yaba",
+      "yutas",
+      "男性長輩(祖父；外公；岳父)"
+    ],
+    [
+      "yutas",
       "男性長輩(祖父；外公；岳父)"
     ],
     [

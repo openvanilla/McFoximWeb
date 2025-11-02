@@ -262,6 +262,10 @@ export const TW_34 = {
       "待會兒"
     ],
     [
+      "anu",
+      "如果"
+    ],
+    [
       "apun",
       "獵物(統稱)"
     ],
@@ -278,7 +282,7 @@ export const TW_34 = {
       "杯子"
     ],
     [
-      "azu/ anu",
+      "azu",
       "如果"
     ],
     [
@@ -308,6 +312,14 @@ export const TW_34 = {
     [
       "bai",
       "女性長輩(祖母；外婆；岳母)"
+    ],
+    [
+      "bai",
+      "孫子/孫女"
+    ],
+    [
+      "bai",
+      "(伯母；嬸嬸；舅母)通稱"
     ],
     [
       "bakes",
@@ -367,11 +379,15 @@ export const TW_34 = {
     ],
     [
       "baqi",
-      "百步蛇"
+      "孫子/孫女"
     ],
     [
-      "baqi/ bai",
-      "孫子/孫女"
+      "baqi",
+      "(伯父；叔叔；舅舅)通稱"
+    ],
+    [
+      "baqi",
+      "百步蛇"
     ],
     [
       "baqian",
@@ -650,19 +666,27 @@ export const TW_34 = {
       "窗戶"
     ],
     [
+      "deqi",
+      "洞穴"
+    ],
+    [
+      "deqi",
+      "岩洞"
+    ],
+    [
       "dequnu",
       "烏龜"
     ],
     [
-      "dihib/ deqi",
+      "dihib",
       "洞穴"
     ],
     [
-      "dihib/ deqi",
+      "dihib",
       "岩洞"
     ],
     [
-      "dingki/sinut",
+      "dingki",
       "電燈"
     ],
     [
@@ -1462,7 +1486,7 @@ export const TW_34 = {
       "勤勞"
     ],
     [
-      "medaiyung/ miyung",
+      "medaiyung",
       "使用"
     ],
     [
@@ -1678,7 +1702,7 @@ export const TW_34 = {
       "生病"
     ],
     [
-      "metad/ siaututun",
+      "metad",
       "大便"
     ],
     [
@@ -1770,7 +1794,7 @@ export const TW_34 = {
       "麵粉"
     ],
     [
-      "mimet/qumpeR",
+      "mimet",
       "握著"
     ],
     [
@@ -1792,6 +1816,14 @@ export const TW_34 = {
     [
       "missi",
       "胖(身形)"
+    ],
+    [
+      "miyan",
+      "鹽"
+    ],
+    [
+      "miyung",
+      "使用"
     ],
     [
       "mizem",
@@ -1850,7 +1882,7 @@ export const TW_34 = {
       "下雨"
     ],
     [
-      "na/ ni",
+      "na",
       "屬格標記(各族用語)"
     ],
     [
@@ -1860,6 +1892,10 @@ export const TW_34 = {
     [
       "naRin mesikaz",
       "不客氣"
+    ],
+    [
+      "naay",
+      "不要"
     ],
     [
       "nangan",
@@ -1952,6 +1988,10 @@ export const TW_34 = {
     [
       "ni",
       "嗎(用在問句)"
+    ],
+    [
+      "ni",
+      "屬格標記(各族用語)"
     ],
     [
       "niana",
@@ -2695,6 +2735,10 @@ export const TW_34 = {
     ],
     [
       "qumpeR",
+      "握著"
+    ],
+    [
+      "qumpeR",
       "握拳"
     ],
     [
@@ -2746,7 +2790,7 @@ export const TW_34 = {
       "肥皂"
     ],
     [
-      "saiRaR　",
+      "saiRaR",
       "搭建圍籬"
     ],
     [
@@ -3026,7 +3070,7 @@ export const TW_34 = {
       "答應"
     ],
     [
-      "semum/ siabaRat",
+      "semum",
       "小便"
     ],
     [
@@ -3110,6 +3154,10 @@ export const TW_34 = {
       "竹筒"
     ],
     [
+      "siabaRat",
+      "小便"
+    ],
+    [
       "siamqazui",
       "大後天"
     ],
@@ -3124,6 +3172,10 @@ export const TW_34 = {
     [
       "siasing",
       "相片"
+    ],
+    [
+      "siaututun",
+      "大便"
     ],
     [
       "sidi’",
@@ -3176,6 +3228,10 @@ export const TW_34 = {
     [
       "sinunung tu naung",
       "沿著山巒"
+    ],
+    [
+      "sinut",
+      "電燈"
     ],
     [
       "sipes",
@@ -3403,11 +3459,11 @@ export const TW_34 = {
     ],
     [
       "tama",
-      "雄性(動物)"
+      "(伯父；叔叔；舅舅)通稱"
     ],
     [
-      "tama/ baqi",
-      "(伯父；叔叔；舅舅)通稱"
+      "tama",
+      "雄性(動物)"
     ],
     [
       "tamak",
@@ -3442,7 +3498,7 @@ export const TW_34 = {
       "在某處"
     ],
     [
-      "taqa/ naay",
+      "taqa",
       "不要"
     ],
     [
@@ -3538,7 +3594,7 @@ export const TW_34 = {
       "菸草"
     ],
     [
-      "tebaqan/ tubaqan",
+      "tebaqan",
       "柚子"
     ],
     [
@@ -3782,6 +3838,10 @@ export const TW_34 = {
       "紙張"
     ],
     [
+      "teqezan na qitun",
+      "車站"
+    ],
+    [
       "teqiyaR",
       "肩膀"
     ],
@@ -3831,11 +3891,11 @@ export const TW_34 = {
     ],
     [
       "tina",
-      "雌性(動物)"
+      "(伯母；嬸嬸；舅母)通稱"
     ],
     [
-      "tina/bai",
-      "(伯母；嬸嬸；舅母)通稱"
+      "tina",
+      "雌性(動物)"
     ],
     [
       "tingas",
@@ -3876,6 +3936,10 @@ export const TW_34 = {
     [
       "tub",
       "蓋子"
+    ],
+    [
+      "tubaqan",
+      "柚子"
     ],
     [
       "tubil",
@@ -4190,7 +4254,7 @@ export const TW_34 = {
       "污垢"
     ],
     [
-      "zaqisan tu qitun/ teqezan na qitun",
+      "zaqisan tu qitun",
       "車站"
     ],
     [
@@ -4210,7 +4274,7 @@ export const TW_34 = {
       "這個"
     ],
     [
-      "zemiyan/ miyan",
+      "zemiyan",
       "鹽"
     ],
     [

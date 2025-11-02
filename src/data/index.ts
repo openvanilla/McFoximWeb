@@ -42,6 +42,7 @@ import { TW_42 } from './TW_42';
 
 export interface InputTable {
   name: string;
+  // The data should be sorted.
   data: string[][];
 }
 

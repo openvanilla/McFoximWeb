@@ -10,6 +10,10 @@ export const TW_31 = {
       "肺"
     ],
     [
+      "abobarudrala",
+      "年輕時"
+    ],
+    [
       "abrakɨ",
       "腫"
     ],
@@ -38,7 +42,7 @@ export const TW_31 = {
       "逃跑"
     ],
     [
-      "acidra/ikadra nia",
+      "acidra",
       "哪一個"
     ],
     [
@@ -63,18 +67,18 @@ export const TW_31 = {
     ],
     [
       "adra",
-      "不該"
+      "不可以"
     ],
     [
-      "adra / iduru",
-      "不可以"
+      "adra",
+      "不該"
     ],
     [
       "adraikénu",
       "不客氣"
     ],
     [
-      "adrala/sipélia",
+      "adrala",
       "待會兒"
     ],
     [
@@ -102,12 +106,20 @@ export const TW_31 = {
       "害怕"
     ],
     [
+      "akɨmolo",
+      "開墾"
+    ],
+    [
       "alapi",
       "石頭"
     ],
     [
       "alici",
       "頭帶(女用背籃用)"
+    ],
+    [
+      "alie",
+      "朋友"
     ],
     [
       "alrithi",
@@ -123,11 +135,11 @@ export const TW_31 = {
     ],
     [
       "amuanga",
-      "去了"
+      "抵達"
     ],
     [
-      "amuanga / paké",
-      "抵達"
+      "amuanga",
+      "去了"
     ],
     [
       "amwadria",
@@ -226,7 +238,7 @@ export const TW_31 = {
       "痠痛"
     ],
     [
-      "athabredrala/abobarudrala",
+      "athabredrala",
       "年輕時"
     ],
     [
@@ -274,12 +286,20 @@ export const TW_31 = {
       "檜木"
     ],
     [
-      "bcerka/bcɨcerka",
+      "basu",
+      "公車"
+    ],
+    [
+      "bcerka",
       "中間"
     ],
     [
       "bcicieka",
       "半夜"
+    ],
+    [
+      "bcɨcerka",
+      "中間"
     ],
     [
       "bcɨngɨ",
@@ -314,12 +334,12 @@ export const TW_31 = {
       "雄性(動物)"
     ],
     [
-      "blatɨ tbɨtba",
-      "庭院"
+      "blatɨ",
+      "外面"
     ],
     [
-      "blatɨ/tbalta",
-      "外面"
+      "blatɨ tbɨtba",
+      "庭院"
     ],
     [
       "bleble",
@@ -330,8 +350,16 @@ export const TW_31 = {
       "香蕉"
     ],
     [
+      "bobaru",
+      "青年"
+    ],
+    [
       "bongu",
       "丟棄"
+    ],
+    [
+      "bora",
+      "給"
     ],
     [
       "borthi",
@@ -350,7 +378,7 @@ export const TW_31 = {
       "篩子"
     ],
     [
-      "braku / staptapsa",
+      "braku",
       "篩穀器具"
     ],
     [
@@ -446,20 +474,24 @@ export const TW_31 = {
       "酒"
     ],
     [
-      "bwi/bora",
+      "bwi",
       "給"
     ],
     [
-      "béri ptélo / patépcé",
-      "晾乾"
+      "béri ptélo",
+      "曬乾(如將衣服曬乾)"
     ],
     [
-      "béri ptélo /pové ptélo",
-      "曬乾(如將衣服曬乾)"
+      "béri ptélo",
+      "晾乾"
     ],
     [
       "bɨkɨ",
       "豬"
+    ],
+    [
+      "bɨrlɨlɨlé",
+      "逛一逛"
     ],
     [
       "cacɨngalɨ",
@@ -470,7 +502,7 @@ export const TW_31 = {
       "明年"
     ],
     [
-      "cebɨ / kɨceba",
+      "cebɨ",
       "棉被"
     ],
     [
@@ -558,7 +590,7 @@ export const TW_31 = {
       "看"
     ],
     [
-      "cɨngɨla/denga",
+      "cɨngɨla",
       "再見(如互道再見)"
     ],
     [
@@ -568,6 +600,10 @@ export const TW_31 = {
     [
       "danɨ",
       "家"
+    ],
+    [
+      "denga",
+      "再見(如互道再見)"
     ],
     [
       "dennɨ",
@@ -598,7 +634,7 @@ export const TW_31 = {
       "苧麻"
     ],
     [
-      "dodadavce / bɨrlɨlɨlé",
+      "dodadavce",
       "逛一逛"
     ],
     [
@@ -632,6 +668,10 @@ export const TW_31 = {
     [
       "driuman",
       "流氓"
+    ],
+    [
+      "drorpasɨ",
+      "亮光"
     ],
     [
       "drorsa",
@@ -682,8 +722,12 @@ export const TW_31 = {
       "電話"
     ],
     [
-      "dénki / tnaki",
+      "dénki",
       "電燈"
+    ],
+    [
+      "dɨkɨlɨ",
+      "臀部"
     ],
     [
       "ebrese",
@@ -698,8 +742,12 @@ export const TW_31 = {
       "外省人"
     ],
     [
-      "gakko /tasolsolta",
+      "gakko",
       "學校"
+    ],
+    [
+      "garɨ",
+      "上面"
     ],
     [
       "gili",
@@ -766,6 +814,10 @@ export const TW_31 = {
       "石堆"
     ],
     [
+      "iduru",
+      "不可以"
+    ],
+    [
       "igarnge",
       "鈍的"
     ],
@@ -774,8 +826,16 @@ export const TW_31 = {
       "哪裡"
     ],
     [
+      "ikadra nia",
+      "哪一個"
+    ],
+    [
       "ikatékadra",
       "什麼地方"
+    ],
+    [
+      "iki",
+      "因為"
     ],
     [
       "ikipiya",
@@ -842,16 +902,20 @@ export const TW_31 = {
       "岩洞"
     ],
     [
+      "imi",
+      "意義"
+    ],
+    [
       "imu",
       "你們的"
     ],
     [
       "ina",
-      "如果"
+      "因為"
     ],
     [
-      "ina / iki",
-      "因為"
+      "ina",
+      "如果"
     ],
     [
       "inamɨ",
@@ -958,6 +1022,14 @@ export const TW_31 = {
       "客家人"
     ],
     [
+      "kani",
+      "這個"
+    ],
+    [
+      "kani",
+      "這裡"
+    ],
+    [
       "kanila",
       "剛剛"
     ],
@@ -988,6 +1060,14 @@ export const TW_31 = {
     [
       "keria",
       "懸掛(祈使)"
+    ],
+    [
+      "ki",
+      "和"
+    ],
+    [
+      "ki",
+      "屬格標記(各族用語)"
     ],
     [
       "kiaké",
@@ -1095,15 +1175,15 @@ export const TW_31 = {
     ],
     [
       "kné",
-      "現在"
-    ],
-    [
-      "kné/kani",
       "這個"
     ],
     [
-      "kné/kani",
+      "kné",
       "這裡"
+    ],
+    [
+      "kné",
+      "現在"
     ],
     [
       "kodruru",
@@ -1116,6 +1196,14 @@ export const TW_31 = {
     [
       "koisang",
       "醫生"
+    ],
+    [
+      "koori",
+      "冰"
+    ],
+    [
+      "kopu",
+      "杯子"
     ],
     [
       "kopɨkapɨ maragɨre",
@@ -1150,6 +1238,10 @@ export const TW_31 = {
       "頭蝨"
     ],
     [
+      "kudamono",
+      "水果"
+    ],
+    [
       "kudruru",
       "污垢"
     ],
@@ -1166,11 +1258,11 @@ export const TW_31 = {
       "(用鋤具)挖掘"
     ],
     [
-      "kuloduru / suboro",
+      "kuloduru",
       "簍子"
     ],
     [
-      "kuloduru/sboro",
+      "kuloduru",
       "圓形竹簍"
     ],
     [
@@ -1226,7 +1318,11 @@ export const TW_31 = {
       "一次"
     ],
     [
-      "kébibé na ico / tanga mana ico",
+      "kwa",
+      "我"
+    ],
+    [
+      "kébibé na ico",
       "向人家要(東西)"
     ],
     [
@@ -1242,11 +1338,15 @@ export const TW_31 = {
       "生日"
     ],
     [
+      "kɨceba",
+      "棉被"
+    ],
+    [
       "kɨcɨnga",
       "力量"
     ],
     [
-      "kɨkɨ / kwa",
+      "kɨkɨ",
       "我"
     ],
     [
@@ -1314,7 +1414,7 @@ export const TW_31 = {
       "血"
     ],
     [
-      "longia / olɨngalɨngé",
+      "longia",
       "賣"
     ],
     [
@@ -1322,7 +1422,7 @@ export const TW_31 = {
       "(動物的)角"
     ],
     [
-      "loru/dɨkɨlɨ",
+      "loru",
       "臀部"
     ],
     [
@@ -1358,7 +1458,7 @@ export const TW_31 = {
       "蟬"
     ],
     [
-      "lungé ( ulungé ) / ulungulungé",
+      "lungé ( ulungé )",
       "游泳"
     ],
     [
@@ -1378,11 +1478,11 @@ export const TW_31 = {
       "染色"
     ],
     [
-      "lɨsé / alie",
+      "lɨsé",
       "朋友"
     ],
     [
-      "ma / ni / na / nga",
+      "ma",
       "嗎(用在問句)"
     ],
     [
@@ -1486,7 +1586,7 @@ export const TW_31 = {
       "種類"
     ],
     [
-      "makargɨrgɨ mudro / tokisu",
+      "makargɨrgɨ mudro",
       "百香果"
     ],
     [
@@ -1502,7 +1602,7 @@ export const TW_31 = {
       "山胡椒"
     ],
     [
-      "makavinɨnga / sitalɨsɨ",
+      "makavinɨnga",
       "天天"
     ],
     [
@@ -1626,6 +1726,10 @@ export const TW_31 = {
       "高(身高)"
     ],
     [
+      "maragɨrenga",
+      "頂"
+    ],
+    [
       "marcecenge",
       "癢"
     ],
@@ -1634,7 +1738,7 @@ export const TW_31 = {
       "很快"
     ],
     [
-      "margagi / mragagia",
+      "margagi",
       "好好的"
     ],
     [
@@ -1786,7 +1890,7 @@ export const TW_31 = {
       "壯碩"
     ],
     [
-      "matɨkadrɨngé / tuménia",
+      "matɨkadrɨngé",
       "是嗎(語助詞)"
     ],
     [
@@ -1978,6 +2082,10 @@ export const TW_31 = {
       "拿取"
     ],
     [
+      "mragagia",
+      "好好的"
+    ],
+    [
       "mthéptele",
       "四十"
     ],
@@ -2006,7 +2114,7 @@ export const TW_31 = {
       "(植物的)果實"
     ],
     [
-      "mudrodra sierngɨ / kudamono",
+      "mudrodra sierngɨ",
       "水果"
     ],
     [
@@ -2018,20 +2126,28 @@ export const TW_31 = {
       "來過"
     ],
     [
+      "mukunia",
+      "來"
+    ],
+    [
       "mukunu",
       "找到"
+    ],
+    [
+      "mumu",
+      "你們"
     ],
     [
       "mumu",
       "男性長輩(祖父；外公；岳父)"
     ],
     [
-      "mumu / mwa",
-      "你們"
-    ],
-    [
       "mumuelɨ",
       "蝸牛"
+    ],
+    [
+      "musu",
+      "你"
     ],
     [
       "musuro",
@@ -2066,6 +2182,10 @@ export const TW_31 = {
       "八十"
     ],
     [
+      "mwa",
+      "你們"
+    ],
+    [
       "médavli",
       "遠"
     ],
@@ -2078,7 +2198,11 @@ export const TW_31 = {
       "渴"
     ],
     [
-      "na / ki",
+      "na",
+      "嗎(用在問句)"
+    ],
+    [
+      "na",
       "屬格標記(各族用語)"
     ],
     [
@@ -2102,12 +2226,16 @@ export const TW_31 = {
       "(叫人)過來"
     ],
     [
-      "nanga / mukunia",
+      "nanga",
       "來"
     ],
     [
       "nangzikang",
       "(幾)點鐘"
+    ],
+    [
+      "nga",
+      "嗎(用在問句)"
     ],
     [
       "ngiculu",
@@ -2152,6 +2280,10 @@ export const TW_31 = {
     [
       "ngɨtalɨ",
       "女性生殖器"
+    ],
+    [
+      "ni",
+      "嗎(用在問句)"
     ],
     [
       "niciobi",
@@ -2242,8 +2374,16 @@ export const TW_31 = {
       "麵粉"
     ],
     [
+      "odrasɨ",
+      "握著"
+    ],
+    [
       "odro",
       "等待"
+    ],
+    [
+      "odrodro",
+      "照顧"
     ],
     [
       "odrɨngedrɨnge mrapa",
@@ -2282,7 +2422,7 @@ export const TW_31 = {
       "拔除"
     ],
     [
-      "okvélé / uudu",
+      "okvélé",
       "揹負(物品)"
     ],
     [
@@ -2303,11 +2443,15 @@ export const TW_31 = {
     ],
     [
       "olupo",
+      "照顧"
+    ],
+    [
+      "olupo",
       "撫養"
     ],
     [
-      "olupo / odrodro",
-      "照顧"
+      "olɨngalɨngé",
+      "賣"
     ],
     [
       "ongké",
@@ -2322,7 +2466,7 @@ export const TW_31 = {
       "攪動"
     ],
     [
-      "opna / udingidingi",
+      "opna",
       "射擊"
     ],
     [
@@ -2406,6 +2550,10 @@ export const TW_31 = {
       "餵食"
     ],
     [
+      "paké",
+      "抵達"
+    ],
+    [
       "pakɨcɨgɨ",
       "正確"
     ],
@@ -2414,7 +2562,7 @@ export const TW_31 = {
       "犁田"
     ],
     [
-      "pakɨdroro/akɨmolo",
+      "pakɨdroro",
       "開墾"
     ],
     [
@@ -2446,12 +2594,20 @@ export const TW_31 = {
       "折返"
     ],
     [
+      "pasɨksɨktɨ",
+      "收拾(祈使，如收拾東西)"
+    ],
+    [
       "pasɨkérodru",
       "開始"
     ],
     [
       "patarpɨngɨ",
       "完成"
+    ],
+    [
+      "patépcé",
+      "晾乾"
     ],
     [
       "patɨ",
@@ -2518,7 +2674,7 @@ export const TW_31 = {
       "閩南人"
     ],
     [
-      "pililiepa / putingi",
+      "pililiepa",
       "照起來／照明"
     ],
     [
@@ -2574,8 +2730,16 @@ export const TW_31 = {
       "播種"
     ],
     [
-      "potalu / potulo",
+      "potalu",
       "依賴"
+    ],
+    [
+      "potulo",
+      "依賴"
+    ],
+    [
+      "pové ptélo",
+      "曬乾(如將衣服曬乾)"
     ],
     [
       "pthédamu",
@@ -2626,6 +2790,10 @@ export const TW_31 = {
       "幫忙"
     ],
     [
+      "putingi",
+      "照起來／照明"
+    ],
+    [
       "péngɨdlɨ",
       "豎立"
     ],
@@ -2642,7 +2810,7 @@ export const TW_31 = {
       "煞車"
     ],
     [
-      "pɨcɨnga / sara",
+      "pɨcɨnga",
       "菜盤"
     ],
     [
@@ -2686,7 +2854,7 @@ export const TW_31 = {
       "下面"
     ],
     [
-      "rubu / pasɨksɨktɨ",
+      "rubu",
       "收拾(祈使，如收拾東西)"
     ],
     [
@@ -2726,7 +2894,7 @@ export const TW_31 = {
       "舌頭"
     ],
     [
-      "rɨgarɨ / garɨ",
+      "rɨgarɨ",
       "上面"
     ],
     [
@@ -2770,12 +2938,20 @@ export const TW_31 = {
       "婚姻"
     ],
     [
+      "sara",
+      "菜盤"
+    ],
+    [
       "sarké",
       "用途"
     ],
     [
       "sbakɨ",
       "矛"
+    ],
+    [
+      "sboro",
+      "圓形竹簍"
     ],
     [
       "sbɨrɨ",
@@ -2815,11 +2991,11 @@ export const TW_31 = {
     ],
     [
       "si",
-      "主格標記(各族用語)"
+      "和"
     ],
     [
-      "si / ki",
-      "和"
+      "si",
+      "主格標記(各族用語)"
     ],
     [
       "siasingi",
@@ -2838,7 +3014,7 @@ export const TW_31 = {
       "橡皮擦"
     ],
     [
-      "sidrɨkarɨ / sélobu",
+      "sidrɨkarɨ",
       "燒焦"
     ],
     [
@@ -2870,6 +3046,10 @@ export const TW_31 = {
       "夢"
     ],
     [
+      "sipélia",
+      "待會兒"
+    ],
+    [
       "sipépélia",
       "一下子"
     ],
@@ -2884,6 +3064,10 @@ export const TW_31 = {
     [
       "siringiringi",
       "鍋鏟"
+    ],
+    [
+      "sitalɨsɨ",
+      "天天"
     ],
     [
       "sitalɨsɨ",
@@ -2922,7 +3106,7 @@ export const TW_31 = {
       "價格"
     ],
     [
-      "skavkavcia / tlethɨ",
+      "skavkavcia",
       "揹帶"
     ],
     [
@@ -2958,7 +3142,7 @@ export const TW_31 = {
       "竹筒"
     ],
     [
-      "songungula / kopu",
+      "songungula",
       "杯子"
     ],
     [
@@ -2986,12 +3170,20 @@ export const TW_31 = {
       "妝扮飾物"
     ],
     [
+      "staptapsa",
+      "篩穀器具"
+    ],
+    [
       "stɨtɨsɨ",
       "鐵釘"
     ],
     [
-      "su/musu/swa",
+      "su",
       "你"
+    ],
+    [
+      "suboro",
+      "簍子"
     ],
     [
       "suboro",
@@ -3002,7 +3194,11 @@ export const TW_31 = {
       "藥物"
     ],
     [
-      "sudosia / basu",
+      "sucubu",
+      "頂"
+    ],
+    [
+      "sudosia",
       "公車"
     ],
     [
@@ -3086,6 +3282,10 @@ export const TW_31 = {
       "蝴蝶"
     ],
     [
+      "swa",
+      "你"
+    ],
+    [
       "sédanɨ",
       "(居)住"
     ],
@@ -3096,6 +3296,10 @@ export const TW_31 = {
     [
       "sékingi",
       "肥皂"
+    ],
+    [
+      "sélobu",
+      "燒焦"
     ],
     [
       "sélobu",
@@ -3166,6 +3370,14 @@ export const TW_31 = {
       "浪費"
     ],
     [
+      "talucubunga",
+      "前面"
+    ],
+    [
+      "tanga mana ico",
+      "向人家要(東西)"
+    ],
+    [
       "tangɨngɨsa",
       "獨自一人"
     ],
@@ -3186,6 +3398,10 @@ export const TW_31 = {
       "雞寮"
     ],
     [
+      "tasolsolta",
+      "學校"
+    ],
+    [
       "tasorsorva",
       "草原"
     ],
@@ -3204,6 +3420,10 @@ export const TW_31 = {
     [
       "tavnga",
       "窗戶"
+    ],
+    [
+      "tbalta",
+      "外面"
     ],
     [
       "tbɨlɨnga",
@@ -3234,7 +3454,7 @@ export const TW_31 = {
       "崇山峻嶺"
     ],
     [
-      "thabthabre/ bobaru",
+      "thabthabre",
       "青年"
     ],
     [
@@ -3266,7 +3486,7 @@ export const TW_31 = {
       "山羌"
     ],
     [
-      "thlɨdɨ / ukayu",
+      "thlɨdɨ",
       "粥"
     ],
     [
@@ -3379,6 +3599,10 @@ export const TW_31 = {
     ],
     [
       "tlethɨ",
+      "揹帶"
+    ],
+    [
+      "tlethɨ",
       "男用背負網袋"
     ],
     [
@@ -3386,7 +3610,7 @@ export const TW_31 = {
       "老鷹"
     ],
     [
-      "tlégarɨ / sucubu / maragɨrenga",
+      "tlégarɨ",
       "頂"
     ],
     [
@@ -3404,6 +3628,10 @@ export const TW_31 = {
     [
       "tmamɨnge",
       "野草莓"
+    ],
+    [
+      "tnaki",
+      "電燈"
     ],
     [
       "tnasiekɨ",
@@ -3424,6 +3652,10 @@ export const TW_31 = {
     [
       "tngépa",
       "籃子"
+    ],
+    [
+      "tokisu",
+      "百香果"
     ],
     [
       "toké",
@@ -3454,7 +3686,7 @@ export const TW_31 = {
       "樓梯"
     ],
     [
-      "tovna / turuenɨ",
+      "tovna",
       "工寮"
     ],
     [
@@ -3570,11 +3802,15 @@ export const TW_31 = {
       "三"
     ],
     [
-      "tulucubunga / talucubunga",
+      "tulucubunga",
       "前面"
     ],
     [
-      "tulunéni/imi",
+      "tululuepanɨ",
+      "白天"
+    ],
+    [
+      "tulunéni",
       "意義"
     ],
     [
@@ -3622,6 +3858,10 @@ export const TW_31 = {
       "(像)這樣"
     ],
     [
+      "tuménia",
+      "是嗎(語助詞)"
+    ],
+    [
       "tungucu",
       "啄"
     ],
@@ -3644,6 +3884,10 @@ export const TW_31 = {
     [
       "tupurua",
       "角落"
+    ],
+    [
+      "turuenɨ",
+      "工寮"
     ],
     [
       "turulɨsi",
@@ -3814,6 +4058,10 @@ export const TW_31 = {
       "雨"
     ],
     [
+      "udingidingi",
+      "射擊"
+    ],
+    [
       "udiri",
       "雌性(動物)"
     ],
@@ -3863,11 +4111,11 @@ export const TW_31 = {
     ],
     [
       "ugɨmɨgɨmɨ",
-      "握拳"
+      "握著"
     ],
     [
-      "ugɨmɨgɨmɨ /odrasɨ",
-      "握著"
+      "ugɨmɨgɨmɨ",
+      "握拳"
     ],
     [
       "uisi",
@@ -3880,6 +4128,10 @@ export const TW_31 = {
     [
       "ukanɨ",
       "吃(東西)"
+    ],
+    [
+      "ukayu",
+      "粥"
     ],
     [
       "ukidri",
@@ -3926,7 +4178,7 @@ export const TW_31 = {
       "揉搓(衣物)"
     ],
     [
-      "ukésang/usisipi",
+      "ukésang",
       "數(計算)"
     ],
     [
@@ -3950,7 +4202,7 @@ export const TW_31 = {
       "瀑布"
     ],
     [
-      "ululiepɨ/drorpasɨ/ urivivi",
+      "ululiepɨ",
       "亮光"
     ],
     [
@@ -3962,8 +4214,12 @@ export const TW_31 = {
       "燒(如燒稻草)"
     ],
     [
-      "ululuepɨ / tululuepanɨ",
+      "ululuepɨ",
       "白天"
+    ],
+    [
+      "ulungulungé",
+      "游泳"
     ],
     [
       "ulusulusu",
@@ -4028,6 +4284,10 @@ export const TW_31 = {
     [
       "uritipi",
       "摺疊"
+    ],
+    [
+      "urivivi",
+      "亮光"
     ],
     [
       "urosu la avé",
@@ -4118,6 +4378,10 @@ export const TW_31 = {
       "女婿"
     ],
     [
+      "usisipi",
+      "數(計算)"
+    ],
+    [
       "usititi",
       "鞭打"
     ],
@@ -4188,6 +4452,10 @@ export const TW_31 = {
     [
       "utɨtɨ",
       "咬"
+    ],
+    [
+      "uudu",
+      "揹負(物品)"
     ],
     [
       "uvlɨvlɨ",
@@ -4290,7 +4558,11 @@ export const TW_31 = {
       "蜜蜂"
     ],
     [
-      "wakurubunga / wacɨleba",
+      "wacɨleba",
+      "掀開(如掀開蓋子)"
+    ],
+    [
+      "wakurubunga",
       "掀開(如掀開蓋子)"
     ],
     [
@@ -4314,7 +4586,7 @@ export const TW_31 = {
       "雪"
     ],
     [
-      "yela / koori",
+      "yela",
       "冰"
     ],
     [

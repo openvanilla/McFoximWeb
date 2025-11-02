@@ -2,6 +2,10 @@ export const TW_13 = {
   "name": "賽夏語",
   "data": [
     [
+      "(動詞+) a tomal",
+      "很"
+    ],
+    [
       "Sa:eng",
       "坐下"
     ],
@@ -54,7 +58,7 @@ export const TW_13 = {
       "飯鍋"
     ],
     [
-      "Sapang / sa’owaz",
+      "Sapang",
       "真的"
     ],
     [
@@ -154,6 +158,10 @@ export const TW_13 = {
       "替換(衣服)"
     ],
     [
+      "SikSik",
+      "砍除"
+    ],
+    [
       "Sil’aeto’",
       "燒焦"
     ],
@@ -239,11 +247,11 @@ export const TW_13 = {
     ],
     [
       "Somarak",
-      "(用腳)踏"
+      "踩踏"
     ],
     [
-      "Somarak / kaStata:",
-      "踩踏"
+      "Somarak",
+      "(用腳)踏"
     ],
     [
       "Somater",
@@ -284,6 +292,14 @@ export const TW_13 = {
     [
       "Sowaw",
       "趕走"
+    ],
+    [
+      "Soyo:",
+      "醬油"
+    ],
+    [
+      "So’So’oy",
+      "睏(想睡覺)"
     ],
     [
       "So’o",
@@ -454,7 +470,7 @@ export const TW_13 = {
       "散撒"
     ],
     [
-      "bekeS / bokeS",
+      "bekeS",
       "頭髮"
     ],
     [
@@ -476,6 +492,10 @@ export const TW_13 = {
     [
       "bibi:",
       "鴨"
+    ],
+    [
+      "bilis",
+      "觸摸(物品)"
     ],
     [
       "binSi’",
@@ -534,6 +554,10 @@ export const TW_13 = {
       "弓"
     ],
     [
+      "bokeS",
+      "頭髮"
+    ],
+    [
       "bolak",
       "剝(花生；豆類)"
     ],
@@ -556,6 +580,10 @@ export const TW_13 = {
     [
       "bori:",
       "肉"
+    ],
+    [
+      "bosoe’",
+      "男性生殖器"
     ],
     [
       "botoe’",
@@ -584,6 +612,10 @@ export const TW_13 = {
     [
       "haSab",
       "口水"
+    ],
+    [
+      "haSon（不可見",
+      "那裡"
     ],
     [
       "haba:an",
@@ -634,7 +666,7 @@ export const TW_13 = {
       "樓梯"
     ],
     [
-      "hahi:il/sabsaboeh",
+      "hahi:il",
       "全部"
     ],
     [
@@ -706,7 +738,7 @@ export const TW_13 = {
       "橋樑"
     ],
     [
-      "haleb noka habon / ’in noka habon a haleb",
+      "haleb noka habon",
       "彩虹"
     ],
     [
@@ -775,11 +807,11 @@ export const TW_13 = {
     ],
     [
       "hayno’",
-      "什麼地方"
+      "哪裡"
     ],
     [
-      "hayno’ / rayno’",
-      "哪裡"
+      "hayno’",
+      "什麼地方"
     ],
     [
       "hayno’ ’aehae’",
@@ -822,7 +854,7 @@ export const TW_13 = {
       "豆類"
     ],
     [
-      "hewel / hoewel",
+      "hewel",
       "蚯蚓"
     ],
     [
@@ -886,6 +918,10 @@ export const TW_13 = {
       "相同"
     ],
     [
+      "hinghingha’an",
+      "一半"
+    ],
+    [
       "hinhinbetel",
       "雜草"
     ],
@@ -930,6 +966,10 @@ export const TW_13 = {
       "雌性(動物)"
     ],
     [
+      "hito’",
+      "部落"
+    ],
+    [
       "hiwa’",
       "切"
     ],
@@ -966,7 +1006,7 @@ export const TW_13 = {
       "拉"
     ],
     [
-      "hoehoeh / ’alraya’",
+      "hoehoeh",
       "拉(上來)"
     ],
     [
@@ -976,6 +1016,10 @@ export const TW_13 = {
     [
       "hoewek pinabasez",
       "豆芽"
+    ],
+    [
+      "hoewel",
+      "蚯蚓"
     ],
     [
       "hola’",
@@ -1090,11 +1134,15 @@ export const TW_13 = {
       "胸腔"
     ],
     [
+      "kaSa:engan",
+      "椅子"
+    ],
+    [
       "kaSangayan",
       "星期日"
     ],
     [
-      "kaSboS / katboS",
+      "kaSboS",
       "甘蔗"
     ],
     [
@@ -1114,6 +1162,10 @@ export const TW_13 = {
       "夢"
     ],
     [
+      "kaStata:",
+      "踩踏"
+    ],
+    [
       "kaS’abo’",
       "進入"
     ],
@@ -1122,7 +1174,7 @@ export const TW_13 = {
       "價格"
     ],
     [
-      "kabat / kaSa:engan",
+      "kabat",
       "椅子"
     ],
     [
@@ -1246,7 +1298,7 @@ export const TW_13 = {
       "雄性動物生殖器官"
     ],
     [
-      "kakon’es’es / kepe:",
+      "kakon’es’es",
       "擠"
     ],
     [
@@ -1306,6 +1358,10 @@ export const TW_13 = {
       "角落"
     ],
     [
+      "kalinga’",
+      "流氓"
+    ],
+    [
       "kaloSekSekan",
       "濾酒渣網"
     ],
@@ -1318,12 +1374,24 @@ export const TW_13 = {
       "山腳下"
     ],
     [
+      "kamaSal",
+      "下面"
+    ],
+    [
+      "kamaSal",
+      "某物之下"
+    ],
+    [
       "kamakiSka:at",
       "學生"
     ],
     [
       "kamamanra:an",
       "男性"
+    ],
+    [
+      "kamamanra:an ma’an",
+      "丈夫"
     ],
     [
       "kamarika:",
@@ -1370,8 +1438,16 @@ export const TW_13 = {
       "電冰箱"
     ],
     [
+      "kapanra:anan",
+      "道路"
+    ],
+    [
       "kapapama’an",
       "車子"
+    ],
+    [
+      "kaparhaep",
+      "法器(巫醫治病用)"
     ],
     [
       "kapayaka:i’",
@@ -1382,11 +1458,11 @@ export const TW_13 = {
       "朋友"
     ],
     [
-      "kapiSiyan / topi’",
+      "kapiSiyan",
       "女性生殖器"
     ],
     [
-      "kapiro:o’ / kaparhaep",
+      "kapiro:o’",
       "法器(巫醫治病用)"
     ],
     [
@@ -1400,6 +1476,10 @@ export const TW_13 = {
     [
       "kapohima’",
       "袖子"
+    ],
+    [
+      "kapowa’en",
+      "用途"
     ],
     [
       "karali’",
@@ -1426,12 +1506,16 @@ export const TW_13 = {
       "岩石"
     ],
     [
-      "kasa:ol / kasina:olan",
+      "kasa:ol",
       "大前天"
     ],
     [
       "kasbol",
       "煙"
+    ],
+    [
+      "kasina:olan",
+      "大前天"
     ],
     [
       "kasnaw",
@@ -1466,11 +1550,15 @@ export const TW_13 = {
       "廁所"
     ],
     [
+      "katboS",
+      "甘蔗"
+    ],
+    [
       "katin",
       "牛"
     ],
     [
-      "kati’ae’lae’/ray kinmae’iyaehan",
+      "kati’ae’lae’",
       "前面"
     ],
     [
@@ -1535,6 +1623,10 @@ export const TW_13 = {
     ],
     [
       "kayzaeh",
+      "沒關係"
+    ],
+    [
+      "kayzaeh",
       "好的(沒問題)"
     ],
     [
@@ -1574,19 +1666,23 @@ export const TW_13 = {
       "米糠"
     ],
     [
-      "ke:eb / koroeh",
+      "ke:eb",
       "剪(頭髮)"
     ],
     [
-      "kemsem / romokrok",
+      "kemsem",
       "採收"
+    ],
+    [
+      "kepe:",
+      "擠"
     ],
     [
       "kerpe:",
       "胖(身形)"
     ],
     [
-      "ki / kil",
+      "ki",
       "和"
     ],
     [
@@ -1602,6 +1698,10 @@ export const TW_13 = {
       "尾巴"
     ],
     [
+      "kil",
+      "和"
+    ],
+    [
       "kilkilo’",
       "幼犬"
     ],
@@ -1610,7 +1710,7 @@ export const TW_13 = {
       "乳豬"
     ],
     [
-      "kin / (動詞+) a tomal",
+      "kin",
       "很"
     ],
     [
@@ -1634,7 +1734,11 @@ export const TW_13 = {
       "砍伐"
     ],
     [
-      "kinmaeh / SikSik",
+      "kinmaeh",
+      "砍"
+    ],
+    [
+      "kinmaeh",
       "砍除"
     ],
     [
@@ -1646,7 +1750,7 @@ export const TW_13 = {
       "小腿肚"
     ],
     [
-      "kiraeh / ’okik ra:ami",
+      "kiraeh",
       "不知道"
     ],
     [
@@ -1706,7 +1810,7 @@ export const TW_13 = {
       "吃早餐"
     ],
     [
-      "komita’ / payrarongaw",
+      "komita’",
       "拜訪"
     ],
     [
@@ -1726,7 +1830,7 @@ export const TW_13 = {
       "鐵鎚"
     ],
     [
-      "konpiyak / kon’ipa’",
+      "konpiyak",
       "壓扁"
     ],
     [
@@ -1742,6 +1846,10 @@ export const TW_13 = {
       "推"
     ],
     [
+      "kon’ipa’",
+      "壓扁"
+    ],
+    [
       "korkoring",
       "孩童"
     ],
@@ -1754,7 +1862,11 @@ export const TW_13 = {
       "女孩"
     ],
     [
-      "koroma’ / nom romnay",
+      "koroeh",
+      "剪(頭髮)"
+    ],
+    [
+      "koroma’",
       "輪胎"
     ],
     [
@@ -1787,6 +1899,14 @@ export const TW_13 = {
     ],
     [
       "koza’",
+      "多少"
+    ],
+    [
+      "koza’",
+      "多少(歲；物)"
+    ],
+    [
+      "koza’",
       "多少(程度大小)"
     ],
     [
@@ -1807,11 +1927,11 @@ export const TW_13 = {
     ],
     [
       "lala:or",
-      "打瞌睡"
+      "睏(想睡覺)"
     ],
     [
-      "lala:or / So’So’oy",
-      "睏(想睡覺)"
+      "lala:or",
+      "打瞌睡"
     ],
     [
       "lalangoy",
@@ -1946,6 +2066,10 @@ export const TW_13 = {
       "小溪"
     ],
     [
+      "lomotor",
+      "接續"
+    ],
+    [
       "losae:aeh",
       "溢出(如水溢出來)"
     ],
@@ -2044,6 +2168,10 @@ export const TW_13 = {
     [
       "mam",
       "正在"
+    ],
+    [
+      "mamasa’",
+      "睜眼"
     ],
     [
       "mama’",
@@ -2162,7 +2290,7 @@ export const TW_13 = {
       "謝謝"
     ],
     [
-      "ma’an / ’inmana’a/’inma’ana",
+      "ma’an",
       "我的"
     ],
     [
@@ -2286,7 +2414,7 @@ export const TW_13 = {
       "濕的"
     ],
     [
-      "mita’ / ’inmita’a",
+      "mita’",
       "咱們的"
     ],
     [
@@ -2362,6 +2490,10 @@ export const TW_13 = {
       "溫的(水)"
     ],
     [
+      "naehan",
+      "待會兒"
+    ],
+    [
       "nakhini",
       "(像)這樣"
     ],
@@ -2374,7 +2506,11 @@ export const TW_13 = {
       "如何"
     ],
     [
-      "nak’isaza ay / ’ihi’ ay",
+      "nak’ino’",
+      "怎麼"
+    ],
+    [
+      "nak’isaza ay",
       "是嗎(語助詞)"
     ],
     [
@@ -2386,7 +2522,7 @@ export const TW_13 = {
       "僅僅"
     ],
     [
-      "nasiya / ’inasiya’a",
+      "nasiya",
       "他們的"
     ],
     [
@@ -2398,7 +2534,7 @@ export const TW_13 = {
       "秋天"
     ],
     [
-      "nepen / ngepen",
+      "nepen",
       "牙齒"
     ],
     [
@@ -2412,6 +2548,10 @@ export const TW_13 = {
     [
       "ngangilaehan",
       "紅色"
+    ],
+    [
+      "ngepen",
+      "牙齒"
     ],
     [
       "ngesel",
@@ -2442,19 +2582,19 @@ export const TW_13 = {
       "忘記(祈使)"
     ],
     [
-      "niSo’ / ’inSo’o’a",
+      "niSo’",
       "你的"
     ],
     [
-      "nimon / ’inmoyo’a",
+      "nimon",
       "你們的"
     ],
     [
-      "nisiya / ’insiya’a",
+      "nisiya",
       "他的"
     ],
     [
-      "niya’om / ’iniya’oma",
+      "niya’om",
       "我們的"
     ],
     [
@@ -2470,8 +2610,12 @@ export const TW_13 = {
       "用於"
     ],
     [
-      "nom powa’ / kapowa’en",
+      "nom powa’",
       "用途"
+    ],
+    [
+      "nom romnay",
+      "輪胎"
     ],
     [
       "nonak",
@@ -2490,11 +2634,11 @@ export const TW_13 = {
       "祖靈祭"
     ],
     [
-      "paSilotor / lomotor",
+      "paSilotor",
       "接續"
     ],
     [
-      "paSraya’ / kinmaeh",
+      "paSraya’",
       "砍"
     ],
     [
@@ -2650,6 +2794,10 @@ export const TW_13 = {
       "日出"
     ],
     [
+      "payrarongaw",
+      "拜訪"
+    ],
+    [
       "paywawa:ak",
       "躺"
     ],
@@ -2674,7 +2822,11 @@ export const TW_13 = {
       "麻雀"
     ],
     [
-      "peSnehen / zelesen",
+      "peSneh",
+      "燙"
+    ],
+    [
+      "peSnehen",
       "燙到"
     ],
     [
@@ -2706,15 +2858,15 @@ export const TW_13 = {
       "播種祭"
     ],
     [
-      "piza’ / koza’",
+      "piza’",
       "多少"
     ],
     [
-      "piza’ / koza’",
+      "piza’",
       "多少(歲；物)"
     ],
     [
-      "pizpiza’ / ’ititi’an",
+      "pizpiza’",
       "一些"
     ],
     [
@@ -2747,11 +2899,11 @@ export const TW_13 = {
     ],
     [
       "pon’a:iS",
-      "觸碰(如碰觸到身體)"
+      "觸摸(物品)"
     ],
     [
-      "pon’a:iS / bilis",
-      "觸摸(物品)"
+      "pon’a:iS",
+      "觸碰(如碰觸到身體)"
     ],
     [
       "pori:",
@@ -2798,7 +2950,7 @@ export const TW_13 = {
       "可能"
     ],
     [
-      "ra:an / kapanra:anan",
+      "ra:an",
       "道路"
     ],
     [
@@ -2816,6 +2968,10 @@ export const TW_13 = {
     [
       "ra:ma’",
       "雨傘"
+    ],
+    [
+      "ra:nawan",
+      "乾淨"
     ],
     [
       "ra:waS",
@@ -2898,12 +3054,20 @@ export const TW_13 = {
       "山蘇"
     ],
     [
-      "ray / ’ay",
+      "ray",
       "在(這裡)"
+    ],
+    [
+      "ray kinmae’iyaehan",
+      "前面"
     ],
     [
       "rayhil",
       "錢"
+    ],
+    [
+      "rayno’",
+      "哪裡"
     ],
     [
       "remek",
@@ -2924,6 +3088,10 @@ export const TW_13 = {
     [
       "rikrika:",
       "炎熱"
+    ],
+    [
+      "rima’",
+      "去"
     ],
     [
       "rima’ ila",
@@ -2958,7 +3126,7 @@ export const TW_13 = {
       "腳踏車"
     ],
     [
-      "riza/haSon（不可見",
+      "riza",
       "那裡"
     ],
     [
@@ -2982,8 +3150,12 @@ export const TW_13 = {
       "邀請"
     ],
     [
-      "romiS / ’oeboeh",
+      "romiS",
       "毛"
+    ],
+    [
+      "romokrok",
+      "採收"
     ],
     [
       "rompe:",
@@ -3006,6 +3178,10 @@ export const TW_13 = {
       "都"
     ],
     [
+      "sabsaboeh",
+      "全部"
+    ],
+    [
       "saksaka:",
       "穀倉"
     ],
@@ -3014,7 +3190,11 @@ export const TW_13 = {
       "倉庫"
     ],
     [
-      "sale’e: / sali’i:",
+      "sale’e:",
+      "耳朵"
+    ],
+    [
+      "sali’i:",
       "耳朵"
     ],
     [
@@ -3038,6 +3218,10 @@ export const TW_13 = {
       "聞(如聞味道)"
     ],
     [
+      "sa’iwaz",
+      "一定"
+    ],
+    [
       "sa’i’",
       "大便"
     ],
@@ -3046,8 +3230,12 @@ export const TW_13 = {
       "贈送(禮物)"
     ],
     [
-      "sa’owaz / sa’iwaz",
+      "sa’owaz",
       "一定"
+    ],
+    [
+      "sa’owaz",
+      "真的"
     ],
     [
       "sa’sa’ih ka hahila:",
@@ -3134,6 +3322,10 @@ export const TW_13 = {
       "吃"
     ],
     [
+      "sobae:oeh",
+      "大的"
+    ],
+    [
       "soksok",
       "鎖上"
     ],
@@ -3170,7 +3362,7 @@ export const TW_13 = {
       "生長"
     ],
     [
-      "sopaloy / sobae:oeh",
+      "sopaloy",
       "大的"
     ],
     [
@@ -3310,7 +3502,7 @@ export const TW_13 = {
       "餌"
     ],
     [
-      "tatama’ ma’an / kamamanra:an ma’an",
+      "tatama’ ma’an",
       "丈夫"
     ],
     [
@@ -3378,7 +3570,7 @@ export const TW_13 = {
       "擋胸巾"
     ],
     [
-      "tawyo: / Soyo:",
+      "tawyo:",
       "醬油"
     ],
     [
@@ -3394,11 +3586,11 @@ export const TW_13 = {
       "振動"
     ],
     [
-      "tewes / bosoe’",
+      "tewes",
       "男性生殖器"
     ],
     [
-      "tezek / tozek",
+      "tezek",
       "臀部"
     ],
     [
@@ -3450,7 +3642,7 @@ export const TW_13 = {
       "狗吠聲"
     ],
     [
-      "tiniroSa’/hinghingha’an",
+      "tiniroSa’",
       "一半"
     ],
     [
@@ -3466,11 +3658,15 @@ export const TW_13 = {
       "水滴"
     ],
     [
+      "tinralom",
+      "蜜"
+    ],
+    [
       "tipangih",
       "受傷"
     ],
     [
-      "tipoetoeh / ti’oetoeh",
+      "tipoetoeh",
       "折斷"
     ],
     [
@@ -3488,6 +3684,10 @@ export const TW_13 = {
     [
       "ti’a’",
       "編網針"
+    ],
+    [
+      "ti’oetoeh",
+      "折斷"
     ],
     [
       "to:o’",
@@ -3514,7 +3714,7 @@ export const TW_13 = {
       "英俊"
     ],
     [
-      "tomamasa’ / mamasa’",
+      "tomamasa’",
       "睜眼"
     ],
     [
@@ -3570,6 +3770,10 @@ export const TW_13 = {
       "點火"
     ],
     [
+      "topi’",
+      "女性生殖器"
+    ],
+    [
       "topon",
       "木耳"
     ],
@@ -3592,6 +3796,10 @@ export const TW_13 = {
     [
       "towanay",
       "嫂嫂"
+    ],
+    [
+      "tozek",
+      "臀部"
     ],
     [
       "to’to’",
@@ -3630,11 +3838,11 @@ export const TW_13 = {
       "隨意"
     ],
     [
-      "wahoer / kamaSal",
+      "wahoer",
       "下面"
     ],
     [
-      "wahoer / kamaSal",
+      "wahoer",
       "某物之下"
     ],
     [
@@ -3655,11 +3863,11 @@ export const TW_13 = {
     ],
     [
       "walo’",
-      "糖"
+      "蜜"
     ],
     [
-      "walo’ / tinralom",
-      "蜜"
+      "walo’",
+      "糖"
     ],
     [
       "walwalo’",
@@ -3742,8 +3950,12 @@ export const TW_13 = {
       "篩穀器具"
     ],
     [
-      "zeles / peSneh",
+      "zeles",
       "燙"
+    ],
+    [
+      "zelesen",
+      "燙到"
     ],
     [
       "zikzik",
@@ -3906,8 +4118,12 @@ export const TW_13 = {
       "很快"
     ],
     [
-      "’alowingan/ ’e’enawan",
+      "’alowingan",
       "漂亮"
+    ],
+    [
+      "’alraya’",
+      "拉(上來)"
     ],
     [
       "’altikal",
@@ -3939,11 +4155,11 @@ export const TW_13 = {
     ],
     [
       "’ampowa’",
-      "為什麼"
+      "怎麼"
     ],
     [
-      "’ampowa’ /nak’ino’",
-      "怎麼"
+      "’ampowa’",
+      "為什麼"
     ],
     [
       "’ana",
@@ -3978,7 +4194,7 @@ export const TW_13 = {
       "疤"
     ],
     [
-      "’asang / hito’",
+      "’asang",
       "部落"
     ],
     [
@@ -3996,6 +4212,10 @@ export const TW_13 = {
     [
       "’at’ataSan",
       "峽谷"
+    ],
+    [
+      "’ay",
+      "在(這裡)"
     ],
     [
       "’ayaeh",
@@ -4074,6 +4294,10 @@ export const TW_13 = {
       "梗"
     ],
     [
+      "’e’enawan",
+      "漂亮"
+    ],
+    [
       "’i:zo’",
       "裡面"
     ],
@@ -4088,6 +4312,10 @@ export const TW_13 = {
     [
       "’ihi’",
       "是的"
+    ],
+    [
+      "’ihi’ ay",
+      "是嗎(語助詞)"
     ],
     [
       "’ikakoraeh",
@@ -4106,7 +4334,7 @@ export const TW_13 = {
       "攪動"
     ],
     [
-      "’ima ’aewhay mae’iyaeh / kalinga’",
+      "’ima ’aewhay mae’iyaeh",
       "流氓"
     ],
     [
@@ -4122,8 +4350,16 @@ export const TW_13 = {
       "是誰的"
     ],
     [
+      "’in noka habon a haleb",
+      "彩虹"
+    ],
+    [
       "’in noka moto: a hewek",
       "長豆"
+    ],
+    [
+      "’inSo’o’a",
+      "你的"
     ],
     [
       "’inak’ino’ino’an",
@@ -4146,12 +4382,36 @@ export const TW_13 = {
       "長"
     ],
     [
+      "’inasiya’a",
+      "他們的"
+    ],
+    [
       "’inawpo’",
       "抱著"
     ],
     [
       "’iniyangangilaeh sitaew",
       "胡蘿蔔"
+    ],
+    [
+      "’iniya’oma",
+      "我們的"
+    ],
+    [
+      "’inmana’a",
+      "我的"
+    ],
+    [
+      "’inma’ana",
+      "我的"
+    ],
+    [
+      "’inmita’a",
+      "咱們的"
+    ],
+    [
+      "’inmoyo’a",
+      "你們的"
     ],
     [
       "’inokik",
@@ -4162,8 +4422,12 @@ export const TW_13 = {
       "何時(未發生)"
     ],
     [
-      "’insa’an/naehan",
+      "’insa’an",
       "待會兒"
+    ],
+    [
+      "’insiya’a",
+      "他的"
     ],
     [
       "’in’alay",
@@ -4198,6 +4462,10 @@ export const TW_13 = {
       "我們(包含式)"
     ],
     [
+      "’ititi’an",
+      "一些"
+    ],
+    [
       "’itoSan",
       "短"
     ],
@@ -4218,11 +4486,19 @@ export const TW_13 = {
       "尿急"
     ],
     [
-      "’iyasiwi’ / ’iyaso’i’",
+      "’iyasiwi’",
       "天黑"
     ],
     [
-      "’iyasiwi’an/ ’iyaso’i’an",
+      "’iyasiwi’an",
+      "黑暗"
+    ],
+    [
+      "’iyaso’i’",
+      "天黑"
+    ],
+    [
+      "’iyaso’i’an",
       "黑暗"
     ],
     [
@@ -4262,8 +4538,12 @@ export const TW_13 = {
       "獨立的小山頭"
     ],
     [
-      "’oSa’ / rima’",
+      "’oSa’",
       "去"
+    ],
+    [
+      "’oeboeh",
+      "毛"
     ],
     [
       "’oelpoehan",
@@ -4290,6 +4570,14 @@ export const TW_13 = {
       "山林"
     ],
     [
+      "’okay",
+      "沒有"
+    ],
+    [
+      "’oka’",
+      "沒有"
+    ],
+    [
       "’oka’",
       "不是(回答用)"
     ],
@@ -4298,16 +4586,16 @@ export const TW_13 = {
       "沒有(表擁有的否定詞)"
     ],
     [
-      "’oka’ / ’okay",
-      "沒有"
-    ],
-    [
-      "’oka’ ka howaw / kayzaeh",
+      "’oka’ ka howaw",
       "沒關係"
     ],
     [
-      "’okik hara:i’ / ra:nawan",
+      "’okik hara:i’",
       "乾淨"
+    ],
+    [
+      "’okik ra:ami",
+      "不知道"
     ],
     [
       "’oma:ih",

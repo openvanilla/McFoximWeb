@@ -1167,6 +1167,10 @@ export const TW_27 = {
     ],
     [
       "kadrowa",
+      "沒有"
+    ],
+    [
+      "kadrowa",
       "沒有(表擁有的否定詞)"
     ],
     [
@@ -1174,7 +1178,7 @@ export const TW_27 = {
       "未成熟的(果實)"
     ],
     [
-      "kadrwa/kadrowa",
+      "kadrwa",
       "沒有"
     ],
     [

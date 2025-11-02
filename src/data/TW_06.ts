@@ -166,7 +166,11 @@ export const TW_06 = {
       "梅子"
     ],
     [
-      "bibil/bibing",
+      "bibil",
+      "眼鏡蛇"
+    ],
+    [
+      "bibing",
       "眼鏡蛇"
     ],
     [
@@ -2586,6 +2590,10 @@ export const TW_06 = {
       "在(這裡)"
     ],
     [
+      "n’os",
+      "暫時(離開一下)"
+    ],
+    [
       "pagay",
       "稻穀"
     ],
@@ -4094,7 +4102,7 @@ export const TW_06 = {
       "開始"
     ],
     [
-      "t’os/n’os",
+      "t’os",
       "暫時(離開一下)"
     ],
     [
@@ -4274,7 +4282,7 @@ export const TW_06 = {
       "猴子"
     ],
     [
-      "yungi’ / ’zngi",
+      "yungi’",
       "忘記(祈使)"
     ],
     [
@@ -4368,6 +4376,10 @@ export const TW_06 = {
     [
       "’zil",
       "左邊"
+    ],
+    [
+      "’zngi",
+      "忘記(祈使)"
     ]
   ]
 };

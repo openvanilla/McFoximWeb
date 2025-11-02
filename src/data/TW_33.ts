@@ -42,6 +42,10 @@ export const TW_33 = {
       "不是"
     ],
     [
+      "aji uri o",
+      "可能/或許"
+    ],
+    [
       "akay",
       "好痛"
     ],
@@ -398,16 +402,24 @@ export const TW_33 = {
       "鴿子"
     ],
     [
-      "cicih / hari",
+      "cicih",
       "一些"
     ],
     [
-      "cicih /cikuh/cipuq",
+      "cicih",
+      "一點點"
+    ],
+    [
+      "cikuh",
       "一點點"
     ],
     [
       "cimu",
       "鹽"
+    ],
+    [
+      "cipuq",
+      "一點點"
     ],
     [
       "csmanan",
@@ -847,6 +859,10 @@ export const TW_33 = {
     ],
     [
       "hari",
+      "一些"
+    ],
+    [
+      "hari",
       "少許"
     ],
     [
@@ -1038,7 +1054,7 @@ export const TW_33 = {
       "腰部"
     ],
     [
-      "ida bi / aji uri o",
+      "ida bi",
       "可能/或許"
     ],
     [
@@ -1270,7 +1286,7 @@ export const TW_33 = {
       "蟬"
     ],
     [
-      "kjiyu / ssaya",
+      "kjiyu",
       "蜻蜓"
     ],
     [
@@ -1442,7 +1458,11 @@ export const TW_33 = {
       "蟲(統稱)"
     ],
     [
-      "kuyuh/kuyuh",
+      "kuyuh",
+      "妻子/女性"
+    ],
+    [
+      "kuyuh",
       "妻子/女性"
     ],
     [
@@ -1756,6 +1776,10 @@ export const TW_33 = {
     [
       "mdawi",
       "懶惰"
+    ],
+    [
+      "mddungus",
+      "夫妻"
     ],
     [
       "mdka",
@@ -2162,7 +2186,7 @@ export const TW_33 = {
       "流血"
     ],
     [
-      "msdungus/ mddungus",
+      "msdungus",
       "夫妻"
     ],
     [
@@ -2502,7 +2526,7 @@ export const TW_33 = {
       "傳統布裙"
     ],
     [
-      "paru/takar",
+      "paru",
       "高大的"
     ],
     [
@@ -2819,15 +2843,19 @@ export const TW_33 = {
     ],
     [
       "qbsuran kuyuh",
+      "(哥哥；姊姊)通稱"
+    ],
+    [
+      "qbsuran kuyuh",
       "姊姊"
     ],
     [
       "qbsuran snaw",
-      "哥哥"
+      "(哥哥；姊姊)通稱"
     ],
     [
-      "qbsuran snaw/ qbsuran kuyuh",
-      "(哥哥；姊姊)通稱"
+      "qbsuran snaw",
+      "哥哥"
     ],
     [
       "qbubu",
@@ -3294,6 +3322,10 @@ export const TW_33 = {
       "窩巢"
     ],
     [
+      "rudu hiraw",
+      "痰/濃痰"
+    ],
+    [
       "rudux",
       "雞"
     ],
@@ -3340,6 +3372,10 @@ export const TW_33 = {
     [
       "saang",
       "生氣"
+    ],
+    [
+      "sabal",
+      "蟑螂"
     ],
     [
       "sahu",
@@ -3714,7 +3750,7 @@ export const TW_33 = {
       "舊的"
     ],
     [
-      "smuk/teeci",
+      "smuk",
       "鐵釘"
     ],
     [
@@ -3838,6 +3874,10 @@ export const TW_33 = {
       "山蘇"
     ],
     [
+      "ssaya",
+      "蜻蜓"
+    ],
+    [
       "ssrus",
       "橡皮擦"
     ],
@@ -3866,7 +3906,7 @@ export const TW_33 = {
       "剛才"
     ],
     [
-      "supug / sabal",
+      "supug",
       "蟑螂"
     ],
     [
@@ -3875,15 +3915,19 @@ export const TW_33 = {
     ],
     [
       "swayi kuyuh",
+      "(弟弟；妹妹)通稱"
+    ],
+    [
+      "swayi kuyuh",
       "妹妹"
     ],
     [
       "swayi snaw",
-      "弟弟"
+      "(弟弟；妹妹)通稱"
     ],
     [
-      "swayi snaw/ swayi kuyuh",
-      "(弟弟；妹妹)通稱"
+      "swayi snaw",
+      "弟弟"
     ],
     [
       "tada",
@@ -3892,6 +3936,10 @@ export const TW_33 = {
     [
       "tahut",
       "火"
+    ],
+    [
+      "takar",
+      "高大的"
     ],
     [
       "tama",
@@ -3962,6 +4010,10 @@ export const TW_33 = {
       "可以"
     ],
     [
+      "teeci",
+      "鐵釘"
+    ],
+    [
       "tgbasi",
       "酸"
     ],
@@ -4022,7 +4074,11 @@ export const TW_33 = {
       "椅子"
     ],
     [
-      "tluan uqan/ tluan matas",
+      "tluan matas",
+      "桌子(餐桌/書桌)"
+    ],
+    [
+      "tluan uqan",
       "桌子(餐桌/書桌)"
     ],
     [
@@ -4206,7 +4262,7 @@ export const TW_33 = {
       "竹筒"
     ],
     [
-      "tuyuq/ rudu hiraw",
+      "tuyuq",
       "痰/濃痰"
     ],
     [

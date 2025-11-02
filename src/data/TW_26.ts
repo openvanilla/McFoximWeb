@@ -2,8 +2,16 @@ export const TW_26 = {
   "name": "南排灣語",
   "data": [
     [
-      "Kaljavuvuwan/ kaljavevean",
+      "Kaljavuvuwan",
       "春天"
+    ],
+    [
+      "a namaitucu",
+      "(像)這樣"
+    ],
+    [
+      "abula",
+      "油脂"
     ],
     [
       "abula",
@@ -20,6 +28,14 @@ export const TW_26 = {
     [
       "ainu",
       "哪一個"
+    ],
+    [
+      "akumaya",
+      "為什麼"
+    ],
+    [
+      "alay",
+      "細線"
     ],
     [
       "aljaljak a dridri",
@@ -66,11 +82,11 @@ export const TW_26 = {
       "嘴巴"
     ],
     [
-      "aqumaya/akumaya/makuda",
+      "aqumaya",
       "為什麼"
     ],
     [
-      "aqusiaya/inikuda",
+      "aqusiaya",
       "不客氣"
     ],
     [
@@ -90,8 +106,16 @@ export const TW_26 = {
       "葉子"
     ],
     [
+      "auta",
+      "也"
+    ],
+    [
       "avanusika",
       "所以"
+    ],
+    [
+      "aya kai",
+      "聽說"
     ],
     [
       "ayatua",
@@ -102,7 +126,11 @@ export const TW_26 = {
       "那個"
     ],
     [
-      "bakicu / vakicu",
+      "ba",
+      "馬"
+    ],
+    [
+      "bakicu",
       "水桶"
     ],
     [
@@ -110,8 +138,16 @@ export const TW_26 = {
       "公車"
     ],
     [
-      "beniniqen /qemaipipi /temepedj",
+      "beniniqen",
       "壓扁"
+    ],
+    [
+      "benuhu",
+      "颱風"
+    ],
+    [
+      "benulu",
+      "玩(球)"
     ],
     [
       "berung na djeljeqi",
@@ -122,6 +158,10 @@ export const TW_26 = {
       "鴨"
     ],
     [
+      "bulabulay",
+      "好好的"
+    ],
+    [
       "bulay",
       "漂亮"
     ],
@@ -130,7 +170,15 @@ export const TW_26 = {
       "好"
     ],
     [
-      "bungu/tjibungu/cirawub/qaljaljungas",
+      "bulay",
+      "好的(沒問題)"
+    ],
+    [
+      "bulu",
+      "球"
+    ],
+    [
+      "bungu",
       "蚱蜢"
     ],
     [
@@ -138,8 +186,16 @@ export const TW_26 = {
       "蚊子"
     ],
     [
-      "caitaw/daikung",
+      "cacukecukan",
+      "烏龜"
+    ],
+    [
+      "caitaw",
       "白蘿蔔"
+    ],
+    [
+      "caitu",
+      "菜刀"
     ],
     [
       "calinga",
@@ -150,7 +206,15 @@ export const TW_26 = {
       "繩索"
     ],
     [
-      "capelay/titaw",
+      "caljeqil",
+      "很硬"
+    ],
+    [
+      "caljudjuqan",
+      "手指"
+    ],
+    [
+      "capelay",
       "鋤頭"
     ],
     [
@@ -166,7 +230,7 @@ export const TW_26 = {
       "年"
     ],
     [
-      "cekelj/valjaw",
+      "cekelj",
       "丈夫"
     ],
     [
@@ -206,6 +270,10 @@ export const TW_26 = {
       "經過"
     ],
     [
+      "cemalja",
+      "(用鋤具)挖掘"
+    ],
+    [
       "cemapa",
       "烤(如烤地瓜)"
     ],
@@ -238,8 +306,12 @@ export const TW_26 = {
       "日出"
     ],
     [
-      "cemeged/djemaulj",
+      "cemeged",
       "邀請"
+    ],
+    [
+      "cemekaw",
+      "使用"
     ],
     [
       "cemel",
@@ -270,7 +342,7 @@ export const TW_26 = {
       "摺疊"
     ],
     [
-      "cempis / kiyaya",
+      "cempis",
       "摘取"
     ],
     [
@@ -278,7 +350,19 @@ export const TW_26 = {
       "殺牲畜"
     ],
     [
-      "ceqer/qubequb",
+      "cepeng",
+      "籃子"
+    ],
+    [
+      "ceqeljap",
+      "獵刀"
+    ],
+    [
+      "ceqeljap",
+      "直形獵刀"
+    ],
+    [
+      "ceqer",
       "青蛙"
     ],
     [
@@ -286,7 +370,7 @@ export const TW_26 = {
       "煙"
     ],
     [
-      "cima/kugi/patek",
+      "cima",
       "鐵釘"
     ],
     [
@@ -302,6 +386,10 @@ export const TW_26 = {
       "魚"
     ],
     [
+      "cirawub",
+      "蚱蜢"
+    ],
+    [
       "ciru",
       "鍋鏟"
     ],
@@ -310,11 +398,15 @@ export const TW_26 = {
       "久的"
     ],
     [
+      "cug",
+      "勤勞"
+    ],
+    [
       "cukui",
       "桌子"
     ],
     [
-      "culj/qalum",
+      "culj",
       "肥料"
     ],
     [
@@ -334,15 +426,27 @@ export const TW_26 = {
       "竹筍"
     ],
     [
+      "daikung",
+      "白蘿蔔"
+    ],
+    [
       "dalek",
       "水滴"
+    ],
+    [
+      "demuridur",
+      "揉搓(衣物)"
+    ],
+    [
+      "didinsiya",
+      "腳踏車"
     ],
     [
       "dingki",
       "電燈"
     ],
     [
-      "dinwa/ljingas",
+      "dinwa",
       "電話"
     ],
     [
@@ -354,7 +458,7 @@ export const TW_26 = {
       "很快"
     ],
     [
-      "djalut/qalameqam",
+      "djalut",
       "滑"
     ],
     [
@@ -362,7 +466,7 @@ export const TW_26 = {
       "菜餚"
     ],
     [
-      "djamiyang/ljamiyang",
+      "djamiyang",
       "稻草"
     ],
     [
@@ -372,6 +476,10 @@ export const TW_26 = {
     [
       "djapalj",
       "大腿"
+    ],
+    [
+      "djapedjapeng",
+      "稀爛的"
     ],
     [
       "djaqis",
@@ -390,11 +498,15 @@ export const TW_26 = {
       "針"
     ],
     [
-      "djeljep/kabi",
+      "djekep",
+      "石壓式陷阱"
+    ],
+    [
+      "djeljep",
       "牆壁"
     ],
     [
-      "djemakadjak /djemupaq",
+      "djemakadjak",
       "踩踏"
     ],
     [
@@ -406,12 +518,20 @@ export const TW_26 = {
       "抓(如抓到動物)"
     ],
     [
-      "djemameq/djemekep",
+      "djemameq",
       "捕抓"
+    ],
+    [
+      "djemapeng",
+      "打碎"
     ],
     [
       "djemapes",
       "吹"
+    ],
+    [
+      "djemaulj",
+      "邀請"
     ],
     [
       "djemaulj",
@@ -426,6 +546,10 @@ export const TW_26 = {
       "走路"
     ],
     [
+      "djemekep",
+      "捕抓"
+    ],
+    [
       "djemeli",
       "笑"
     ],
@@ -434,7 +558,7 @@ export const TW_26 = {
       "舔"
     ],
     [
-      "djemuas/kidudu",
+      "djemuas",
       "擦(如口紅；油漆)"
     ],
     [
@@ -446,12 +570,20 @@ export const TW_26 = {
       "堆積"
     ],
     [
-      "djemuwas/temupu",
+      "djemupaq",
+      "踩踏"
+    ],
+    [
+      "djemuwas",
       "擦拭"
     ],
     [
       "djilay",
       "痰"
+    ],
+    [
+      "djilj",
+      "臀部"
     ],
     [
       "djinumulj a qipu",
@@ -466,16 +598,36 @@ export const TW_26 = {
       "山櫻花"
     ],
     [
-      "dradrakuyan/cepeng",
+      "djumaken",
+      "找到"
+    ],
+    [
+      "djurikuku",
+      "雞"
+    ],
+    [
+      "dradrakuyan",
       "籃子"
     ],
     [
-      "drail/pucauwan",
+      "drail",
       "猴子"
+    ],
+    [
+      "drava",
+      "朋友"
+    ],
+    [
+      "dremakiyan",
+      "跳舞"
     ],
     [
       "dremasi",
       "曝曬"
+    ],
+    [
+      "dremeqel a dringay",
+      "套頸式繩索陷阱"
     ],
     [
       "dremequng",
@@ -490,7 +642,15 @@ export const TW_26 = {
       "彎腰"
     ],
     [
-      "dridri/qacang",
+      "drengelan",
+      "頸子"
+    ],
+    [
+      "driaqulan",
+      "喉嚨"
+    ],
+    [
+      "dridri",
       "豬"
     ],
     [
@@ -498,11 +658,11 @@ export const TW_26 = {
       "短"
     ],
     [
-      "drukudrukung/tjakit/tjakaukaw",
+      "drukudrukung",
       "鐮刀"
     ],
     [
-      "drukudrukung/vikiviking",
+      "drukudrukung",
       "彎曲"
     ],
     [
@@ -538,12 +698,20 @@ export const TW_26 = {
       "兩百"
     ],
     [
-      "duku/sipacacay a cemel",
+      "dudut",
+      "近"
+    ],
+    [
+      "duku",
       "毒"
     ],
     [
-      "dungdung /dudut",
+      "dungdung",
       "近"
+    ],
+    [
+      "ema",
+      "馬"
     ],
     [
       "gacel",
@@ -558,11 +726,11 @@ export const TW_26 = {
       "鬼魂"
     ],
     [
-      "galiljegilj/temeljar",
+      "galiljegilj",
       "明亮"
     ],
     [
-      "galjaugavan/caljudjuqan",
+      "galjaugavan",
       "手指"
     ],
     [
@@ -582,8 +750,16 @@ export const TW_26 = {
       "慢慢"
     ],
     [
+      "gemecel",
+      "掐住"
+    ],
+    [
       "gememegem",
       "握拳"
+    ],
+    [
+      "gemeseges",
+      "(搖)動"
     ],
     [
       "gemisagis",
@@ -614,8 +790,20 @@ export const TW_26 = {
       "牛"
     ],
     [
-      "huciu/caitu",
+      "gurus",
+      "鍬形蟲"
+    ],
+    [
+      "gusam",
+      "種子"
+    ],
+    [
+      "huciu",
       "菜刀"
+    ],
+    [
+      "hutung",
+      "棉被"
     ],
     [
       "i",
@@ -626,6 +814,10 @@ export const TW_26 = {
       "外面"
     ],
     [
+      "i gidigidi",
+      "旁邊"
+    ],
+    [
       "i maza",
       "這裡"
     ],
@@ -634,7 +826,7 @@ export const TW_26 = {
       "在某處"
     ],
     [
-      "i qayaw/pasaqayaw",
+      "i qayaw",
       "前面"
     ],
     [
@@ -646,7 +838,11 @@ export const TW_26 = {
       "下面"
     ],
     [
-      "i tjaiteku/i tjiteku",
+      "i tjaiteku",
+      "某物之下"
+    ],
+    [
+      "i tjiteku",
       "某物之下"
     ],
     [
@@ -678,6 +874,10 @@ export const TW_26 = {
       "尾巴"
     ],
     [
+      "imayangata",
+      "應該"
+    ],
+    [
       "ingcay",
       "空心菜"
     ],
@@ -702,12 +902,20 @@ export const TW_26 = {
       "不該"
     ],
     [
+      "inikuda",
+      "不客氣"
+    ],
+    [
       "inu",
       "哪裡"
     ],
     [
       "inuli",
       "禱告"
+    ],
+    [
+      "ipulung",
+      "擋胸巾"
     ],
     [
       "isasusuan",
@@ -718,8 +926,12 @@ export const TW_26 = {
       "一"
     ],
     [
-      "itung/kava",
+      "itung",
       "衣服"
+    ],
+    [
+      "itung",
+      "上衣"
     ],
     [
       "iyainuwan",
@@ -730,11 +942,15 @@ export const TW_26 = {
       "有"
     ],
     [
+      "kabi",
+      "牆壁"
+    ],
+    [
       "kacakac",
       "褲子"
     ],
     [
-      "kacakac/munpi",
+      "kacakac",
       "女性長褲"
     ],
     [
@@ -746,20 +962,40 @@ export const TW_26 = {
       "庭院"
     ],
     [
-      "kacumacumay/gurus",
+      "kacumacumay",
       "鍬形蟲"
+    ],
+    [
+      "kacuvuq a ljaceng",
+      "豆芽"
     ],
     [
       "kadjamadjaman",
       "早上"
     ],
     [
-      "kadrangudrangu/qarurung",
+      "kadrangudrangu",
       "女用揹籃"
+    ],
+    [
+      "kadrukadrung",
+      "杯子"
+    ],
+    [
+      "kai",
+      "語言"
     ],
     [
       "kaidang",
       "旱田"
+    ],
+    [
+      "kaka",
+      "兄弟姊妹"
+    ],
+    [
+      "kaka",
+      "兄長"
     ],
     [
       "kaka a tjaljaljak",
@@ -775,6 +1011,10 @@ export const TW_26 = {
     ],
     [
       "kaka a tjavulung",
+      "(哥哥；姊姊)通稱"
+    ],
+    [
+      "kaka a tjavulung",
       "姊姊"
     ],
     [
@@ -782,20 +1022,12 @@ export const TW_26 = {
       "哥哥"
     ],
     [
-      "kaka a tjavulung/titjavulung",
-      "(哥哥；姊姊)通稱"
-    ],
-    [
-      "kaka/ siruvetjek",
-      "兄弟姊妹"
-    ],
-    [
-      "kaka/ vetjek a tjavulung",
-      "兄長"
-    ],
-    [
       "kakakaka",
       "影子"
+    ],
+    [
+      "kakaveliyan",
+      "價格"
     ],
     [
       "kakedriyan",
@@ -806,19 +1038,23 @@ export const TW_26 = {
       "學校"
     ],
     [
+      "kakivaliyan",
+      "廁所"
+    ],
+    [
       "kakudan",
       "文化"
+    ],
+    [
+      "kala",
+      "細線"
     ],
     [
       "kala",
       "毛線"
     ],
     [
-      "kala/alay",
-      "細線"
-    ],
-    [
-      "kalalazung/kamadrimadri",
+      "kalalazung",
       "蝴蝶"
     ],
     [
@@ -830,7 +1066,7 @@ export const TW_26 = {
       "天空"
     ],
     [
-      "kaliljaw/situngan",
+      "kaliljaw",
       "布匹"
     ],
     [
@@ -838,16 +1074,32 @@ export const TW_26 = {
       "夏天"
     ],
     [
-      "kaljaqudjaljan/kaljakiceragan",
+      "kaljakiceragan",
       "秋天"
     ],
     [
-      "kaljat/tuki",
+      "kaljaljaljeqelan",
+      "冬天"
+    ],
+    [
+      "kaljaqudjaljan",
+      "秋天"
+    ],
+    [
+      "kaljat",
       "手錶"
     ],
     [
-      "kaljauraman/kaljaljaljeqelan",
+      "kaljaudjur",
+      "穀物乾燥簍"
+    ],
+    [
+      "kaljauraman",
       "冬天"
+    ],
+    [
+      "kaljavevean",
+      "春天"
     ],
     [
       "kalji",
@@ -860,6 +1112,14 @@ export const TW_26 = {
     [
       "kama",
       "爸爸"
+    ],
+    [
+      "kama",
+      "飯鍋"
+    ],
+    [
+      "kamadrimadri",
+      "蝴蝶"
     ],
     [
       "kamakama a qemuziquzip",
@@ -886,7 +1146,11 @@ export const TW_26 = {
       "右邊"
     ],
     [
-      "kanupetj / kanupitj",
+      "kanupetj",
+      "法器(巫醫治病用)"
+    ],
+    [
+      "kanupitj",
       "法器(巫醫治病用)"
     ],
     [
@@ -894,7 +1158,7 @@ export const TW_26 = {
       "樹根"
     ],
     [
-      "karim/kemarim",
+      "karim",
       "尋找"
     ],
     [
@@ -902,7 +1166,7 @@ export const TW_26 = {
       "土蜂"
     ],
     [
-      "kasauni/tasauni",
+      "kasauni",
       "剛才"
     ],
     [
@@ -918,15 +1182,27 @@ export const TW_26 = {
       "親戚"
     ],
     [
-      "katjutjung/tjuljung",
-      "竹筒"
-    ],
-    [
-      "katua/kata",
+      "kata",
       "和"
     ],
     [
-      "kava/itung",
+      "katjutjung",
+      "竹筒"
+    ],
+    [
+      "katjutjung",
+      "杯子"
+    ],
+    [
+      "katua",
+      "和"
+    ],
+    [
+      "kava",
+      "衣服"
+    ],
+    [
+      "kava",
       "上衣"
     ],
     [
@@ -938,7 +1214,11 @@ export const TW_26 = {
       "下巴"
     ],
     [
-      "kaya/kakivaliyan",
+      "kawsuwa",
+      "雨傘"
+    ],
+    [
+      "kaya",
       "廁所"
     ],
     [
@@ -955,6 +1235,10 @@ export const TW_26 = {
     ],
     [
       "kedri",
+      "小的"
+    ],
+    [
+      "kedri",
       "少的"
     ],
     [
@@ -962,7 +1246,7 @@ export const TW_26 = {
       "少許"
     ],
     [
-      "kedri/kedrikedri",
+      "kedrikedri",
       "小的"
     ],
     [
@@ -994,7 +1278,7 @@ export const TW_26 = {
       "(居)住"
     ],
     [
-      "kemaladray/tjemikidr",
+      "kemaladray",
       "提著"
     ],
     [
@@ -1006,7 +1290,7 @@ export const TW_26 = {
       "(用手)挖掘"
     ],
     [
-      "kemali/cemalja",
+      "kemali",
       "(用鋤具)挖掘"
     ],
     [
@@ -1014,7 +1298,7 @@ export const TW_26 = {
       "等待"
     ],
     [
-      "kemaluc/kemerap",
+      "kemaluc",
       "(藤類植物)攀爬"
     ],
     [
@@ -1026,6 +1310,10 @@ export const TW_26 = {
       "吃(東西)"
     ],
     [
+      "kemarim",
+      "尋找"
+    ],
+    [
       "kemasangas",
       "趕上"
     ],
@@ -1034,11 +1322,19 @@ export const TW_26 = {
       "從某處"
     ],
     [
-      "kematung/kemuseta",
+      "kemasitaladj",
+      "化膿"
+    ],
+    [
+      "kematung",
       "煞車"
     ],
     [
-      "kemavic/tjemukudr",
+      "kemava",
+      "穿(如穿衣服)"
+    ],
+    [
+      "kemavic",
       "揹負(物品)"
     ],
     [
@@ -1052,6 +1348,10 @@ export const TW_26 = {
     [
       "kemeljang",
       "知道"
+    ],
+    [
+      "kemerap",
+      "(藤類植物)攀爬"
     ],
     [
       "kemeretj",
@@ -1074,11 +1374,15 @@ export const TW_26 = {
       "如何"
     ],
     [
+      "kemuseta",
+      "煞車"
+    ],
+    [
       "kenama",
       "吃早餐"
     ],
     [
-      "kencengelj/kincengelj",
+      "kencengelj",
       "吃午餐"
     ],
     [
@@ -1098,7 +1402,7 @@ export const TW_26 = {
       "採收"
     ],
     [
-      "kicacevung/kipakim",
+      "kicacevung",
       "接(人)"
     ],
     [
@@ -1110,12 +1414,28 @@ export const TW_26 = {
       "學習"
     ],
     [
-      "kidaulj/kipudaulj",
+      "kidaulj",
       "找碴"
+    ],
+    [
+      "kidudu",
+      "擦(如口紅；油漆)"
+    ],
+    [
+      "kigagalju",
+      "觀察"
+    ],
+    [
+      "kikai",
+      "說"
     ],
     [
       "kilalaing",
       "照顧"
+    ],
+    [
+      "kiljavaran",
+      "說"
     ],
     [
       "kiljivak",
@@ -1134,6 +1454,10 @@ export const TW_26 = {
       "年輕時"
     ],
     [
+      "kinamarevaljavan",
+      "婚姻"
+    ],
+    [
       "kinanemaneman",
       "種類"
     ],
@@ -1142,16 +1466,24 @@ export const TW_26 = {
       "日子"
     ],
     [
-      "kincadr/kisacu",
+      "kincadr",
       "警察"
+    ],
+    [
+      "kincengelj",
+      "吃午餐"
     ],
     [
       "kinemenem",
       "想(思考)"
     ],
     [
-      "kinsa/tjinaljek",
+      "kinsa",
       "飯"
+    ],
+    [
+      "kipakim",
+      "接(人)"
     ],
     [
       "kipalingulj",
@@ -1162,7 +1494,15 @@ export const TW_26 = {
       "依賴"
     ],
     [
-      "kipavetjek/kiqunu",
+      "kipavetjek",
+      "剪(頭髮)"
+    ],
+    [
+      "kipudaulj",
+      "找碴"
+    ],
+    [
+      "kiqunu",
       "剪(頭髮)"
     ],
     [
@@ -1174,6 +1514,14 @@ export const TW_26 = {
       "謾罵"
     ],
     [
+      "kisacu",
+      "警察"
+    ],
+    [
+      "kisalitj",
+      "躺臥"
+    ],
+    [
       "kisalu",
       "答應"
     ],
@@ -1182,12 +1530,20 @@ export const TW_26 = {
       "借"
     ],
     [
-      "kisigidi / kisegidi",
+      "kisegidi",
+      "側臥"
+    ],
+    [
+      "kisigidi",
       "側臥"
     ],
     [
       "kisiya",
       "火車"
+    ],
+    [
+      "kisuqadaw",
+      "整天"
     ],
     [
       "kisuzeliyan",
@@ -1222,23 +1578,35 @@ export const TW_26 = {
       "玩耍"
     ],
     [
-      "kivauvalj/pacuwal",
+      "kivauvalj",
       "模仿"
+    ],
+    [
+      "kiyaya",
+      "摘取"
     ],
     [
       "kizing",
       "湯匙"
     ],
     [
+      "ku kinilangdan",
+      "聽說"
+    ],
+    [
       "kuang",
       "槍"
     ],
     [
-      "kubaw/kuvekuv/salang",
+      "kuaw",
+      "老鷹"
+    ],
+    [
+      "kubaw",
       "穀倉"
     ],
     [
-      "kubaw/kuvekuv/salang",
+      "kubaw",
       "倉庫"
     ],
     [
@@ -1254,7 +1622,11 @@ export const TW_26 = {
       "水果"
     ],
     [
-      "kudrakudral/qaluman",
+      "kudjepal",
+      "澀澀的(味覺)"
+    ],
+    [
+      "kudrakudral",
       "胖(身形)"
     ],
     [
@@ -1266,15 +1638,19 @@ export const TW_26 = {
       "粗(物)"
     ],
     [
-      "kudresul/caljeqil",
+      "kudresul",
       "很硬"
     ],
     [
-      "kuisang/rupucemecemel",
+      "kugi",
+      "鐵釘"
+    ],
+    [
+      "kuisang",
       "醫生"
     ],
     [
-      "kuka/djurikuku",
+      "kuka",
       "雞"
     ],
     [
@@ -1294,6 +1670,10 @@ export const TW_26 = {
       "冰"
     ],
     [
+      "kulic",
+      "男性生殖器"
+    ],
+    [
       "kuljay",
       "細"
     ],
@@ -1306,20 +1686,28 @@ export const TW_26 = {
       "不論"
     ],
     [
-      "kumalji/ ui tu /nuka",
+      "kumalji",
       "雖然"
     ],
     [
-      "kungay/penaljiq",
+      "kungay",
       "髒"
     ],
     [
-      "kupu/kadrukadrung/katjutjung",
+      "kupu",
       "杯子"
     ],
     [
       "kutji",
       "女性生殖器"
+    ],
+    [
+      "kuvekuv",
+      "穀倉"
+    ],
+    [
+      "kuvekuv",
+      "倉庫"
     ],
     [
       "kuvulj",
@@ -1354,12 +1742,16 @@ export const TW_26 = {
       "蒼蠅"
     ],
     [
-      "lalapit/ lapit",
+      "lalapit",
       "蝙蝠"
     ],
     [
       "laljing",
       "水管"
+    ],
+    [
+      "lapit",
+      "蝙蝠"
     ],
     [
       "latjuwan",
@@ -1394,7 +1786,11 @@ export const TW_26 = {
       "追捕"
     ],
     [
-      "lemakeculj/ lemakadrang",
+      "lemakadrang",
+      "跨過"
+    ],
+    [
+      "lemakeculj",
       "跨過"
     ],
     [
@@ -1410,7 +1806,7 @@ export const TW_26 = {
       "搖動"
     ],
     [
-      "lemegeleg /gemeseges",
+      "lemegeleg",
       "(搖)動"
     ],
     [
@@ -1426,8 +1822,12 @@ export const TW_26 = {
       "豎立"
     ],
     [
-      "lemum/papalum",
+      "lemum",
       "催熟(果實)"
+    ],
+    [
+      "levec",
+      "水瓢(舀水用)"
     ],
     [
       "liaw",
@@ -1440,6 +1840,10 @@ export const TW_26 = {
     [
       "liljaliljaw",
       "溫泉"
+    ],
+    [
+      "liljuwas",
+      "綠色"
     ],
     [
       "lima",
@@ -1474,15 +1878,23 @@ export const TW_26 = {
       "露水"
     ],
     [
+      "ljaketj",
+      "腰帶"
+    ],
+    [
       "ljakidjur",
       "咬人貓"
     ],
     [
-      "ljaqic/vakic",
+      "ljamiyang",
+      "稻草"
+    ],
+    [
+      "ljaqic",
       "疤"
     ],
     [
-      "ljavaran/kai",
+      "ljavaran",
       "語言"
     ],
     [
@@ -1494,7 +1906,7 @@ export const TW_26 = {
       "燒(如燒稻草)"
     ],
     [
-      "ljemama/medjek",
+      "ljemama",
       "燃燒"
     ],
     [
@@ -1514,15 +1926,19 @@ export const TW_26 = {
       "燒(如燒獵物的毛)"
     ],
     [
-      "ljemeteljet /demuridur",
+      "ljemeteljet",
       "揉搓(衣物)"
+    ],
+    [
+      "ljemezeljez",
+      "接續"
     ],
     [
       "ljemita tu qadaw",
       "天天"
     ],
     [
-      "ljemivas/tjemevas",
+      "ljemivas",
       "砍除"
     ],
     [
@@ -1538,16 +1954,24 @@ export const TW_26 = {
       "爬上(去)"
     ],
     [
-      "ljezaya/paljizayazaya",
+      "ljezaya",
       "(往)上坡"
     ],
     [
-      "ljinay/kawsuwa",
+      "ljinay",
       "雨傘"
     ],
     [
-      "ljivu/ ruvu",
+      "ljingas",
+      "電話"
+    ],
+    [
+      "ljivu",
       "窩巢"
+    ],
+    [
+      "ljumbi",
+      "玉米"
     ],
     [
       "ljusepit",
@@ -1570,7 +1994,11 @@ export const TW_26 = {
       "地震"
     ],
     [
-      "mabuljang /mabulalj",
+      "mabulalj",
+      "燙到"
+    ],
+    [
+      "mabuljang",
       "燙到"
     ],
     [
@@ -1580,6 +2008,14 @@ export const TW_26 = {
     [
       "macam",
       "辣"
+    ],
+    [
+      "macamilig",
+      "甲狀腺腫"
+    ],
+    [
+      "macaqu",
+      "會(做某事)"
     ],
     [
       "macasaw",
@@ -1596,6 +2032,10 @@ export const TW_26 = {
     [
       "macidilj",
       "獨自一人"
+    ],
+    [
+      "maciluq",
+      "懷孕"
     ],
     [
       "maculja",
@@ -1618,7 +2058,7 @@ export const TW_26 = {
       "崩落"
     ],
     [
-      "madjumak/djumaken",
+      "madjumak",
       "找到"
     ],
     [
@@ -1626,8 +2066,28 @@ export const TW_26 = {
       "忘記(祈使)"
     ],
     [
+      "madrial",
+      "跛腳"
+    ],
+    [
       "madringay",
       "(獵物掉入陷阱)陷中"
+    ],
+    [
+      "madu",
+      "窗戶"
+    ],
+    [
+      "magac",
+      "裂開"
+    ],
+    [
+      "magulji",
+      "傻瓜"
+    ],
+    [
+      "maidja",
+      "乾淨"
     ],
     [
       "maimay",
@@ -1650,7 +2110,7 @@ export const TW_26 = {
       "碾(米)"
     ],
     [
-      "makapalak/mapalak",
+      "makapalak",
       "壞掉"
     ],
     [
@@ -1658,7 +2118,7 @@ export const TW_26 = {
       "水鳥"
     ],
     [
-      "makelu/masuwaw/matjeges",
+      "makelu",
       "(植物的果實)掉落"
     ],
     [
@@ -1666,8 +2126,16 @@ export const TW_26 = {
       "怎麼"
     ],
     [
+      "makuda",
+      "為什麼"
+    ],
+    [
       "makudakuda",
       "多少(程度大小)"
+    ],
+    [
+      "makuya",
+      "破掉"
     ],
     [
       "malaing",
@@ -1706,7 +2174,7 @@ export const TW_26 = {
       "快樂"
     ],
     [
-      "mali/bulu",
+      "mali",
       "球"
     ],
     [
@@ -1718,7 +2186,7 @@ export const TW_26 = {
       "尿急"
     ],
     [
-      "malingedjelj/mizi",
+      "malingedjelj",
       "站立"
     ],
     [
@@ -1754,8 +2222,20 @@ export const TW_26 = {
       "痠痛"
     ],
     [
-      "mangulju/magulji",
+      "mangulju",
       "傻瓜"
+    ],
+    [
+      "manmali",
+      "玩(球)"
+    ],
+    [
+      "manpumuqan",
+      "化膿"
+    ],
+    [
+      "mapalak",
+      "壞掉"
     ],
     [
       "mapapangul",
@@ -1766,7 +2246,7 @@ export const TW_26 = {
       "受傷"
     ],
     [
-      "mapedi / makuya",
+      "mapedi",
       "破掉"
     ],
     [
@@ -1774,7 +2254,7 @@ export const TW_26 = {
       "滿了"
     ],
     [
-      "mapiljay/madrial",
+      "mapiljay",
       "跛腳"
     ],
     [
@@ -1786,12 +2266,20 @@ export const TW_26 = {
       "青年"
     ],
     [
+      "maqaqecev",
+      "一雙"
+    ],
+    [
       "maqati",
       "能夠"
     ],
     [
       "maqati",
       "可以(做某事)"
+    ],
+    [
+      "maqilji",
+      "禁止"
     ],
     [
       "maqiyu",
@@ -1802,11 +2290,19 @@ export const TW_26 = {
       "渴"
     ],
     [
+      "marecekelj",
+      "夫妻"
+    ],
+    [
       "marekutj",
       "害怕"
     ],
     [
-      "marevaljaw/marecekelj",
+      "maretailj",
+      "一雙"
+    ],
+    [
+      "marevaljaw",
       "夫妻"
     ],
     [
@@ -1822,7 +2318,7 @@ export const TW_26 = {
       "滾落"
     ],
     [
-      "maruvadiw/sitaki",
+      "maruvadiw",
       "香菇"
     ],
     [
@@ -1846,7 +2342,7 @@ export const TW_26 = {
       "鋤草"
     ],
     [
-      "masukungay/maidja",
+      "masukungay",
       "乾淨"
     ],
     [
@@ -1862,6 +2358,10 @@ export const TW_26 = {
       "鈍的"
     ],
     [
+      "masuwaw",
+      "(植物的果實)掉落"
+    ],
+    [
       "matjalaw",
       "生氣"
     ],
@@ -1874,8 +2374,20 @@ export const TW_26 = {
       "未成熟的(果實)"
     ],
     [
-      "matukez/cug",
+      "matjatjudrulj",
+      "觸碰(如碰觸到身體)"
+    ],
+    [
+      "matjeges",
+      "(植物的果實)掉落"
+    ],
+    [
+      "matukez",
       "勤勞"
+    ],
+    [
+      "maudemid",
+      "脆弱"
     ],
     [
       "mauqadaw",
@@ -1902,11 +2414,15 @@ export const TW_26 = {
       "逃跑"
     ],
     [
+      "mavililj",
+      "遲到"
+    ],
+    [
       "mavuca",
       "瞎了"
     ],
     [
-      "mavunglay/maciluq",
+      "mavunglay",
       "懷孕"
     ],
     [
@@ -1918,6 +2434,10 @@ export const TW_26 = {
       "不要(祈使句用)"
     ],
     [
+      "mayaya",
+      "可能"
+    ],
+    [
       "mazekel",
       "噎到"
     ],
@@ -1926,7 +2446,11 @@ export const TW_26 = {
       "累"
     ],
     [
-      "mekelj/mintuluq",
+      "medjek",
+      "燃燒"
+    ],
+    [
+      "mekelj",
       "跑 (祈使)"
     ],
     [
@@ -1934,23 +2458,23 @@ export const TW_26 = {
       "雨停"
     ],
     [
-      "menali/benulu/manmali",
+      "menali",
       "玩(球)"
+    ],
+    [
+      "meqaca",
+      "(植物)生長"
     ],
     [
       "meqaca",
       "生長"
     ],
     [
-      "meqaca/pacuvuq",
-      "(植物)生長"
-    ],
-    [
-      "mesuaw/misuaw",
+      "mesuaw",
       "打哈欠"
     ],
     [
-      "midemid/maudemid",
+      "midemid",
       "脆弱"
     ],
     [
@@ -1963,6 +2487,10 @@ export const TW_26 = {
     ],
     [
       "milingan",
+      "鐘錶"
+    ],
+    [
+      "milingan",
       "(幾)點鐘"
     ],
     [
@@ -1970,20 +2498,28 @@ export const TW_26 = {
       "飛"
     ],
     [
-      "minqut/tjevuta",
+      "minpudruk",
+      "跳躍"
+    ],
+    [
+      "minqut",
       "出現"
     ],
     [
-      "mintjeljak/magac",
+      "mintjeljak",
       "裂開"
     ],
     [
-      "mintjuljuk/minpudruk",
+      "mintjuljuk",
       "跳躍"
     ],
     [
       "mintjus",
       "嚇一跳"
+    ],
+    [
+      "mintuluq",
+      "跑 (祈使)"
     ],
     [
       "minvalak",
@@ -1994,12 +2530,20 @@ export const TW_26 = {
       "做惡夢"
     ],
     [
-      "misiq / puisiq",
+      "misiq",
       "小便"
     ],
     [
-      "mitung/kemava",
+      "misuaw",
+      "打哈欠"
+    ],
+    [
+      "mitung",
       "穿(如穿衣服)"
+    ],
+    [
+      "mizi",
+      "站立"
     ],
     [
       "mudingan",
@@ -2018,7 +2562,7 @@ export const TW_26 = {
       "溢出(如水溢出來)"
     ],
     [
-      "mumalj/siumalj",
+      "mumalj",
       "再"
     ],
     [
@@ -2026,15 +2570,23 @@ export const TW_26 = {
       "桃子"
     ],
     [
+      "munpi",
+      "女性長褲"
+    ],
+    [
       "mutjaq",
       "吐"
     ],
     [
-      "namadjapeng/djapedjapeng",
+      "nakasimazanga",
+      "來過"
+    ],
+    [
+      "namadjapeng",
       "稀爛的"
     ],
     [
-      "namaitucu/a namaitucu",
+      "namaitucu",
       "(像)這樣"
     ],
     [
@@ -2042,7 +2594,7 @@ export const TW_26 = {
       "各色各樣"
     ],
     [
-      "namangetjezanga/ nakasimazanga",
+      "namangetjezanga",
       "來過"
     ],
     [
@@ -2054,7 +2606,7 @@ export const TW_26 = {
       "全濕透"
     ],
     [
-      "namayatucu/numaitucu",
+      "namayatucu",
       "如此"
     ],
     [
@@ -2066,7 +2618,7 @@ export const TW_26 = {
       "壯碩"
     ],
     [
-      "nanguaq/ui/bulay",
+      "nanguaq",
       "好的(沒問題)"
     ],
     [
@@ -2102,7 +2654,7 @@ export const TW_26 = {
       "貓"
     ],
     [
-      "nguanguaq/bulabulay",
+      "nguanguaq",
       "好好的"
     ],
     [
@@ -2166,6 +2718,14 @@ export const TW_26 = {
       "明年"
     ],
     [
+      "nuka",
+      "雖然"
+    ],
+    [
+      "numaitucu",
+      "如此"
+    ],
+    [
       "nungida",
       "何時(未發生)"
     ],
@@ -2190,35 +2750,59 @@ export const TW_26 = {
       "明天"
     ],
     [
-      "nutjapacunen/ nutjapacunan",
+      "nutjapacunan",
       "看起來"
+    ],
+    [
+      "nutjapacunen",
+      "看起來"
+    ],
+    [
+      "pacalivat",
+      "讓開"
     ],
     [
       "pacalivat",
       "超過"
     ],
     [
-      "pacalivat/vasakan",
-      "讓開"
-    ],
-    [
       "paceged",
       "起床"
+    ],
+    [
+      "pacekecek",
+      "插"
+    ],
+    [
+      "pacetek",
+      "目標"
+    ],
+    [
+      "pacugan",
+      "意義"
     ],
     [
       "pacun",
       "看"
     ],
     [
+      "pacuvuq",
+      "(植物)生長"
+    ],
+    [
+      "pacuwal",
+      "模仿"
+    ],
+    [
       "paday",
       "白米"
     ],
     [
-      "padjuredjur/pacekecek",
+      "padjuredjur",
       "插"
     ],
     [
-      "pagaugaw/pakaleva",
+      "pagaugaw",
       "贈送(禮物)"
     ],
     [
@@ -2232,6 +2816,14 @@ export const TW_26 = {
     [
       "paka...",
       "感覺"
+    ],
+    [
+      "pakaleva",
+      "贈送(禮物)"
+    ],
+    [
+      "pakaljava",
+      "陷獵"
     ],
     [
       "pakan",
@@ -2258,11 +2850,11 @@ export const TW_26 = {
       "暫時(離開一下)"
     ],
     [
-      "palemek/mayaya",
+      "palemek",
       "可能"
     ],
     [
-      "palidring/zidusia",
+      "palidring",
       "車子"
     ],
     [
@@ -2274,12 +2866,16 @@ export const TW_26 = {
       "慶祝"
     ],
     [
-      "paljing/siqeljevan",
+      "paljing",
       "門"
     ],
     [
-      "paljivak/tjengelay",
+      "paljivak",
       "疼愛"
+    ],
+    [
+      "paljizayazaya",
+      "(往)上坡"
     ],
     [
       "pan",
@@ -2302,6 +2898,10 @@ export const TW_26 = {
       "鐵鎚"
     ],
     [
+      "papalum",
+      "催熟(果實)"
+    ],
+    [
       "papamaw",
       "一半"
     ],
@@ -2310,11 +2910,11 @@ export const TW_26 = {
       "瞄準"
     ],
     [
-      "paqedevan /pacetek",
+      "paqedevan",
       "目標"
     ],
     [
-      "paqetjutj/qemetjutj",
+      "paqetjutj",
       "放屁"
     ],
     [
@@ -2324,6 +2924,14 @@ export const TW_26 = {
     [
       "paqulid",
       "真的"
+    ],
+    [
+      "paqulid?",
+      "是嗎(語助詞)"
+    ],
+    [
+      "paquljis",
+      "花朵"
     ],
     [
       "paquzip",
@@ -2342,6 +2950,10 @@ export const TW_26 = {
       "弧形(底)鍋"
     ],
     [
+      "pasaqayaw",
+      "前面"
+    ],
+    [
       "pasemalaw",
       "告訴(別人)"
     ],
@@ -2358,7 +2970,7 @@ export const TW_26 = {
       "開始"
     ],
     [
-      "patarevan/pacugan",
+      "patarevan",
       "意義"
     ],
     [
@@ -2366,15 +2978,23 @@ export const TW_26 = {
       "混以某物"
     ],
     [
+      "patek",
+      "鐵釘"
+    ],
+    [
       "pateljar",
       "照起來／照明"
     ],
     [
-      "patjavililj/patudur/ljemezeljez",
+      "patjavililj",
       "接續"
     ],
     [
-      "paudjek/penedjek",
+      "patudur",
+      "接續"
+    ],
+    [
+      "paudjek",
       "點火"
     ],
     [
@@ -2414,15 +3034,31 @@ export const TW_26 = {
       "量測"
     ],
     [
+      "penaljiq",
+      "髒"
+    ],
+    [
+      "penangalj",
+      "分(東西)"
+    ],
+    [
       "penangul",
       "打(人)"
     ],
     [
-      "penedi/djemapeng",
+      "penaulain",
+      "好可憐"
+    ],
+    [
+      "penedi",
       "打碎"
     ],
     [
-      "penenid /semupalic",
+      "penedjek",
+      "點火"
+    ],
+    [
+      "penenid",
       "扭轉"
     ],
     [
@@ -2438,7 +3074,7 @@ export const TW_26 = {
       "全部"
     ],
     [
-      "picul/qizing",
+      "picul",
       "力量"
     ],
     [
@@ -2458,7 +3094,7 @@ export const TW_26 = {
       "生日"
     ],
     [
-      "pinucekeljan/ kinamarevaljavan",
+      "pinucekeljan",
       "婚姻"
     ],
     [
@@ -2486,24 +3122,32 @@ export const TW_26 = {
       "設置"
     ],
     [
-      "pucekelj ta maljaqaljan / puvaljaw ta maljaqaljan",
-      "嫁給非本族群的族人"
+      "pucauwan",
+      "猴子"
     ],
     [
-      "pucekelj/puvaljaw",
+      "pucekelj",
       "結婚"
     ],
     [
-      "pudreqel/dremeqel a dringay",
+      "pucekelj ta maljaqaljan",
+      "嫁給非本族群的族人"
+    ],
+    [
+      "pudreqel",
       "套頸式繩索陷阱"
     ],
     [
-      "pudringay/pakaljava",
+      "pudringay",
       "陷獵"
     ],
     [
       "pudru",
       "腎臟"
+    ],
+    [
+      "puisiq",
+      "小便"
     ],
     [
       "puita",
@@ -2522,12 +3166,20 @@ export const TW_26 = {
       "棉花"
     ],
     [
-      "pumuq /manpumuqan /kemasitaladj",
+      "pumuq",
       "化膿"
     ],
     [
-      "puqezelj/kigagalju",
+      "punug",
+      "玉米"
+    ],
+    [
+      "puqezelj",
       "觀察"
+    ],
+    [
+      "puraketj a qadaw",
+      "整天"
     ],
     [
       "purur",
@@ -2535,22 +3187,26 @@ export const TW_26 = {
     ],
     [
       "purur",
-      "圓形竹簍"
+      "穀物乾燥簍"
     ],
     [
-      "purur/kaljaudjur",
-      "穀物乾燥簍"
+      "purur",
+      "圓形竹簍"
     ],
     [
       "pusaladj",
       "幫忙"
     ],
     [
+      "pusau",
+      "送(客人)"
+    ],
+    [
       "pusurunung",
       "以籠捕魚蝦"
     ],
     [
-      "putjaw/valjes",
+      "putjaw",
       "斧頭"
     ],
     [
@@ -2562,12 +3218,24 @@ export const TW_26 = {
       "角落"
     ],
     [
-      "qabiri/macamilig",
+      "puvaljaw",
+      "結婚"
+    ],
+    [
+      "puvaljaw ta maljaqaljan",
+      "嫁給非本族群的族人"
+    ],
+    [
+      "qabiri",
       "甲狀腺腫"
     ],
     [
       "qaca",
       "高(身高)"
+    ],
+    [
+      "qacang",
+      "豬"
     ],
     [
       "qacaqaca tu riljariljai",
@@ -2580,6 +3248,10 @@ export const TW_26 = {
     [
       "qaciljay",
       "石頭"
+    ],
+    [
+      "qacip",
+      "夾子"
     ],
     [
       "qacuvung",
@@ -2610,20 +3282,32 @@ export const TW_26 = {
       "姑婆芋"
     ],
     [
-      "qali /drava",
+      "qalameqam",
+      "滑"
+    ],
+    [
+      "qalev",
+      "油脂"
+    ],
+    [
+      "qali",
       "朋友"
+    ],
+    [
+      "qalici",
+      "男性生殖器"
     ],
     [
       "qalici",
       "雄性動物生殖器官"
     ],
     [
-      "qalici/kulic",
-      "男性生殖器"
-    ],
-    [
       "qalja",
       "敵人"
+    ],
+    [
+      "qaljaljungas",
+      "蚱蜢"
     ],
     [
       "qaljeceqec",
@@ -2642,12 +3326,24 @@ export const TW_26 = {
       "屋頂"
     ],
     [
-      "qalum/abula/qalev",
+      "qalum",
+      "肉"
+    ],
+    [
+      "qalum",
       "油脂"
     ],
     [
-      "qalum/vutjulj",
-      "肉"
+      "qalum",
+      "肥料"
+    ],
+    [
+      "qalum",
+      "豬肉"
+    ],
+    [
+      "qaluman",
+      "胖(身形)"
     ],
     [
       "qam",
@@ -2674,8 +3370,16 @@ export const TW_26 = {
       "山藥"
     ],
     [
-      "qaqiqaqilj/qeljayuljayur",
+      "qaqiqaqilj",
       "紫色的"
+    ],
+    [
+      "qaqudruy",
+      "蜻蜓"
+    ],
+    [
+      "qaraba",
+      "眼鏡蛇"
     ],
     [
       "qarizang",
@@ -2684,6 +3388,10 @@ export const TW_26 = {
     [
       "qarizang",
       "豆類"
+    ],
+    [
+      "qarurung",
+      "女用揹籃"
     ],
     [
       "qasalj",
@@ -2702,11 +3410,19 @@ export const TW_26 = {
       "鹽"
     ],
     [
+      "qatjatjabang",
+      "蟑螂"
+    ],
+    [
       "qatjimtjim",
       "跳蚤"
     ],
     [
-      "qatjudray/qatjulalj",
+      "qatjudray",
+      "蚯蚓"
+    ],
+    [
+      "qatjulalj",
       "蚯蚓"
     ],
     [
@@ -2722,7 +3438,7 @@ export const TW_26 = {
       "竹子"
     ],
     [
-      "qauzung/qatjatjabang",
+      "qauzung",
       "蟑螂"
     ],
     [
@@ -2734,7 +3450,7 @@ export const TW_26 = {
       "酸臭"
     ],
     [
-      "qavetjitj/siyak",
+      "qavetjitj",
       "南瓜"
     ],
     [
@@ -2754,15 +3470,19 @@ export const TW_26 = {
       "鳥"
     ],
     [
-      "qecap/qacip",
+      "qecap",
       "夾子"
     ],
     [
-      "qecilu/tamagu",
+      "qecilu",
       "蛋"
     ],
     [
-      "qeljenger/liljuwas",
+      "qeljayuljayur",
+      "紫色的"
+    ],
+    [
+      "qeljenger",
       "綠色"
     ],
     [
@@ -2778,11 +3498,19 @@ export const TW_26 = {
       "完成"
     ],
     [
+      "qemadjay",
+      "捆綁"
+    ],
+    [
+      "qemaipipi",
+      "壓扁"
+    ],
+    [
       "qemaljiw",
       "蓋屋頂"
     ],
     [
-      "qemarut/penangalj",
+      "qemarut",
       "分(東西)"
     ],
     [
@@ -2794,7 +3522,7 @@ export const TW_26 = {
       "阻擋"
     ],
     [
-      "qemeceng/veseng/maqilji",
+      "qemeceng",
       "禁止"
     ],
     [
@@ -2814,8 +3542,16 @@ export const TW_26 = {
       "躺"
     ],
     [
-      "qemereng /kisalitj",
+      "qemereng",
       "躺臥"
+    ],
+    [
+      "qemetjutj",
+      "放屁"
+    ],
+    [
+      "qemevet",
+      "抱著"
     ],
     [
       "qemezetj",
@@ -2850,11 +3586,15 @@ export const TW_26 = {
       "染色"
     ],
     [
-      "qemuyulj/qemadjay",
+      "qemuridru",
+      "亂翻"
+    ],
+    [
+      "qemuyulj",
       "捆綁"
     ],
     [
-      "qerengan/taqetaq",
+      "qerengan",
       "床舖"
     ],
     [
@@ -2870,11 +3610,15 @@ export const TW_26 = {
       "夜"
     ],
     [
-      "qezetj/djekep",
+      "qezetj",
       "石壓式陷阱"
     ],
     [
-      "qezung/madu",
+      "qezetj",
+      "頭飾"
+    ],
+    [
+      "qezung",
       "窗戶"
     ],
     [
@@ -2898,12 +3642,24 @@ export const TW_26 = {
       "泥土"
     ],
     [
-      "qivu/ kikai /kiljavaran",
+      "qivu",
       "說"
+    ],
+    [
+      "qizing",
+      "力量"
+    ],
+    [
+      "qubequb",
+      "青蛙"
     ],
     [
       "qucengecengel",
       "黑色"
+    ],
+    [
+      "qucepad",
+      "澀澀的(味覺)"
     ],
     [
       "qucus",
@@ -2918,7 +3674,7 @@ export const TW_26 = {
       "雨"
     ],
     [
-      "qudjepal/kudjepal/qucepad",
+      "qudjepal",
       "澀澀的(味覺)"
     ],
     [
@@ -2926,15 +3682,19 @@ export const TW_26 = {
       "紅色"
     ],
     [
-      "qudjudju/djilj",
+      "qudjudju",
       "臀部"
+    ],
+    [
+      "qulivalivay",
+      "黃色的"
     ],
     [
       "quljaw",
       "顏色"
     ],
     [
-      "quljicacengelaw/qaqudruy/tumbu",
+      "quljicacengelaw",
       "蜻蜓"
     ],
     [
@@ -2942,7 +3702,7 @@ export const TW_26 = {
       "彩虹"
     ],
     [
-      "quljizaljizar/qulivalivay",
+      "quljizaljizar",
       "黃色的"
     ],
     [
@@ -2950,7 +3710,7 @@ export const TW_26 = {
       "頭"
     ],
     [
-      "quluqulu/sili",
+      "quluqulu",
       "枕頭"
     ],
     [
@@ -2962,12 +3722,20 @@ export const TW_26 = {
       "咖啡色"
     ],
     [
-      "qurabus /quraburabus",
+      "quraburabus",
+      "灰色"
+    ],
+    [
+      "qurabus",
       "灰色"
     ],
     [
       "quvalj",
       "頭髮"
+    ],
+    [
+      "quvalj",
+      "毛"
     ],
     [
       "quzang",
@@ -2983,11 +3751,11 @@ export const TW_26 = {
     ],
     [
       "remakac",
-      "拉(上來)"
+      "拉"
     ],
     [
-      "remakac/veniljevilj",
-      "拉"
+      "remakac",
+      "拉(上來)"
     ],
     [
       "remaketjan",
@@ -2996,6 +3764,14 @@ export const TW_26 = {
     [
       "remanaw",
       "故意"
+    ],
+    [
+      "remingring",
+      "使喚"
+    ],
+    [
+      "riamudj",
+      "頂"
     ],
     [
       "ricing",
@@ -3014,16 +3790,24 @@ export const TW_26 = {
       "經常"
     ],
     [
-      "ruamudj/riamudj",
+      "ruamudj",
       "頂"
     ],
     [
-      "runain / ljaketj",
+      "runain",
       "腰帶"
     ],
     [
-      "rutulutulu/santemulu",
+      "rupucemecemel",
+      "醫生"
+    ],
+    [
+      "rutulutulu",
       "老師"
+    ],
+    [
+      "ruvu",
+      "窩巢"
     ],
     [
       "sacemel",
@@ -3042,12 +3826,20 @@ export const TW_26 = {
       "重(重量)"
     ],
     [
-      "saigu/macaqu",
+      "saigu",
       "會(做某事)"
     ],
     [
       "sala",
       "菜盤"
+    ],
+    [
+      "salang",
+      "穀倉"
+    ],
+    [
+      "salang",
+      "倉庫"
     ],
     [
       "salutjulutjuk",
@@ -3060,6 +3852,10 @@ export const TW_26 = {
     [
       "sanguaq aravac",
       "很好吃"
+    ],
+    [
+      "santemulu",
+      "老師"
     ],
     [
       "sapitj",
@@ -3083,7 +3879,15 @@ export const TW_26 = {
     ],
     [
       "sara",
+      "篩子"
+    ],
+    [
+      "sara",
       "濾酒渣網"
+    ],
+    [
+      "sara",
+      "篩穀器具"
     ],
     [
       "sasekezan",
@@ -3098,8 +3902,16 @@ export const TW_26 = {
       "螞蟻"
     ],
     [
+      "sataqed",
+      "睏(想睡覺)"
+    ],
+    [
       "sauqaljay",
       "英俊"
+    ],
+    [
+      "sauvali",
+      "平埔族"
     ],
     [
       "saviki",
@@ -3118,7 +3930,7 @@ export const TW_26 = {
       "撞擊某物"
     ],
     [
-      "sedeng/quvalj",
+      "sedeng",
       "毛"
     ],
     [
@@ -3126,23 +3938,27 @@ export const TW_26 = {
       "(有東西)附著"
     ],
     [
-      "sekavililj/mavililj",
-      "遲到"
-    ],
-    [
-      "sekulilj/sekarabang /setjakedrus",
+      "sekarabang",
       "跌倒"
     ],
     [
-      "selangda/aya kai /ku kinilangdan",
+      "sekavililj",
+      "遲到"
+    ],
+    [
+      "sekulilj",
+      "跌倒"
+    ],
+    [
+      "selangda",
       "聽說"
     ],
     [
-      "seljaljiyak /sevuriyad",
+      "seljaljiyak",
       "散撒"
     ],
     [
-      "seljaveljav a caucau/sauvali",
+      "seljaveljav a caucau",
       "平埔族"
     ],
     [
@@ -3166,15 +3982,23 @@ export const TW_26 = {
       "煮(菜)"
     ],
     [
-      "semaqumaqan/ semataladj",
+      "semapu",
+      "非禮"
+    ],
+    [
+      "semaqumaqan",
       "進入"
     ],
     [
-      "sematjez / pusau",
+      "semataladj",
+      "進入"
+    ],
+    [
+      "sematjez",
       "送(客人)"
     ],
     [
-      "semau/venilad",
+      "semau",
       "趕走"
     ],
     [
@@ -3182,7 +4006,7 @@ export const TW_26 = {
       "鋪床"
     ],
     [
-      "semekaulj /remingring",
+      "semekaulj",
       "使喚"
     ],
     [
@@ -3198,11 +4022,11 @@ export const TW_26 = {
       "溫暖"
     ],
     [
-      "semeljudj/cemekaw",
+      "semeljudj",
       "使用"
     ],
     [
-      "semeljup/semiljup",
+      "semeljup",
       "吸"
     ],
     [
@@ -3222,12 +4046,16 @@ export const TW_26 = {
       "聞(如聞味道)"
     ],
     [
-      "semeturudj /temaljiti /penaulain",
+      "semeturudj",
       "好可憐"
     ],
     [
       "semevalj",
       "揹(人)"
+    ],
+    [
+      "semiljup",
+      "吸"
     ],
     [
       "semipitj",
@@ -3238,6 +4066,10 @@ export const TW_26 = {
       "啃"
     ],
     [
+      "semqas",
+      "劈(木材)"
+    ],
+    [
       "semuasaw",
       "剝葉"
     ],
@@ -3246,11 +4078,15 @@ export const TW_26 = {
       "掀開(如掀開蓋子)"
     ],
     [
+      "semupalic",
+      "扭轉"
+    ],
+    [
       "semupu",
       "數(計算)"
     ],
     [
-      "semuqaljic /semuvaku",
+      "semuqaljic",
       "剝皮"
     ],
     [
@@ -3260,6 +4096,10 @@ export const TW_26 = {
     [
       "semuqesuq",
       "將水排出(疏減)"
+    ],
+    [
+      "semuvaku",
+      "剝皮"
     ],
     [
       "semuvaku",
@@ -3290,15 +4130,27 @@ export const TW_26 = {
       "夢"
     ],
     [
+      "setjakedrus",
+      "跌倒"
+    ],
+    [
       "severic",
       "遺失"
     ],
     [
-      "sialja na tjukudr/sialja na tjukuz",
+      "sevuriyad",
+      "散撒"
+    ],
+    [
+      "sialja na tjukudr",
       "頭帶(女用背籃用)"
     ],
     [
-      "sicauvan / hutung",
+      "sialja na tjukuz",
+      "頭帶(女用背籃用)"
+    ],
+    [
+      "sicauvan",
       "棉被"
     ],
     [
@@ -3318,8 +4170,16 @@ export const TW_26 = {
       "妝扮飾物"
     ],
     [
+      "sili",
+      "枕頭"
+    ],
+    [
       "silisili",
       "(傾)斜"
+    ],
+    [
+      "sinansiyaw a paday",
+      "粥"
     ],
     [
       "singidan",
@@ -3338,6 +4198,10 @@ export const TW_26 = {
       "傳統女裙"
     ],
     [
+      "sipacacay a cemel",
+      "毒"
+    ],
+    [
       "sipakikuda",
       "用途"
     ],
@@ -3346,7 +4210,11 @@ export const TW_26 = {
       "剪刀"
     ],
     [
-      "siqevuqevutj/siulaulaw",
+      "siqeljevan",
+      "門"
+    ],
+    [
+      "siqevuqevutj",
       "橡皮擦"
     ],
     [
@@ -3354,16 +4222,24 @@ export const TW_26 = {
       "小刀"
     ],
     [
-      "sirisir/sara",
+      "sirisir",
       "篩子"
     ],
     [
-      "sirisir/sara",
+      "sirisir",
       "篩穀器具"
+    ],
+    [
+      "siruvetjek",
+      "兄弟姊妹"
     ],
     [
       "sisauniyan",
       "剛剛"
+    ],
+    [
+      "sitaki",
+      "香菇"
     ],
     [
       "sitjugutjugutan",
@@ -3372,6 +4248,18 @@ export const TW_26 = {
     [
       "situ",
       "學生"
+    ],
+    [
+      "situngan",
+      "布匹"
+    ],
+    [
+      "siulaulaw",
+      "橡皮擦"
+    ],
+    [
+      "siumalj",
+      "再"
     ],
     [
       "siuni",
@@ -3391,11 +4279,15 @@ export const TW_26 = {
     ],
     [
       "siwui",
+      "飯鍋"
+    ],
+    [
+      "siwui",
       "湯鍋"
     ],
     [
-      "siwui / kama",
-      "飯鍋"
+      "siyak",
+      "南瓜"
     ],
     [
       "siyalja",
@@ -3414,6 +4306,10 @@ export const TW_26 = {
       "羊"
     ],
     [
+      "sugi",
+      "檜木"
+    ],
+    [
       "sulapelj",
       "暖和"
     ],
@@ -3430,11 +4326,15 @@ export const TW_26 = {
       "舊的"
     ],
     [
+      "supu",
+      "價格"
+    ],
+    [
       "suruc",
       "(竹製的)刮麻具"
     ],
     [
-      "tacaucauan/maretailj/maqaqecev",
+      "tacaucauan",
       "一雙"
     ],
     [
@@ -3454,8 +4354,12 @@ export const TW_26 = {
       "山羌"
     ],
     [
-      "taleng/sugi",
+      "taleng",
       "檜木"
+    ],
+    [
+      "tamagu",
+      "蛋"
     ],
     [
       "tangdingdi",
@@ -3506,7 +4410,7 @@ export const TW_26 = {
       "十六"
     ],
     [
-      "taqadavan/puraketj a qadaw /kisuqadaw",
+      "taqadavan",
       "整天"
     ],
     [
@@ -3514,7 +4418,11 @@ export const TW_26 = {
       "睡覺"
     ],
     [
-      "tarar/tayar/qezetj",
+      "taqetaq",
+      "床舖"
+    ],
+    [
+      "tarar",
       "頭飾"
     ],
     [
@@ -3530,6 +4438,14 @@ export const TW_26 = {
       "媳婦"
     ],
     [
+      "tasauni",
+      "今天"
+    ],
+    [
+      "tasauni",
+      "剛才"
+    ],
+    [
       "tasikasepatj",
       "大前天"
     ],
@@ -3542,7 +4458,7 @@ export const TW_26 = {
       "昨天"
     ],
     [
-      "taucay /kacuvuq a ljaceng",
+      "taucay",
       "豆芽"
     ],
     [
@@ -3552,6 +4468,10 @@ export const TW_26 = {
     [
       "taukua",
       "肚兜"
+    ],
+    [
+      "tayar",
+      "頭飾"
     ],
     [
       "teljar",
@@ -3566,7 +4486,15 @@ export const TW_26 = {
       "種植"
     ],
     [
-      "temapulju /qemevet/temalipelj",
+      "temalipelj",
+      "抱著"
+    ],
+    [
+      "temaljiti",
+      "好可憐"
+    ],
+    [
+      "temapulju",
       "抱著"
     ],
     [
@@ -3582,6 +4510,10 @@ export const TW_26 = {
       "喝(水)"
     ],
     [
+      "temeljar",
+      "明亮"
+    ],
+    [
       "tememetem",
       "收拾(祈使，如收拾東西)"
     ],
@@ -3590,12 +4522,28 @@ export const TW_26 = {
       "按住"
     ],
     [
+      "temepedj",
+      "壓扁"
+    ],
+    [
       "temevela",
       "回應"
     ],
     [
       "temulu",
       "教(如教人寫字)"
+    ],
+    [
+      "temupu",
+      "擦拭"
+    ],
+    [
+      "temurivu",
+      "亂翻"
+    ],
+    [
+      "temuvulj",
+      "犁田"
     ],
     [
       "teqic",
@@ -3666,7 +4614,7 @@ export const TW_26 = {
       "電冰箱"
     ],
     [
-      "tinuridri/qemuridru/ temurivu",
+      "tinuridri",
       "亂翻"
     ],
     [
@@ -3674,11 +4622,19 @@ export const TW_26 = {
       "你"
     ],
     [
+      "titaw",
+      "鋤頭"
+    ],
+    [
+      "titjavulung",
+      "(哥哥；姊姊)通稱"
+    ],
+    [
       "tjagulj",
       "岩石"
     ],
     [
-      "tjaigidi/i gidigidi",
+      "tjaigidi",
       "旁邊"
     ],
     [
@@ -3694,11 +4650,19 @@ export const TW_26 = {
       "嫂嫂"
     ],
     [
-      "tjakanga/kuaw",
+      "tjakanga",
       "老鷹"
     ],
     [
-      "tjakit/ceqeljap",
+      "tjakaukaw",
+      "鐮刀"
+    ],
+    [
+      "tjakit",
+      "鐮刀"
+    ],
+    [
+      "tjakit",
       "獵刀"
     ],
     [
@@ -3726,7 +4690,7 @@ export const TW_26 = {
       "菸草"
     ],
     [
-      "tjangurunguru/tjukaw/cacukecukan",
+      "tjangurunguru",
       "烏龜"
     ],
     [
@@ -3734,7 +4698,7 @@ export const TW_26 = {
       "碗"
     ],
     [
-      "tjara/imayangata",
+      "tjara",
       "應該"
     ],
     [
@@ -3742,7 +4706,7 @@ export const TW_26 = {
       "野草莓"
     ],
     [
-      "tjavuy/ipulung",
+      "tjavuy",
       "擋胸巾"
     ],
     [
@@ -3758,11 +4722,11 @@ export const TW_26 = {
       "三十一"
     ],
     [
-      "tjemadrek/tjemidrik",
+      "tjemadrek",
       "踢"
     ],
     [
-      "tjemakedrus/matjatjudrulj",
+      "tjemakedrus",
       "觸碰(如碰觸到身體)"
     ],
     [
@@ -3774,7 +4738,7 @@ export const TW_26 = {
       "戴(如戴帽子)"
     ],
     [
-      "tjemapis/semapu",
+      "tjemapis",
       "非禮"
     ],
     [
@@ -3787,11 +4751,23 @@ export const TW_26 = {
     ],
     [
       "tjemengez",
+      "睏(想睡覺)"
+    ],
+    [
+      "tjemengez",
       "打瞌睡"
     ],
     [
-      "tjemengez / sataqed",
-      "睏(想睡覺)"
+      "tjemevas",
+      "砍除"
+    ],
+    [
+      "tjemidrik",
+      "踢"
+    ],
+    [
+      "tjemikidr",
+      "提著"
     ],
     [
       "tjemiman",
@@ -3810,6 +4786,10 @@ export const TW_26 = {
       "啄"
     ],
     [
+      "tjemukudr",
+      "揹負(物品)"
+    ],
+    [
       "tjemuljak",
       "削(水果)"
     ],
@@ -3822,6 +4802,10 @@ export const TW_26 = {
       "喜愛"
     ],
     [
+      "tjengelay",
+      "疼愛"
+    ],
+    [
       "tjevetjeveng",
       "濕濕的"
     ],
@@ -3830,15 +4814,23 @@ export const TW_26 = {
       "甘蔗"
     ],
     [
+      "tjevuta",
+      "出現"
+    ],
+    [
       "tjeza",
       "剩下"
+    ],
+    [
+      "tjibungu",
+      "蚱蜢"
     ],
     [
       "tjidriyulj",
       "虎頭蜂"
     ],
     [
-      "tjigeraw/driaqulan",
+      "tjigeraw",
       "喉嚨"
     ],
     [
@@ -3846,11 +4838,23 @@ export const TW_26 = {
       "閉(眼睛)"
     ],
     [
+      "tjinaljek",
+      "飯"
+    ],
+    [
       "tjiyalj",
       "肚子"
     ],
     [
-      "tjukudr/tjukukudraw",
+      "tjukaw",
+      "烏龜"
+    ],
+    [
+      "tjukudr",
+      "野鴿子"
+    ],
+    [
+      "tjukukudraw",
       "野鴿子"
     ],
     [
@@ -3858,11 +4862,15 @@ export const TW_26 = {
       "輪胎"
     ],
     [
+      "tjuljung",
+      "竹筒"
+    ],
+    [
       "tjuruvu",
       "(人)眾多"
     ],
     [
-      "tjuvilj/vayavay",
+      "tjuvilj",
       "裙子"
     ],
     [
@@ -3878,7 +4886,7 @@ export const TW_26 = {
       "現在"
     ],
     [
-      "tucu a qadaw/tasauni",
+      "tucu a qadaw",
       "今天"
     ],
     [
@@ -3886,7 +4894,11 @@ export const TW_26 = {
       "一些"
     ],
     [
-      "tuki/milingan",
+      "tuki",
+      "手錶"
+    ],
+    [
+      "tuki",
       "鐘錶"
     ],
     [
@@ -3898,6 +4910,10 @@ export const TW_26 = {
       "蕃茄"
     ],
     [
+      "tumbu",
+      "蜻蜓"
+    ],
+    [
       "turivecan",
       "工具"
     ],
@@ -3906,7 +4922,7 @@ export const TW_26 = {
       "乳房"
     ],
     [
-      "tuvulj/vuka",
+      "tuvulj",
       "犁"
     ],
     [
@@ -3914,7 +4930,7 @@ export const TW_26 = {
       "再見(如互道再見)"
     ],
     [
-      "udjun/drengelan",
+      "udjun",
       "頸子"
     ],
     [
@@ -3930,15 +4946,23 @@ export const TW_26 = {
       "是的"
     ],
     [
-      "ui? /paqulid?",
+      "ui",
+      "好的(沒問題)"
+    ],
+    [
+      "ui tu",
+      "雖然"
+    ],
+    [
+      "ui?",
       "是嗎(語助詞)"
     ],
     [
-      "ukayu/sinansiyaw a paday",
+      "ukayu",
       "粥"
     ],
     [
-      "uma/ema/ba",
+      "uma",
       "馬"
     ],
     [
@@ -3970,16 +4994,20 @@ export const TW_26 = {
       "背部"
     ],
     [
-      "uri mangetjez/zangazanga",
+      "uri mangetjez",
       "要來"
     ],
     [
-      "uta/auta",
+      "uta",
       "也"
     ],
     [
       "va",
       "肺"
+    ],
+    [
+      "vacevac",
+      "女用耳環"
     ],
     [
       "vaik",
@@ -3998,12 +5026,20 @@ export const TW_26 = {
       "去了"
     ],
     [
-      "vakalj/ceqeljap",
+      "vakalj",
       "直形獵刀"
     ],
     [
       "vakela",
       "箭矢"
+    ],
+    [
+      "vakic",
+      "疤"
+    ],
+    [
+      "vakicu",
+      "水桶"
     ],
     [
       "valanga",
@@ -4014,12 +5050,20 @@ export const TW_26 = {
       "風"
     ],
     [
-      "vali/benuhu",
+      "vali",
       "颱風"
     ],
     [
       "valjaw",
       "配偶"
+    ],
+    [
+      "valjaw",
+      "丈夫"
+    ],
+    [
+      "valjes",
+      "斧頭"
     ],
     [
       "valjetjuk",
@@ -4050,7 +5094,7 @@ export const TW_26 = {
       "新的"
     ],
     [
-      "vaquvaqu/ljumbi/punug",
+      "vaquvaqu",
       "玉米"
     ],
     [
@@ -4068,6 +5112,10 @@ export const TW_26 = {
     [
       "vasa",
       "芋頭"
+    ],
+    [
+      "vasakan",
+      "讓開"
     ],
     [
       "vatu",
@@ -4102,15 +5150,23 @@ export const TW_26 = {
       "男用遮陰布"
     ],
     [
+      "vayavay",
+      "裙子"
+    ],
+    [
       "vecekadan a vengin",
       "半夜"
     ],
     [
-      "veli/kakaveliyan/supu",
+      "veleljem",
+      "陰天"
+    ],
+    [
+      "veli",
       "價格"
     ],
     [
-      "veljangaw/paquljis",
+      "veljangaw",
       "花朵"
     ],
     [
@@ -4126,7 +5182,7 @@ export const TW_26 = {
       "晾乾"
     ],
     [
-      "venakalj/venukevuk",
+      "venakalj",
       "刺"
     ],
     [
@@ -4134,7 +5190,7 @@ export const TW_26 = {
       "刮颱風"
     ],
     [
-      "venaljes/semqas/venelaq",
+      "venaljes",
       "劈(木材)"
     ],
     [
@@ -4154,15 +5210,19 @@ export const TW_26 = {
       "折斷"
     ],
     [
-      "veneceqel/gemecel",
+      "veneceqel",
       "掐住"
+    ],
+    [
+      "venelaq",
+      "劈(木材)"
     ],
     [
       "veneli",
       "買"
     ],
     [
-      "venelid/temuvulj",
+      "venelid",
       "犁田"
     ],
     [
@@ -4186,12 +5246,24 @@ export const TW_26 = {
       "丟棄"
     ],
     [
-      "venetjuwas /venetjus",
+      "venetjus",
+      "扯斷"
+    ],
+    [
+      "venetjuwas",
       "扯斷"
     ],
     [
       "vengeq",
       "鼻涕"
+    ],
+    [
+      "venilad",
+      "趕走"
+    ],
+    [
+      "veniljevilj",
+      "拉"
     ],
     [
       "venljuc",
@@ -4200,6 +5272,18 @@ export const TW_26 = {
     [
       "venuciq",
       "剖切"
+    ],
+    [
+      "venukevuk",
+      "刺"
+    ],
+    [
+      "veseng",
+      "禁止"
+    ],
+    [
+      "vetjek a tjavulung",
+      "兄長"
     ],
     [
       "vetjeljatan",
@@ -4214,7 +5298,11 @@ export const TW_26 = {
       "肋骨"
     ],
     [
-      "viljelem/veleljem",
+      "vikiviking",
+      "彎曲"
+    ],
+    [
+      "viljelem",
       "陰天"
     ],
     [
@@ -4222,7 +5310,7 @@ export const TW_26 = {
       "男用耳環"
     ],
     [
-      "vitjing/vacevac",
+      "vitjing",
       "女用耳環"
     ],
     [
@@ -4238,12 +5326,20 @@ export const TW_26 = {
       "胡瓜"
     ],
     [
+      "vucelacelay",
+      "白色"
+    ],
+    [
       "vucelelj",
       "冷"
     ],
     [
       "vudas",
       "沙子"
+    ],
+    [
+      "vuka",
+      "犁"
     ],
     [
       "vukid",
@@ -4274,11 +5370,11 @@ export const TW_26 = {
       "地瓜"
     ],
     [
-      "vusam/gusam",
+      "vusam",
       "種子"
     ],
     [
-      "vuteqiteqilj/vucelacelay",
+      "vuteqiteqilj",
       "白色"
     ],
     [
@@ -4290,7 +5386,11 @@ export const TW_26 = {
       "松鼠"
     ],
     [
-      "vutjulj/qalum",
+      "vutjulj",
+      "肉"
+    ],
+    [
+      "vutjulj",
       "豬肉"
     ],
     [
@@ -4322,6 +5422,10 @@ export const TW_26 = {
       "水"
     ],
     [
+      "zangazanga",
+      "要來"
+    ],
+    [
       "zaqu",
       "肥皂"
     ],
@@ -4334,7 +5438,7 @@ export const TW_26 = {
       "黑暗"
     ],
     [
-      "zemiyan/dremakiyan",
+      "zemiyan",
       "跳舞"
     ],
     [
@@ -4350,19 +5454,27 @@ export const TW_26 = {
       "推"
     ],
     [
-      "zepung/qaraba",
+      "zepung",
       "眼鏡蛇"
     ],
     [
-      "zidingsiya/didinsiya",
+      "zidingsiya",
       "腳踏車"
     ],
     [
-      "zung/zu",
+      "zidusia",
+      "車子"
+    ],
+    [
+      "zu",
       "大象"
     ],
     [
-      "zuyu/levec",
+      "zung",
+      "大象"
+    ],
+    [
+      "zuyu",
       "水瓢(舀水用)"
     ]
   ]

@@ -66,7 +66,7 @@ export const TW_18 = {
       "工具"
     ],
     [
-      "amu/mu’u",
+      "amu",
       "你們"
     ],
     [
@@ -106,8 +106,16 @@ export const TW_18 = {
       "喜愛"
     ],
     [
-      "asu/ su’u",
+      "asu",
       "你"
+    ],
+    [
+      "ata",
+      "我們"
+    ],
+    [
+      "ata",
+      "咱們(包含式)"
     ],
     [
       "atikic",
@@ -122,16 +130,16 @@ export const TW_18 = {
       "乳豬"
     ],
     [
-      "azak ,caak/ zaku",
+      "azak ,caak",
       "我"
     ],
     [
       "azam",
-      "我們(排除式)"
+      "我們"
     ],
     [
-      "azam /ata /zami /ita",
-      "我們"
+      "azam",
+      "我們(排除式)"
     ],
     [
       "a’ali’",
@@ -558,11 +566,11 @@ export const TW_18 = {
       "毛線"
     ],
     [
-      "haan aiza / ha’an aiza",
+      "haan aiza",
       "在那裡"
     ],
     [
-      "haan dii / ha’an dii , ihaan dii / iha’an dii",
+      "haan dii",
       "這裡"
     ],
     [
@@ -620,6 +628,14 @@ export const TW_18 = {
     [
       "haval",
       "飛鼠"
+    ],
+    [
+      "ha’an aiza",
+      "在那裡"
+    ],
+    [
+      "ha’an dii , ihaan dii",
+      "這裡"
     ],
     [
       "hiku’",
@@ -704,6 +720,10 @@ export const TW_18 = {
     [
       "icima",
       "是誰的"
+    ],
+    [
+      "iha’an dii",
+      "這裡"
     ],
     [
       "ima",
@@ -798,7 +818,11 @@ export const TW_18 = {
       "屬格標記(各族用語)"
     ],
     [
-      "ita /ata",
+      "ita",
+      "我們"
+    ],
+    [
+      "ita",
       "咱們(包含式)"
     ],
     [
@@ -2786,6 +2810,10 @@ export const TW_18 = {
       "巫術"
     ],
     [
+      "mu’u",
+      "你們"
+    ],
+    [
       "nai",
       "他們"
     ],
@@ -3702,6 +3730,10 @@ export const TW_18 = {
       "打哈欠"
     ],
     [
+      "su’u",
+      "你"
+    ],
+    [
       "taau",
       "三"
     ],
@@ -4376,6 +4408,14 @@ export const TW_18 = {
     [
       "vuvuqvuq",
       "晃動"
+    ],
+    [
+      "zaku",
+      "我"
+    ],
+    [
+      "zami",
+      "我們"
     ]
   ]
 };

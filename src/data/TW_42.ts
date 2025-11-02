@@ -254,6 +254,10 @@ export const TW_42 = {
       "意義"
     ],
     [
+      "angay rana",
+      "趕走"
+    ],
+    [
       "angin",
       "颱風"
     ],
@@ -814,6 +818,10 @@ export const TW_42 = {
       "掩埋"
     ],
     [
+      "ibokbok",
+      "倒(水)"
+    ],
+    [
       "icicirawat",
       "文化"
     ],
@@ -838,7 +846,7 @@ export const TW_42 = {
       "壓制"
     ],
     [
-      "iglo/ibokbok",
+      "iglo",
       "倒(水)"
     ],
     [
@@ -1451,11 +1459,11 @@ export const TW_42 = {
     ],
     [
       "linasan",
-      "擦拭"
+      "擦(如口紅；油漆)"
     ],
     [
-      "linasan/meycikibizi/raphesen",
-      "擦(如口紅；油漆)"
+      "linasan",
+      "擦拭"
     ],
     [
       "linglingen",
@@ -1494,6 +1502,10 @@ export const TW_42 = {
       "遺失"
     ],
     [
+      "mabsoy",
+      "飽食"
+    ],
+    [
       "maciami",
       "向人家要(東西)"
     ],
@@ -1530,7 +1542,7 @@ export const TW_42 = {
       "甘甜"
     ],
     [
-      "maglo/mazba",
+      "maglo",
       "翻倒"
     ],
     [
@@ -1678,6 +1690,10 @@ export const TW_42 = {
       "髒"
     ],
     [
+      "mamasil",
+      "釣魚"
+    ],
+    [
       "mamekeh",
       "小姐"
     ],
@@ -1806,7 +1822,7 @@ export const TW_42 = {
       "殺牲畜"
     ],
     [
-      "mangna/mamasil",
+      "mangna",
       "釣魚"
     ],
     [
@@ -2086,7 +2102,7 @@ export const TW_42 = {
       "女性"
     ],
     [
-      "mavaon/mabsoy",
+      "mavaon",
       "飽食"
     ],
     [
@@ -2126,7 +2142,7 @@ export const TW_42 = {
       "(植物的果實)掉落"
     ],
     [
-      "mawakwak/mazakat",
+      "mawakwak",
       "死亡"
     ],
     [
@@ -2140,6 +2156,14 @@ export const TW_42 = {
     [
       "mazabtek",
       "粗(物)"
+    ],
+    [
+      "mazakat",
+      "死亡"
+    ],
+    [
+      "mazba",
+      "翻倒"
     ],
     [
       "mazday",
@@ -2184,6 +2208,10 @@ export const TW_42 = {
     [
       "meybozo",
       "玩(球)"
+    ],
+    [
+      "meycikibizi",
+      "擦(如口紅；油漆)"
     ],
     [
       "meykannibisib",
@@ -3166,6 +3194,10 @@ export const TW_42 = {
       "姑婆芋"
     ],
     [
+      "raphesen",
+      "擦(如口紅；油漆)"
+    ],
+    [
       "rarahan",
       "道路"
     ],
@@ -3416,6 +3448,10 @@ export const TW_42 = {
     [
       "tagovi",
       "水管"
+    ],
+    [
+      "tagow",
+      "瓶子"
     ],
     [
       "tagzang",
@@ -3690,7 +3726,7 @@ export const TW_42 = {
       "貓頭鷹"
     ],
     [
-      "tovoin/angay rana",
+      "tovoin",
       "趕走"
     ],
     [
@@ -3726,7 +3762,7 @@ export const TW_42 = {
       "紙張"
     ],
     [
-      "valanga/tagow",
+      "valanga",
       "瓶子"
     ],
     [

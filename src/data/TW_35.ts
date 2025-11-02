@@ -2,7 +2,7 @@ export const TW_35 = {
   "name": "鄒語",
   "data": [
     [
-      "...n’a / na’a",
+      "...n’a",
       "還(尚未)"
     ],
     [
@@ -118,7 +118,7 @@ export const TW_35 = {
       "受傷"
     ],
     [
-      "amiocni / amzocni",
+      "amiocni",
       "休息"
     ],
     [
@@ -132,6 +132,10 @@ export const TW_35 = {
     [
       "amso",
       "足夠"
+    ],
+    [
+      "amzocni",
+      "休息"
     ],
     [
       "amʉta",
@@ -172,6 +176,10 @@ export const TW_35 = {
     [
       "asonʉ",
       "可能"
+    ],
+    [
+      "atavei no cohiona",
+      "下午"
     ],
     [
       "ateop’ʉca",
@@ -442,7 +450,7 @@ export const TW_35 = {
       "明亮"
     ],
     [
-      "cio’ʉ / czo’ʉ",
+      "cio’ʉ",
       "痰"
     ],
     [
@@ -476,6 +484,10 @@ export const TW_35 = {
     [
       "cnʉmʉ",
       "香蕉"
+    ],
+    [
+      "co",
+      "主格標記(各族用語)"
     ],
     [
       "coca",
@@ -546,6 +558,10 @@ export const TW_35 = {
       "整天"
     ],
     [
+      "cou",
+      "人"
+    ],
+    [
       "coveoza",
       "好可憐"
     ],
@@ -580,6 +596,10 @@ export const TW_35 = {
     [
       "cuyu",
       "熟"
+    ],
+    [
+      "czo’ʉ",
+      "痰"
     ],
     [
       "cʉecʉ",
@@ -698,7 +718,7 @@ export const TW_35 = {
       "家"
     ],
     [
-      "emoovei/yuovei",
+      "emoovei",
       "折返"
     ],
     [
@@ -746,7 +766,7 @@ export const TW_35 = {
       "這個"
     ],
     [
-      "eninio’o /ez’oz’o",
+      "eninio’o",
       "打碎"
     ],
     [
@@ -758,7 +778,11 @@ export const TW_35 = {
       "叫喚(如餵雞前會叫喚)"
     ],
     [
-      "eopoepiana/eopoepzana",
+      "eopoepiana",
+      "扇子"
+    ],
+    [
+      "eopoepzana",
       "扇子"
     ],
     [
@@ -782,7 +806,11 @@ export const TW_35 = {
       "日出"
     ],
     [
-      "esnunu’i/ esnu’nu’zi",
+      "esnunu’i",
+      "撬開"
+    ],
+    [
+      "esnu’nu’zi",
       "撬開"
     ],
     [
@@ -814,8 +842,16 @@ export const TW_35 = {
       "崩落"
     ],
     [
+      "ezua",
+      "故意"
+    ],
+    [
       "ez’oz’o",
       "敲碎"
+    ],
+    [
+      "ez’oz’o",
+      "打碎"
     ],
     [
       "eʉsvʉta",
@@ -834,7 +870,11 @@ export const TW_35 = {
       "豹 / 老虎"
     ],
     [
-      "e’vonano /e’vono",
+      "e’vonano",
+      "雖然"
+    ],
+    [
+      "e’vono",
       "雖然"
     ],
     [
@@ -966,7 +1006,11 @@ export const TW_35 = {
       "小刀"
     ],
     [
-      "fʉecʉ’ia / fʉecʉ’za",
+      "fʉecʉ’ia",
+      "白色"
+    ],
+    [
+      "fʉecʉ’za",
       "白色"
     ],
     [
@@ -1022,7 +1066,7 @@ export const TW_35 = {
       "帶"
     ],
     [
-      "hafsʉ / moyomo",
+      "hafsʉ",
       "酒醉"
     ],
     [
@@ -1034,7 +1078,7 @@ export const TW_35 = {
       "男性"
     ],
     [
-      "hanahana / ’ahilu",
+      "hanahana",
       "鴨"
     ],
     [
@@ -1046,7 +1090,7 @@ export const TW_35 = {
       "剪刀"
     ],
     [
-      "hci’i / ’empi",
+      "hci’i",
       "鍋鏟"
     ],
     [
@@ -1150,8 +1194,12 @@ export const TW_35 = {
       "待會兒"
     ],
     [
-      "hoci / honci",
+      "hoci",
       "如果"
+    ],
+    [
+      "hocmʉfeʉa",
+      "春天"
     ],
     [
       "hoehongsʉ",
@@ -1166,7 +1214,7 @@ export const TW_35 = {
       "野鴿子"
     ],
     [
-      "hofungahoa /hocmʉfeʉa",
+      "hofungahoa",
       "春天"
     ],
     [
@@ -1180,6 +1228,10 @@ export const TW_35 = {
     [
       "homu’eina",
       "夏天"
+    ],
+    [
+      "honci",
+      "如果"
     ],
     [
       "hopi",
@@ -1198,7 +1250,11 @@ export const TW_35 = {
       "編網針"
     ],
     [
-      "hotacʉmʉa/ hotoc’ʉha",
+      "hotacʉmʉa",
+      "秋天"
+    ],
+    [
+      "hotoc’ʉha",
       "秋天"
     ],
     [
@@ -1350,7 +1406,11 @@ export const TW_35 = {
       "番石榴"
     ],
     [
-      "kampiuto/ ten-nao",
+      "kamcia",
+      "糖"
+    ],
+    [
+      "kampiuto",
       "電腦"
     ],
     [
@@ -1382,7 +1442,11 @@ export const TW_35 = {
       "眼鏡蛇"
     ],
     [
-      "kengiu /kengzu",
+      "kengiu",
+      "彎曲"
+    ],
+    [
+      "kengzu",
       "彎曲"
     ],
     [
@@ -1398,11 +1462,11 @@ export const TW_35 = {
       "乾的"
     ],
     [
-      "ketbʉ / tvo’oanʉa",
+      "ketbʉ",
       "穀倉"
     ],
     [
-      "ketbʉ /tvo’oanʉa",
+      "ketbʉ",
       "穀倉"
     ],
     [
@@ -1450,7 +1514,7 @@ export const TW_35 = {
       "校長"
     ],
     [
-      "kooli / yuho",
+      "kooli",
       "冰"
     ],
     [
@@ -1482,7 +1546,7 @@ export const TW_35 = {
       "黑色"
     ],
     [
-      "kukucngu no auesiesi / vungka",
+      "kukucngu no auesiesi",
       "文化"
     ],
     [
@@ -1538,7 +1602,7 @@ export const TW_35 = {
       "警察"
     ],
     [
-      "letoatmopsʉ / seito",
+      "letoatmopsʉ",
       "學生"
     ],
     [
@@ -1546,7 +1610,11 @@ export const TW_35 = {
       "蚱蜢"
     ],
     [
-      "lue’amamia/lue’amamza",
+      "lue’amamia",
+      "懶惰"
+    ],
+    [
+      "lue’amamza",
       "懶惰"
     ],
     [
@@ -1588,6 +1656,10 @@ export const TW_35 = {
     [
       "maceofʉ",
       "蓋被子"
+    ],
+    [
+      "machachae",
+      "菜餚"
     ],
     [
       "macucuma no toalungu",
@@ -1722,7 +1794,7 @@ export const TW_35 = {
       "十八"
     ],
     [
-      "maspio / ma’hipio",
+      "maspio",
       "(幾)點鐘"
     ],
     [
@@ -1762,6 +1834,10 @@ export const TW_35 = {
       "山胡椒"
     ],
     [
+      "ma’hipio",
+      "(幾)點鐘"
+    ],
+    [
       "ma’kakoi",
       "啃"
     ],
@@ -1798,7 +1874,11 @@ export const TW_35 = {
       "播種祭"
     ],
     [
-      "mengiu / mengzu",
+      "mengiu",
+      "矛"
+    ],
+    [
+      "mengzu",
       "矛"
     ],
     [
@@ -1874,7 +1954,7 @@ export const TW_35 = {
       "剛剛"
     ],
     [
-      "mimia / mimza",
+      "mimia",
       "我們"
     ],
     [
@@ -1890,8 +1970,20 @@ export const TW_35 = {
       "你們"
     ],
     [
+      "mimza",
+      "我們"
+    ],
+    [
       "mino",
       "來"
+    ],
+    [
+      "minosa’a",
+      "(叫人)過來"
+    ],
+    [
+      "mio eno",
+      "是嗎(語助詞)"
     ],
     [
       "mio eno ?",
@@ -2002,6 +2094,10 @@ export const TW_35 = {
       "地震"
     ],
     [
+      "moyomo",
+      "酒醉"
+    ],
+    [
       "mo’eocʉ",
       "蚊子"
     ],
@@ -2070,7 +2166,11 @@ export const TW_35 = {
       "三十一"
     ],
     [
-      "mumio /mumzo",
+      "mumio",
+      "(獵物掉入陷阱)陷中"
+    ],
+    [
+      "mumzo",
       "(獵物掉入陷阱)陷中"
     ],
     [
@@ -2150,6 +2250,10 @@ export const TW_35 = {
       "毛"
     ],
     [
+      "na",
+      "主格標記(各族用語)"
+    ],
+    [
       "naconia",
       "一雙"
     ],
@@ -2178,8 +2282,16 @@ export const TW_35 = {
       "夫妻"
     ],
     [
+      "navconga",
+      "婚姻 / 夫妻"
+    ],
+    [
       "naveu",
       "飯"
+    ],
+    [
+      "na’a",
+      "還(尚未)"
     ],
     [
       "na’auna",
@@ -2204,6 +2316,18 @@ export const TW_35 = {
     [
       "na’no mayahe",
       "很快"
+    ],
+    [
+      "nca",
+      "受格標記(各族用語)"
+    ],
+    [
+      "nca",
+      "屬格標記(各族用語)"
+    ],
+    [
+      "ne",
+      "受格標記(各族用語)"
     ],
     [
       "ne homna",
@@ -2286,7 +2410,11 @@ export const TW_35 = {
       "扛"
     ],
     [
-      "ngohia /ngohza",
+      "ngohia",
+      "疼愛"
+    ],
+    [
+      "ngohza",
       "疼愛"
     ],
     [
@@ -2308,6 +2436,14 @@ export const TW_35 = {
     [
       "ngʉcʉ",
       "鼻涕"
+    ],
+    [
+      "no",
+      "受格標記(各族用語)"
+    ],
+    [
+      "no",
+      "屬格標記(各族用語)"
     ],
     [
       "no nenu",
@@ -2358,11 +2494,15 @@ export const TW_35 = {
       "溫的(水)"
     ],
     [
+      "noyano ci chumu",
+      "溫泉"
+    ],
+    [
       "noyʉnʉ",
       "胖(身形)"
     ],
     [
-      "ntee/ ’antee",
+      "ntee",
       "應該"
     ],
     [
@@ -2382,7 +2522,7 @@ export const TW_35 = {
       "他們的"
     ],
     [
-      "nuumia/ nuumza",
+      "nuumia",
       "我們的"
     ],
     [
@@ -2390,12 +2530,20 @@ export const TW_35 = {
       "你們的"
     ],
     [
-      "nuusi/nuutaini",
+      "nuumza",
+      "我們的"
+    ],
+    [
+      "nuusi",
       "他的"
     ],
     [
       "nuusu",
       "你的"
+    ],
+    [
+      "nuutaini",
+      "他的"
     ],
     [
       "nuuto",
@@ -2414,7 +2562,11 @@ export const TW_35 = {
       "厚的"
     ],
     [
-      "ocohioni/ ocohzoni",
+      "ocohioni",
+      "吃午餐"
+    ],
+    [
+      "ocohzoni",
       "吃午餐"
     ],
     [
@@ -2502,7 +2654,7 @@ export const TW_35 = {
       "影子"
     ],
     [
-      "osnia / ’osnia",
+      "osnia",
       "立即"
     ],
     [
@@ -2662,7 +2814,11 @@ export const TW_35 = {
       "下面"
     ],
     [
-      "peomani /peomanzi",
+      "peomani",
+      "送(客人)"
+    ],
+    [
+      "peomanzi",
       "送(客人)"
     ],
     [
@@ -2714,6 +2870,10 @@ export const TW_35 = {
       "多少"
     ],
     [
+      "pio",
+      "多少(歲;物)"
+    ],
+    [
       "pitu",
       "七"
     ],
@@ -2728,6 +2888,10 @@ export const TW_35 = {
     [
       "poepe",
       "風"
+    ],
+    [
+      "poezi",
+      "晾乾"
     ],
     [
       "poe’ohʉ",
@@ -2750,7 +2914,7 @@ export const TW_35 = {
       "玉米"
     ],
     [
-      "poi  / poezi",
+      "poi",
       "晾乾"
     ],
     [
@@ -2766,7 +2930,7 @@ export const TW_35 = {
       "射擊"
     ],
     [
-      "pooyoyo / poyoyo",
+      "pooyoyo",
       "褲子"
     ],
     [
@@ -2802,6 +2966,14 @@ export const TW_35 = {
       "鐮刀"
     ],
     [
+      "poyoyo",
+      "褲子"
+    ],
+    [
+      "poyuspusu",
+      "輕快"
+    ],
+    [
       "po’eʉngnʉ",
       "狗吠聲"
     ],
@@ -2814,7 +2986,11 @@ export const TW_35 = {
       "將水排出(疏減)"
     ],
     [
-      "psohia /psohza",
+      "psohia",
+      "男用遮陰布"
+    ],
+    [
+      "psohza",
       "男用遮陰布"
     ],
     [
@@ -2914,7 +3090,7 @@ export const TW_35 = {
       "(將器具)磨利"
     ],
     [
-      "sato /kamcia",
+      "sato",
       "糖"
     ],
     [
@@ -2930,6 +3106,10 @@ export const TW_35 = {
       "穀物乾燥簍"
     ],
     [
+      "seito",
+      "學生"
+    ],
+    [
       "seo’eisi",
       "捆綁/綁起來"
     ],
@@ -2942,16 +3122,28 @@ export const TW_35 = {
       "輪胎"
     ],
     [
-      "se’conia /se’conza",
+      "se’conia",
       "百"
     ],
     [
-      "se’conia/ se’conza",
+      "se’conia",
+      "一百"
+    ],
+    [
+      "se’conza",
+      "百"
+    ],
+    [
+      "se’conza",
       "一百"
     ],
     [
       "se’eicha",
       "兩百"
+    ],
+    [
+      "si",
+      "主格標記(各族用語)"
     ],
     [
       "sia",
@@ -2960,6 +3152,10 @@ export const TW_35 = {
     [
       "sicngi",
       "以杓汲水(祈使)"
+    ],
+    [
+      "sicosa’a",
+      "讓開"
     ],
     [
       "sieo",
@@ -3262,12 +3458,16 @@ export const TW_35 = {
       "那個"
     ],
     [
-      "ta/to/no/nca",
-      "屬格標記(各族用語)"
+      "ta",
+      "主格標記(各族用語)"
     ],
     [
-      "ta/to/no/nca/ne",
+      "ta",
       "受格標記(各族用語)"
+    ],
+    [
+      "ta",
+      "屬格標記(各族用語)"
     ],
     [
       "tacvoh’i",
@@ -3290,15 +3490,27 @@ export const TW_35 = {
       "裙子/傳統女裙"
     ],
     [
-      "tahia / tahza",
+      "tahia",
       "豆類"
     ],
     [
-      "tahia ceo’ʉ/tahza ceo’ʉ",
+      "tahia ceo’ʉ",
       "長豆"
     ],
     [
-      "tahia enghova/tahza enghova",
+      "tahia enghova",
+      "綠豆"
+    ],
+    [
+      "tahza",
+      "豆類"
+    ],
+    [
+      "tahza ceo’ʉ",
+      "長豆"
+    ],
+    [
+      "tahza enghova",
       "綠豆"
     ],
     [
@@ -3362,7 +3574,11 @@ export const TW_35 = {
       "早上"
     ],
     [
-      "tasucia / tasucza",
+      "tasucia",
+      "整理"
+    ],
+    [
+      "tasucza",
       "整理"
     ],
     [
@@ -3386,7 +3602,7 @@ export const TW_35 = {
       "那裡"
     ],
     [
-      "ta’esi no cohzona/atavei no cohiona",
+      "ta’esi no cohzona",
       "下午"
     ],
     [
@@ -3410,7 +3626,7 @@ export const TW_35 = {
       "不可以"
     ],
     [
-      "teav’atee / ’upena",
+      "teav’atee",
       "沒關係"
     ],
     [
@@ -3424,6 +3640,10 @@ export const TW_35 = {
     [
       "televi",
       "電視"
+    ],
+    [
+      "ten-nao",
+      "電腦"
     ],
     [
       "tengki",
@@ -3486,6 +3706,10 @@ export const TW_35 = {
       "跳蚤"
     ],
     [
+      "tiotha",
+      "工具"
+    ],
+    [
       "tiskova",
       "亮光"
     ],
@@ -3494,7 +3718,7 @@ export const TW_35 = {
       "使用"
     ],
     [
-      "tititha / tiotha",
+      "tititha",
       "工具"
     ],
     [
@@ -3610,6 +3834,14 @@ export const TW_35 = {
       "雨"
     ],
     [
+      "to",
+      "受格標記(各族用語)"
+    ],
+    [
+      "to",
+      "屬格標記(各族用語)"
+    ],
+    [
       "toa ehʉngʉa",
       "剝葉"
     ],
@@ -3658,7 +3890,11 @@ export const TW_35 = {
       "禁止;阻擋"
     ],
     [
-      "tonghifa /tonghifza",
+      "tonghifa",
+      "牆壁"
+    ],
+    [
+      "tonghifza",
       "牆壁"
     ],
     [
@@ -3686,12 +3922,16 @@ export const TW_35 = {
       "餌"
     ],
     [
-      "topioha / topzoha / pio",
+      "topioha",
       "多少(歲;物)"
     ],
     [
       "topngu",
       "湖泊"
+    ],
+    [
+      "topzoha",
+      "多少(歲;物)"
     ],
     [
       "tosvo",
@@ -3702,7 +3942,11 @@ export const TW_35 = {
       "聽說"
     ],
     [
-      "tote’ia/ tote’za",
+      "tote’ia",
+      "廁所"
+    ],
+    [
+      "tote’za",
       "廁所"
     ],
     [
@@ -3814,6 +4058,14 @@ export const TW_35 = {
       "電冰箱"
     ],
     [
+      "tvo’oanʉa",
+      "穀倉"
+    ],
+    [
+      "tvo’oanʉa",
+      "穀倉"
+    ],
+    [
       "tʉfsʉ",
       "甘蔗"
     ],
@@ -3866,7 +4118,7 @@ export const TW_35 = {
       "麻雀"
     ],
     [
-      "uhtan’e /minosa’a",
+      "uhtan’e",
       "(叫人)過來"
     ],
     [
@@ -3938,11 +4190,19 @@ export const TW_35 = {
       "八"
     ],
     [
+      "vungka",
+      "文化"
+    ],
+    [
       "yaa ahngʉ",
       "姻親"
     ],
     [
-      "yaahioai/yaahioa",
+      "yaahioa",
+      "工作"
+    ],
+    [
+      "yaahioai",
       "工作"
     ],
     [
@@ -3982,7 +4242,7 @@ export const TW_35 = {
       "稻草"
     ],
     [
-      "yatatiskova / cou",
+      "yatatiskova",
       "人"
     ],
     [
@@ -3990,7 +4250,7 @@ export const TW_35 = {
       "打哈欠"
     ],
     [
-      "yoefʉhta/ poyuspusu",
+      "yoefʉhta",
       "輕快"
     ],
     [
@@ -4006,7 +4266,11 @@ export const TW_35 = {
       "靠著"
     ],
     [
-      "yohiʉ / yohzʉ",
+      "yohiʉ",
+      "嚇一跳"
+    ],
+    [
+      "yohzʉ",
       "嚇一跳"
     ],
     [
@@ -4026,6 +4290,10 @@ export const TW_35 = {
       "螃蟹"
     ],
     [
+      "yoni",
+      "(居)住"
+    ],
+    [
       "yonto ic’o",
       "在某處"
     ],
@@ -4042,7 +4310,7 @@ export const TW_35 = {
       "飽食"
     ],
     [
-      "yose’u /sicosa’a",
+      "yose’u",
       "讓開"
     ],
     [
@@ -4091,6 +4359,10 @@ export const TW_35 = {
     ],
     [
       "yuho",
+      "冰"
+    ],
+    [
+      "yuho",
       "霜"
     ],
     [
@@ -4110,7 +4382,11 @@ export const TW_35 = {
       "揹籃"
     ],
     [
-      "yuniou / yunzou",
+      "yuniou",
+      "燃燒"
+    ],
+    [
+      "yunzou",
       "燃燒"
     ],
     [
@@ -4118,7 +4394,11 @@ export const TW_35 = {
       "腫"
     ],
     [
-      "yupa navconga / navconga",
+      "yuovei",
+      "折返"
+    ],
+    [
+      "yupa navconga",
       "婚姻 / 夫妻"
     ],
     [
@@ -4226,11 +4506,11 @@ export const TW_35 = {
       "是的"
     ],
     [
-      "zou eno / mio eno",
+      "zou eno",
       "是嗎(語助詞)"
     ],
     [
-      "zua / ezua",
+      "zua",
       "故意"
     ],
     [
@@ -4248,6 +4528,14 @@ export const TW_35 = {
     [
       "ʉs’ʉfea",
       "捕鳥陷阱"
+    ],
+    [
+      "’ahilu",
+      "鴨"
+    ],
+    [
+      "’antee",
+      "應該"
     ],
     [
       "’apangʉ",
@@ -4278,8 +4566,12 @@ export const TW_35 = {
       "頭蝨"
     ],
     [
-      "’e/si/ta/ ’o/na/co",
+      "’e",
       "主格標記(各族用語)"
+    ],
+    [
+      "’empi",
+      "鍋鏟"
     ],
     [
       "’eopsi",
@@ -4294,6 +4586,10 @@ export const TW_35 = {
       "禱告"
     ],
     [
+      "’o",
+      "主格標記(各族用語)"
+    ],
+    [
       "’oahngʉ",
       "親戚"
     ],
@@ -4302,12 +4598,16 @@ export const TW_35 = {
       "堂, 表兄弟姐妹"
     ],
     [
-      "’okazu / machachae",
+      "’okazu",
       "菜餚"
     ],
     [
-      "’onsen / noyano ci chumu",
+      "’onsen",
       "溫泉"
+    ],
+    [
+      "’osnia",
+      "立即"
     ],
     [
       "’ote",
@@ -4322,7 +4622,7 @@ export const TW_35 = {
       "跳舞"
     ],
     [
-      "’oyona/yoni",
+      "’oyona",
       "(居)住"
     ],
     [
@@ -4338,11 +4638,15 @@ export const TW_35 = {
       "牛"
     ],
     [
+      "’uasmopaevi",
+      "馬"
+    ],
+    [
       "’uatee",
       "好(指沒問題)"
     ],
     [
-      "’uma/ ’uasmopaevi",
+      "’uma",
       "馬"
     ],
     [
@@ -4352,6 +4656,10 @@ export const TW_35 = {
     [
       "’ungeai",
       "鳳梨"
+    ],
+    [
+      "’upena",
+      "沒關係"
     ],
     [
       "’upena",

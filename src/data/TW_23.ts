@@ -346,6 +346,10 @@ export const TW_23 = {
       "近"
     ],
     [
+      "dinding",
+      "蝸牛"
+    ],
+    [
       "dingki",
       "電燈"
     ],
@@ -2038,7 +2042,7 @@ export const TW_23 = {
       "壯碩"
     ],
     [
-      "mesuaw / misuaw",
+      "mesuaw",
       "打哈欠"
     ],
     [
@@ -2094,6 +2098,10 @@ export const TW_23 = {
       "黑暗"
     ],
     [
+      "misuaw",
+      "打哈欠"
+    ],
+    [
       "mudingan",
       "臉"
     ],
@@ -2138,7 +2146,7 @@ export const TW_23 = {
       "沒有(表擁有的否定詞)"
     ],
     [
-      "ngaci / dinding",
+      "ngaci",
       "蝸牛"
     ],
     [
@@ -2712,6 +2720,10 @@ export const TW_23 = {
     [
       "qarizang",
       "長豆"
+    ],
+    [
+      "qasalj",
+      "穀粒"
     ],
     [
       "qaselu",
@@ -3490,7 +3502,7 @@ export const TW_23 = {
       "醬油"
     ],
     [
-      "tauta / uta",
+      "tauta",
       "也"
     ],
     [
@@ -3706,7 +3718,7 @@ export const TW_23 = {
       "菸草(成品)"
     ],
     [
-      "tjamuni/tumatu",
+      "tjamuni",
       "蕃茄"
     ],
     [
@@ -3878,6 +3890,10 @@ export const TW_23 = {
       "百香果"
     ],
     [
+      "tumatu",
+      "蕃茄"
+    ],
+    [
       "turivecan",
       "工具"
     ],
@@ -3948,6 +3964,10 @@ export const TW_23 = {
     [
       "uta",
       "再"
+    ],
+    [
+      "uta",
+      "也"
     ],
     [
       "uy",
@@ -4030,12 +4050,12 @@ export const TW_23 = {
       "芋頭"
     ],
     [
-      "vat a paday",
-      "白米"
+      "vat",
+      "穀粒"
     ],
     [
-      "vat/qasalj",
-      "穀粒"
+      "vat a paday",
+      "白米"
     ],
     [
       "vatu",
