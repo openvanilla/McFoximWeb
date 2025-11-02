@@ -21,6 +21,12 @@ export class InputController {
   }
 
   reset(): void {
+    const oldState = this.state_;
+    if (oldState instanceof InputtingState) {
+      if (oldState.composingBuffer.length > 0) {
+        this.ui_.commitString(oldState.composingBuffer);
+      }
+    }
     this.enterState(this.state_, new EmptyState());
   }
 
@@ -50,11 +56,6 @@ export class InputController {
   }
 
   private handleEmptyState(oldState: InputState, newState: EmptyState): void {
-    if (oldState instanceof InputtingState) {
-      if (oldState.composingBuffer.length > 0) {
-        this.ui_.commitString(oldState.composingBuffer);
-      }
-    }
     this.ui_.reset();
     this.state_ = newState;
   }

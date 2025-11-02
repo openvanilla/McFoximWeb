@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  overflow: hidden;
 }
 
 * {
@@ -20,6 +21,7 @@ body {
   max-width: 800px;
   margin: 2rem auto;
   height: 100%;
+  overflow: hidden;
 }
 
 a {
