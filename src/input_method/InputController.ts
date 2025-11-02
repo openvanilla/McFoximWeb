@@ -24,18 +24,19 @@ export class InputController {
     this.enterState(this.state_, new EmptyState());
   }
 
-  handleKeyboardEvent(event: KeyboardEvent): void {
+  handleKeyboardEvent(event: KeyboardEvent): boolean {
     const key = KeyMapping.keyFromKeyboardEvent(event);
-    this.handle(key);
+    return this.handle(key);
   }
 
-  handle(key: Key): void {
-    this.keyHandler_.handle(
+  handle(key: Key): boolean {
+    const handled = this.keyHandler_.handle(
       key,
       this.state_,
       (state) => this.enterState(this.state_, state),
       () => this.onError(),
     );
+    return handled;
   }
 
   private enterState(oldState: InputState, newState: InputState): void {
@@ -67,6 +68,7 @@ export class InputController {
   private handleInputtingState(oldState: InputState, newState: InputtingState): void {
     const builder = new InputUIStateBuilder(newState);
     const uiState = builder.buildJsonString();
+    this.ui_.reset();
     this.ui_.update(uiState);
     this.state_ = newState;
   }

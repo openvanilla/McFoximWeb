@@ -74,6 +74,10 @@ export class InputTableManager {
     }
   }
 
+  get tableNames(): string[] {
+    return this.tables.map((table) => table.name);
+  }
+
   readonly tables: Array<InputTable> = [
     TW_01,
     TW_02,

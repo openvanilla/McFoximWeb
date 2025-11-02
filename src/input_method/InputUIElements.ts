@@ -97,9 +97,7 @@ export class InputUIStateBuilder {
     if (this.state.candidatesInCurrentPage) {
       for (let i = 0; i < this.state.candidatesInCurrentPage.length; i++) {
         const candidate = this.state.candidatesInCurrentPage[i];
-        const globalIndex =
-          (this.state.candidatePageIndex ?? 0) * InputtingState.candidatesPerPage + i;
-        const selected = globalIndex === (this.state.selectedCandidateIndex ?? -1);
+        const selected = i === (this.state.selectedCandidateIndexInCurrentPage ?? -1);
         candidateWrappers.push(
           new CandidateWrapper(
             String.fromCharCode(49 + i), // '1' = 49 in ASCII

@@ -1,0 +1,101 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14pt;
+  line-height: 1.5;
+}
+
+.main {
+  max-width: 800px;
+  margin: 2rem auto;
+  height: 100%;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.keycap {
+  font-weight: bold;
+  padding: 0.2rem 0.5rem;
+}
+
+.highlighted_candidate {
+  background-color: yellow;
+}
+
+#function {
+  position: absolute;
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 90%;
+  height: 100%;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 10px;
+
+  ime-mode: disabled;
+  -webkit-ime-mode: disabled;
+  -moz-ime-mode: disabled;
+  -ms-ime-mode: disabled;
+}
+
+.left {
+  width: 70%;
+  float: left;
+  min-height: 90%;
+  overflow: auto !important;
+  height: 100%;
+}
+
+.right {
+  width: 28%;
+  float: right;
+  height: 90%;
+  overflow: auto !important;
+  height: 100%;
+}
+
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+li {
+  font-size: 10pt;
+}
+
+#edit_area {
+  height: 80%;
+}
+
+.page_info {
+  font-size: 10pt;
+  text-align: right;
+  color: #666;
+}
+
+.page_info td {
+  padding-top: 20px;
+}
