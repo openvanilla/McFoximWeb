@@ -21,9 +21,9 @@ export default class Completer {
     while (left <= right) {
       const mid = Math.floor((left + right) / 2);
 
-      if (data[mid] < prefix) {
+      if (data[mid][0] < prefix) {
         left = mid + 1;
-      } else if (data[mid].startsWith(prefix)) {
+      } else if (data[mid][0].startsWith(prefix)) {
         firstMatch = mid;
         right = mid - 1; // Continue searching left for the first match
       } else {
@@ -37,8 +37,8 @@ export default class Completer {
 
     // Collect all consecutive matches
     const results: Candidate[] = [];
-    for (let i = firstMatch; i < data.length && data[i].startsWith(prefix); i++) {
-      results.push(new Candidate(data[i], ''));
+    for (let i = firstMatch; i < data.length && data[i][0].startsWith(prefix); i++) {
+      results.push(new Candidate(data[i][0], data[i][1]));
     }
 
     return results;

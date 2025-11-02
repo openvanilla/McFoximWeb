@@ -21,7 +21,7 @@ body {
   max-width: 800px;
   margin: 2rem auto;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 a {
@@ -35,11 +35,28 @@ a:hover {
 
 .keycap {
   font-weight: bold;
-  padding: 0.2rem 0.5rem;
+  font-size: 12pt;
+  padding: 2px 10px 0 20px;
 }
 
 .highlighted_candidate {
   background-color: yellow;
+}
+
+.candidate {
+  padding: 2px;
+  font-size: 12pt;
+}
+
+.description {
+  padding: 2px 10px 0 20px;
+  font-size: 10pt;
+  color: #666;
+}
+
+.cursor {
+  color: red;
+  animation: blink 0.7s infinite;
 }
 
 #function {
@@ -100,4 +117,9 @@ li {
 
 .page_info td {
   padding-top: 20px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 12pt;
 }

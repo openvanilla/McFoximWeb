@@ -42,7 +42,7 @@ import { TW_42 } from './TW_42';
 
 export interface InputTable {
   name: string;
-  data: string[];
+  data: string[][];
 }
 
 export class InputTableManager {

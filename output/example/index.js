@@ -73,18 +73,19 @@
           } else {
             s += '<tr>';
           }
-          s += '<td>';
-          s += '<span class="keycap">';
+          s += '<td class="keycap">';
           s += candidate.keyCap;
-          s += '</span>';
-          s += '<span class="candidiate">';
+          s += '</td>';
+          s += '<td class="candidate">';
           s += candidate.candidate.text;
-          s += '</span>';
+          s += '</td>';
+          s += '<td class="description">';
+          s += candidate.candidate.description;
           s += '</td>';
           s += '</tr>';
         }
         s += '<tr class="page_info"> ';
-        s += '<td>';
+        s += '<td colspan="3">';
         s += 'Page ' + (state.candidatePageIndex + 1) + ' / ' + state.candidatePageCount;
         s += '</td>';
         s += '</tr>';
