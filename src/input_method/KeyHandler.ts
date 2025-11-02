@@ -10,7 +10,7 @@ export class KeyHandler {
     this.completer_ = completer;
   }
 
-  private inputKeys = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'".split(''); // Example input keys
+  private inputKeys = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'^".split(''); // Example input keys
 
   handle(
     key: Key,

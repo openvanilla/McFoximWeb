@@ -11,11 +11,11 @@
   }
 
   function onChangeTable(value) {
+    window.localStorage.setItem('selectedTableIndex', value);
     let index = parseInt(value);
     const manager = InputTableManager.getInstance();
     manager.selectedIndexValue = index;
     controller.reset();
-    // resetUI();
   }
 
   let ui = (function () {
@@ -117,19 +117,30 @@
 
   const manager = InputTableManager.getInstance();
   const tableNames = manager.tableNames;
+  let selectedIndex = window.localStorage.getItem('selectedTableIndex');
+  if (selectedIndex !== null) {
+    manager.selectedIndexValue = parseInt(selectedIndex);
+  }
+
   const select = document.getElementById('input-table-select');
+  select.innerHTML = '';
   for (const name of tableNames) {
     const option = document.createElement('option');
     option.value = tableNames.indexOf(name);
     option.textContent = name;
+    if (tableNames.indexOf(name) === manager.selectedIndexValue) {
+      option.selected = true;
+    }
     select.appendChild(option);
   }
+  select.value = manager.selectedIndexValue;
   select.addEventListener('change', (event) => {
     onChangeTable(event.target.value);
   });
 
   const controller = new InputController(ui);
-  document.getElementById('text_area').addEventListener('keydown', (event) => {
+  const textarea = document.getElementById('text_area');
+  textarea.addEventListener('keydown', (event) => {
     if (event.metaKey || event.altKey) {
       return;
     }
@@ -138,5 +149,9 @@
     if (accepted) {
       event.preventDefault();
     }
+  });
+  textarea.addEventListener('blur', () => {
+    controller.reset();
+    resetUI();
   });
 })();

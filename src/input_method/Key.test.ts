@@ -448,7 +448,7 @@ describe('factory method edge cases', () => {
   });
 
   it('handles asciiKey with special characters', () => {
-    const specialChars = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '+', '='];
+    const specialChars = ['!', '@', '#', '$', '%', '&', '*', '(', ')', '+', '='];
     specialChars.forEach((char) => {
       const key = Key.asciiKey(char);
       expect(key.ascii).toBe(char);
