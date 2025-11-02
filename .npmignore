@@ -5,3 +5,4 @@ tests/
 .vscode/
 *.map
 *.tsbuildinfo
+output/example/bundle.js

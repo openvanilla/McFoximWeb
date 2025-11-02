@@ -16,3 +16,6 @@ pnpm-debug.log*
 
 # Tests
 coverage/
+
+junit.xml
+output/example/bundle.jsoutput/example/bundle.js
