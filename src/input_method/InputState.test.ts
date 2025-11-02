@@ -1,3 +1,4 @@
+import { Candidate } from '../engine';
 import { CommittingState, EmptyState, InputtingState } from './InputState';
 
 describe('Test EmptyState', () => {
@@ -49,7 +50,7 @@ describe('Test InputtingState', () => {
     const state = new InputtingState({
       cursorIndex: 0,
       composingBuffer: 'test',
-      candidates: ['candidate1', 'candidate2'],
+      candidates: [new Candidate('candidate1', ''), new Candidate('candidate2', '')],
     });
     expect(state).toBeInstanceOf(InputtingState);
   });
@@ -58,12 +59,15 @@ describe('Test InputtingState', () => {
     const state = new InputtingState({
       cursorIndex: 2,
       composingBuffer: 'hello',
-      candidates: ['hello world', 'hello there'],
+      candidates: [new Candidate('hello world', ''), new Candidate('hello there', '')],
       selectedCandidateIndex: 0,
     });
     expect(state.cursorIndex).toBe(2);
     expect(state.composingBuffer).toBe('hello');
-    expect(state.candidates).toEqual(['hello world', 'hello there']);
+    expect(state.candidates).toEqual([
+      new Candidate('hello world', ''),
+      new Candidate('hello there', ''),
+    ]);
     expect(state.selectedCandidateIndex).toBe(0);
   });
 
@@ -72,13 +76,13 @@ describe('Test InputtingState', () => {
     const state = new InputtingState({
       cursorIndex: 0,
       composingBuffer: '',
-      candidates,
+      candidates: Array.from({ length: 20 }, (_, i) => new Candidate(`candidate${i}`, '')),
     });
     expect(state.candidatePageCount).toBe(3);
   });
 
   it('should paginate candidates correctly', () => {
-    const candidates = Array.from({ length: 20 }, (_, i) => `candidate${i}`);
+    const candidates = Array.from({ length: 20 }, (_, i) => new Candidate(`candidate${i}`, ''));
     const state = new InputtingState({
       cursorIndex: 0,
       composingBuffer: '',
@@ -100,13 +104,13 @@ describe('Test InputtingState', () => {
   });
 
   it('should handle no selected candidate', () => {
-    const candidates = ['a', 'b', 'c'];
+    const candidates = [new Candidate('a', ''), new Candidate('b', ''), new Candidate('c', '')];
     const state = new InputtingState({
       cursorIndex: 0,
       composingBuffer: '',
       candidates,
     });
-    expect(state.candidatesInCurrentPage).toEqual(['a', 'b', 'c']);
+    expect(state.candidatesInCurrentPage).toEqual(candidates);
     expect(state.selectedCandidateIndexInCurrentPage).toBe(0);
   });
 });

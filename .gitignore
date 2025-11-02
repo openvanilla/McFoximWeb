@@ -18,4 +18,5 @@ pnpm-debug.log*
 coverage/
 
 junit.xml
-output/example/bundle.jsoutput/example/bundle.js
+output/example/bundle.j
+soutput/example/bundle.js.LICENSE.txt

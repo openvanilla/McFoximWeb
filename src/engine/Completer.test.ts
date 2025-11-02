@@ -3,8 +3,7 @@ import Completer from './Completer';
 
 describe('Test completer', () => {
   test('Sample test', () => {
-    let table = InputTableManager.getInstance().currentTable;
-    let completer = new Completer(table);
+    let completer = new Completer(() => InputTableManager.getInstance().currentTable);
     let results = completer.complete('A');
     expect(results).toBeDefined();
     expect(Array.isArray(results)).toBe(true);

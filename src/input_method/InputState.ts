@@ -1,3 +1,5 @@
+import { Candidate } from '../engine';
+
 export abstract class InputState {}
 
 export class EmptyState extends InputState {}
@@ -15,10 +17,10 @@ export class InputtingState extends InputState {
 
   readonly cursorIndex: number;
   readonly composingBuffer: string;
-  readonly candidates: string[];
+  readonly candidates: Candidate[];
   readonly selectedCandidateIndex?: number | undefined;
 
-  readonly candidatesInCurrentPage?: string[];
+  readonly candidatesInCurrentPage?: Candidate[];
   readonly selectedCandidateIndexInCurrentPage?: number | undefined;
   readonly candidatePageIndex?: number | undefined;
   readonly candidatePageCount?: number | undefined;
@@ -26,7 +28,7 @@ export class InputtingState extends InputState {
   constructor(args: {
     cursorIndex: number;
     composingBuffer: string;
-    candidates: string[];
+    candidates: Candidate[];
     selectedCandidateIndex?: number | undefined;
   }) {
     super();

@@ -1,4 +1,5 @@
 import { InputTableManager } from '../data';
+import { Candidate } from '../engine';
 import Completer from '../engine/Completer';
 import { CommittingState, EmptyState, InputtingState } from './InputState';
 import { Key, KeyName } from './Key';
@@ -8,7 +9,7 @@ describe('Test KeyHandler', () => {
   // Add tests here
   it('should pass key with empty state', () => {
     const state = new EmptyState();
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.SPACE);
     const result = keyHandler.handle(
@@ -24,7 +25,7 @@ describe('Test KeyHandler', () => {
 
   it('should enter key with empty state', () => {
     const state = new EmptyState();
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('a', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -50,7 +51,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'a',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('c', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -76,7 +77,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'a',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('c', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -100,10 +101,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab'],
+      candidates: [new Candidate('aaa', ''), new Candidate('aab', '')],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.TAB);
     const result = keyHandler.handle(
@@ -129,7 +130,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'aaa',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.TAB);
     const result = keyHandler.handle(
@@ -155,7 +156,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'aaa',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.ESC);
     const result = keyHandler.handle(
@@ -175,10 +176,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 3,
       composingBuffer: 'abc',
-      candidates: ['abc', 'abd'],
+      candidates: [new Candidate('abc', ''), new Candidate('abd', '')],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.BACKSPACE);
     const result = keyHandler.handle(
@@ -204,7 +205,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.BACKSPACE);
     const result = keyHandler.handle(
@@ -228,10 +229,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa'],
+      candidates: [new Candidate('aaa', '')],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.BACKSPACE);
     const result = keyHandler.handle(
@@ -253,7 +254,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.BACKSPACE);
     const result = keyHandler.handle(
@@ -271,10 +272,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 3,
       composingBuffer: 'abc',
-      candidates: ['abc', 'abd'],
+      candidates: [new Candidate('abc', ''), new Candidate('abd', '')],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.DELETE);
     const result = keyHandler.handle(
@@ -294,7 +295,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.DELETE);
     const result = keyHandler.handle(
@@ -318,10 +319,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 0,
       composingBuffer: 'a',
-      candidates: ['aaa'],
+      candidates: [new Candidate('aaa', '')],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.DELETE);
     const result = keyHandler.handle(
@@ -343,7 +344,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.LEFT);
     const result = keyHandler.handle(
@@ -368,7 +369,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.RIGHT);
     const result = keyHandler.handle(
@@ -391,10 +392,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab', 'aac'],
+      candidates: [new Candidate('aaa', ''), new Candidate('aab', ''), new Candidate('aac', '')],
       selectedCandidateIndex: 1,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.UP);
     const result = keyHandler.handle(
@@ -417,10 +418,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab', 'aac'],
+      candidates: [new Candidate('aaa', ''), new Candidate('aab', ''), new Candidate('aac', '')],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.UP);
     const result = keyHandler.handle(
@@ -445,7 +446,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.LEFT);
     const result = keyHandler.handle(
@@ -465,7 +466,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.RIGHT);
     const result = keyHandler.handle(
@@ -485,7 +486,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'a',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.UP);
     const result = keyHandler.handle(
@@ -503,10 +504,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab', 'aac'],
+      candidates: [new Candidate('aaa', ''), new Candidate('aab', ''), new Candidate('aac', '')],
       selectedCandidateIndex: 1,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.DOWN);
     const result = keyHandler.handle(
@@ -520,7 +521,7 @@ describe('Test KeyHandler', () => {
 
   it('should convert apostrophe to right single quotation mark', () => {
     const state = new EmptyState();
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key("'", KeyName.ASCII);
     const result = keyHandler.handle(
@@ -545,7 +546,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'a',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key("'", KeyName.ASCII);
     const result = keyHandler.handle(
@@ -568,10 +569,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab', 'aac'],
+      candidates: [new Candidate('aaa', ''), new Candidate('aab', ''), new Candidate('aac', '')],
       selectedCandidateIndex: 1,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.DOWN);
     const result = keyHandler.handle(
@@ -595,10 +596,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab', 'aac'],
+      candidates: [new Candidate('aaa', ''), new Candidate('aab', ''), new Candidate('aac', '')],
       selectedCandidateIndex: 2,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.DOWN);
     const result = keyHandler.handle(
@@ -624,7 +625,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'a',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.DOWN);
     const result = keyHandler.handle(
@@ -642,10 +643,22 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab', 'aac', 'aad', 'aae', 'aaf', 'aag', 'aah', 'aai', 'aaj', 'aak'],
+      candidates: [
+        new Candidate('aaa', ''),
+        new Candidate('aab', ''),
+        new Candidate('aac', ''),
+        new Candidate('aad', ''),
+        new Candidate('aae', ''),
+        new Candidate('aaf', ''),
+        new Candidate('aag', ''),
+        new Candidate('aah', ''),
+        new Candidate('aai', ''),
+        new Candidate('aaj', ''),
+        new Candidate('aak', ''),
+      ],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.PAGE_DOWN);
     const result = keyHandler.handle(
@@ -668,10 +681,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab', 'aac'],
+      candidates: [new Candidate('aaa', ''), new Candidate('aab', ''), new Candidate('aac', '')],
       selectedCandidateIndex: 2,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.PAGE_DOWN);
     const result = keyHandler.handle(
@@ -696,7 +709,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'a',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.PAGE_DOWN);
     const result = keyHandler.handle(
@@ -714,10 +727,22 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab', 'aac', 'aad', 'aae', 'aaf', 'aag', 'aah', 'aai', 'aaj', 'aak'],
+      candidates: [
+        new Candidate('aaa', ''),
+        new Candidate('aab', ''),
+        new Candidate('aac', ''),
+        new Candidate('aad', ''),
+        new Candidate('aae', ''),
+        new Candidate('aaf', ''),
+        new Candidate('aag', ''),
+        new Candidate('aah', ''),
+        new Candidate('aai', ''),
+        new Candidate('aaj', ''),
+        new Candidate('aak', ''),
+      ],
       selectedCandidateIndex: 5,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.PAGE_UP);
     const result = keyHandler.handle(
@@ -740,10 +765,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab', 'aac'],
+      candidates: [new Candidate('aaa', ''), new Candidate('aab', ''), new Candidate('aac', '')],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.PAGE_UP);
     const result = keyHandler.handle(
@@ -768,7 +793,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'a',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.PAGE_UP);
     const result = keyHandler.handle(
@@ -788,7 +813,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.HOME);
     const result = keyHandler.handle(
@@ -813,7 +838,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.END);
     const result = keyHandler.handle(
@@ -838,7 +863,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.HOME);
     const result = keyHandler.handle(
@@ -858,7 +883,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.END);
     const result = keyHandler.handle(
@@ -876,10 +901,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab', 'aac'],
+      candidates: [new Candidate('aaa', ''), new Candidate('aab', ''), new Candidate('aac', '')],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('1', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -902,10 +927,20 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab', 'aac', 'aad', 'aae', 'aaf', 'aag', 'aah', 'aai'],
+      candidates: [
+        new Candidate('aaa', ''),
+        new Candidate('aab', ''),
+        new Candidate('aac', ''),
+        new Candidate('aad', ''),
+        new Candidate('aae', ''),
+        new Candidate('aaf', ''),
+        new Candidate('aag', ''),
+        new Candidate('aah', ''),
+        new Candidate('aai', ''),
+      ],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('9', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -928,10 +963,16 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab', 'aac', 'aad', 'aae'],
+      candidates: [
+        new Candidate('aaa', ''),
+        new Candidate('aab', ''),
+        new Candidate('aac', ''),
+        new Candidate('aad', ''),
+        new Candidate('aae', ''),
+      ],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('5', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -954,10 +995,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab'],
+      candidates: [new Candidate('aaa', ''), new Candidate('aab', '')],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('5', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -977,7 +1018,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'a',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('1', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -996,10 +1037,10 @@ describe('Test KeyHandler', () => {
       const state = new InputtingState({
         cursorIndex: 1,
         composingBuffer: 'a',
-        candidates: Array.from({ length: 9 }, (_, idx) => `candidate${idx}`),
+        candidates: Array.from({ length: 9 }, (_, idx) => new Candidate(`candidate${idx}`, '')),
         selectedCandidateIndex: 0,
       });
-      const completer = new Completer(InputTableManager.getInstance().currentTable);
+      const completer = new Completer(() => InputTableManager.getInstance().currentTable);
       const keyHandler = new KeyHandler(completer);
       const key = new Key(i.toString(), KeyName.ASCII);
       const result = keyHandler.handle(
@@ -1023,10 +1064,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 3,
       composingBuffer: 'abc',
-      candidates: ['abc', 'abd'],
+      candidates: [new Candidate('abc', ''), new Candidate('abd', '')],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.RETURN);
     const result = keyHandler.handle(
@@ -1051,7 +1092,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: '',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.RETURN);
     const result = keyHandler.handle(
@@ -1074,10 +1115,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 2,
       composingBuffer: 'abcde',
-      candidates: ['abcde'],
+      candidates: [new Candidate('abcde', '')],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.RETURN);
     const result = keyHandler.handle(
@@ -1100,10 +1141,10 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 1,
       composingBuffer: 'a',
-      candidates: ['aaa', 'aab'],
+      candidates: [new Candidate('aaa', ''), new Candidate('aab', '')],
       selectedCandidateIndex: 0,
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key(' ', KeyName.SPACE);
     const result = keyHandler.handle(
@@ -1129,7 +1170,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key(' ', KeyName.SPACE);
     const result = keyHandler.handle(
@@ -1155,7 +1196,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key(' ', KeyName.SPACE);
     const result = keyHandler.handle(
@@ -1180,9 +1221,9 @@ describe('Test KeyHandler', () => {
     const state = new InputtingState({
       cursorIndex: 3,
       composingBuffer: 'abc',
-      candidates: ['abc'],
+      candidates: [new Candidate('abc', '')],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key(' ', KeyName.SPACE);
     const result = keyHandler.handle(
@@ -1204,7 +1245,7 @@ describe('Test KeyHandler', () => {
 
   it('should reject space key with empty state', () => {
     const state = new EmptyState();
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key(' ', KeyName.SPACE);
     const result = keyHandler.handle(
@@ -1224,7 +1265,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'a',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('@', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -1249,7 +1290,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'ab',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('#', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -1274,7 +1315,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('$', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -1299,7 +1340,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('%', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -1320,7 +1361,7 @@ describe('Test KeyHandler', () => {
 
   it('should handle printable character ! with empty state', () => {
     const state = new EmptyState();
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('!', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -1340,7 +1381,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'abc',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('&', KeyName.ASCII);
     const result = keyHandler.handle(
@@ -1365,7 +1406,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'a ',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.BACKSPACE);
     const result = keyHandler.handle(
@@ -1388,7 +1429,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: ' a',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.DELETE);
     const result = keyHandler.handle(
@@ -1411,7 +1452,7 @@ describe('Test KeyHandler', () => {
       composingBuffer: 'a a',
       candidates: [],
     });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const completer = new Completer(() => InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.DELETE);
     const result = keyHandler.handle(
@@ -1430,83 +1471,5 @@ describe('Test KeyHandler', () => {
       },
     );
     expect(result).toBe(true);
-  });
-
-  it('should handle space at beginning after delete', () => {
-    const state = new InputtingState({
-      cursorIndex: 1,
-      composingBuffer: ' a',
-      candidates: [],
-    });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
-    const keyHandler = new KeyHandler(completer);
-    const key = new Key('', KeyName.DELETE);
-    const result = keyHandler.handle(
-      key,
-      state,
-      (newState) => {
-        // console.log(newState);
-        expect(newState instanceof EmptyState).toBe(true);
-      },
-      () => {
-        fail('Expected to handle key successfully');
-      },
-    );
-    expect(result).toBe(true);
-  });
-
-  it('should prevent space at beginning after delete', () => {
-    const state = new InputtingState({
-      cursorIndex: 0,
-      composingBuffer: 'a a',
-      candidates: [],
-    });
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
-    const keyHandler = new KeyHandler(completer);
-    const key = new Key('', KeyName.DELETE);
-    const result = keyHandler.handle(
-      key,
-      state,
-      (newState) => {
-        if (newState instanceof CommittingState) {
-          expect(newState.commitString).toBe(' ');
-        }
-        if (newState instanceof InputtingState) {
-          expect(newState.composingBuffer).toBe('a');
-        }
-      },
-      () => {
-        fail('Expected to handle key successfully');
-      },
-    );
-    expect(result).toBe(true);
-  });
-});
-
-describe('KeyHandler settings', () => {
-  it('should set and get inputTable', () => {
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
-    const keyHandler = new KeyHandler(completer);
-    const newTable = InputTableManager.getInstance().currentTable;
-
-    keyHandler.inputTable = newTable;
-    expect(keyHandler.inputTable).toBe(newTable);
-  });
-
-  it('should initialize with inputTable from completer', () => {
-    const table = InputTableManager.getInstance().currentTable;
-    const completer = new Completer(table);
-    const keyHandler = new KeyHandler(completer);
-
-    expect(keyHandler.inputTable).toBe(table);
-  });
-
-  it('should update completer inputTable when setting inputTable', () => {
-    const completer = new Completer(InputTableManager.getInstance().currentTable);
-    const keyHandler = new KeyHandler(completer);
-    const newTable = InputTableManager.getInstance().currentTable;
-
-    keyHandler.inputTable = newTable;
-    expect(completer.inputTable).toBe(newTable);
   });
 });

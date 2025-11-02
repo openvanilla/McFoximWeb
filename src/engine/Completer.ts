@@ -1,15 +1,18 @@
 import { InputTable } from '../data';
+import Candidate from './Candidate';
 
 export default class Completer {
-  inputTable: InputTable;
+  onRequestTable: () => InputTable;
 
-  constructor(inputTable: InputTable) {
-    this.inputTable = inputTable;
+  // inputTable: InputTable;
+
+  constructor(onRequestTable: () => InputTable) {
+    this.onRequestTable = onRequestTable;
   }
 
-  complete(prefix: string): string[] {
+  complete(prefix: string): Candidate[] {
     // Binary search for the first matching entry
-    const data = this.inputTable.data;
+    const data = this.onRequestTable().data;
     let left = 0;
     let right = data.length - 1;
     let firstMatch = -1;
@@ -33,9 +36,9 @@ export default class Completer {
     }
 
     // Collect all consecutive matches
-    const results: string[] = [];
+    const results: Candidate[] = [];
     for (let i = firstMatch; i < data.length && data[i].startsWith(prefix); i++) {
-      results.push(data[i]);
+      results.push(new Candidate(data[i], ''));
     }
 
     return results;

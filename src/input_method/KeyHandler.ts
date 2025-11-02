@@ -4,18 +4,10 @@ import { CommittingState, EmptyState, InputState, InputtingState } from './Input
 import { Key, KeyName } from './Key';
 
 export class KeyHandler {
-  private completer: Completer;
+  private completer_: Completer;
 
   constructor(completer: Completer) {
-    this.completer = completer;
-  }
-
-  set inputTable(table: InputTable) {
-    this.completer.inputTable = table;
-  }
-
-  get inputTable(): InputTable {
-    return this.completer.inputTable;
+    this.completer_ = completer;
   }
 
   private inputKeys = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'".split(''); // Example input keys
@@ -39,7 +31,7 @@ export class KeyHandler {
       }
       if (state instanceof EmptyState) {
         const newComposingBuffer = chr;
-        const candidates = this.completer.complete(newComposingBuffer);
+        const candidates = this.completer_.complete(newComposingBuffer);
         const newState = new InputtingState({
           cursorIndex: newComposingBuffer.length,
           composingBuffer: newComposingBuffer,
@@ -54,7 +46,7 @@ export class KeyHandler {
           chr +
           state.composingBuffer.slice(state.cursorIndex);
         const newCursorIndex = state.cursorIndex + 1;
-        const candidates = this.completer.complete(newComposingBuffer);
+        const candidates = this.completer_.complete(newComposingBuffer);
         const newState = new InputtingState({
           cursorIndex: newCursorIndex,
           composingBuffer: newComposingBuffer,
@@ -71,7 +63,7 @@ export class KeyHandler {
       if (key.name === KeyName.TAB) {
         if (state.candidates.length > 0) {
           const selectedCandidate = state.candidates[state.selectedCandidateIndex ?? 0];
-          const newState = new CommittingState(selectedCandidate);
+          const newState = new CommittingState(selectedCandidate.text);
           stateCallback(newState);
         } else {
           const newState = new CommittingState(state.composingBuffer);
@@ -91,7 +83,7 @@ export class KeyHandler {
             return true;
           }
           const selectedCandidate = candidates[index];
-          const newState = new CommittingState(selectedCandidate);
+          const newState = new CommittingState(selectedCandidate.text);
           stateCallback(newState);
         }
         return true;
@@ -109,7 +101,7 @@ export class KeyHandler {
           ' ' +
           state.composingBuffer.slice(state.cursorIndex);
         const newCursorIndex = state.cursorIndex + 1;
-        const candidates = this.completer.complete(newComposingBuffer);
+        const candidates = this.completer_.complete(newComposingBuffer);
         const newState = new InputtingState({
           cursorIndex: newCursorIndex,
           composingBuffer: newComposingBuffer,
@@ -151,7 +143,7 @@ export class KeyHandler {
                 stateCallback(new CommittingState(' '));
               }
             }
-            const candidates = this.completer.complete(newComposingBuffer);
+            const candidates = this.completer_.complete(newComposingBuffer);
             const newState = new InputtingState({
               cursorIndex: newCursorIndex,
               composingBuffer: newComposingBuffer,
@@ -184,7 +176,7 @@ export class KeyHandler {
                 stateCallback(new CommittingState(' '));
               }
             }
-            const candidates = this.completer.complete(newComposingBuffer);
+            const candidates = this.completer_.complete(newComposingBuffer);
             const newState = new InputtingState({
               cursorIndex: newCursorIndex,
               composingBuffer: newComposingBuffer,

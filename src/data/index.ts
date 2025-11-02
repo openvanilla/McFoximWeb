@@ -47,7 +47,7 @@ export interface InputTable {
 
 export class InputTableManager {
   private static instance: InputTableManager;
-  private internalIndex: number = 0;
+  private internalIndex_: number = 0;
 
   private constructor() {}
 
@@ -59,16 +59,16 @@ export class InputTableManager {
   }
 
   get currentTable(): InputTable {
-    return this.tables[this.internalIndex];
+    return this.tables[this.internalIndex_];
   }
 
   get selectedIndexValue(): number {
-    return this.internalIndex;
+    return this.internalIndex_;
   }
 
   set selectedIndexValue(index: number) {
     if (index >= 0 && index < this.tables.length) {
-      this.internalIndex = index;
+      this.internalIndex_ = index;
     } else {
       throw new Error('Index out of bounds');
     }
