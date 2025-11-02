@@ -20,6 +20,7 @@ export class InputtingState extends InputState {
 
   readonly candidatesInCurrentPage?: string[];
   readonly selectedCandidateIndexInCurrentPage?: number | undefined;
+  readonly candidatePageIndex?: number | undefined;
   readonly candidatePageCount?: number | undefined;
 
   constructor(args: {
@@ -35,29 +36,21 @@ export class InputtingState extends InputState {
     this.selectedCandidateIndex = args.selectedCandidateIndex;
 
     if (this.candidates.length > 0) {
+      this.selectedCandidateIndex = args.selectedCandidateIndex ?? 0;
       this.candidatePageCount = Math.ceil(
         this.candidates.length / InputtingState.candidatesPerPage,
       );
 
-      if (this.selectedCandidateIndex !== undefined) {
-        const pageIndex = Math.floor(
-          this.selectedCandidateIndex / InputtingState.candidatesPerPage,
-        );
-        const startIndex = pageIndex * InputtingState.candidatesPerPage;
-        const endIndex = Math.min(
-          startIndex + InputtingState.candidatesPerPage,
-          this.candidates.length,
-        );
-        this.candidatesInCurrentPage = this.candidates.slice(startIndex, endIndex);
-        this.selectedCandidateIndexInCurrentPage =
-          this.selectedCandidateIndex % InputtingState.candidatesPerPage;
-      } else {
-        this.candidatesInCurrentPage = this.candidates.slice(
-          0,
-          Math.min(InputtingState.candidatesPerPage, this.candidates.length),
-        );
-        this.selectedCandidateIndexInCurrentPage = undefined;
-      }
+      const pageIndex = Math.floor(this.selectedCandidateIndex / InputtingState.candidatesPerPage);
+      const startIndex = pageIndex * InputtingState.candidatesPerPage;
+      const endIndex = Math.min(
+        startIndex + InputtingState.candidatesPerPage,
+        this.candidates.length,
+      );
+      this.candidatesInCurrentPage = this.candidates.slice(startIndex, endIndex);
+      this.selectedCandidateIndexInCurrentPage =
+        this.selectedCandidateIndex % InputtingState.candidatesPerPage;
+      this.candidatePageIndex = pageIndex;
     }
   }
 }

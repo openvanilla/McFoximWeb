@@ -4,7 +4,7 @@ import { CommittingState, EmptyState, InputtingState } from './InputState';
 import { Key, KeyName } from './Key';
 import { KeyHandler } from './KeyHandler';
 
-describe('Test aKeyHandler', () => {
+describe('Test KeyHandler', () => {
   // Add tests here
   it('should pass key with empty state', () => {
     const state = new EmptyState();
@@ -627,6 +627,240 @@ describe('Test aKeyHandler', () => {
     const completer = new Completer(InputTableManager.getInstance().currentTable);
     const keyHandler = new KeyHandler(completer);
     const key = new Key('', KeyName.DOWN);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        fail('Should not update state');
+      },
+      () => {},
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle page down key to move to next page of candidates', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: ['aaa', 'aab', 'aac', 'aad', 'aae', 'aaf', 'aag', 'aah', 'aai', 'aaj', 'aak'],
+      selectedCandidateIndex: 0,
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.PAGE_DOWN);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof InputtingState).toBe(true);
+        if (newState instanceof InputtingState) {
+          expect(newState.selectedCandidateIndex).toBeGreaterThan(0);
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle page down key at end of candidates', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: ['aaa', 'aab', 'aac'],
+      selectedCandidateIndex: 2,
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.PAGE_DOWN);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof InputtingState).toBe(true);
+        if (newState instanceof InputtingState) {
+          expect(newState.selectedCandidateIndex).toBe(2);
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle page down key with no candidates', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.PAGE_DOWN);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        fail('Should not update state');
+      },
+      () => {},
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle page up key to move to previous page of candidates', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: ['aaa', 'aab', 'aac', 'aad', 'aae', 'aaf', 'aag', 'aah', 'aai', 'aaj', 'aak'],
+      selectedCandidateIndex: 5,
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.PAGE_UP);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof InputtingState).toBe(true);
+        if (newState instanceof InputtingState) {
+          expect(newState.selectedCandidateIndex).toBeLessThan(5);
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle page up key at beginning of candidates', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: ['aaa', 'aab', 'aac'],
+      selectedCandidateIndex: 0,
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.PAGE_UP);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof InputtingState).toBe(true);
+        if (newState instanceof InputtingState) {
+          expect(newState.selectedCandidateIndex).toBe(0);
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle page up key with no candidates', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.PAGE_UP);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        fail('Should not update state');
+      },
+      () => {},
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle home key', () => {
+    const state = new InputtingState({
+      cursorIndex: 2,
+      composingBuffer: 'abc',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.HOME);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof InputtingState).toBe(true);
+        if (newState instanceof InputtingState) {
+          expect(newState.cursorIndex).toBe(0);
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle end key', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'abc',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.END);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof InputtingState).toBe(true);
+        if (newState instanceof InputtingState) {
+          expect(newState.cursorIndex).toBe(3);
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle home key at cursor position 0', () => {
+    const state = new InputtingState({
+      cursorIndex: 0,
+      composingBuffer: 'abc',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.HOME);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        fail('Should not update state');
+      },
+      () => {},
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle end key at end of composing buffer', () => {
+    const state = new InputtingState({
+      cursorIndex: 3,
+      composingBuffer: 'abc',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.END);
     const result = keyHandler.handle(
       key,
       state,

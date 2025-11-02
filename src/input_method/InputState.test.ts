@@ -107,6 +107,6 @@ describe('Test InputtingState', () => {
       candidates,
     });
     expect(state.candidatesInCurrentPage).toEqual(['a', 'b', 'c']);
-    expect(state.selectedCandidateIndexInCurrentPage).toBeUndefined();
+    expect(state.selectedCandidateIndexInCurrentPage).toBe(0);
   });
 });

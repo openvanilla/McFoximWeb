@@ -194,6 +194,79 @@ export class KeyHandler {
           return true;
         }
       }
+
+      if (key.name === KeyName.PAGE_DOWN) {
+        if (state.candidates.length > 0) {
+          const candidatesPerPage = InputtingState.candidatesPerPage;
+          const newIndex = Math.min(
+            ((state.selectedCandidateIndex ?? 0) / candidatesPerPage + 1) * candidatesPerPage,
+            state.candidates.length - 1,
+          );
+          const newState = new InputtingState({
+            cursorIndex: state.cursorIndex,
+            composingBuffer: state.composingBuffer,
+            candidates: state.candidates,
+            selectedCandidateIndex: newIndex,
+          });
+          stateCallback(newState);
+          return true;
+        } else {
+          errorCallback();
+          return true;
+        }
+      }
+
+      if (key.name === KeyName.PAGE_UP) {
+        if (state.candidates.length > 0) {
+          const candidatesPerPage = InputtingState.candidatesPerPage;
+          const newIndex = Math.max(
+            Math.floor((state.selectedCandidateIndex ?? 0) / candidatesPerPage - 1) *
+              candidatesPerPage,
+            0,
+          );
+          const newState = new InputtingState({
+            cursorIndex: state.cursorIndex,
+            composingBuffer: state.composingBuffer,
+            candidates: state.candidates,
+            selectedCandidateIndex: newIndex,
+          });
+          stateCallback(newState);
+          return true;
+        } else {
+          errorCallback();
+          return true;
+        }
+      }
+
+      if (key.name === KeyName.HOME) {
+        if (state.cursorIndex === 0) {
+          errorCallback();
+          return true;
+        }
+        const newState = new InputtingState({
+          cursorIndex: 0,
+          composingBuffer: state.composingBuffer,
+          candidates: state.candidates,
+          selectedCandidateIndex: state.selectedCandidateIndex,
+        });
+        stateCallback(newState);
+        return true;
+      }
+
+      if (key.name === KeyName.END) {
+        if (state.cursorIndex === state.composingBuffer.length) {
+          errorCallback();
+          return true;
+        }
+        const newState = new InputtingState({
+          cursorIndex: state.composingBuffer.length,
+          composingBuffer: state.composingBuffer,
+          candidates: state.candidates,
+          selectedCandidateIndex: state.selectedCandidateIndex,
+        });
+        stateCallback(newState);
+        return true;
+      }
     }
 
     errorCallback();
