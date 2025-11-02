@@ -871,4 +871,642 @@ describe('Test KeyHandler', () => {
     );
     expect(result).toBe(true);
   });
+
+  it('should handle number key 1 to select candidate', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: ['aaa', 'aab', 'aac'],
+      selectedCandidateIndex: 0,
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('1', KeyName.ASCII);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof CommittingState).toBe(true);
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe('aaa');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle number key 9 to select candidate', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: ['aaa', 'aab', 'aac', 'aad', 'aae', 'aaf', 'aag', 'aah', 'aai'],
+      selectedCandidateIndex: 0,
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('9', KeyName.ASCII);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof CommittingState).toBe(true);
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe('aai');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle number key 5 to select middle candidate', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: ['aaa', 'aab', 'aac', 'aad', 'aae'],
+      selectedCandidateIndex: 0,
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('5', KeyName.ASCII);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof CommittingState).toBe(true);
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe('aae');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should call error callback when number key out of range', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: ['aaa', 'aab'],
+      selectedCandidateIndex: 0,
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('5', KeyName.ASCII);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        fail('Should not update state');
+      },
+      () => {},
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should call error callback when number key pressed with no candidates', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('1', KeyName.ASCII);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        fail('Should not update state');
+      },
+      () => {},
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle number keys 2-8', () => {
+    for (let i = 2; i <= 8; i++) {
+      const state = new InputtingState({
+        cursorIndex: 1,
+        composingBuffer: 'a',
+        candidates: Array.from({ length: 9 }, (_, idx) => `candidate${idx}`),
+        selectedCandidateIndex: 0,
+      });
+      const completer = new Completer(InputTableManager.getInstance().currentTable);
+      const keyHandler = new KeyHandler(completer);
+      const key = new Key(i.toString(), KeyName.ASCII);
+      const result = keyHandler.handle(
+        key,
+        state,
+        (newState) => {
+          expect(newState instanceof CommittingState).toBe(true);
+          if (newState instanceof CommittingState) {
+            expect(newState.commitString).toBe(`candidate${i - 1}`);
+          }
+        },
+        () => {
+          fail('Expected to handle key successfully');
+        },
+      );
+      expect(result).toBe(true);
+    }
+  });
+
+  it('should handle return key with composing buffer', () => {
+    const state = new InputtingState({
+      cursorIndex: 3,
+      composingBuffer: 'abc',
+      candidates: ['abc', 'abd'],
+      selectedCandidateIndex: 0,
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.RETURN);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof CommittingState).toBe(true);
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe('abc');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle return key with empty composing buffer', () => {
+    const state = new InputtingState({
+      cursorIndex: 0,
+      composingBuffer: '',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.RETURN);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof CommittingState).toBe(true);
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe('');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle return key at cursor middle of buffer', () => {
+    const state = new InputtingState({
+      cursorIndex: 2,
+      composingBuffer: 'abcde',
+      candidates: ['abcde'],
+      selectedCandidateIndex: 0,
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.RETURN);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof CommittingState).toBe(true);
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe('abcde');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle space key with inputting state', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: ['aaa', 'aab'],
+      selectedCandidateIndex: 0,
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key(' ', KeyName.SPACE);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof InputtingState).toBe(true);
+        if (newState instanceof InputtingState) {
+          expect(newState.composingBuffer).toBe('a ');
+          expect(newState.cursorIndex).toBe(2);
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle space key in middle of composing buffer', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'abc',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key(' ', KeyName.SPACE);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof InputtingState).toBe(true);
+        if (newState instanceof InputtingState) {
+          expect(newState.composingBuffer).toBe('a bc');
+          expect(newState.cursorIndex).toBe(2);
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle space key at beginning of composing buffer', () => {
+    const state = new InputtingState({
+      cursorIndex: 0,
+      composingBuffer: 'abc',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key(' ', KeyName.SPACE);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe(' ');
+        }
+
+        if (newState instanceof InputtingState) {
+          expect(newState.composingBuffer).toBe('abc');
+          expect(newState.cursorIndex).toBe(0);
+        }
+      },
+      () => {},
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle space key at end of composing buffer', () => {
+    const state = new InputtingState({
+      cursorIndex: 3,
+      composingBuffer: 'abc',
+      candidates: ['abc'],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key(' ', KeyName.SPACE);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof InputtingState).toBe(true);
+        if (newState instanceof InputtingState) {
+          expect(newState.composingBuffer).toBe('abc ');
+          expect(newState.cursorIndex).toBe(4);
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should reject space key with empty state', () => {
+    const state = new EmptyState();
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key(' ', KeyName.SPACE);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        fail('Should not update state');
+      },
+      () => {},
+    );
+    expect(result).toBe(false);
+  });
+
+  it('should handle printable character @ with inputting state', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('@', KeyName.ASCII);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof CommittingState).toBe(true);
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe('a@');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle printable character # with inputting state', () => {
+    const state = new InputtingState({
+      cursorIndex: 2,
+      composingBuffer: 'ab',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('#', KeyName.ASCII);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof CommittingState).toBe(true);
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe('ab#');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle printable character $ at middle of composing buffer', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'abc',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('$', KeyName.ASCII);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof CommittingState).toBe(true);
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe('a$bc');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle printable character % at beginning of composing buffer', () => {
+    const state = new InputtingState({
+      cursorIndex: 0,
+      composingBuffer: 'abc',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('%', KeyName.ASCII);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof CommittingState).toBe(true);
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe('%abc');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle printable character ! with empty state', () => {
+    const state = new EmptyState();
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('!', KeyName.ASCII);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        fail('Should not update state');
+      },
+      () => {},
+    );
+    expect(result).toBe(false);
+  });
+
+  it('should handle printable character & with inputting state', () => {
+    const state = new InputtingState({
+      cursorIndex: 3,
+      composingBuffer: 'abc',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('&', KeyName.ASCII);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        expect(newState instanceof CommittingState).toBe(true);
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe('abc&');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle space at beginning after backspace', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: 'a ',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.BACKSPACE);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        // console.log(newState);
+        expect(newState instanceof EmptyState).toBe(true);
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle space at beginning after delete', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: ' a',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.DELETE);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        // console.log(newState);
+        expect(newState instanceof EmptyState).toBe(true);
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should prevent space at beginning after delete', () => {
+    const state = new InputtingState({
+      cursorIndex: 0,
+      composingBuffer: 'a a',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.DELETE);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe(' ');
+        }
+        if (newState instanceof InputtingState) {
+          expect(newState.composingBuffer).toBe('a');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should handle space at beginning after delete', () => {
+    const state = new InputtingState({
+      cursorIndex: 1,
+      composingBuffer: ' a',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.DELETE);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        // console.log(newState);
+        expect(newState instanceof EmptyState).toBe(true);
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+
+  it('should prevent space at beginning after delete', () => {
+    const state = new InputtingState({
+      cursorIndex: 0,
+      composingBuffer: 'a a',
+      candidates: [],
+    });
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const key = new Key('', KeyName.DELETE);
+    const result = keyHandler.handle(
+      key,
+      state,
+      (newState) => {
+        if (newState instanceof CommittingState) {
+          expect(newState.commitString).toBe(' ');
+        }
+        if (newState instanceof InputtingState) {
+          expect(newState.composingBuffer).toBe('a');
+        }
+      },
+      () => {
+        fail('Expected to handle key successfully');
+      },
+    );
+    expect(result).toBe(true);
+  });
+});
+
+describe('KeyHandler settings', () => {
+  it('should set and get inputTable', () => {
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const newTable = InputTableManager.getInstance().currentTable;
+
+    keyHandler.inputTable = newTable;
+    expect(keyHandler.inputTable).toBe(newTable);
+  });
+
+  it('should initialize with inputTable from completer', () => {
+    const table = InputTableManager.getInstance().currentTable;
+    const completer = new Completer(table);
+    const keyHandler = new KeyHandler(completer);
+
+    expect(keyHandler.inputTable).toBe(table);
+  });
+
+  it('should update completer inputTable when setting inputTable', () => {
+    const completer = new Completer(InputTableManager.getInstance().currentTable);
+    const keyHandler = new KeyHandler(completer);
+    const newTable = InputTableManager.getInstance().currentTable;
+
+    keyHandler.inputTable = newTable;
+    expect(completer.inputTable).toBe(newTable);
+  });
 });
