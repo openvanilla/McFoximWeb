@@ -22,7 +22,7 @@
     "webpack-cli": "^6.0.1"
   },
   "name": "mcnativemweb",
-  "version": "1.8.6",
+  "version": "0.1.0",
   "description": "Taiwan Indigenous Language Input Method TypeScript Version",
   "scripts": {
     "ts-build": "tsc",
