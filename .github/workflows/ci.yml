@@ -22,4 +22,8 @@ jobs:
       - run: npm run build --if-present
       - run: npm run typecheck --if-present
       - run: npm run lint --if-present
-      - run: npm test
+      - run: npm run test:coverage
+        # continue-on-error: true
+      - name: Jest Coverage Report
+        if: matrix.node-version == '21.x'
+        uses: ArtiomTr/jest-coverage-report-action@v2
