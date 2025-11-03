@@ -39,6 +39,7 @@ import { TW_39 } from './TW_39';
 import { TW_40 } from './TW_40';
 import { TW_41 } from './TW_41';
 import { TW_42 } from './TW_42';
+import { TW_43 } from './TW_43';
 
 export interface InputTable {
   name: string;
@@ -121,5 +122,6 @@ export class InputTableManager {
     TW_40,
     TW_41,
     TW_42,
+    TW_43,
   ];
 }

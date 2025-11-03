@@ -28,7 +28,7 @@ def parse_excel_file(path):
 
 
 def main():
-    for i in range(42):
+    for i in range(1, 43):
         current_folder = os.getcwd()
         files = os.listdir(current_folder)
         path = next((f for f in files if "-{:02d}".format(i + 1) in f), None)

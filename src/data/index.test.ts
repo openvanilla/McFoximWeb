@@ -58,7 +58,7 @@ describe('InputTableManager', () => {
 
   describe('tables', () => {
     it('should contain all imported tables', () => {
-      expect(manager.tables.length).toBe(41);
+      expect(manager.tables.length).toBe(42);
     });
 
     it('each table should have required properties', () => {
