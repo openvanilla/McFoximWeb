@@ -281,7 +281,7 @@ class ChromeMcNative {
           }
 
           const candidatePageCount = state.candidatePageCount;
-          const candidatePageIndex = state.candidatePageIndex;
+          const candidatePageIndex = state.candidatePageIndex + 1;
           const auxiliaryText = candidatePageIndex + "/" + candidatePageCount;
 
           chrome.input.ime.setCandidateWindowProperties({
