@@ -27,6 +27,7 @@
   "scripts": {
     "ts-build": "tsc",
     "ts-build:watch": "tsc -w",
+    "build:chromeos": "webpack --mode production --config webpack.config.chromeext.js",
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
     "build:watch": "webpack --mode development --watch",

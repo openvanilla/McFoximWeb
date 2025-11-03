@@ -1,2 +1,2 @@
 export { InputTableManager } from './data';
-export { InputUI, InputController } from './input_method';
+export { InputController } from './input_method';

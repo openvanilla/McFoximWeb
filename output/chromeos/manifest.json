@@ -1,0 +1,46 @@
+{
+  "name": "__MSG_manifestName__",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "description": "__MSG_manifestDesc__",
+  "default_locale": "en",
+  "background": {
+    "service_worker": "bundle.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "64": "icons/icon64.png",
+    "128": "icons/icon128.png"
+  },
+  "input_components": [
+    {
+      "name": "__MSG_imeUS__",
+      "type": "ime",
+      "id": "org.openvanilla.mcnative.us",
+      "language": "zh-TW",
+      "layouts": ["us"],
+      "options_page": "options.html"
+    },
+    {
+      "name": "__MSG_imeDvorak__",
+      "type": "ime",
+      "id": "org.openvanilla.mcnative.us-dvorak",
+      "language": "zh-TW",
+      "layouts": ["us-dvorak"],
+      "options_page": "options.html"
+    },
+    {
+      "name": "__MSG_imeColmak__",
+      "type": "ime",
+      "id": "org.openvanilla.mcnative.us-colemak",
+      "language": "zh-TW",
+      "layouts": ["us-colemak"],
+      "options_page": "options.html"
+    }
+  ],
+  "options_page": "options.html",
+  "permissions": ["input", "background", "storage", "notifications"],
+  "host_permissions": ["<all_urls>"]
+}

@@ -1,0 +1,11 @@
+{
+  "languageCode": { "message": "en" },
+  "manifestName": { "message": "McNative" },
+  "manifestDesc": { "message": "McNative for ChromeOS" },
+  "imeUS": { "message": "McNative (US Keyboard)" },
+  "imeDvorak": { "message": "McNative (Dvorak Keyboard)" },
+  "imeColmak": { "message": "McNative (Colmak Keyboard)" },
+  "menuOptions": { "message": "Options" },
+  "homepage": { "message": "Homepage" },
+  "optionTitle": { "message": "Options" }
+}
