@@ -1,10 +1,10 @@
 {
   "languageCode": { "message": "en" },
-  "manifestName": { "message": "McNative" },
-  "manifestDesc": { "message": "McNative for ChromeOS" },
-  "imeUS": { "message": "McNative (US Keyboard)" },
-  "imeDvorak": { "message": "McNative (Dvorak Keyboard)" },
-  "imeColmak": { "message": "McNative (Colmak Keyboard)" },
+  "manifestName": { "message": "McFox" },
+  "manifestDesc": { "message": "McFox for ChromeOS" },
+  "imeUS": { "message": "McFox (US Keyboard)" },
+  "imeDvorak": { "message": "McFox (Dvorak Keyboard)" },
+  "imeColmak": { "message": "McFox (Colmak Keyboard)" },
   "menuOptions": { "message": "Options" },
   "homepage": { "message": "Homepage" },
   "optionTitle": { "message": "Options" }

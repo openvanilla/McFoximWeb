@@ -1,8 +1,9 @@
 (function () {
-  const { InputController, InputTableManager } = window.mcnative;
+  const { InputController, InputTableManager } = window.mcfox;
 
   function resetUI() {
     document.getElementById('function').style.visibility = 'hidden';
+    document.getElementById('candidates').style.visibility = 'hidden';
     let renderText = '';
     renderText += "<span class='cursor'>|</span>";
     document.getElementById('composing_buffer').innerHTML = renderText;
@@ -38,7 +39,7 @@
       let state = JSON.parse(string);
       {
         let buffer = state.composingBuffer;
-        let renderText = '';
+        let renderText = '<p>';
         let plainText = '';
         let i = 0;
         for (let item of buffer) {
@@ -61,6 +62,7 @@
         if (i === state.cursorIndex) {
           renderText += "<span class='cursor'>|</span>";
         }
+        renderText += '</p>';
         document.getElementById('composing_buffer').innerHTML = renderText;
         composingBuffer = plainText;
       }
@@ -85,14 +87,21 @@
           s += '</tr>';
         }
         s += '<tr class="page_info"> ';
-        s += '<td colspan="3">';
-        s += 'Page ' + (state.candidatePageIndex + 1) + ' / ' + state.candidatePageCount;
+        s += '<td colspan="2">';
+        s += 'Tab 補完單詞，Enter 輸入文字';
+        s += '</td>';
+        s += '<td colspan="1">';
+        s += '' + (state.candidatePageIndex + 1) + ' / ' + state.candidatePageCount;
         s += '</td>';
         s += '</tr>';
         s += '</table>';
 
         document.getElementById('candidates').innerHTML = s;
       }
+
+      document.getElementById('candidates').style.visibility = state.candidates.length
+        ? 'visible'
+        : 'hidden';
 
       document.getElementById('function').style.visibility = 'visible';
       const textArea = document.getElementById('text_area');
@@ -137,12 +146,14 @@
   select.value = manager.selectedIndexValue;
   select.addEventListener('change', (event) => {
     onChangeTable(event.target.value);
+    document.getElementById('text_area').focus();
   });
 
   const controller = new InputController(ui);
   const textarea = document.getElementById('text_area');
   textarea.addEventListener('keydown', (event) => {
-    if (event.metaKey || event.altKey) {
+    if (event.metaKey || event.altKey || event.ctrlKey) {
+      controller.reset();
       return;
     }
 
@@ -162,4 +173,5 @@ setTimeout(function () {
   document.getElementById('loading').style.display = 'none';
 }, 2000);
 resetUI();
+
 document.getElementById('text_area').focus();

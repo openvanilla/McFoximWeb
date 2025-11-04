@@ -22,7 +22,7 @@ module.exports = {
   target: 'web',
   output: {
     filename: 'bundle.js',
-    library: 'mcnative',
+    library: 'mcfox',
     libraryTarget: 'umd',
     path: path.resolve(__dirname, 'output/example'),
   },
