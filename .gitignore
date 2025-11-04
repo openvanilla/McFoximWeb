@@ -22,3 +22,4 @@ output/example/bundle.js
 output/example/bundle.js.LICENSE.txt
 output/chromeos/bundle.js
 output/chromeos/bundle.js.LICENSE.txt
+.firebase
