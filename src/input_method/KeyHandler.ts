@@ -60,10 +60,10 @@ export class KeyHandler {
 
     if (state instanceof InputtingState) {
       // Perhaps handle tab key to commit the current candidate
-      if (key.name === KeyName.TAB) {
+      if (key.name === KeyName.TAB || key.name === KeyName.RETURN) {
         if (state.candidates.length > 0) {
           const selectedCandidate = state.candidates[state.selectedCandidateIndex ?? 0];
-          const newState = new CommittingState(selectedCandidate.text);
+          const newState = new CommittingState(selectedCandidate.text + ' ');
           stateCallback(newState);
         } else {
           const newState = new CommittingState(state.composingBuffer);
@@ -108,12 +108,6 @@ export class KeyHandler {
           candidates: candidates,
           selectedCandidateIndex: candidates.length > 0 ? 0 : undefined,
         });
-        stateCallback(newState);
-        return true;
-      }
-
-      if (key.name === KeyName.RETURN) {
-        const newState = new CommittingState(state.composingBuffer);
         stateCallback(newState);
         return true;
       }

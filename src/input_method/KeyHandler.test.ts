@@ -114,7 +114,7 @@ describe('Test KeyHandler', () => {
         // console.log(newState);
         expect(newState instanceof CommittingState).toBe(true);
         if (newState instanceof CommittingState) {
-          expect(newState.commitString).toBe('aaa');
+          expect(newState.commitString).toBe('aaa ');
         }
       },
       () => {
@@ -1076,7 +1076,7 @@ describe('Test KeyHandler', () => {
       (newState) => {
         expect(newState instanceof CommittingState).toBe(true);
         if (newState instanceof CommittingState) {
-          expect(newState.commitString).toBe('abc');
+          expect(newState.commitString).toBe('abc ');
         }
       },
       () => {
@@ -1127,7 +1127,7 @@ describe('Test KeyHandler', () => {
       (newState) => {
         expect(newState instanceof CommittingState).toBe(true);
         if (newState instanceof CommittingState) {
-          expect(newState.commitString).toBe('abcde');
+          expect(newState.commitString).toBe('abcde ');
         }
       },
       () => {
