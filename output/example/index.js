@@ -1,5 +1,5 @@
 (function () {
-  const { InputController, InputTableManager } = window.mcfox;
+  const { InputController, InputTableManager } = window.mcfoxim;
 
   function resetUI() {
     document.getElementById('function').style.visibility = 'hidden';

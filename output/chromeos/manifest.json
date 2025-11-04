@@ -18,7 +18,7 @@
     {
       "name": "__MSG_imeUS__",
       "type": "ime",
-      "id": "org.openvanilla.mcfox.us",
+      "id": "org.openvanilla.mcfoxim.us",
       "language": "zh-TW",
       "layouts": ["us"],
       "options_page": "options.html"
@@ -26,7 +26,7 @@
     {
       "name": "__MSG_imeDvorak__",
       "type": "ime",
-      "id": "org.openvanilla.mcfox.us-dvorak",
+      "id": "org.openvanilla.mcfoxim.us-dvorak",
       "language": "zh-TW",
       "layouts": ["us-dvorak"],
       "options_page": "options.html"
@@ -34,7 +34,7 @@
     {
       "name": "__MSG_imeColmak__",
       "type": "ime",
-      "id": "org.openvanilla.mcfox.us-colemak",
+      "id": "org.openvanilla.mcfoxim.us-colemak",
       "language": "zh-TW",
       "layouts": ["us-colemak"],
       "options_page": "options.html"

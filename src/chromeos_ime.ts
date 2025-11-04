@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright (c) 2022 and onwards The mcfox Authors.
+ * Copyright (c) 2022 and onwards The mcfoxim Authors.
  * This code is released under the MIT license.
  * SPDX-License-Identifier: MIT
  * The main entrance of the IME for ChromeOS.
@@ -11,17 +11,17 @@ import { InputController } from './input_method';
 import { Key, KeyName } from './input_method/Key';
 
 /**
- * Represents the settings for the mcfox IME on ChromeOS.
+ * Represents the settings for the mcfoxim IME on ChromeOS.
  */
-type ChromeMcFoxSettings = {
+type ChromeMcFoximSettings = {
   selected_input_table_index: number;
   hidden_table_indices: number[];
 };
 
 /**
- * The main class for the mcfox IME on ChromeOS.
+ * The main class for the mcfoxim IME on ChromeOS.
  */
-class ChromeMcFox {
+class ChromeMcFoxim {
   // The ID of the current input engine.
   engineID: string | undefined = undefined;
 
@@ -29,11 +29,11 @@ class ChromeMcFox {
   context: chrome.input.ime.InputContext | undefined = undefined;
 
   // The default settings.
-  readonly defaultSettings: ChromeMcFoxSettings = {
+  readonly defaultSettings: ChromeMcFoximSettings = {
     selected_input_table_index: 0,
     hidden_table_indices: [],
   };
-  settings: ChromeMcFoxSettings = {
+  settings: ChromeMcFoximSettings = {
     selected_input_table_index: 0,
     hidden_table_indices: [],
   };
@@ -73,17 +73,17 @@ class ChromeMcFox {
     if (this.engineID === undefined) return;
     let menus: chrome.input.ime.MenuItem[] = [
       {
-        id: 'mcfox-options',
+        id: 'mcfoxim-options',
         label: chrome.i18n.getMessage('menuOptions'),
         style: 'check' as const,
       },
       {
-        id: 'mcfox-help',
+        id: 'mcfoxim-help',
         label: chrome.i18n.getMessage('menuHelp'),
         style: 'check' as const,
       },
       {
-        id: 'mcfox-separator-1',
+        id: 'mcfoxim-separator-1',
         style: 'separator' as const,
         enabled: false,
       },
@@ -106,7 +106,7 @@ class ChromeMcFox {
         selectedTableSet = true;
       }
       const item = {
-        id: `mcfox-select-table-${i}`,
+        id: `mcfoxim-select-table-${i}`,
         label: tableName,
         style: 'radio' as const,
         checked: checked,
@@ -116,7 +116,7 @@ class ChromeMcFox {
     if (inputTableMenus.length === 0) {
       const tableName = inputTables[0];
       const item = {
-        id: `mcfox-select-table-0`,
+        id: `mcfoxim-select-table-0`,
         label: tableName,
         style: 'check' as const,
         checked: true,
@@ -318,86 +318,86 @@ class ChromeMcFox {
   }
 }
 
-let chromeMcFox = new ChromeMcFox();
+let chromeMcFoxim = new ChromeMcFoxim();
 
 chrome.input?.ime.onActivate.addListener((engineID) => {
-  chromeMcFox.engineID = engineID;
-  chromeMcFox.loadSettings();
-  chromeMcFox.updateMenu();
+  chromeMcFoxim.engineID = engineID;
+  chromeMcFoxim.loadSettings();
+  chromeMcFoxim.updateMenu();
 });
 
 // Called when the current text input are loses the focus.
 chrome.input?.ime.onBlur.addListener((context) => {
-  chromeMcFox.deferredReset();
+  chromeMcFoxim.deferredReset();
 });
 
 chrome.input?.ime.onReset.addListener((context) => {
-  chromeMcFox.deferredReset();
+  chromeMcFoxim.deferredReset();
 });
 
 // Called when the user switch to another input method.
 chrome.input?.ime.onDeactivated.addListener((context) => {
-  if (chromeMcFox.deferredResetTimeout != null) {
-    clearTimeout(chromeMcFox.deferredResetTimeout);
+  if (chromeMcFoxim.deferredResetTimeout != null) {
+    clearTimeout(chromeMcFoxim.deferredResetTimeout);
   }
-  chromeMcFox.context = undefined;
-  chromeMcFox.inputController.reset();
-  chromeMcFox.deferredResetTimeout = null;
+  chromeMcFoxim.context = undefined;
+  chromeMcFoxim.inputController.reset();
+  chromeMcFoxim.deferredResetTimeout = null;
 });
 
 // Called when the current text input is focused. We reload the settings this
 // time.
 chrome.input?.ime.onFocus.addListener((context) => {
-  chromeMcFox.context = context;
-  if (chromeMcFox.deferredResetTimeout != null) {
-    clearTimeout(chromeMcFox.deferredResetTimeout);
+  chromeMcFoxim.context = context;
+  if (chromeMcFoxim.deferredResetTimeout != null) {
+    clearTimeout(chromeMcFoxim.deferredResetTimeout);
   } else {
-    chromeMcFox.loadSettings();
+    chromeMcFoxim.loadSettings();
   }
 });
 
 // The main keyboard event handler.
 chrome.input?.ime.onKeyEvent.addListener((engineID, keyData) => {
-  chromeMcFox.engineID = engineID;
+  chromeMcFoxim.engineID = engineID;
   if (keyData.type != 'keydown') {
     return false;
   }
 
   // We always prevent handling Ctrl + Space so we can switch input methods.
   if (keyData.ctrlKey) {
-    chromeMcFox.inputController.reset();
+    chromeMcFoxim.inputController.reset();
     return false;
   }
 
   if (keyData.altKey || keyData.altgrKey || keyData.capsLock) {
-    chromeMcFox.inputController.reset();
+    chromeMcFoxim.inputController.reset();
     return false;
   }
 
   const keyEvent = KeyFromKeyboardEvent(keyData);
-  return chromeMcFox.inputController.handle(keyEvent);
+  return chromeMcFoxim.inputController.handle(keyEvent);
 });
 
 chrome.input?.ime.onMenuItemActivated.addListener((engineID, name) => {
-  if (name.search('mcfox-select-table-') === 0) {
+  if (name.search('mcfoxim-select-table-') === 0) {
     const id = name.split('-').pop();
     const tableIndex = Number(id);
     InputTableManager.getInstance().selectedIndexValue = tableIndex;
-    chromeMcFox.settings.selected_input_table_index = tableIndex;
-    chromeMcFox.saveSettings();
-    chromeMcFox.updateMenu();
+    chromeMcFoxim.settings.selected_input_table_index = tableIndex;
+    chromeMcFoxim.saveSettings();
+    chromeMcFoxim.updateMenu();
     return;
   }
 
   switch (name) {
-    case 'mcfox-options':
-      chromeMcFox.tryOpen(chrome.runtime.getURL('options.html'));
+    case 'mcfoxim-options':
+      chromeMcFoxim.tryOpen(chrome.runtime.getURL('options.html'));
       break;
-    case 'mcfox-help':
-      chromeMcFox.tryOpen(chrome.runtime.getURL('help/index.html'));
+    case 'mcfoxim-help':
+      chromeMcFoxim.tryOpen(chrome.runtime.getURL('help/index.html'));
       break;
-    case 'mcfox-homepage':
-      chromeMcFox.tryOpen('https://openvanilla.org/');
+    case 'mcfoxim-homepage':
+      chromeMcFoxim.tryOpen('https://openvanilla.org/');
       break;
   }
 });
@@ -407,14 +407,14 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
   if (request.command === 'get_table_names_and_settings') {
     const tableNames = InputTableManager.getInstance().tableNames;
-    const hiddenTableIndices = chromeMcFox.settings.hidden_table_indices;
+    const hiddenTableIndices = chromeMcFoxim.settings.hidden_table_indices;
     sendResponse({ status: 'ok', tableNames, hiddenTableIndices });
   }
 
   if (request.command === 'set_table_hidden') {
     const tableIndex: number = request.tableIndex;
     const hidden: boolean = request.hidden;
-    let hiddenTableIndices = chromeMcFox.settings.hidden_table_indices;
+    let hiddenTableIndices = chromeMcFoxim.settings.hidden_table_indices;
     if (hidden) {
       if (!hiddenTableIndices.includes(tableIndex)) {
         hiddenTableIndices.push(tableIndex);
@@ -422,8 +422,8 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     } else {
       hiddenTableIndices = hiddenTableIndices.filter((index) => index !== tableIndex);
     }
-    chromeMcFox.settings.hidden_table_indices = hiddenTableIndices;
-    chromeMcFox.saveSettings();
+    chromeMcFoxim.settings.hidden_table_indices = hiddenTableIndices;
+    chromeMcFoxim.saveSettings();
     sendResponse({ status: 'ok' });
   }
 });
@@ -471,7 +471,7 @@ async function retryOnTabUpdate(
   }
 }
 
-chromeMcFox.loadSettings();
+chromeMcFoxim.loadSettings();
 keepAlive();
 
 /**

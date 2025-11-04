@@ -1,10 +1,12 @@
 {
   "languageCode": { "message": "en" },
-  "manifestName": { "message": "McFox" },
-  "manifestDesc": { "message": "McFox for ChromeOS" },
-  "imeUS": { "message": "McFox (US Keyboard)" },
-  "imeDvorak": { "message": "McFox (Dvorak Keyboard)" },
-  "imeColmak": { "message": "McFox (Colmak Keyboard)" },
+  "manifestName": { "message": "McFoxim" },
+  "manifestDesc": {
+    "message": "Input method based on the vocabulary list of the Indigenous Languages Development Foundation"
+  },
+  "imeUS": { "message": "McFoxim (US Keyboard)" },
+  "imeDvorak": { "message": "McFoxim (Dvorak Keyboard)" },
+  "imeColmak": { "message": "McFoxim (Colmak Keyboard)" },
   "menuOptions": { "message": "Options" },
   "homepage": { "message": "Homepage" },
   "optionTitle": { "message": "Options" }

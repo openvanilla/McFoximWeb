@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright (c) 2022 and onwards The McBopomofo Authors.
+ * Copyright (c) 2022 and onwards The McFoxim Authors.
  * This code is released under the MIT license.
  * SPDX-License-Identifier: MIT
  */
@@ -112,7 +112,7 @@ export class Key {
   }
 }
 
-/** Converts a keyboard event in the web browser to a key defined by McBopomofo. */
+/** Converts a keyboard event in the web browser to a key defined by McFoxim. */
 export function KeyFromKeyboardEvent(event: KeyboardEvent) {
   let isNumpadKey = false;
   let keyName = KeyName.UNKNOWN;

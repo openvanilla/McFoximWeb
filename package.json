@@ -21,7 +21,7 @@
     "webpack": "^5.102.1",
     "webpack-cli": "^6.0.1"
   },
-  "name": "mcfoxmweb",
+  "name": "mcfoximmweb",
   "version": "0.1.0",
   "description": "Taiwan Indigenous Language Input Method TypeScript Version",
   "scripts": {
@@ -37,14 +37,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openvanilla/McBopomofoWeb.git"
+    "url": "git+https://github.com/openvanilla/McFoximWeb.git"
   },
-  "author": "The McBopomofo Authors",
+  "author": "The McFoxim Authors",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/openvanilla/McBopomofoWeb/issues"
+    "url": "https://github.com/openvanilla/McFoximWeb/issues"
   },
-  "homepage": "https://github.com/openvanilla/McBopomofoWeb#readme",
+  "homepage": "https://github.com/openvanilla/McFoximWeb#readme",
   "dependencies": {
     "minimatch": ">=10.0.3",
     "path": "^0.12.7",
