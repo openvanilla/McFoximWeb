@@ -95,6 +95,12 @@ textarea {
   height: 90%;
   overflow: auto !important;
   height: 100%;
+
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .right select {
@@ -129,7 +135,7 @@ li {
 
 p {
   margin: 10px 0;
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
 #loading {
