@@ -14,6 +14,10 @@ export class InputController {
   );
   private ui_: InputUI;
 
+  get state(): InputState {
+    return this.state_;
+  }
+
   onError: () => void = () => {};
 
   constructor(ui: InputUI) {
