@@ -1,50 +1,52 @@
 window.onload = () => {
   // console.log('Options page loaded');
-  chrome.runtime.sendMessage({ command: 'get_table_names_and_settings' }, (response) => {
-    // console.log('Received table names and settings:', response);
+  chrome.runtime.sendMessage(
+    { command: "get_table_names_and_settings" },
+    (response) => {
+      // console.log('Received table names and settings:', response);
 
-    let tableNames = response.tableNames;
-    let hiddenTableIndices = response.hiddenTableIndices || [];
-    let table = document.getElementById('input_tables');
+      let tableNames = response.tableNames;
+      let hiddenTableIndices = response.hiddenTableIndices || [];
+      const container = document.getElementById("input_tables");
+      container.innerHTML = "";
 
-    table.innerHTML = '';
+      for (let i = 0; i < tableNames.length; i++) {
+        let name = tableNames[i];
+        let itemContainer = document.createElement("div");
+        itemContainer.classList.add("table-item");
 
-    {
-      let headerRow = document.createElement('tr');
-      let hiddenHeader = document.createElement('th');
-      hiddenHeader.id = 'msg_hidden_checked';
-      hiddenHeader.textContent = 'Visible';
-      headerRow.appendChild(hiddenHeader);
-      let nameHeader = document.createElement('th');
-      nameHeader.id = 'msg_name';
-      nameHeader.textContent = 'Name';
-      headerRow.appendChild(nameHeader);
-      table.appendChild(headerRow);
-    }
+        let checkbox = document.createElement("input");
+        const checkboxId = `table-toggle-${i}`;
 
-    for (let i = 0; i < tableNames.length; i++) {
-      let name = tableNames[i];
-      let row = document.createElement('tr');
-      let checkboxCell = document.createElement('td');
-      let checkbox = document.createElement('input');
-      checkbox.type = 'checkbox';
-      checkbox.checked = !hiddenTableIndices.includes(i);
-      checkbox.addEventListener('change', () => {
-        chrome.runtime.sendMessage({
-          command: 'set_table_hidden',
-          tableIndex: i,
-          hidden: !checkbox.checked,
+        checkbox.type = "checkbox";
+        checkbox.id = checkboxId; // 設定 ID
+        checkbox.checked = !hiddenTableIndices.includes(i);
+
+        checkbox.addEventListener("change", () => {
+          chrome.runtime.sendMessage({
+            command: "set_table_hidden",
+            tableIndex: i,
+            hidden: !checkbox.checked,
+          });
         });
-      });
-      checkboxCell.appendChild(checkbox);
-      row.appendChild(checkboxCell);
 
-      let nameCell = document.createElement('td');
-      nameCell.textContent = name;
-      row.appendChild(nameCell);
-      table.appendChild(row);
+        let label = document.createElement("label");
+        label.htmlFor = checkboxId;
+        label.textContent = name;
+        itemContainer.appendChild(checkbox);
+        itemContainer.appendChild(label);
+        container.appendChild(itemContainer);
+      }
+
+      console.log(response);
     }
+  );
 
-    console.log(response);
-  });
+  document.title = chrome.i18n.getMessage("optionTitle");
+  document.getElementById("options_title").innerText =
+    chrome.i18n.getMessage("optionTitle");
+  document.getElementById("input_tables_description").innerText =
+    chrome.i18n.getMessage("input_tables_description");
+  console.log(document.getElementById("input_tables_description"));
+  console.log(document.getElementById("input_tables_description").innerText);
 };

@@ -1,10 +1,41 @@
 {
-  "languageCode": { "message": "zh-TW" },
-  "manifestName": { "message": "小麥族語" },
-  "manifestDesc": { "message": "使用原住民族語言發展基金會的學習詞表製作的族語輸入法" },
-  "imeUS": { "message": "小麥族語 (美式鍵盤)" },
-  "imeDvorak": { "message": "小麥族語 (Dvorak 鍵盤)" },
-  "imeColmak": { "message": "小麥族語 (Colmak 鍵盤)" },
-  "menuOptions": { "message": "選項" },
-  "optionTitle": { "message": "小麥族語選項" }
+  "languageCode": {
+    "message": "zh-TW"
+  },
+  "manifestName": {
+    "message": "小麥族語"
+  },
+  "manifestDesc": {
+    "message": "使用原住民族語言發展基金會的學習詞表製作的族語輸入法"
+  },
+  "imeUS": {
+    "message": "小麥族語 (美式鍵盤)"
+  },
+  "imeDvorak": {
+    "message": "小麥族語 (Dvorak 鍵盤)"
+  },
+  "imeColmak": {
+    "message": "小麥族語 (Colmak 鍵盤)"
+  },
+  "menuOptions": {
+    "message": "選項"
+  },
+  "menuHelp": {
+    "message": "輔助說明"
+  },
+  "homepage": {
+    "message": "專案首頁"
+  },
+  "optionTitle": {
+    "message": "小麥族語選項"
+  },
+  "visible": {
+    "message": "顯示"
+  },
+  "name": {
+    "message": "名稱"
+  },
+  "input_tables_description": {
+    "message": "在輸入法選單中顯示的輸入法表格"
+  }
 }

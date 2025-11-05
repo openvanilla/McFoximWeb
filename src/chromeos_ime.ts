@@ -6,9 +6,9 @@
  * The main entrance of the IME for ChromeOS.
  */
 
-import { InputTableManager } from './data';
-import { InputController } from './input_method';
-import { Key, KeyName } from './input_method/Key';
+import { InputTableManager } from "./data";
+import { InputController } from "./input_method";
+import { Key, KeyName } from "./input_method/Key";
 
 /**
  * Represents the settings for the mcfoxim IME on ChromeOS.
@@ -49,15 +49,17 @@ class ChromeMcFoxim {
    * Loads the settings from chrome.storage.sync.
    */
   loadSettings() {
-    chrome.storage.sync.get('settings', (value) => {
+    chrome.storage.sync.get("settings", (value) => {
       this.settings = value.settings;
       if (this.settings === undefined) {
         this.settings = this.defaultSettings;
       }
 
-      const selected_input_table_index = this.settings.selected_input_table_index;
+      const selected_input_table_index =
+        this.settings.selected_input_table_index;
       if (selected_input_table_index !== undefined) {
-        InputTableManager.getInstance().selectedIndexValue = selected_input_table_index;
+        InputTableManager.getInstance().selectedIndexValue =
+          selected_input_table_index;
       }
     });
   }
@@ -73,18 +75,18 @@ class ChromeMcFoxim {
     if (this.engineID === undefined) return;
     let menus: chrome.input.ime.MenuItem[] = [
       {
-        id: 'mcfoxim-options',
-        label: chrome.i18n.getMessage('menuOptions'),
-        style: 'check' as const,
+        id: "mcfoxim-options",
+        label: chrome.i18n.getMessage("menuOptions"),
+        style: "check" as const,
       },
       {
-        id: 'mcfoxim-help',
-        label: chrome.i18n.getMessage('menuHelp'),
-        style: 'check' as const,
+        id: "mcfoxim-help",
+        label: chrome.i18n.getMessage("menuHelp"),
+        style: "check" as const,
       },
       {
-        id: 'mcfoxim-separator-1',
-        style: 'separator' as const,
+        id: "mcfoxim-separator-1",
+        style: "separator" as const,
         enabled: false,
       },
     ];
@@ -108,7 +110,7 @@ class ChromeMcFoxim {
       const item = {
         id: `mcfoxim-select-table-${i}`,
         label: tableName,
-        style: 'radio' as const,
+        style: "radio" as const,
         checked: checked,
       };
       inputTableMenus.push(item);
@@ -118,7 +120,7 @@ class ChromeMcFoxim {
       const item = {
         id: `mcfoxim-select-table-0`,
         label: tableName,
-        style: 'check' as const,
+        style: "check" as const,
         checked: true,
       };
       inputTableMenus.push(item);
@@ -126,7 +128,7 @@ class ChromeMcFoxim {
       this.settings.selected_input_table_index = 0;
     } else if (!selectedTableSet) {
       let item = inputTableMenus[0];
-      let id = item.id.split('-').pop();
+      let id = item.id.split("-").pop();
       item.checked = true;
       InputTableManager.getInstance().selectedIndexValue = Number(id);
       this.settings.selected_input_table_index = Number(id);
@@ -194,7 +196,7 @@ class ChromeMcFoxim {
           chrome.input.ime.setCandidateWindowProperties({
             engineID: this.engineID,
             properties: {
-              auxiliaryText: '',
+              auxiliaryText: "",
               auxiliaryTextVisible: false,
               visible: false,
             },
@@ -219,26 +221,26 @@ class ChromeMcFoxim {
         const candidates = state.candidates;
 
         const segments = [];
-        let text = '';
+        let text = "";
         let selectionStart: number | undefined = undefined;
         let selectionEnd: number | undefined = undefined;
         let index = 0;
         for (let item of buffer) {
           text += item.text;
-          if (item.style === 'highlighted') {
+          if (item.style === "highlighted") {
             selectionStart = index;
             selectionEnd = index + item.text.length;
             let segment = {
               start: index,
               end: index + item.text.length,
-              style: 'doubleUnderline' as const,
+              style: "doubleUnderline" as const,
             };
             segments.push(segment);
           } else {
             let segment = {
               start: index,
               end: index + item.text.length,
-              style: 'underline' as const,
+              style: "underline" as const,
             };
             segments.push(segment);
           }
@@ -280,7 +282,7 @@ class ChromeMcFoxim {
 
           const candidatePageCount = state.candidatePageCount;
           const candidatePageIndex = state.candidatePageIndex + 1;
-          const auxiliaryText = candidatePageIndex + '/' + candidatePageCount;
+          const auxiliaryText = candidatePageIndex + "/" + candidatePageCount;
 
           chrome.input.ime.setCandidateWindowProperties({
             engineID: this.engineID,
@@ -307,7 +309,7 @@ class ChromeMcFoxim {
           chrome.input.ime.setCandidateWindowProperties({
             engineID: this.engineID,
             properties: {
-              auxiliaryText: '',
+              auxiliaryText: "",
               auxiliaryTextVisible: false,
               visible: false,
             },
@@ -359,7 +361,7 @@ chrome.input?.ime.onFocus.addListener((context) => {
 // The main keyboard event handler.
 chrome.input?.ime.onKeyEvent.addListener((engineID, keyData) => {
   chromeMcFoxim.engineID = engineID;
-  if (keyData.type != 'keydown') {
+  if (keyData.type != "keydown") {
     return false;
   }
 
@@ -379,8 +381,8 @@ chrome.input?.ime.onKeyEvent.addListener((engineID, keyData) => {
 });
 
 chrome.input?.ime.onMenuItemActivated.addListener((engineID, name) => {
-  if (name.search('mcfoxim-select-table-') === 0) {
-    const id = name.split('-').pop();
+  if (name.search("mcfoxim-select-table-") === 0) {
+    const id = name.split("-").pop();
     const tableIndex = Number(id);
     InputTableManager.getInstance().selectedIndexValue = tableIndex;
     chromeMcFoxim.settings.selected_input_table_index = tableIndex;
@@ -390,14 +392,14 @@ chrome.input?.ime.onMenuItemActivated.addListener((engineID, name) => {
   }
 
   switch (name) {
-    case 'mcfoxim-options':
-      chromeMcFoxim.tryOpen(chrome.runtime.getURL('options.html'));
+    case "mcfoxim-options":
+      chromeMcFoxim.tryOpen(chrome.runtime.getURL("options.html"));
       break;
-    case 'mcfoxim-help':
-      chromeMcFoxim.tryOpen(chrome.runtime.getURL('help/index.html'));
+    case "mcfoxim-help":
+      chromeMcFoxim.tryOpen(chrome.runtime.getURL("help/index.html"));
       break;
-    case 'mcfoxim-homepage':
-      chromeMcFoxim.tryOpen('https://openvanilla.org/');
+    case "mcfoxim-homepage":
+      chromeMcFoxim.tryOpen("https://openvanilla.org/");
       break;
   }
 });
@@ -405,13 +407,13 @@ chrome.input?.ime.onMenuItemActivated.addListener((engineID, name) => {
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   console.log(request);
 
-  if (request.command === 'get_table_names_and_settings') {
+  if (request.command === "get_table_names_and_settings") {
     const tableNames = InputTableManager.getInstance().tableNames;
     const hiddenTableIndices = chromeMcFoxim.settings.hidden_table_indices;
-    sendResponse({ status: 'ok', tableNames, hiddenTableIndices });
+    sendResponse({ status: "ok", tableNames, hiddenTableIndices });
   }
 
-  if (request.command === 'set_table_hidden') {
+  if (request.command === "set_table_hidden") {
     const tableIndex: number = request.tableIndex;
     const hidden: boolean = request.hidden;
     let hiddenTableIndices = chromeMcFoxim.settings.hidden_table_indices;
@@ -420,16 +422,20 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         hiddenTableIndices.push(tableIndex);
       }
     } else {
-      hiddenTableIndices = hiddenTableIndices.filter((index) => index !== tableIndex);
+      hiddenTableIndices = hiddenTableIndices.filter(
+        (index) => index !== tableIndex
+      );
     }
+    console.log(hiddenTableIndices);
     chromeMcFoxim.settings.hidden_table_indices = hiddenTableIndices;
     chromeMcFoxim.saveSettings();
-    sendResponse({ status: 'ok' });
+    chromeMcFoxim.updateMenu();
+    sendResponse({ status: "ok" });
   }
 });
 
 chrome.runtime.onConnect.addListener((port) => {
-  if (port.name === 'keepAlive') {
+  if (port.name === "keepAlive") {
     lifeline = port;
     setTimeout(keepAliveForced, 295e3); // 5 minutes minus 5 seconds
     port.onDisconnect.addListener(keepAliveForced);
@@ -447,11 +453,11 @@ function keepAliveForced() {
 
 async function keepAlive() {
   if (lifeline) return;
-  for (const tab of await chrome.tabs.query({ url: '*://*/*' })) {
+  for (const tab of await chrome.tabs.query({ url: "*://*/*" })) {
     try {
       const args = {
         target: { tabId: tab.id ?? 9 },
-        func: () => chrome.runtime.connect({ name: 'keepAlive' }),
+        func: () => chrome.runtime.connect({ name: "keepAlive" }),
       };
       await chrome.scripting.executeScript(args);
       chrome.tabs.onUpdated.removeListener(retryOnTabUpdate);
@@ -464,7 +470,7 @@ async function keepAlive() {
 async function retryOnTabUpdate(
   tabId: number,
   info: chrome.tabs.OnUpdatedInfo,
-  tab: chrome.tabs.Tab,
+  tab: chrome.tabs.Tab
 ) {
   if (info.url && /^(file|https?):/.test(info.url)) {
     keepAlive();
@@ -482,46 +488,46 @@ keepAlive();
 function KeyFromKeyboardEvent(event: chrome.input.ime.KeyboardEvent) {
   let keyName = KeyName.UNKNOWN;
   switch (event.code) {
-    case 'ArrowLeft':
+    case "ArrowLeft":
       keyName = KeyName.LEFT;
       break;
-    case 'ArrowRight':
+    case "ArrowRight":
       keyName = KeyName.RIGHT;
       break;
-    case 'ArrowUp':
+    case "ArrowUp":
       keyName = KeyName.UP;
       break;
-    case 'ArrowDown':
+    case "ArrowDown":
       keyName = KeyName.DOWN;
       break;
-    case 'Home':
+    case "Home":
       keyName = KeyName.HOME;
       break;
-    case 'End':
+    case "End":
       keyName = KeyName.END;
       break;
-    case 'Backspace':
+    case "Backspace":
       keyName = KeyName.BACKSPACE;
       break;
-    case 'Delete':
+    case "Delete":
       keyName = KeyName.DELETE;
       break;
-    case 'Enter':
+    case "Enter":
       keyName = KeyName.RETURN;
       break;
-    case 'Escape':
+    case "Escape":
       keyName = KeyName.ESC;
       break;
-    case 'Space':
+    case "Space":
       keyName = KeyName.SPACE;
       break;
-    case 'Tab':
+    case "Tab":
       keyName = KeyName.TAB;
       break;
-    case 'PageUp':
+    case "PageUp":
       keyName = KeyName.PAGE_UP;
       break;
-    case 'PageDown':
+    case "PageDown":
       keyName = KeyName.PAGE_DOWN;
       break;
     default:

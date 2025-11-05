@@ -60,3 +60,27 @@ a {
 .active {
   text-decoration: underline;
 }
+
+#input_tables {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.table-item {
+  margin: 5px 5px; 
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: left; 
+  width: 10em;
+}
+
+.table-item input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+#input_tables_description {
+  margin-bottom: 20px;
+}
