@@ -62,7 +62,7 @@ A: 原與會本身也已經提供了這些平台的官方[族語輸入法](https
 
 Q: McFoxim 這個名字的意思？
 
-A: 在 ISO 639 語言代碼中，fox 就是台酸南島民族語言的代號，IM 則是 Input Method 的縮寫，合起來就是 McFoxim。請參見 Wikipedia 上的 [ISO 639-5](https://zh.wikipedia.org/wiki/ISO_639-5) 的說明。
+A: 在 ISO 639 語言代碼中，fox 就是台灣南島民族語言的代號，IM 則是 Input Method 的縮寫，合起來就是 McFoxIM。請參見 Wikipedia 上的 [ISO 639-5](https://zh.wikipedia.org/wiki/ISO_639-5) 的說明。
 
 Q: 授權方式？
 
