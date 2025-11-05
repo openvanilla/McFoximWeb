@@ -24,6 +24,7 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - run: npm run build:chromeos --if-present
+      - run: npm run build:pime --if-present
       - run: npm run typecheck --if-present
       - run: npm run lint --if-present
       - run: npm run test:coverage

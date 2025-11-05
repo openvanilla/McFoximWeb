@@ -1,7 +1,7 @@
 {
   "name": "小麥族語 (PIME)",
-  "version": "1.8.6",
-  "guid": "{5340c1d9-706e-4b6b-b022-2e763fa5f674}",
+  "version": "0.1.0",
+  "guid": "{27c57701-b6b9-4bef-983a-fa7737245075}",
   "locale": "zh-Hant-TW",
   "fallbackLocale": "zh-TW",
   "icon": "icon.ico",
