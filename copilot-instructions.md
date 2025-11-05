@@ -36,7 +36,7 @@ McFoximWeb/
 │   │   ├── KeyMapping.ts         # Key mapping utilities
 │   │   └── index.ts              # Input method module exports
 │   └── data/                 # Language vocabulary data tables
-│       ├── TW_*.ts           # 40+ indigenous language datasets (TW_01 to TW_43)
+│       ├── TW_*.ts           # 42 indigenous language datasets (TW_01 to TW_43, excluding TW_12)
 │       └── index.ts          # Data module exports and InputTableManager
 ├── tools/                    # Conversion tools for vocabulary data
 │   ├── convert.py            # Python script to convert Excel to TypeScript
