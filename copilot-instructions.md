@@ -194,8 +194,9 @@ npm run ts-build
 
 ### ESLint Configuration Issues
 - The project uses `.eslintrc.cjs` (CommonJS config)
-- If ESLint v9+ complains about missing `eslint.config.js`, migration may be needed
-- Current setup works with ESLint 8.x
+- ESLint v9+ requires migration to `eslint.config.js` format
+- The project currently uses ESLint 9.38.0 but has not yet migrated to the new config format
+- See https://eslint.org/docs/latest/use/configure/migration-guide for migration instructions
 
 ### Build Failures
 - Check Node.js version compatibility (project uses modern Node features)
