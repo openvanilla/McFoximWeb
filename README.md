@@ -56,6 +56,10 @@ Q: 輸入法的資料來源？
 
 A: 來自[原語會的學習詞表](https://glossary.ilrdf.org.tw/resources)，以及[族語 E 樂園的學習詞表](https://web.klokah.tw/vocabulary/)
 
+Q: 是否有 Windows、macOS、iOS、Android 版本？
+
+A: 原與會本身也已經提供了這些平台的官方[族語輸入法](https://www.ilrdf.org.tw/basic/?mode=detail&node=1247)。這個版本主要提供官方所支援的其他平台。
+
 Q: McFoxim 這個名字的意思？
 
 A: 在 ISO 639 語言代碼中，fox 就是台酸南島民族語言的代號，IM 則是 Input Method 的縮寫，合起來就是 McFoxim。請參見 Wikipedia 上的 [ISO 639-5](https://zh.wikipedia.org/wiki/ISO_639-5) 的說明。
