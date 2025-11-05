@@ -293,6 +293,7 @@ class ChromeMcFoxim {
               cursorVisible: true,
               vertical: true,
               pageSize: candidates.length,
+              windowPosition: "composition" as const,
             },
           });
 
@@ -379,6 +380,12 @@ chrome.input?.ime.onKeyEvent.addListener((engineID, keyData) => {
   const keyEvent = KeyFromKeyboardEvent(keyData);
   return chromeMcFoxim.inputController.handle(keyEvent);
 });
+
+chrome.input.ime.onCandidateClicked.addListener(
+  (engineID, candidateID, button) => {
+    chromeMcFoxim.inputController.selectCandidateAtIndex(candidateID);
+  }
+);
 
 chrome.input?.ime.onMenuItemActivated.addListener((engineID, name) => {
   if (name.search("mcfoxim-select-table-") === 0) {
