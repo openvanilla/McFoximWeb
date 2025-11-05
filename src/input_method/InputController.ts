@@ -1,21 +1,16 @@
-import { InputTableManager } from "../data";
-import Completer from "../engine/Completer";
-import {
-  CommittingState,
-  EmptyState,
-  InputState,
-  InputtingState,
-} from "./InputState";
-import { InputUI } from "./InputUI";
-import { InputUIStateBuilder } from "./InputUIElements";
-import { Key } from "./Key";
-import { KeyHandler } from "./KeyHandler";
-import { KeyMapping } from "./KeyMapping";
+import { InputTableManager } from '../data';
+import Completer from '../engine/Completer';
+import { CommittingState, EmptyState, InputState, InputtingState } from './InputState';
+import { InputUI } from './InputUI';
+import { InputUIStateBuilder } from './InputUIElements';
+import { Key } from './Key';
+import { KeyHandler } from './KeyHandler';
+import { KeyMapping } from './KeyMapping';
 
 export class InputController {
   private state_: InputState = new EmptyState();
   private keyHandler_: KeyHandler = new KeyHandler(
-    new Completer(() => InputTableManager.getInstance().currentTable)
+    new Completer(() => InputTableManager.getInstance().currentTable),
   );
   private ui_: InputUI;
 
@@ -45,7 +40,7 @@ export class InputController {
       key,
       this.state_,
       (state) => this.enterState(this.state_, state),
-      () => this.onError()
+      () => this.onError(),
     );
     return handled;
   }
@@ -56,7 +51,7 @@ export class InputController {
       let candidates = oldState.candidatesInCurrentPage ?? [];
       if (index >= 0 && index < candidates.length) {
         const candidate = candidates[index];
-        this.ui_.commitString(candidate.text + " ");
+        this.ui_.commitString(candidate.text + ' ');
         this.ui_.reset();
         const newState = new EmptyState();
         this.enterState(oldState, newState);
@@ -79,19 +74,13 @@ export class InputController {
     this.state_ = newState;
   }
 
-  private handleCommittingState(
-    oldState: InputState,
-    newState: CommittingState
-  ): void {
+  private handleCommittingState(oldState: InputState, newState: CommittingState): void {
     this.ui_.commitString(newState.commitString);
     this.ui_.reset();
     this.state_ = new EmptyState();
   }
 
-  private handleInputtingState(
-    oldState: InputState,
-    newState: InputtingState
-  ): void {
+  private handleInputtingState(oldState: InputState, newState: InputtingState): void {
     const builder = new InputUIStateBuilder(newState);
     const uiState = builder.buildJsonString();
     this.ui_.reset();
