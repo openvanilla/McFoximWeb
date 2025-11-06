@@ -118,6 +118,12 @@ class PimeMcFoxim {
   isLastFilterKeyDownHandled: boolean = false;
   isCapsLockHold: boolean = false;
 
+  /** Whether the button has been added to the UI. */
+  alreadyAddButton: boolean = false;
+  /** Whether the OS is Windows 8 or above. */
+  isWindows8Above: boolean = false;
+  isKeyDownHandled: boolean = false;
+
   /**
    * Load settings from disk.
    * @param callback The callback function.
@@ -206,7 +212,8 @@ class PimeMcFoxim {
           if (candidate.selected) {
             selectedIndex = index;
           }
-          candidateList.push(candidate.candidate.displayedText);
+          let joined = candidate.candidate.text + '\t' + candidate.candidate.description;
+          candidateList.push(joined);
           index++;
         }
 
@@ -240,19 +247,20 @@ class PimeMcFoxim {
     return that;
   }
 
-  /** Whether the button has been added to the UI. */
-  alreadyAddButton: boolean = false;
-  /** Whether the OS is Windows 8 or above. */
-  isWindows8Above: boolean = false;
-
   /**
    * Creates the button UI response.
    * @returns The button UI response.
    */
   public buttonUiResponse(): any {
-    let settingsIconPath = path.join(__dirname, 'icons', 'config.ico');
+    let windowsModeIcon = this.isOpened ? 'traC.ico' : 'close.ico';
     let object: any = {};
+    let windowsModeIconPath = path.join(__dirname, 'icons', windowsModeIcon);
+    let settingsIconPath = path.join(__dirname, 'icons', 'config.ico');
     let changeButton: any[] = [];
+    if (this.isWindows8Above) {
+      changeButton.push({ icon: windowsModeIconPath, id: 'windows-mode-icon' });
+    }
+    changeButton.push({ icon: windowsModeIconPath, id: 'switch-lang' });
     object.changeButton = changeButton;
 
     if (!this.alreadyAddButton) {
@@ -416,8 +424,7 @@ module.exports = {
     }
 
     if (request.method === 'filterKeyUp') {
-      const state = pimeMcFoxim.inputController.state;
-      let handled = state instanceof EmptyState === false;
+      let handled = this.isKeyDownHandled;
       if (
         lastRequest &&
         lastRequest.method === 'filterKeyUp' &&
@@ -452,9 +459,6 @@ module.exports = {
       const { keyCode, charCode, keyStates } = request;
 
       const key = KeyFromKeyboardEvent(keyCode, keyStates, String.fromCharCode(charCode), charCode);
-
-      const isPressingShiftOnly = key.ascii === 'Shift';
-
       pimeMcFoxim.resetBeforeHandlingKey();
 
       if ((keyStates[VK_Keys.VK_CAPITAL] & 1) != 0) {
@@ -475,6 +479,7 @@ module.exports = {
       const response = Object.assign({}, responseTemplate, {
         return: handled,
       });
+      this.isKeyDownHandled = handled;
       return response;
     }
 
