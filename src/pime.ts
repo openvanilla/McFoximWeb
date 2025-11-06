@@ -55,8 +55,8 @@ const defaultSettings: Settings = {
  * @enum
  */
 enum PimeMcFoximCommand {
-  // ModeIcon = 0,
-  // SwitchLanguage = 1,
+  ModeIcon = 0,
+  SwitchLanguage = 1,
   OpenHomepage = 2,
   OpenBugReport = 3,
   OpenOptions = 4,
@@ -175,8 +175,9 @@ class PimeMcFoxim {
   public makeUI(instance: PimeMcFoxim): InputUI {
     let that: InputUI = {
       reset: () => {
+        let commitString = instance.uiState.commitString;
         instance.uiState = {
-          commitString: '',
+          commitString: commitString,
           compositionString: '',
           compositionCursor: 0,
           showCandidates: false,
@@ -212,7 +213,7 @@ class PimeMcFoxim {
           if (candidate.selected) {
             selectedIndex = index;
           }
-          let joined = candidate.candidate.text + '\t' + candidate.candidate.description;
+          let joined = candidate.candidate.text + ' - ' + candidate.candidate.description;
           candidateList.push(joined);
           index++;
         }
@@ -252,7 +253,7 @@ class PimeMcFoxim {
    * @returns The button UI response.
    */
   public buttonUiResponse(): any {
-    let windowsModeIcon = this.isOpened ? 'traC.ico' : 'close.ico';
+    let windowsModeIcon = this.isOpened ? 'eng.ico' : 'close.ico';
     let object: any = {};
     let windowsModeIconPath = path.join(__dirname, 'icons', windowsModeIcon);
     let settingsIconPath = path.join(__dirname, 'icons', 'config.ico');
@@ -265,7 +266,21 @@ class PimeMcFoxim {
 
     if (!this.alreadyAddButton) {
       let addButton: any[] = [];
+      if (this.isWindows8Above) {
+        addButton.push({
+          id: 'windows-mode-icon',
+          icon: windowsModeIconPath,
+          commandId: PimeMcFoximCommand.ModeIcon,
+          tooltip: '中英文切換',
+        });
+      }
 
+      addButton.push({
+        id: 'switch-lang',
+        icon: windowsModeIconPath,
+        commandId: PimeMcFoximCommand.SwitchLanguage,
+        tooltip: '中英文切換',
+      });
       addButton.push({
         id: 'settings',
         icon: settingsIconPath,
@@ -311,6 +326,10 @@ class PimeMcFoxim {
    */
   public handleCommand(id: PimeMcFoximCommand): void {
     switch (id) {
+      case PimeMcFoximCommand.ModeIcon:
+        break;
+      case PimeMcFoximCommand.SwitchLanguage:
+        break;
       case PimeMcFoximCommand.OpenHomepage:
         {
           let url = 'https://mcbopomofo.openvanilla.org/';
@@ -458,9 +477,6 @@ module.exports = {
 
       const { keyCode, charCode, keyStates } = request;
 
-      const key = KeyFromKeyboardEvent(keyCode, keyStates, String.fromCharCode(charCode), charCode);
-      pimeMcFoxim.resetBeforeHandlingKey();
-
       if ((keyStates[VK_Keys.VK_CAPITAL] & 1) != 0) {
         // Ignores caps lock.
         pimeMcFoxim.resetController();
@@ -472,6 +488,17 @@ module.exports = {
         return response;
       } else {
         pimeMcFoxim.isCapsLockHold = false;
+      }
+
+      const key = KeyFromKeyboardEvent(keyCode, keyStates, String.fromCharCode(charCode), charCode);
+      pimeMcFoxim.resetBeforeHandlingKey();
+
+      if (key.ctrlPressed) {
+        pimeMcFoxim.resetController();
+        const response = Object.assign({}, responseTemplate, {
+          return: false,
+        });
+        return response;
       }
 
       const handled = pimeMcFoxim.inputController.handle(key);
