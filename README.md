@@ -28,9 +28,13 @@
 
 ## 編譯方式
 
-這套輸入法使用 Type Script 語言開發，所以在 Windows、macOS、Linux 平台上都可以編譯。請先安裝 [Node.js](https://nodejs.org/) 以及 [Git](https://git-scm.com/)，然後在終端機中執行命令。
+這套輸入法使用 Type Script 語言開發，所以在 Windows、macOS、Linux 平台上都可以編譯。請先安裝 [Node.js](https://nodejs.org/) 以及 [Git](https://git-scm.com/)，然後在終端機中執行編譯命令。
+
+大部分的 Node.js 版本應該都可以成功編譯這個專案，您也可以查看我們在 CI/CD 中使用的 Node.js 版本。
 
 ### Web 版
+
+請輸入：
 
 ```bash
 npm install
@@ -80,22 +84,26 @@ npm run build:pime
 
 ## 常見問題
 
-Q: 輸入法的資料來源？
+### Q: 輸入法的資料來源？
 
 A: 來自[原語會的學習詞表](https://glossary.ilrdf.org.tw/resources)，以及[族語 E 樂園的學習詞表](https://web.klokah.tw/vocabulary/)
 
-Q: 是否有 Windows、macOS、iOS、Android 版本？
+### Q: 是否有 Windows、macOS、iOS、Android 版本？
 
 A: 原語會本身也已經提供了這些平台的官方[族語輸入法](https://www.ilrdf.org.tw/basic/?mode=detail&node=1247)。這個版本主要提供官方所支援的其他平台。
 
-Q: 小麥族語輸入法與另外的族語輸入法有什麼不同？
+### Q: 小麥族語輸入法與另外的族語輸入法有什麼不同？
 
 A: 原語會的族語輸入法是族語會所提供的官方輸入法，小麥族語則是由 OpenVanilla 社群為了官方沒有涵蓋到的平台而開發。
 
-Q: McFoxIM 這個名字的意思？
+### Q: McFoxIM 這個名字的意思？
 
 A: 在 ISO 639 語言代碼中，fox 就是台灣南島民族語言的代號，IM 則是 Input Method 的縮寫，合起來就是 McFoxIM。請參見 Wikipedia 上的 [ISO 639-5](https://zh.wikipedia.org/wiki/ISO_639-5) 、[Formosan languages 詞條](https://en.wikipedia.org/wiki/Formosan_languages)、以及 [SIL 官方](https://iso639-3.sil.org/code/fox) 的說明。
 
-Q: 授權方式？
+### Q: 授權方式？
 
 A: 本專案程式碼採用 MIT License 授權，詳情請見 [LICENSE](./LICENSE) 檔案。資料表格授權請參考[族語 E 樂園創用 CC 授權](https://web.klokah.tw/creativeCommons/)。
+
+### Q: 怎樣更新輸入法表格？
+
+A: 請參考 [tools/README.md](./tools/README.md) 中的說明。
