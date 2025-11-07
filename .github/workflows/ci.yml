@@ -47,12 +47,13 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run test:coverage
+
       - name: Jest Coverage Report
-        if: matrix.node-version == '20.x'
+        if: >
+          github.event_name == 'pull_request' &&
+          github.event.pull_request.head.repo.fork == false &&
+          matrix.node-version == '20.x'
         uses: ArtiomTr/jest-coverage-report-action@v2
-        # 如需指定 token，可加：
-        # with:
-        #   github-token: ${{ secrets.GITHUB_TOKEN }}
 
   build_publish:
     permissions:

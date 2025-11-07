@@ -5,6 +5,8 @@
 
 基於[原住民族語言發展基金會](https://www.ilrdf.org.tw/)的族語學習詞表，以及 Web 技術打造的族語輸入法。
 
+![images/banner.png](images/banner.png)
+
 <!-- TOC -->
 
 - [McFoximWeb - 小麥族語輸入法 Web/Chrome OS/PIME 版本](#mcfoximweb---%E5%B0%8F%E9%BA%A5%E6%97%8F%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95-webchrome-ospime-%E7%89%88%E6%9C%AC)
