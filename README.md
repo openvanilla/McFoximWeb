@@ -15,7 +15,14 @@
     - [Windows PIME](#windows-pime)
   - [輸入法使用方式](#%E8%BC%B8%E5%85%A5%E6%B3%95%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F)
   - [支援語言](#%E6%94%AF%E6%8F%B4%E8%AA%9E%E8%A8%80)
+  - [社群公約](#%E7%A4%BE%E7%BE%A4%E5%85%AC%E7%B4%84)
   - [常見問題](#%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C)
+    - [Q: 輸入法的資料來源？](#q-%E8%BC%B8%E5%85%A5%E6%B3%95%E7%9A%84%E8%B3%87%E6%96%99%E4%BE%86%E6%BA%90)
+    - [Q: 是否有 Windows、macOS、iOS、Android 版本？](#q-%E6%98%AF%E5%90%A6%E6%9C%89-windowsmacosiosandroid-%E7%89%88%E6%9C%AC)
+    - [Q: 小麥族語輸入法與另外的族語輸入法有什麼不同？](#q-%E5%B0%8F%E9%BA%A5%E6%97%8F%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95%E8%88%87%E5%8F%A6%E5%A4%96%E7%9A%84%E6%97%8F%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95%E6%9C%89%E4%BB%80%E9%BA%BC%E4%B8%8D%E5%90%8C)
+    - [Q: McFoxIM 這個名字的意思？](#q-mcfoxim-%E9%80%99%E5%80%8B%E5%90%8D%E5%AD%97%E7%9A%84%E6%84%8F%E6%80%9D)
+    - [Q: 授權方式？](#q-%E6%8E%88%E6%AC%8A%E6%96%B9%E5%BC%8F)
+    - [Q: 怎樣更新輸入法表格？](#q-%E6%80%8E%E6%A8%A3%E6%9B%B4%E6%96%B0%E8%BC%B8%E5%85%A5%E6%B3%95%E8%A1%A8%E6%A0%BC)
 
 <!-- /TOC -->
 <!-- /TOC -->
@@ -81,6 +88,10 @@ npm run build:pime
 ## 支援語言
 
 輸入法提供原語會的族語學習詞表所涵蓋的語言。
+
+## 社群公約
+
+我們採用了 GitHub 的[通用社群公約](CODE_OF_CONDUCT.md)。公約的中文版請參考[這裡的翻譯](https://www.contributor-covenant.org/zh-tw/version/1/4/code-of-conduct/)。
 
 ## 常見問題
 
