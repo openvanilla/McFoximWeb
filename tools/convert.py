@@ -28,6 +28,9 @@ def parse_excel_file(path):
 
 
 def main():
+    """
+    Converts Excel files in the current directory to TypeScript files.
+    """
     for i in range(1, 43):
         current_folder = os.getcwd()
         files = os.listdir(current_folder)

@@ -12,3 +12,5 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 python convert.py
 ```
+
+另，目前學習詞表位在[這個位置](https://glossary-api.ilrdf.org.tw/glossary_2022/excel/2022%E5%AD%B8%E7%BF%92%E8%A9%9E%E8%A1%A8.zip) ，可以直接下載。不過原語會可能會改版網頁，所以建議還是從官網下載比較保險。
