@@ -94,7 +94,7 @@ A: 原語會的族語輸入法是族語會所提供的官方輸入法，小麥�
 
 Q: McFoxIM 這個名字的意思？
 
-A: 在 ISO 639 語言代碼中，fox 就是台灣南島民族語言的代號，IM 則是 Input Method 的縮寫，合起來就是 McFoxIM。請參見 Wikipedia 上的 [ISO 639-5](https://zh.wikipedia.org/wiki/ISO_639-5) 的說明。
+A: 在 ISO 639 語言代碼中，fox 就是台灣南島民族語言的代號，IM 則是 Input Method 的縮寫，合起來就是 McFoxIM。請參見 Wikipedia 上的 [ISO 639-5](https://zh.wikipedia.org/wiki/ISO_639-5) 、[Formosan languages 詞條](https://en.wikipedia.org/wiki/Formosan_languages)、以及 [SIL 官方](https://iso639-3.sil.org/code/fox) 的說明。
 
 Q: 授權方式？
 
