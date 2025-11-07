@@ -13,7 +13,7 @@ McFoximWeb (小麥族語輸入法) is a TypeScript-based input method for Taiwan
 - **Testing Framework**: Jest 30 with jsdom
 - **Linting**: ESLint with TypeScript support
 - **Code Style**: Prettier
-- **Target Platforms**: Web browsers and Chrome OS (via Chrome extension)
+- **Target Platforms**: Web browsers, Chrome OS (via Chrome extension), and Windows (via PIME)
 
 ## Project Structure
 
@@ -22,6 +22,8 @@ McFoximWeb/
 ├── src/
 │   ├── index.ts              # Main entry point, exports public API
 │   ├── chromeos_ime.ts       # Chrome OS specific input method implementation
+│   ├── pime.ts               # PIME (Windows) specific input method implementation
+│   ├── pime_keys.ts          # Windows virtual key code mapping for PIME
 │   ├── engine/               # Core autocomplete engine
 │   │   ├── Completer.ts      # Binary search-based word completion
 │   │   ├── Candidate.ts      # Candidate word data structure
@@ -43,9 +45,12 @@ McFoximWeb/
 │   └── README.md             # Instructions for data conversion process
 ├── output/                   # Build output directory
 │   ├── example/              # Web version demo
-│   └── chromeos/             # Chrome OS extension package
+│   ├── chromeos/             # Chrome OS extension package
+│   └── pime/                 # PIME Windows input method package
 ├── webpack.config.js         # Webpack configuration for Web build
 ├── webpack.config.chromeext.js # Webpack configuration for Chrome OS build
+├── webpack.config.pime.js    # Webpack configuration for PIME (Windows) build
+├── build_pime.bat            # Windows batch script to build and deploy PIME version
 ├── tsconfig.json             # TypeScript compiler configuration
 ├── jest.config.js            # Jest test configuration
 ├── .eslintrc.cjs             # ESLint configuration
@@ -53,6 +58,20 @@ McFoximWeb/
 ```
 
 ## Key Concepts
+
+### PIME (Platform-Independent Input Method Extension)
+- **Framework**: PIME is a Windows input method framework that supports both Python and Node.js backends
+- **Repository**: https://github.com/EasyIME/PIME
+- **Architecture**: Uses Text Services Framework (TSF) with a native C++ frontend and script backends
+- **Integration**: McFoximWeb integrates with PIME via Node.js backend to provide Windows IME support
+- **Communication**: PIME sends requests (keyboard events, lifecycle events) and receives responses (UI states, candidate windows)
+
+### PIME Integration Details
+- **Entry Point**: `src/pime.ts` - Main module for PIME integration
+- **Key Mapping**: `src/pime_keys.ts` - Maps Windows virtual key codes to McFoxim Key objects
+- **Build Target**: Node.js/CommonJS (UMD format) for compatibility with PIME's Node backend
+- **Deployment**: Built files are copied to `C:\Program Files (x86)\PIME\node\input_methods\mcfoxim`
+- **Settings**: User preferences stored in `%APPDATA%\PIME\mcfoxim\config.json`
 
 ### Input Method Flow
 1. User types alphabetic characters
@@ -86,8 +105,23 @@ npm run build
 # Chrome OS extension
 npm run build:chromeos
 
+# PIME (Windows) version
+npm run build:pime
+
 # Development build with watch mode
 npm run build:watch
+```
+
+### Building and Deploying PIME Version (Windows)
+```batch
+# Build and deploy to PIME installation (requires administrator privileges)
+build_pime.bat
+
+# This script:
+# 1. Runs npm run build:pime
+# 2. Deletes old files from C:\Program Files (x86)\PIME\node\input_methods\mcfoxim
+# 3. Copies new build to PIME installation directory
+# 4. Requires PIME Launcher restart to see changes
 ```
 
 ### Testing
@@ -139,6 +173,20 @@ npm run ts-build:watch
 
 ## Common Tasks
 
+### Working with PIME Integration
+1. **Testing PIME locally**: Build with `npm run build:pime` and deploy using `build_pime.bat` (Windows, admin required)
+2. **Understanding PIME requests**: The `response()` function in `pime.ts` handles various PIME methods:
+   - `init`, `close` - Lifecycle events
+   - `onActivate`, `onDeactivate` - Focus events
+   - `filterKeyDown`, `filterKeyUp` - Key event filtering
+   - `onKeyDown` - Actual key processing
+   - `onKeyboardStatusChanged` - IME on/off state
+   - `onCompositionTerminated` - Composition cleanup
+   - `onCommand`, `onMenu` - UI button and menu actions
+3. **Key event conversion**: `KeyFromKeyboardEvent()` in `pime_keys.ts` converts Windows VK codes to McFoxim Key objects
+4. **UI state mapping**: The `UiState` interface bridges McFoxim's InputController and PIME's expectations
+5. **Settings management**: User settings are loaded from/saved to `%APPDATA%\PIME\mcfoxim\config.json`
+
 ### Adding a New Language Dataset
 1. Download Excel vocabulary file from indigenous language resource site
 2. Place Excel file in `tools/` directory
@@ -170,6 +218,13 @@ npm run ts-build:watch
 ### Browser Compatibility
 - Target: ES6+ browsers with DOM support
 - Chrome OS extension requires Chrome/Chromium browser
+- PIME version requires Windows 7 or later with PIME framework installed
+
+### PIME Requirements
+- Windows operating system (Windows 7+)
+- PIME framework installed (https://github.com/EasyIME/PIME/releases)
+- Node.js backend enabled in PIME
+- Administrator privileges for installation/deployment
 
 ### Performance Considerations
 - Vocabulary tables are large (40+ files, each with thousands of entries)
@@ -184,13 +239,23 @@ npm run build:watch  # Keep this running in one terminal
 npm run test         # Run in another terminal after changes
 
 # Full validation before commit
-npm run test && npm run build && npm run build:chromeos
+npm run test && npm run build && npm run build:chromeos && npm run build:pime
 
 # Check TypeScript compilation only
 npm run ts-build
+
+# Windows: Build and deploy PIME version (requires admin)
+build_pime.bat
 ```
 
 ## Troubleshooting
+
+### PIME-Specific Issues
+- **Module not loading**: Check that files are in `C:\Program Files (x86)\PIME\node\input_methods\mcfoxim`
+- **Settings not persisting**: Verify `%APPDATA%\PIME\mcfoxim\config.json` exists and is writable
+- **IME not appearing**: Restart PIME Launcher after deployment (`build_pime.bat` reminds you to do this)
+- **Key events not working**: Check virtual key code mapping in `pime_keys.ts` and `KeyFromKeyboardEvent()`
+- **Windows version compatibility**: Ensure Windows TSF is working and PIME is properly registered with `regsvr32`
 
 ### ESLint Configuration Issues
 - The project uses `.eslintrc.cjs` (CommonJS config)
@@ -211,6 +276,9 @@ npm run ts-build
 ## Resources
 
 - Project Repository: https://github.com/openvanilla/McFoximWeb
+- PIME Framework: https://github.com/EasyIME/PIME
+- PIME Documentation: https://github.com/EasyIME/PIME/blob/master/README.md
+- Windows TSF References: https://docs.microsoft.com/en-us/windows/win32/tsf/text-services-framework
 - ISO 639-5 Language Codes: https://en.wikipedia.org/wiki/ISO_639-5
 - TypeScript Documentation: https://www.typescriptlang.org/docs/
 - Jest Documentation: https://jestjs.io/docs/getting-started
