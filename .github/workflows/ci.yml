@@ -44,7 +44,7 @@ jobs:
       - run: npm run test:coverage
         # continue-on-error: true
       - name: Jest Coverage Report
-        if: matrix.node-version == '21.x'
+        if: matrix.node-version == '20.x'
         uses: ArtiomTr/jest-coverage-report-action@v2
         
   build_publish:
