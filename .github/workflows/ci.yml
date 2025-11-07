@@ -27,12 +27,26 @@ jobs:
       - run: npm run build:pime --if-present
       - run: npm run typecheck --if-present
       - run: npm run lint --if-present
+
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm ci
       - run: npm run test:coverage
         # continue-on-error: true
       - name: Jest Coverage Report
         if: matrix.node-version == '21.x'
         uses: ArtiomTr/jest-coverage-report-action@v2
-
+        
   build_publish:
       runs-on: ubuntu-latest
       if: github.ref == 'refs/heads/main'
