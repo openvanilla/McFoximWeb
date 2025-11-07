@@ -14,7 +14,6 @@ import path from 'path';
 import fs from 'fs';
 import process from 'process';
 import child_process from 'child_process';
-import { EmptyState } from './input_method/InputState';
 
 interface Settings {
   selected_input_table_index: number;
@@ -122,7 +121,6 @@ class PimeMcFoxim {
   alreadyAddButton: boolean = false;
   /** Whether the OS is Windows 8 or above. */
   isWindows8Above: boolean = false;
-  isKeyDownHandled: boolean = false;
 
   /**
    * Load settings from disk.
@@ -254,9 +252,9 @@ class PimeMcFoxim {
    */
   public buttonUiResponse(): any {
     let windowsModeIcon = this.isOpened ? 'eng.ico' : 'close.ico';
-    let object: any = {};
     let windowsModeIconPath = path.join(__dirname, 'icons', windowsModeIcon);
     let settingsIconPath = path.join(__dirname, 'icons', 'config.ico');
+    let object: any = {};
     let changeButton: any[] = [];
     if (this.isWindows8Above) {
       changeButton.push({ icon: windowsModeIconPath, id: 'windows-mode-icon' });
@@ -271,7 +269,7 @@ class PimeMcFoxim {
           id: 'windows-mode-icon',
           icon: windowsModeIconPath,
           commandId: PimeMcFoximCommand.ModeIcon,
-          tooltip: '中英文切換',
+          tooltip: '輸入模式切換',
         });
       }
 
@@ -279,7 +277,7 @@ class PimeMcFoxim {
         id: 'switch-lang',
         icon: windowsModeIconPath,
         commandId: PimeMcFoximCommand.SwitchLanguage,
-        tooltip: '中英文切換',
+        tooltip: '輸入模式切換',
       });
       addButton.push({
         id: 'settings',
@@ -443,7 +441,7 @@ module.exports = {
     }
 
     if (request.method === 'filterKeyUp') {
-      let handled = this.isKeyDownHandled;
+      let handled = this.pimeMcFoxim.isLastFilterKeyDownHandled;
       if (
         lastRequest &&
         lastRequest.method === 'filterKeyUp' &&
