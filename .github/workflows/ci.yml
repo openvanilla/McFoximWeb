@@ -6,7 +6,6 @@ on:
     branches: [main]
 
 permissions:
-  checks: write
   contents: read
 
 jobs:
@@ -30,6 +29,11 @@ jobs:
       - run: npm run lint --if-present
 
   test:
+    # 只在這個 job 提升權限，供 coverage action 使用
+    permissions:
+      contents: read
+      checks: write
+      pull-requests: write
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -43,27 +47,30 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run test:coverage
-        # continue-on-error: true
       - name: Jest Coverage Report
         if: matrix.node-version == '20.x'
         uses: ArtiomTr/jest-coverage-report-action@v2
-        
+        # 如需指定 token，可加：
+        # with:
+        #   github-token: ${{ secrets.GITHUB_TOKEN }}
+
   build_publish:
-      runs-on: ubuntu-latest
-      if: github.ref == 'refs/heads/main'
-      strategy:
-        matrix:
-          node-version: [20.x]
-      steps:
-        - uses: actions/checkout@v4
-        - name: Use Node.js ${{ matrix.node-version }}
-          uses: actions/setup-node@v4
-          with:
-            node-version: ${{ matrix.node-version }}
-        - run: npm install
-        - run: npm run build
-        - name: Deploy 🚀
-          uses: JamesIves/github-pages-deploy-action@v4
-          with:
-            folder: output/example
- 
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm install
+      - run: npm run build
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: output/example
