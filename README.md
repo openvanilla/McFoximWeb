@@ -1,7 +1,7 @@
 # McFoximWeb - 小麥族語輸入法 Web/Chrome OS/PIME 版本
 
 ![Static Badge](https://img.shields.io/badge/platform-web-green)
-![ChromeOS](https://img.shields.io/badge/platform-chome_os-yellow) ![Static Badge](https://img.shields.io/badge/platform-windows-blue) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/openvanilla/McFoximWeb)
+![ChromeOS](https://img.shields.io/badge/platform-chome_os-yellow) ![Static Badge](https://img.shields.io/badge/platform-windows-blue) [![CI](https://github.com/openvanilla/McFoximWeb/actions/workflows/ci.yml/badge.svg)](https://github.com/openvanilla/McFoximWeb/actions/workflows/ci.yml) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/openvanilla/McFoximWeb)
 
 基於[原住民族語言發展基金會](https://www.ilrdf.org.tw/)的族語學習詞表，以及 Web 技術打造的族語輸入法。
 
