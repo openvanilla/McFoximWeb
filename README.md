@@ -1,10 +1,10 @@
-# McFoximWeb - 小麥族語輸入法 Web/ChromeOS 版本
+# McFoximWeb - 小麥族語輸入法 Web/Chrome OS/PIME 版本
 
-基於原住民族語言發展基金會的族語學習詞表，以及 Web 技術打造的族語輸入法。
+基於[原住民族語言發展基金會](https://www.ilrdf.org.tw/)的族語學習詞表，以及 Web 技術打造的族語輸入法。
 
 <!-- TOC -->
 
-- [McFoximWeb - 小麥族語輸入法 Web/ChromeOS 版本](#mcfoximweb---%E5%B0%8F%E9%BA%A5%E6%97%8F%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95-webchromeos-%E7%89%88%E6%9C%AC)
+- [McFoximWeb - 小麥族語輸入法 Web/Chrome OS/PIME 版本](#mcfoximweb---%E5%B0%8F%E9%BA%A5%E6%97%8F%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95-webchrome-ospime-%E7%89%88%E6%9C%AC)
   - [支援平台](#%E6%94%AF%E6%8F%B4%E5%B9%B3%E5%8F%B0)
   - [編譯方式](#%E7%B7%A8%E8%AD%AF%E6%96%B9%E5%BC%8F)
     - [Web 版](#web-%E7%89%88)
@@ -35,6 +35,8 @@ npm run build
 
 用瀏覽器打開 output/example/index.html 就可以使用輸入法了。
 
+您也可以透過參考 output/example/index.html 裡頭的方式，將小麥族語輸入法，嵌入到您的網頁中。
+
 ### Chrome OS 版
 
 ```bash
@@ -59,7 +61,14 @@ npm run build:pime
 
 ## 輸入法使用方式
 
-小麥族語輸入法其實比較接近以字母為基礎的語言的自動完成（auto-complete）功能。在開始輸入的時候，只要直接輸入字母即可，如果有可以自動補完的字詞，就會出現候選字選單—旁邊也有對應的中文說明—這時候按下 Tab 鍵，就可以補完單字。另外，也可以用上下鍵移動要選擇的候選字，或是用 page up / page down 換頁。
+小麥族語輸入法，其實比較接近以字母為基礎的語言的自動完成（auto-complete）功能。
+
+- 在開始輸入的時候，只要直接輸入字母即可
+- 如果有可以自動補完的字詞，就會出現候選字選單—旁邊也有對應的中文說明
+- 這時候按下 Tab 鍵，就可以補完單字
+- 另外，也可以用上下鍵移動要選擇的候選字，或是用 page up / page down 換頁。
+
+您可以直接在 [網頁版本](https://openvanilla.github.io/McFoximWeb/) 中，體驗這個輸入法的使用方式。
 
 ## 支援語言
 
