@@ -330,7 +330,7 @@ class PimeMcFoxim {
         break;
       case PimeMcFoximCommand.OpenHomepage:
         {
-          let url = 'https://mcbopomofo.openvanilla.org/';
+          let url = 'https://mcfoxim.openvanilla.org/';
           let command = `start ${url}`;
           console.log('Run ' + command);
           child_process.exec(command);

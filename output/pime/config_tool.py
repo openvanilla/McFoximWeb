@@ -8,20 +8,14 @@ import json
 
 current_dir = os.path.dirname(__file__)
 
-config_dir = os.path.join(os.path.expandvars("%APPDATA%"), "PIME", "mcbopomofo")
-localdata_dir = os.path.join(os.path.expandvars("%LOCALAPPDATA%"), "PIME", "mcbopomofo")
+config_dir = os.path.join(os.path.expandvars("%APPDATA%"), "PIME", "mcfoxim")
+localdata_dir = os.path.join(os.path.expandvars("%LOCALAPPDATA%"), "PIME", "mcfoxim")
 
-COOKIE_ID = "mcbopomofo_config_token"
+COOKIE_ID = "mcfoxim_config_token"
 SERVER_TIMEOUT = 120
 DEFAULT_CONFIG = {
-    "layout": "standard",
-    "select_phrase": "before_cursor",
-    "candidate_keys": "123456789",
-    "esc_key_clear_entire_buffer": False,
-    "shift_key_toggle_alphabet_mode": True,
-    "chineseConversion": False,
-    "move_cursor": True,
-    "letter_mode": "upper",
+    "selected_input_table_index": 0,
+    "candidate_font_size": 16,
 }
 
 
@@ -40,129 +34,6 @@ class KeepAliveHandler(BaseHandler):
     def get(self):
         # the actual keep-alive is done inside BaseHandler.prepare()
         self.write('{"return":true}')
-
-
-class OpenUserDataFolderHandler(BaseHandler):
-
-    @tornado.web.authenticated
-    def get(self):
-        my_dir = config_dir
-
-        # Open the user data folder in Windows File Explorer
-        try:
-            os.makedirs(my_dir, exist_ok=True)
-            os.startfile(my_dir)
-            response = """{"return": true, "path":"%s"}""" % my_dir
-            self.write(response)
-        except Exception as e:
-            print(e)
-            response = """{"return": false, "error":"%s"}""" % str(e)
-            self.write(response)
-
-
-class OpenExcludedPhrasesHandler(BaseHandler):
-
-    @tornado.web.authenticated
-    def get(self):
-        my_dir = config_dir
-        file_path = os.path.join(my_dir, "exclude-phrases.txt")
-        # Open the user data folder in Windows File Explorer
-        try:
-            os.makedirs(my_dir, exist_ok=True)
-            # Create data.txt if it doesn't exist
-            if not os.path.exists(file_path):
-                with open(file_path, "w", encoding="UTF-8") as f:
-                    f.write("")  # Create an empty text file
-            os.startfile(file_path)
-            response = """{"return": true, "path":"%s"}""" % my_dir
-            self.write(response)
-        except Exception as e:
-            print(e)
-            response = """{"return": false, "error":"%s"}""" % str(e)
-            self.write(response)
-
-
-class OpenUserPhrasesHandler(BaseHandler):
-
-    @tornado.web.authenticated
-    def get(self):
-        my_dir = config_dir
-        file_path = os.path.join(my_dir, "data.txt")
-        # Open the user data folder in Windows File Explorer
-        try:
-            os.makedirs(my_dir, exist_ok=True)
-            # Create data.txt if it doesn't exist
-            if not os.path.exists(file_path):
-                with open(file_path, "w", encoding="UTF-8") as f:
-                    f.write("")  # Create an empty text file
-            os.startfile(file_path)
-            response = """{"return": true, "path":"%s"}""" % my_dir
-            self.write(response)
-        except Exception as e:
-            print(e)
-            response = """{"return": false, "error":"%s"}""" % str(e)
-            self.write(response)
-
-
-class UserPhrasesHandler(BaseHandler):
-    def get_current_user(self):  # override the login check
-        return self.get_cookie(COOKIE_ID)
-
-    @tornado.web.authenticated
-    def get(self):  # get config
-        data = ""
-        try:
-            file_path = os.path.join(config_dir, "data.txt")
-            with open(file_path, "r", encoding="UTF-8") as f:
-                data = f.read()
-        except:
-            pass
-        self.write(data)
-
-    @tornado.web.authenticated
-    def post(self):  # save config
-        data = self.request.body.decode("utf-8")
-        try:
-            # print(data)
-            os.makedirs(config_dir, exist_ok=True)
-            file_path = os.path.join(config_dir, "data.txt")
-            with open(file_path, "w", encoding="UTF-8") as f:
-                f.write(data)
-            self.write('{"return":true}')
-        except Exception as e:
-            print(e)
-            self.write('{"return":false, "error":"%s"}' % str(e))
-
-
-class ExcludedPhrasesHandler(BaseHandler):
-
-    def get_current_user(self):  # override the login check
-        return self.get_cookie(COOKIE_ID)
-
-    @tornado.web.authenticated
-    def get(self):  # get config
-        data = ""
-        try:
-            file_path = os.path.join(config_dir, "exclude-phrases.txt")
-            with open(file_path, "r", encoding="UTF-8") as f:
-                data = f.read()
-        except:
-            pass
-        self.write(data)
-
-    @tornado.web.authenticated
-    def post(self):  # save config
-        data = self.request.body.decode("utf-8")
-        try:
-            # print(data)
-            os.makedirs(config_dir, exist_ok=True)
-            file_path = os.path.join(config_dir, "exclude-phrases.txt")
-            with open(file_path, "w", encoding="UTF-8") as f:
-                f.write(data)
-            self.write('{"return":true}')
-        except Exception as e:
-            print(e)
-            self.write('{"return":false, "error":"%s"}' % str(e))
 
 
 class ConfigHandler(BaseHandler):
@@ -244,11 +115,6 @@ class ConfigApp(tornado.web.Application):
             (r"/config", ConfigHandler),  # main configuration handler
             (r"/keep_alive", KeepAliveHandler),  # keep the api server alive
             (r"/login/(.*)", LoginHandler),  # authentication
-            (r"/open_user_data_folder", OpenUserDataFolderHandler),
-            (r"/open_user_phrases", OpenUserPhrasesHandler),
-            (r"/user_phrases", UserPhrasesHandler),
-            (r"/open_excluded_phrases", OpenExcludedPhrasesHandler),
-            (r"/excluded_phrases", ExcludedPhrasesHandler),
         ]
         super().__init__(handlers, **settings)
         self.timeout_handler = None
@@ -308,9 +174,7 @@ class ConfigApp(tornado.web.Application):
 def main():
     app = ConfigApp()
     if len(sys.argv) >= 2:
-        if sys.argv[1] == "user_phrases":
-            tool_name = "user_phrases"
-        elif sys.argv[1] == "help":
+        if sys.argv[1] == "help":
             tool_name = "help"
         else:
             tool_name = "options"

@@ -5,7 +5,7 @@
 - Install a copy of PIME on your PC. Please note you also need to check on the
   option to install the node modules when installing PIME.
 - run `npm run build:pime`. The command build a "index.js" file into the folder.
-- Copy the folder to `C:\Program Files (x86)\PIME\node\input_methods\mcbopomofo`
+- Copy the folder to `C:\Program Files (x86)\PIME\node\input_methods\mcfoxim`
 - Open a command prompt or Windows terminal as administrator, and then run
   `regsvr32 "C:\Program Files (X86)\PIME\x86\PIMETextService.dll"`
 - Try to switch to McFoxIM input method
