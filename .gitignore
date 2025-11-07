@@ -25,3 +25,4 @@ output/chromeos/bundle.js.LICENSE.txt
 output/pime/index.js
 output/pime/index.js.LICENSE.txt
 .firebase
+*.zip
