@@ -65,6 +65,8 @@ npm run build:chromeos
 
 ### Windows (PIME)
 
+首先您要在您的 Windows 系統上安裝 PIME，請前往 PIME 的專案頁面下載。請注意，在安裝的過程中，**務必要勾選 Node.js 支援**，否則無法使用這個輸入法— PIME 預設是不安裝 Node.js 支援的。
+
 請在 Windows 的命令提示字元（Command Prompt）或 PowerShell 中執行：
 
 ```bash
