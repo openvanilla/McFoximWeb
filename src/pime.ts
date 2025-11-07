@@ -81,6 +81,7 @@ class PimeMcFoxim {
   constructor() {
     this.inputController = new InputController(this.makeUI(this));
     this.inputController.onError = () => {};
+    this.loadSettings(() => {});
   }
 
   /** Resets the UI state before handling a key. */
@@ -407,13 +408,13 @@ module.exports = {
       pimeMcFoxim.isWindows8Above = isWindows8Above;
       const customUi = pimeMcFoxim.customUiResponse();
       const response = Object.assign({}, responseTemplate, customUi, {
-        removeButton: ['settings'],
+        removeButton: ['windows-mode-icon', 'switch-lang', 'settings'],
       });
       return response;
     }
     if (request.method === 'close') {
       const response = Object.assign({}, responseTemplate, {
-        removeButton: ['settings'],
+        removeButton: ['windows-mode-icon', 'switch-lang', 'settings'],
       });
       pimeMcFoxim.alreadyAddButton = false;
       return response;
@@ -441,7 +442,7 @@ module.exports = {
     }
 
     if (request.method === 'filterKeyUp') {
-      let handled = this.pimeMcFoxim.isLastFilterKeyDownHandled;
+      let handled = pimeMcFoxim.isLastFilterKeyDownHandled;
       if (
         lastRequest &&
         lastRequest.method === 'filterKeyUp' &&

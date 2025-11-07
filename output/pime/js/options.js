@@ -6,12 +6,14 @@ window.onload = () => {
   };
 
   function applySettings(settings) {
+    console.log('applying settings: ' + settings);
     const tableIndex = settings.selected_input_table_index;
     const radioButton = document.getElementById(`table_${tableIndex}`);
     if (radioButton) {
       radioButton.checked = true;
     }
     const fontSizeInput = document.getElementById('font_size');
+    let options = fontSizeInput.getElementsByTagName('option');
     if (fontSizeInput) {
       for (let option of options) {
         if (+option.value === settings.candidate_font_size) {
@@ -34,8 +36,11 @@ window.onload = () => {
         applySettings(settings);
       } catch {
         settings = defaultSettings;
+        applySettings(settings);
       }
     };
+    xhttp.open('GET', '/config');
+    xhttp.send('');
   }
 
   function saveSettings(settings) {
