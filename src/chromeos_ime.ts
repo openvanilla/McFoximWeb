@@ -94,7 +94,7 @@ class ChromeMcFoxim {
     const inputTables = InputTableManager.getInstance().tableNames;
     let selectedTableSet = false;
 
-    let inputTableMenus: chrome.input.ime.MenuItem[] = [];
+    const inputTableMenus: chrome.input.ime.MenuItem[] = [];
 
     for (let i = 0; i < inputTables.length; i++) {
       if (hiddenTableIndices.includes(i)) {
@@ -228,14 +228,14 @@ class ChromeMcFoxim {
           if (item.style === 'highlighted') {
             selectionStart = index;
             selectionEnd = index + item.text.length;
-            let segment = {
+            const segment = {
               start: index,
               end: index + item.text.length,
               style: 'doubleUnderline' as const,
             };
             segments.push(segment);
           } else {
-            let segment = {
+            const segment = {
               start: index,
               end: index + item.text.length,
               style: 'underline' as const,
@@ -262,14 +262,14 @@ class ChromeMcFoxim {
         });
 
         if (candidates.length) {
-          let chromeCandidates = [];
+          const chromeCandidates = [];
           let index = 0;
           let selectedIndex = 0;
           for (let candidate of state.candidates) {
             if (candidate.selected) {
               selectedIndex = index;
             }
-            let item = {
+            const item = {
               candidate: candidate.candidate.text,
               annotation: candidate.candidate.description,
               id: index++,
@@ -319,7 +319,7 @@ class ChromeMcFoxim {
   }
 }
 
-let chromeMcFoxim = new ChromeMcFoxim();
+const chromeMcFoxim = new ChromeMcFoxim();
 
 chrome.input?.ime.onActivate.addListener((engineID) => {
   chromeMcFoxim.engineID = engineID;

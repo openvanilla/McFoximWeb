@@ -101,10 +101,9 @@ export class KeyMapping {
           }
         }
       default:
-        keyName = keyName;
         break;
     }
-    let key = new Key(event.key, keyName, event.shiftKey, event.ctrlKey, isNumpadKey);
+    const key = new Key(event.key, keyName, event.shiftKey, event.ctrlKey, isNumpadKey);
     return key;
   }
 }

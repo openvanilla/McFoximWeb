@@ -105,7 +105,7 @@ class PimeMcFoxim {
 
   /** Applies the settings to the input controller. */
   public applySettings(): void {
-    let selectedTableIndex = this.settings.selected_input_table_index;
+    const selectedTableIndex = this.settings.selected_input_table_index;
     InputTableManager.getInstance().selectedIndexValue = selectedTableIndex;
   }
 
@@ -137,7 +137,7 @@ class PimeMcFoxim {
       console.log(data);
       try {
         console.log('Try to load settings');
-        let newSettings = JSON.parse(data.toString());
+        const newSettings = JSON.parse(data.toString());
         this.settings = Object.assign({}, defaultSettings, newSettings);
         console.log('Loaded settings: ' + JSON.stringify(this.settings, null, 2));
         this.applySettings();
@@ -157,7 +157,7 @@ class PimeMcFoxim {
     }
 
     console.log('Writing user settings to ' + this.userSettingsPath);
-    let string = JSON.stringify(this.settings, null, 2);
+    const string = JSON.stringify(this.settings, null, 2);
     fs.writeFile(this.userSettingsPath, string, (err) => {
       if (err) {
         console.error('Failed to write settings');
@@ -172,9 +172,9 @@ class PimeMcFoxim {
    * @returns The InputUI object.
    */
   public makeUI(instance: PimeMcFoxim): InputUI {
-    let that: InputUI = {
+    const that: InputUI = {
       reset: () => {
-        let commitString = instance.uiState.commitString;
+        const commitString = instance.uiState.commitString;
         instance.uiState = {
           commitString: commitString,
           compositionString: '',
@@ -188,7 +188,7 @@ class PimeMcFoxim {
       },
       commitString(text: string) {
         console.log('commitString: ' + text);
-        let joinedCommitString = instance.uiState.compositionString + text;
+        const joinedCommitString = instance.uiState.compositionString + text;
         console.log('joinedCommitString: ' + joinedCommitString);
         instance.uiState = {
           commitString: joinedCommitString,
@@ -202,17 +202,17 @@ class PimeMcFoxim {
         };
       },
       update(stateString: string) {
-        let state = JSON.parse(stateString);
-        let composingBuffer = state.composingBuffer;
-        let candidates = state.candidates;
+        const state = JSON.parse(stateString);
+        const composingBuffer = state.composingBuffer;
+        const candidates = state.candidates;
         let selectedIndex = 0;
         let index = 0;
-        let candidateList = [];
+        const candidateList = [];
         for (let candidate of state.candidates) {
           if (candidate.selected) {
             selectedIndex = index;
           }
-          let joined = candidate.candidate.text + ' - ' + candidate.candidate.description;
+          const joined = candidate.candidate.text + ' - ' + candidate.candidate.description;
           candidateList.push(joined);
           index++;
         }
@@ -224,14 +224,14 @@ class PimeMcFoxim {
           compositionString += item.text;
         }
 
-        let tooltip = state.tooltip;
+        const tooltip = state.tooltip;
         let showMessage = {};
         let hideMessage = true;
         if (tooltip) {
           showMessage = { message: tooltip, duration: 3 };
           hideMessage = false;
         }
-        let commitString = instance.uiState.commitString;
+        const commitString = instance.uiState.commitString;
         instance.uiState = {
           commitString: commitString,
           compositionString: compositionString,
@@ -252,11 +252,11 @@ class PimeMcFoxim {
    * @returns The button UI response.
    */
   public buttonUiResponse(): any {
-    let windowsModeIcon = this.isOpened ? 'eng.ico' : 'close.ico';
-    let windowsModeIconPath = path.join(__dirname, 'icons', windowsModeIcon);
-    let settingsIconPath = path.join(__dirname, 'icons', 'config.ico');
-    let object: any = {};
-    let changeButton: any[] = [];
+    const windowsModeIcon = this.isOpened ? 'eng.ico' : 'close.ico';
+    const windowsModeIconPath = path.join(__dirname, 'icons', windowsModeIcon);
+    const settingsIconPath = path.join(__dirname, 'icons', 'config.ico');
+    const object: any = {};
+    const changeButton: any[] = [];
     if (this.isWindows8Above) {
       changeButton.push({ icon: windowsModeIconPath, id: 'windows-mode-icon' });
     }
@@ -264,7 +264,7 @@ class PimeMcFoxim {
     object.changeButton = changeButton;
 
     if (!this.alreadyAddButton) {
-      let addButton: any[] = [];
+      const addButton: any[] = [];
       if (this.isWindows8Above) {
         addButton.push({
           id: 'windows-mode-icon',
@@ -331,25 +331,25 @@ class PimeMcFoxim {
         break;
       case PimeMcFoximCommand.OpenHomepage:
         {
-          let url = 'https://mcfoxim.openvanilla.org/';
-          let command = `start ${url}`;
+          const url = 'https://mcfoxim.openvanilla.org/';
+          const command = `start ${url}`;
           console.log('Run ' + command);
           child_process.exec(command);
         }
         break;
       case PimeMcFoximCommand.OpenBugReport:
         {
-          let url = 'https://github.com/openvanilla/McFoximWeb/issues';
-          let command = `start ${url}`;
+          const url = 'https://github.com/openvanilla/McFoximWeb/issues';
+          const command = `start ${url}`;
           console.log('Run ' + command);
           child_process.exec(command);
         }
         break;
       case PimeMcFoximCommand.OpenOptions:
         {
-          let python3 = path.join(__dirname, '..', '..', '..', 'python', 'python3', 'python.exe');
-          let script = path.join(__dirname, 'config_tool.py');
-          let command = `"${python3}" "${script}"`;
+          const python3 = path.join(__dirname, '..', '..', '..', 'python', 'python3', 'python.exe');
+          const script = path.join(__dirname, 'config_tool.py');
+          const command = `"${python3}" "${script}"`;
           console.log('Run ' + command);
           child_process.exec(command);
         }

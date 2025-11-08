@@ -52,7 +52,7 @@ export class InputController {
   selectCandidateAtIndex(index: number): void {
     const oldState = this.state_;
     if (oldState instanceof InputtingState) {
-      let candidates = oldState.candidatesInCurrentPage ?? [];
+      const candidates = oldState.candidatesInCurrentPage ?? [];
       if (index >= 0 && index < candidates.length) {
         const candidate = candidates[index];
         this.ui_.commitString(candidate.text + ' ');
