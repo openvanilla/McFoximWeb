@@ -1,21 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "ES2022",
-    "lib": ["ES2022", "DOM"],
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es6", "dom"],
     "outDir": "dist",
     "strict": true,
     "sourceMap": true,
     "esModuleInterop": true,
     "allowJs": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "moduleResolution": "node",
-    "declaration": true,
-    "declarationMap": true,
     "typeRoots": ["node_modules/@types"]
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "output", "coverage"]
+  }
 }
