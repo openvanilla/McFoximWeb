@@ -199,7 +199,10 @@ class ChromeMcFoxim {
               visible: false,
             },
           });
-        } catch (e) {}
+        } catch (e) {
+          console.error(e);
+          //
+        }
       },
 
       commitString: (text: string) => {
@@ -328,16 +331,16 @@ chrome.input?.ime.onActivate.addListener((engineID) => {
 });
 
 // Called when the current text input are loses the focus.
-chrome.input?.ime.onBlur.addListener((context) => {
+chrome.input?.ime.onBlur.addListener((_context) => {
   chromeMcFoxim.deferredReset();
 });
 
-chrome.input?.ime.onReset.addListener((context) => {
+chrome.input?.ime.onReset.addListener((_context) => {
   chromeMcFoxim.deferredReset();
 });
 
 // Called when the user switch to another input method.
-chrome.input?.ime.onDeactivated.addListener((context) => {
+chrome.input?.ime.onDeactivated.addListener((_context) => {
   if (chromeMcFoxim.deferredResetTimeout != null) {
     clearTimeout(chromeMcFoxim.deferredResetTimeout);
   }
@@ -379,11 +382,11 @@ chrome.input?.ime.onKeyEvent.addListener((engineID, keyData) => {
   return chromeMcFoxim.inputController.handle(keyEvent);
 });
 
-chrome.input.ime.onCandidateClicked.addListener((engineID, candidateID, button) => {
+chrome.input.ime.onCandidateClicked.addListener((_engineID, candidateID, _button) => {
   chromeMcFoxim.inputController.selectCandidateAtIndex(candidateID);
 });
 
-chrome.input?.ime.onMenuItemActivated.addListener((engineID, name) => {
+chrome.input?.ime.onMenuItemActivated.addListener((_engineID, name) => {
   if (name.search('mcfoxim-select-table-') === 0) {
     const id = name.split('-').pop();
     const tableIndex = Number(id);
@@ -463,15 +466,17 @@ async function keepAlive() {
       await chrome.scripting.executeScript(args);
       chrome.tabs.onUpdated.removeListener(retryOnTabUpdate);
       return;
-    } catch (e) {}
+    } catch (e) {
+      console.error(e);
+    }
   }
   chrome.tabs.onUpdated.addListener(retryOnTabUpdate);
 }
 
 async function retryOnTabUpdate(
-  tabId: number,
-  info: chrome.tabs.OnUpdatedInfo,
-  tab: chrome.tabs.Tab,
+  _tabId: number,
+  info: chrome.tabs.TabChangeInfo,
+  _tab: chrome.tabs.Tab,
 ) {
   if (info.url && /^(file|https?):/.test(info.url)) {
     keepAlive();

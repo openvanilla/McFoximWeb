@@ -38,7 +38,7 @@ interface UiState {
   /** The cursor position in the candidate list. */
   candidateCursor: number;
   /** The message to be shown. */
-  showMessage: any;
+  showMessage: {};
   /** Whether to hide the message. */
   hideMessage: boolean;
 }
