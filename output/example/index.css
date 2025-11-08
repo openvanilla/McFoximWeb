@@ -67,6 +67,8 @@ td {
 #function {
   position: absolute;
   padding: 10px 0 0 10px;
+  color: #000;
+  visibility: hidden;
 }
 
 #composing_buffer p {
@@ -202,4 +204,20 @@ textarea#text_area:focus {
   border: 0;
   outline: none;
   color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: #eee;
+  }
+
+  a {
+    color: #9999ff;
+    text-decoration: none;
+  }
+
+  blockquote {
+    background-color: #666;
+  }
 }
