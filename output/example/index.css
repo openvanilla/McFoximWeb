@@ -18,7 +18,7 @@ body {
 }
 
 .main {
-  max-width: 1000px;
+  max-width: 1320px;
   margin: 2rem auto;
   height: 100%;
   padding: 10px;
@@ -111,7 +111,7 @@ textarea {
 }
 
 .right {
-  width: 30%;
+  width: 28%;
   float: right;
   height: 90%;
   overflow: auto !important;
@@ -177,4 +177,28 @@ ul {
 
 ul li {
   margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 24pt;
+  margin-bottom: 10px;
+}
+
+textarea#text_area {
+  padding: 10px;
+  background-color: darkgray;
+  color: white;
+  font-size: 14pt;
+  line-height: 16pt;
+}
+
+textarea#text_area::placeholder {
+  color: #666;
+}
+
+textarea#text_area:focus {
+  background-color: blue;
+  border: 0;
+  outline: none;
+  color: white;
 }

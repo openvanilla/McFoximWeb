@@ -108,18 +108,56 @@
       const functionDiv = document.getElementById('function');
       const rect = textArea.getBoundingClientRect();
       const textAreaStyle = window.getComputedStyle(textArea);
-      const lineHeight = parseInt(textAreaStyle.lineHeight) || 0;
-      const paddingTop = parseInt(textAreaStyle.paddingTop) || 0;
+      const lineHeight = parseInt(textAreaStyle.lineHeight) || 20;
+
+      // Create a temporary mirror div to measure actual caret position
+      const mirror = document.createElement('div');
+      const styles = [
+        'fontFamily',
+        'fontSize',
+        'fontWeight',
+        'letterSpacing',
+        'overflowWrap',
+        'whiteSpace',
+        'lineHeight',
+        'padding',
+        'border',
+        'boxSizing',
+        'width',
+      ];
+      styles.forEach((style) => {
+        mirror.style[style] = textAreaStyle[style];
+      });
+      mirror.style.position = 'absolute';
+      mirror.style.visibility = 'hidden';
+      mirror.style.whiteSpace = 'pre-wrap';
+      mirror.style.overflowWrap = 'break-word';
+
       const caretPos = textArea.selectionStart;
       const textBeforeCaret = textArea.value.substring(0, caretPos);
-      const linesBeforeCaret = textBeforeCaret.split('\n').length - 1;
-      const lastLineStart = textBeforeCaret.lastIndexOf('\n') + 1;
-      const columnPos = caretPos - lastLineStart;
+      mirror.textContent = textBeforeCaret;
+
+      const caretSpan = document.createElement('span');
+      caretSpan.textContent = '|';
+      mirror.appendChild(caretSpan);
+
+      document.body.appendChild(mirror);
+
+      const caretRect = caretSpan.getBoundingClientRect();
+      const mirrorRect = mirror.getBoundingClientRect();
+
+      const relativeTop = caretRect.top - mirrorRect.top;
+      const relativeLeft = caretRect.left - mirrorRect.left;
+
+      document.body.removeChild(mirror);
+
+      // Account for textarea scroll position
+      const scrollTop = textArea.scrollTop;
+      const scrollLeft = textArea.scrollLeft;
 
       functionDiv.style.position = 'absolute';
-      let top = (rect.top || 0) + paddingTop + linesBeforeCaret * lineHeight;
-      functionDiv.style.top = top + 'px';
-      functionDiv.style.left = rect.left + columnPos * 8 + 'px';
+      functionDiv.style.top = rect.top + relativeTop + lineHeight - scrollTop + 'px';
+      functionDiv.style.left = rect.left + relativeLeft - scrollLeft + 'px';
     };
 
     return that;
