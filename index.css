@@ -3,6 +3,9 @@ body {
   height: 100%;
   margin: 0;
   overflow: hidden;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14pt;
+  line-height: 1.5;
 }
 
 * {
@@ -11,15 +14,9 @@ body {
   box-sizing: border-box;
 }
 
-body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14pt;
-  line-height: 1.5;
-}
-
 .main {
   max-width: 1320px;
-  margin: 2rem auto;
+  margin: 0 auto;
   height: 100%;
   padding: 10px;
 }
@@ -104,27 +101,44 @@ textarea {
 }
 
 .left {
-  width: 70%;
-  float: left;
-  min-height: 90%;
+  width: 100%;
   overflow: auto !important;
-  height: 100%;
-  padding-left: 5px;
-  padding-right: 15px;
 }
 
 .right {
-  width: 28%;
-  float: right;
-  height: 90%;
+  width: 100%;
   overflow: auto !important;
-  height: 100%;
 
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+h1 {
+  font-size: 28pt;
+  height: 40px;
+}
+
+@media (min-width: 768px) {
+  .left {
+    width: 70%;
+    float: left;
+    min-height: 100%;
+    overflow: auto !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right {
+    padding: 20px;
+    width: 30%;
+    float: right;
+    overflow: auto !important;
+    height: 100%;
+  }
 }
 
 .right select {
@@ -134,7 +148,6 @@ textarea {
 }
 
 h2 {
-  margin-top: 1rem;
   margin-bottom: 0.5rem;
   font-size: 18pt;
 }
@@ -189,6 +202,7 @@ h1 {
 
 textarea#text_area {
   padding: 10px;
+  border: 1px solid #ccc;
   background-color: darkgray;
   color: white;
   font-size: 14pt;
@@ -201,6 +215,7 @@ textarea#text_area::placeholder {
 
 textarea#text_area:focus {
   background-color: blue;
+  border: 1px solid #000;
   border: 0;
   outline: none;
   color: white;
