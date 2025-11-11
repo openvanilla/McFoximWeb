@@ -165,7 +165,7 @@ class ChromeMcFoxim {
   //
   // To prevent the issue, we ignore such event if an onFocus comes very quickly.
   deferredReset() {
-    if (this.deferredResetTimeout != null) {
+    if (this.deferredResetTimeout !== null) {
       clearTimeout(this.deferredResetTimeout);
       this.deferredResetTimeout = null;
     }
@@ -338,7 +338,7 @@ chrome.input?.ime.onReset.addListener((context) => {
 
 // Called when the user switch to another input method.
 chrome.input?.ime.onDeactivated.addListener((context) => {
-  if (chromeMcFoxim.deferredResetTimeout != null) {
+  if (chromeMcFoxim.deferredResetTimeout !== null) {
     clearTimeout(chromeMcFoxim.deferredResetTimeout);
   }
   chromeMcFoxim.context = undefined;
@@ -350,7 +350,7 @@ chrome.input?.ime.onDeactivated.addListener((context) => {
 // time.
 chrome.input?.ime.onFocus.addListener((context) => {
   chromeMcFoxim.context = context;
-  if (chromeMcFoxim.deferredResetTimeout != null) {
+  if (chromeMcFoxim.deferredResetTimeout !== null) {
     clearTimeout(chromeMcFoxim.deferredResetTimeout);
   } else {
     chromeMcFoxim.loadSettings();
@@ -360,7 +360,7 @@ chrome.input?.ime.onFocus.addListener((context) => {
 // The main keyboard event handler.
 chrome.input?.ime.onKeyEvent.addListener((engineID, keyData) => {
   chromeMcFoxim.engineID = engineID;
-  if (keyData.type != 'keydown') {
+  if (keyData.type !== 'keydown') {
     return false;
   }
 

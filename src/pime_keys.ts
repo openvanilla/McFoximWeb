@@ -332,12 +332,12 @@ export function KeyFromKeyboardEvent(
       keyName = KeyName.ASCII;
       break;
   }
-  const shiftKey = (keyStates[VK_Keys.VK_SHIFT] & (1 << 7)) != 0;
+  const shiftKey = (keyStates[VK_Keys.VK_SHIFT] & (1 << 7)) !== 0;
   if (charCode === 0 && keyName === KeyName.ASCII && shiftKey) {
     ascii = 'Shift';
   }
-  const ctrlKey = (keyStates[VK_Keys.VK_CONTROL] & (1 << 7)) != 0;
-  const altKey = (keyStates[VK_Keys.VK_MENU] & (1 << 7)) != 0;
+  const ctrlKey = (keyStates[VK_Keys.VK_CONTROL] & (1 << 7)) !== 0;
+  const altKey = (keyStates[VK_Keys.VK_MENU] & (1 << 7)) !== 0;
   if (charCode === 0 && keyName === KeyName.ASCII && altKey) {
     ascii = 'Alt';
   }

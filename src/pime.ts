@@ -298,7 +298,7 @@ class PimeMcFoxim {
    */
   public customUiResponse(): any {
     let fontSize = this.settings.candidate_font_size;
-    if (fontSize == undefined) {
+    if (fontSize === undefined) {
       fontSize = 16;
     } else if (fontSize < 10) {
       fontSize = 10;
@@ -476,7 +476,7 @@ module.exports = {
 
       const { keyCode, charCode, keyStates } = request;
 
-      if ((keyStates[VK_Keys.VK_CONTROL] & 1) != 0 || (keyStates[VK_Keys.VK_MENU] & 1) != 0) {
+      if ((keyStates[VK_Keys.VK_CONTROL] & 1) !== 0 || (keyStates[VK_Keys.VK_MENU] & 1) !== 0) {
         pimeMcFoxim.resetBeforeHandlingKey();
         pimeMcFoxim.resetController();
         const response = Object.assign({}, responseTemplate, {
@@ -485,7 +485,7 @@ module.exports = {
         return response;
       }
 
-      if ((keyStates[VK_Keys.VK_CAPITAL] & 1) != 0) {
+      if ((keyStates[VK_Keys.VK_CAPITAL] & 1) !== 0) {
         // Ignores caps lock.
         pimeMcFoxim.resetBeforeHandlingKey();
         pimeMcFoxim.resetController();
