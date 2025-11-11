@@ -22,7 +22,7 @@
     "webpack-cli": "^6.0.1"
   },
   "name": "mcfoximmweb",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Taiwan Indigenous Language Input Method TypeScript Version",
   "scripts": {
     "ts-build": "tsc",
