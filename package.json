@@ -27,7 +27,7 @@
     "webpack-cli": "^6.0.1"
   },
   "name": "@openvanilla/mcfoximmweb",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Taiwan Indigenous Language Input Method TypeScript Version",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
