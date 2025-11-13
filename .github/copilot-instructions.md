@@ -60,6 +60,7 @@ McFoximWeb/
 ## Key Concepts
 
 ### PIME (Platform-Independent Input Method Extension)
+
 - **Framework**: PIME is a Windows input method framework that supports both Python and Node.js backends
 - **Repository**: https://github.com/EasyIME/PIME
 - **Architecture**: Uses Text Services Framework (TSF) with a native C++ frontend and script backends
@@ -67,6 +68,7 @@ McFoximWeb/
 - **Communication**: PIME sends requests (keyboard events, lifecycle events) and receives responses (UI states, candidate windows)
 
 ### PIME Integration Details
+
 - **Entry Point**: `src/pime.ts` - Main module for PIME integration
 - **Key Mapping**: `src/pime_keys.ts` - Maps Windows virtual key codes to McFoxim Key objects
 - **Build Target**: Node.js/CommonJS (UMD format) for compatibility with PIME's Node backend
@@ -74,17 +76,20 @@ McFoximWeb/
 - **Settings**: User preferences stored in `%APPDATA%\PIME\mcfoxim\config.json`
 
 ### Input Method Flow
+
 1. User types alphabetic characters
 2. The Completer searches vocabulary tables using binary search
 3. Matching candidates are displayed with translations
 4. User can select candidates using Tab, arrow keys, or Page Up/Down
 
 ### Completer Algorithm
+
 - Uses binary search for efficient prefix matching in sorted vocabulary data
 - Each vocabulary table is a sorted array of `[word, translation]` tuples
 - The Completer finds the first match and collects all consecutive matches
 
 ### Vocabulary Data
+
 - Data files are TypeScript modules in `src/data/`
 - Each file (TW_01 to TW_43) represents a different indigenous language/dialect
 - Format: `export const TW_XX = [['word', 'translation'], ...]`
@@ -93,11 +98,13 @@ McFoximWeb/
 ## Development Workflow
 
 ### Installation
+
 ```bash
 npm install
 ```
 
 ### Building
+
 ```bash
 # Web version
 npm run build
@@ -113,6 +120,7 @@ npm run build:watch
 ```
 
 ### Building and Deploying PIME Version (Windows)
+
 ```batch
 # Build and deploy to PIME installation (requires administrator privileges)
 build_pime.bat
@@ -125,6 +133,7 @@ build_pime.bat
 ```
 
 ### Testing
+
 ```bash
 # Run all tests
 npm run test
@@ -134,11 +143,13 @@ npm run test:coverage
 ```
 
 ### Linting
+
 ```bash
 npm run eslint
 ```
 
 ### TypeScript Compilation
+
 ```bash
 # Compile TypeScript
 npm run ts-build
@@ -150,23 +161,27 @@ npm run ts-build:watch
 ## Coding Guidelines
 
 ### TypeScript Style
+
 - Use strict mode (enabled in tsconfig.json)
 - Prefer explicit types over `any`
 - Use ES6+ features (arrow functions, destructuring, etc.)
 - Follow ESLint rules defined in .eslintrc.cjs
 
 ### Import Organization
+
 - Group imports: builtin, external, internal, parent/sibling/index
 - Use alphabetical order within groups (enforced by ESLint)
 - Maintain newlines between import groups
 
 ### Testing
+
 - Write tests for all new functionality
 - Place test files next to source files with `.test.ts` suffix
 - Use Jest's `describe` and `it/test` blocks
 - Mock DOM elements when needed using jsdom
 
 ### File Naming
+
 - Use PascalCase for class files (e.g., `Completer.ts`)
 - Use camelCase for utility files
 - Use `.test.ts` suffix for test files
@@ -174,6 +189,7 @@ npm run ts-build:watch
 ## Common Tasks
 
 ### Working with PIME Integration
+
 1. **Testing PIME locally**: Build with `npm run build:pime` and deploy using `build_pime.bat` (Windows, admin required)
 2. **Understanding PIME requests**: The `response()` function in `pime.ts` handles various PIME methods:
    - `init`, `close` - Lifecycle events
@@ -188,6 +204,7 @@ npm run ts-build:watch
 5. **Settings management**: User settings are loaded from/saved to `%APPDATA%\PIME\mcfoxim\config.json`
 
 ### Adding a New Language Dataset
+
 1. Download Excel vocabulary file from indigenous language resource site
 2. Place Excel file in `tools/` directory
 3. Run `python convert.py` to generate TypeScript file
@@ -195,12 +212,14 @@ npm run ts-build:watch
 5. Update `src/data/index.ts` to export the new table
 
 ### Modifying Input Behavior
+
 - Edit `KeyHandler.ts` for keyboard input processing
 - Edit `InputController.ts` for overall input flow control
 - Edit `InputState.ts` for state management logic
 - Write tests in corresponding `.test.ts` files
 
 ### Adding UI Features
+
 - Implement interface in `InputUI.ts`
 - Add concrete implementation in `InputUIElements.ts`
 - Update `InputController.ts` to use new UI features
@@ -208,25 +227,30 @@ npm run ts-build:watch
 ## Important Notes
 
 ### Data Sources
+
 - Vocabulary data from Council of Indigenous Peoples: https://glossary.ilrdf.org.tw/resources
 - Additional data from Klokah E-learning: https://web.klokah.tw/vocabulary/
 
 ### License
+
 - Code: MIT License
 - Vocabulary data: Creative Commons (see Klokah CC license)
 
 ### Browser Compatibility
+
 - Target: ES6+ browsers with DOM support
 - Chrome OS extension requires Chrome/Chromium browser
 - PIME version requires Windows 7 or later with PIME framework installed
 
 ### PIME Requirements
+
 - Windows operating system (Windows 7+)
 - PIME framework installed (https://github.com/EasyIME/PIME/releases)
 - Node.js backend enabled in PIME
 - Administrator privileges for installation/deployment
 
 ### Performance Considerations
+
 - Vocabulary tables are large (40+ files, each with thousands of entries)
 - Binary search ensures O(log n) lookup performance
 - Consider lazy loading of vocabulary data if memory is constrained
@@ -251,6 +275,7 @@ build_pime.bat
 ## Troubleshooting
 
 ### PIME-Specific Issues
+
 - **Module not loading**: Check that files are in `C:\Program Files (x86)\PIME\node\input_methods\mcfoxim`
 - **Settings not persisting**: Verify `%APPDATA%\PIME\mcfoxim\config.json` exists and is writable
 - **IME not appearing**: Restart PIME Launcher after deployment (`build_pime.bat` reminds you to do this)
@@ -258,17 +283,20 @@ build_pime.bat
 - **Windows version compatibility**: Ensure Windows TSF is working and PIME is properly registered with `regsvr32`
 
 ### ESLint Configuration Issues
+
 - The project uses `.eslintrc.cjs` (CommonJS config)
 - ESLint v9+ requires migration to `eslint.config.js` format
 - The project currently uses ESLint 9.38.0 but has not yet migrated to the new config format
 - See https://eslint.org/docs/latest/use/configure/migration-guide for migration instructions
 
 ### Build Failures
+
 - Check Node.js version compatibility (project uses modern Node features)
 - Ensure all dependencies are installed: `npm install`
 - Clear output directory and rebuild: `rm -rf output && npm run build`
 
 ### Test Failures
+
 - Tests use jsdom for DOM simulation
 - Some tests may be environment-specific (check for timing issues)
 - Run with `--verbose` flag for detailed output

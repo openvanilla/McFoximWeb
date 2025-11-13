@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>McFoxIM - 小麥族語輸入法網頁版本</title>
+    <link rel="canonical" href="https://openvanilla.github.io/McFoximWeb/" />
     <link rel="stylesheet" href="index.css">
-    <meta name="description" content="McFoxIM - 小麥族語輸入法網頁版本，使用原住民族語言發展基金會的學習詞表開發">
+    <meta name="description" content="McFoxIM - 小麥族語輸入法網頁版本，使用原住民族語言發展基金會的學習詞表開發，無須額外安裝輸入法軟體，就可以直接示範、教學族輸入">
     <meta name="keywords" content="族語輸入法,小麥,原住民語言,輸入法">
-    <meta name="author" content="">
+    <meta name="author" content="OpenVanilla.org">
     <meta name="theme-color" content="#ffffff">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="McFoxIM - 小麥族語輸入法網頁版本">
-    <meta property="og:description" content="McFoxIM - 小麥族語輸入法網頁版本，使用原住民族語言發展基金會的學習詞表開發">
+    <meta property="og:description" content="McFoxIM - 小麥族語輸入法網頁版本，使用原住民族語言發展基金會的學習詞表開發，無須額外安裝輸入法軟體，就可以直接示範、教學族輸入">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="McFoxIM - 小麥族語輸入法網頁版本">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="McFoxIM - 小麥族語輸入法網頁版本">
-    <meta name="twitter:description" content="McFoxIM - 小麥族語輸入法網頁版本，使用原住民族語言發展基金會的學習詞表開發">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
+    <meta name="twitter:description" content="McFoxIM - 小麥族語輸入法網頁版本，使用原住民族語言發展基金會的學習詞表開發，無須額外安裝輸入法軟體，就可以直接示範、教學族輸入">
     <meta property="og:image"
         content="https://raw.githubusercontent.com/openvanilla/McFoximWeb/refs/heads/main/images/banner.png">
     <meta name="twitter:image"
@@ -44,12 +43,12 @@
         </div>
         <div class="right">
             <h2>輸入法</h2>
-            <p> </p>
-            <select id="input-table-select">
+            <label for="input-table-select" class="visually-hidden">選擇輸入法</label>
+            <select id="input-table-select" title="選擇輸入法">
             </select>
             <h2>使用說明</h2>
             <ul>
-                <li>請使用電腦打開這個網頁，這個網頁不支援手機輸入</li>
+                <li>建議使用電腦打開這個網頁，手機輸入則請使用英語鍵盤</li>
                 <li>在打字的時候，輸入法會主動查詢可以自動補完的候選字</li>
                 <li>使用英文字母—以及部分標點輸入文字時，會進入輸入區</li>
                 <li>用 <b>Tab</b> 或是 1-9 鍵選擇要補完候選字</li>
@@ -70,12 +69,13 @@
             <ul>
                 <li>0.3.0 版</li>
                 <li><a href="https://github.com/openvanilla/McFoximWeb" target="_blank">專案首頁</a></li>
+                <li><a href="privacy_policy.html" target="_blank">隱私權政策</a></li>
                 <li><a href="https://github.com/openvanilla/McFoximWeb/issues" target="_blank">意見回報</a></li>
             </ul>
         </div>
     </div>
 </body>
-
-</html>
 <script src="bundle.js"></script>
 <script src="index.js"></script>
+
+</html>
