@@ -270,7 +270,7 @@ class ChromeMcFoxim {
               selectedIndex = index;
             }
             const item = {
-              candidate: candidate.candidate.text,
+              candidate: candidate.candidate.displayText,
               annotation: candidate.candidate.description,
               id: index++,
               label: candidate.keyCap,

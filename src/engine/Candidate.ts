@@ -1,9 +1,9 @@
 export default class Candidate {
-  readonly text: string;
+  readonly displayText: string;
   readonly description: string;
 
-  constructor(text: string, description: string) {
-    this.text = text;
+  constructor(displayText: string, description: string) {
+    this.displayText = displayText;
     this.description = description;
   }
 }

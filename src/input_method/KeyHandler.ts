@@ -1,4 +1,3 @@
-import { InputTable } from '../data';
 import Completer from '../engine/Completer';
 import { CommittingState, EmptyState, InputState, InputtingState } from './InputState';
 import { Key, KeyName } from './Key';
@@ -63,7 +62,7 @@ export class KeyHandler {
       if (key.name === KeyName.TAB || key.name === KeyName.RETURN) {
         if (state.candidates.length > 0) {
           const selectedCandidate = state.candidates[state.selectedCandidateIndex ?? 0];
-          const newState = new CommittingState(selectedCandidate.text + ' ');
+          const newState = new CommittingState(selectedCandidate.displayText + ' ');
           stateCallback(newState);
         } else {
           const newState = new CommittingState(state.composingBuffer);
@@ -83,7 +82,7 @@ export class KeyHandler {
             return true;
           }
           const selectedCandidate = candidates[index];
-          const newState = new CommittingState(selectedCandidate.text);
+          const newState = new CommittingState(selectedCandidate.displayText);
           stateCallback(newState);
         }
         return true;

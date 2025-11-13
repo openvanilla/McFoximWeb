@@ -17,12 +17,12 @@ class CandidateWrapper {
 
   /** Returns the reading of the candidate. */
   get reading(): string {
-    return this.candidate.text;
+    return this.candidate.displayText;
   }
 
   /** Returns the value of the candidate. */
   get value(): string {
-    return this.candidate.text;
+    return this.candidate.displayText;
   }
 
   /** Returns the description of the candidate. */

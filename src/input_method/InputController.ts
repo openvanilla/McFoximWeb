@@ -55,7 +55,7 @@ export class InputController {
       const candidates = oldState.candidatesInCurrentPage ?? [];
       if (index >= 0 && index < candidates.length) {
         const candidate = candidates[index];
-        this.ui_.commitString(candidate.text + ' ');
+        this.ui_.commitString(candidate.displayText + ' ');
         this.ui_.reset();
         const newState = new EmptyState();
         this.enterState(oldState, newState);

@@ -212,7 +212,7 @@ class PimeMcFoxim {
           if (candidate.selected) {
             selectedIndex = index;
           }
-          const joined = candidate.candidate.text + ' - ' + candidate.candidate.description;
+          const joined = candidate.candidate.displayText + ' - ' + candidate.candidate.description;
           candidateList.push(joined);
           index++;
         }
