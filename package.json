@@ -56,5 +56,8 @@
   "homepage": "https://github.com/openvanilla/McFoximWeb#readme",
   "browser": {
     "assert": false
+  },
+  "dependencies": {
+    "@types/chrome": "^0.1.28"
   }
 }
