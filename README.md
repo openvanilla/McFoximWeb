@@ -56,6 +56,10 @@ npm run build
 
 ### Chrome OS 版
 
+您可以從 [Chrome Web Store](https://chromewebstore.google.com/detail/mcfoxim/oglljkfjpohndcffedmakligpffmeoih) 下載安裝。
+
+如果要要自行編譯，請在終端機中執行：
+
 ```bash
 npm install
 npm run build:chromeos
