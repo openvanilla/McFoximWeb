@@ -79,7 +79,7 @@
           s += candidate.keyCap;
           s += '</td>';
           s += '<td class="candidate">';
-          s += candidate.candidate.text;
+          s += candidate.candidate.displayText;
           s += '</td>';
           s += '<td class="description">';
           s += candidate.candidate.description;
