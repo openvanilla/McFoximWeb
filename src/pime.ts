@@ -476,15 +476,6 @@ module.exports = {
 
       const { keyCode, charCode, keyStates } = request;
 
-      if ((keyStates[VK_Keys.VK_CONTROL] & 1) !== 0 || (keyStates[VK_Keys.VK_MENU] & 1) !== 0) {
-        pimeMcFoxim.resetBeforeHandlingKey();
-        pimeMcFoxim.resetController();
-        const response = Object.assign({}, responseTemplate, {
-          return: false,
-        });
-        return response;
-      }
-
       if ((keyStates[VK_Keys.VK_CAPITAL] & 1) !== 0) {
         // Ignores caps lock.
         pimeMcFoxim.resetBeforeHandlingKey();
