@@ -2,10 +2,21 @@ import Completer from '../engine/Completer';
 import { CommittingState, EmptyState, InputState, InputtingState } from './InputState';
 import { Key, KeyName } from './Key';
 
+/**
+ * Handles key events.
+ */
 export class KeyHandler {
   constructor(private completer_: Completer) {}
   private inputKeys_ = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'^".split(''); // Example input keys
 
+  /**
+   * Handles a key event.
+   * @param key The key event.
+   * @param state The current input state.
+   * @param stateCallback A callback to update the input state.
+   * @param errorCallback A callback to be called when an error occurs.
+   * @returns True if the key event was handled.
+   */
   handle(
     key: Key,
     state: InputState,

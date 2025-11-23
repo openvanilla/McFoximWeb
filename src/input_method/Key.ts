@@ -5,6 +5,9 @@
  * SPDX-License-Identifier: MIT
  */
 
+/**
+ * The name of a key.
+ */
 export enum KeyName {
   ASCII = 'ASCII',
   LEFT = 'LEFT',
@@ -24,6 +27,14 @@ export enum KeyName {
   UNKNOWN = 'UNKNOWN',
 }
 
+/**
+ * Encapsulates the keys accepted by KeyHandler. This class never attempts to
+ * represent all key states that a generic input method framework desires to
+ * handle. Instead, this class only reflects the keys KeyHandler will handle.
+ *
+ * This is not always a perfect representation (for example, shift muddles the
+ * picture), but is sufficient for KeyHandler's needs.
+ */
 /**
  * Encapsulates the keys accepted by KeyHandler. This class never attempts to
  * represent all key states that a generic input method framework desires to
@@ -57,10 +68,24 @@ export class Key {
     this.isNumpadKey = isNumpadKey;
   }
 
+  /**
+   * Creates a key with an ASCII character.
+   * @param c The ASCII character.
+   * @param shiftPressed If the shift key is pressed.
+   * @param ctrlPressed If the control key is pressed.
+   * @returns The key.
+   */
   static asciiKey(c: string, shiftPressed: boolean = false, ctrlPressed: boolean = false): Key {
     return new Key(c, KeyName.ASCII, shiftPressed, ctrlPressed);
   }
 
+  /**
+   * Creates a key with a name.
+   * @param name The name of the key.
+   * @param shiftPressed If the shift key is pressed.
+   * @param ctrlPressed If the control key is pressed.
+   * @returns The key.
+   */
   static namedKey(name: KeyName, shiftPressed: boolean = false, ctrlPressed: boolean = false): Key {
     return new Key('', name, shiftPressed, ctrlPressed);
   }
@@ -87,11 +112,16 @@ export class Key {
     return this.name === KeyName.BACKSPACE || this.name === KeyName.DELETE;
   }
 
+  /**
+   * Returns a string representation of the key.
+   * @returns A string representation of the key.
+   */
   toString(): string {
     return `Key{ascii: ${this.ascii}, name: ${this.name}, shift: ${this.shiftPressed}, ctrl: ${this.ctrlPressed}}`;
   }
 }
 
+/** Converts a keyboard event in the web browser to a key defined by McTabim. */
 /** Converts a keyboard event in the web browser to a key defined by McTabim. */
 export function KeyFromKeyboardEvent(event: KeyboardEvent) {
   let isNumpadKey = false;

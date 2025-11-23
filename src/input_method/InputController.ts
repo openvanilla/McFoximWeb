@@ -7,6 +7,9 @@ import { Key } from './Key';
 import { KeyHandler } from './KeyHandler';
 import { KeyMapping } from './KeyMapping';
 
+/**
+ * The input controller.
+ */
 export default class InputController {
   private state_: InputState = new EmptyState();
   private keyHandler_: KeyHandler = new KeyHandler(
@@ -20,6 +23,9 @@ export default class InputController {
 
   constructor(private ui_: InputUI) {}
 
+  /**
+   * Resets the input controller.
+   */
   reset(): void {
     const oldState = this.state_;
     if (oldState instanceof InputtingState) {
@@ -30,11 +36,21 @@ export default class InputController {
     this.enterState(this.state_, new EmptyState());
   }
 
+  /**
+   * Handles a keyboard event.
+   * @param event The keyboard event.
+   * @returns True if the event was handled.
+   */
   handleKeyboardEvent(event: KeyboardEvent): boolean {
     const key = KeyMapping.keyFromKeyboardEvent(event);
     return this.handle(key);
   }
 
+  /**
+   * Handles a key.
+   * @param key The key to handle.
+   * @returns True if the key was handled.
+   */
   handle(key: Key): boolean {
     const handled = this.keyHandler_.handle(
       key,
@@ -45,6 +61,10 @@ export default class InputController {
     return handled;
   }
 
+  /**
+   * Selects a candidate at the given index.
+   * @param index The index of the candidate to select.
+   */
   selectCandidateAtIndex(index: number): void {
     const oldState = this.state_;
     if (oldState instanceof InputtingState) {

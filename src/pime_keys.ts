@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright (c) 2022 and onwards The McFoxIM Authors.
+ * Copyright (c) 2025 and onwards The McFoxIM Authors.
  * This code is released under the MIT license.
  * SPDX-License-Identifier: MIT
  * The main entrance of the IME for ChromeOS.
@@ -8,6 +8,10 @@
 
 import { Key, KeyName } from './input_method/Key';
 
+/**
+ * Virtual key codes.
+ * @enum {number}
+ */
 /**
  * Virtual key codes.
  * @enum {number}
@@ -195,6 +199,14 @@ export enum VK_Keys {
   VK_OEM_CLEAR = 0xfe,
 }
 
+/**
+ * Creates a Key object from a keyboard event.
+ * @param keyCode The key code.
+ * @param keyStates The key states.
+ * @param ascii The ASCII character.
+ * @param charCode The character code.
+ * @returns The Key object.
+ */
 /**
  * Creates a Key object from a keyboard event.
  * @param keyCode The key code.

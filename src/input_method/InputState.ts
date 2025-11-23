@@ -1,9 +1,18 @@
 import { Candidate } from '../engine';
 
+/**
+ * Represents the state of the input method.
+ */
 export abstract class InputState {}
 
+/**
+ * Represents the empty state.
+ */
 export class EmptyState extends InputState {}
 
+/**
+ * Represents the committing state.
+ */
 export class CommittingState extends InputState {
   readonly commitString: string;
   constructor(commitString: string) {
@@ -12,6 +21,9 @@ export class CommittingState extends InputState {
   }
 }
 
+/**
+ * Represents the inputting state.
+ */
 export class InputtingState extends InputState {
   static readonly candidatesPerPage = 9;
 

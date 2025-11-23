@@ -41,18 +41,28 @@ import { TW_41 } from './TW_41';
 import { TW_42 } from './TW_42';
 import { TW_43 } from './TW_43';
 
+/**
+ * An input table.
+ */
 export interface InputTable {
   name: string;
   // The data should be sorted.
   data: string[][];
 }
 
+/**
+ * Manages input tables.
+ */
 export class InputTableManager {
   private static instance: InputTableManager;
   private internalIndex_: number = 0;
 
   private constructor() {}
 
+  /**
+   * Returns the shared instance of the InputTableManager.
+   * @returns The shared instance.
+   */
   public static getInstance(): InputTableManager {
     if (!InputTableManager.instance) {
       InputTableManager.instance = new InputTableManager();

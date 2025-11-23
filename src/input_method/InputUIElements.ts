@@ -45,13 +45,24 @@ class InputUIState {
   ) {}
 }
 
+/**
+ * A builder for the input UI state.
+ */
 export class InputUIStateBuilder {
   constructor(readonly state: InputtingState) {}
 
+  /**
+   * Builds the UI state and returns it as a JSON string.
+   * @returns The UI state as a JSON string.
+   */
   buildJsonString(): string {
     return JSON.stringify(this.build());
   }
 
+  /**
+   * Builds the UI state.
+   * @returns The UI state.
+   */
   build(): InputUIState {
     const composingBufferTexts: ComposingBufferText[] = [];
     const text = this.state.composingBuffer;

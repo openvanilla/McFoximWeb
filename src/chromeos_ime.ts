@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright (c) 2022 and onwards The McFoxIM Authors.
+ * Copyright (c) 2025 and onwards The McFoxIM Authors.
  * This code is released under the MIT license.
  * SPDX-License-Identifier: MIT
  * The main entrance of the IME for ChromeOS.
@@ -62,6 +62,9 @@ class ChromeMcFoxim {
     });
   }
 
+  /**
+   * Saves the settings to chrome.storage.sync.
+   */
   saveSettings() {
     chrome.storage.sync.set({ settings: this.settings });
   }
@@ -136,6 +139,10 @@ class ChromeMcFoxim {
     chrome.input.ime.setMenuItems({ engineID: this.engineID, items: menus });
   }
 
+  /**
+   * Tries to open a URL in a new tab, or focuses the tab if it's already open.
+   * @param url The URL to open.
+   */
   tryOpen(url: string) {
     chrome.windows.getCurrent({}, (win) => {
       if (win === undefined) {
@@ -164,6 +171,10 @@ class ChromeMcFoxim {
   // behaviour causes the input to be interrupted.
   //
   // To prevent the issue, we ignore such event if an onFocus comes very quickly.
+  /**
+   * Resets the input controller after a short delay.
+   * This is to prevent the input from being interrupted by unexpected onBlur events.
+   */
   deferredReset() {
     if (this.deferredResetTimeout !== null) {
       clearTimeout(this.deferredResetTimeout);

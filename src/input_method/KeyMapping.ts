@@ -1,6 +1,14 @@
 import { Key, KeyName } from './Key';
 
+/**
+ * Maps keyboard events to keys.
+ */
 export class KeyMapping {
+  /**
+   * Converts a keyboard event to a Key.
+   * @param event The keyboard event.
+   * @returns The Key.
+   */
   static keyFromKeyboardEvent(event: KeyboardEvent): Key {
     let isNumpadKey = false;
     let keyName = KeyName.UNKNOWN;

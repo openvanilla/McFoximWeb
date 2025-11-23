@@ -1,9 +1,18 @@
 import { InputTable } from '../data';
 import Candidate from './Candidate';
 
+/**
+ * Completes a prefix string to a list of candidates.
+ */
 export default class Completer {
   constructor(readonly onRequestTable: () => InputTable) {}
 
+  /**
+   * Completes the given prefix string.
+   *
+   * @param prefix The prefix to complete.
+   * @returns A list of candidates.
+   */
   complete(prefix: string): Candidate[] {
     // Binary search for the first matching entry
     const data = this.onRequestTable().data;
