@@ -26,3 +26,4 @@ output/pime/index.js
 output/pime/index.js.LICENSE.txt
 .firebase
 *.zip
+*.tgz
