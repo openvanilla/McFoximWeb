@@ -2,13 +2,7 @@ import { InputTable } from '../data';
 import Candidate from './Candidate';
 
 export default class Completer {
-  onRequestTable: () => InputTable;
-
-  // inputTable: InputTable;
-
-  constructor(onRequestTable: () => InputTable) {
-    this.onRequestTable = onRequestTable;
-  }
+  constructor(readonly onRequestTable: () => InputTable) {}
 
   complete(prefix: string): Candidate[] {
     // Binary search for the first matching entry

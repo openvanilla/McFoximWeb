@@ -3,13 +3,8 @@ import { CommittingState, EmptyState, InputState, InputtingState } from './Input
 import { Key, KeyName } from './Key';
 
 export class KeyHandler {
-  private completer_: Completer;
-
-  constructor(completer: Completer) {
-    this.completer_ = completer;
-  }
-
-  private inputKeys = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'^".split(''); // Example input keys
+  constructor(private completer_: Completer) {}
+  private inputKeys_ = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'^".split(''); // Example input keys
 
   handle(
     key: Key,
@@ -18,12 +13,12 @@ export class KeyHandler {
     errorCallback: () => void,
   ): boolean {
     if (state instanceof EmptyState) {
-      if (!this.inputKeys.includes(key.ascii)) {
+      if (!this.inputKeys_.includes(key.ascii)) {
         return false;
       }
     }
 
-    if (this.inputKeys.includes(key.ascii)) {
+    if (this.inputKeys_.includes(key.ascii)) {
       let chr = key.ascii;
       if (chr === "'") {
         chr = '’';

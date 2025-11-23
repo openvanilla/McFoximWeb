@@ -7,22 +7,18 @@ import { Key } from './Key';
 import { KeyHandler } from './KeyHandler';
 import { KeyMapping } from './KeyMapping';
 
-export class InputController {
+export default class InputController {
   private state_: InputState = new EmptyState();
   private keyHandler_: KeyHandler = new KeyHandler(
     new Completer(() => InputTableManager.getInstance().currentTable),
   );
-  private ui_: InputUI;
-
   get state(): InputState {
     return this.state_;
   }
 
   onError: () => void = () => {};
 
-  constructor(ui: InputUI) {
-    this.ui_ = ui;
-  }
+  constructor(private ui_: InputUI) {}
 
   reset(): void {
     const oldState = this.state_;

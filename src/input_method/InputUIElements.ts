@@ -2,18 +2,7 @@ import { Candidate } from '../engine';
 import { InputtingState } from './InputState';
 
 class CandidateWrapper {
-  /** The key cap. */
-  readonly keyCap: string = '';
-  /** The candidate. */
-  readonly candidate: Candidate = new Candidate('', '');
-  /** If the candidate is selected. */
-  readonly selected: boolean = false;
-
-  constructor(keyCap: string, candidate: Candidate, selected: boolean) {
-    this.keyCap = keyCap;
-    this.candidate = candidate;
-    this.selected = selected;
-  }
+  constructor(readonly keyCap: string, readonly candidate: Candidate, readonly selected: boolean) {}
 
   /** Returns the reading of the candidate. */
   get reading(): string {
@@ -47,42 +36,17 @@ class ComposingBufferText {
 }
 
 class InputUIState {
-  /** Represents the composing buffer.   */
-  readonly composingBuffer: ComposingBufferText[];
-
-  /** The index of the cursor in the composing buffer. */
-  readonly cursorIndex: number;
-
-  /** The current page of the candidates. */
-  readonly candidates: CandidateWrapper[];
-
-  /** The total pages of the candidates, */
-  readonly candidatePageCount: number;
-
-  /** The current page index of the candidates, */
-  readonly candidatePageIndex: number;
-
   constructor(
-    composingBuffer: ComposingBufferText[],
-    cursorIndex: number,
-    candidates: CandidateWrapper[],
-    candidatePageCount: number,
-    candidatePageIndex: number,
-  ) {
-    this.composingBuffer = composingBuffer;
-    this.cursorIndex = cursorIndex;
-    this.candidates = candidates;
-    this.candidatePageCount = candidatePageCount;
-    this.candidatePageIndex = candidatePageIndex;
-  }
+    readonly composingBuffer: ComposingBufferText[],
+    readonly cursorIndex: number,
+    readonly candidates: CandidateWrapper[],
+    readonly candidatePageCount: number,
+    readonly candidatePageIndex: number,
+  ) {}
 }
 
 export class InputUIStateBuilder {
-  state: InputtingState;
-
-  constructor(state: InputtingState) {
-    this.state = state;
-  }
+  constructor(readonly state: InputtingState) {}
 
   buildJsonString(): string {
     return JSON.stringify(this.build());
