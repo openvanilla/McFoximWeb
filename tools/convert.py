@@ -23,7 +23,8 @@ def parse_excel_file(path):
                 data.append((text.strip(), ch))
     data.sort(key=lambda x: x[0])
     table = {"name": name, "data": data}
-    mapping = json.dumps(table, ensure_ascii=False, indent=2)
+    mapping = json.dumps(table, ensure_ascii=False, separators=(',', ':'))
+    mapping = mapping.replace('`', '\\`').replace('${', '\\${')
     return mapping
 
 
@@ -33,13 +34,16 @@ def main():
     """
     for i in range(1, 43):
         current_folder = os.getcwd()
+        current_folder = os.path.join(current_folder, "glossary")
         files = os.listdir(current_folder)
         path = next((f for f in files if "-{:02d}".format(i + 1) in f), None)
         try:
-            data = parse_excel_file(path)
-            name = "TW_{:02d}".format(i + 1)
-            with open(name + ".ts", "w") as json_file:
-                data = "export const " + name + " = " + data + ";"
+            file_path = os.path.join(current_folder, path)
+            data = parse_excel_file(file_path)
+            name = "TW_{:02d}".format(i)
+            write_file = os.path.join("../src/data", name + ".ts")
+            with open(write_file, "w") as json_file:
+                data = "export const " + name + " = JSON.parse(`" + data + "`);"
                 json_file.write(data)
         except Exception as e:
             print("Error processing {}: {}".format(path, e))
