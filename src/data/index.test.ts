@@ -58,7 +58,12 @@ describe('InputTableManager', () => {
 
   describe('tables', () => {
     it('should contain all imported tables', () => {
-      expect(manager.tables.length).toBe(42);
+      expect(manager.tables.length).toBe(43);
+      const names = manager.tables.map((table) => table.name).join(', ');
+      console.log(names);
+      // for (let table of manager.tables) {
+      //   console.log(table.name);
+      // }
     });
 
     it('each table should have required properties', () => {

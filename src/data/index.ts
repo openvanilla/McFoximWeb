@@ -9,6 +9,7 @@ import { TW_08 } from './TW_08';
 import { TW_09 } from './TW_09';
 import { TW_10 } from './TW_10';
 import { TW_11 } from './TW_11';
+import { TW_12 } from './TW_12';
 import { TW_13 } from './TW_13';
 import { TW_14 } from './TW_14';
 import { TW_15 } from './TW_15';
@@ -102,6 +103,7 @@ export class InputTableManager {
     TW_09,
     TW_10,
     TW_11,
+    TW_12,
     TW_13,
     TW_14,
     TW_15,
