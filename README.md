@@ -5,7 +5,7 @@
 
 基於[原住民族語言發展基金會](https://www.ilrdf.org.tw/)的族語學習詞表，以及 Web 技術打造的族語輸入法。
 
-![images/banner.png](images/banner.png)
+![images/banner.png](resource/banner.png)
 
 <!-- TOC -->
 
