@@ -50,7 +50,7 @@ class ChromeMcFoxim {
    */
   loadSettings() {
     chrome.storage.sync.get('settings', (value) => {
-      this.settings = value.settings;
+      this.settings = value.settings as ChromeMcFoximSettings;
       if (this.settings === undefined) {
         this.settings = this.defaultSettings;
       }
