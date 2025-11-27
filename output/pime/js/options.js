@@ -51,7 +51,7 @@ window.onload = () => {
     xhttp.send(string);
   }
 
-  for (let i = 0; i < 42; i++) {
+  for (let i = 0; i <= 42; i++) {
     let radioButton = document.getElementById(`table_${i}`);
     radioButton.addEventListener('change', () => {
       settings.selected_input_table_index = i;

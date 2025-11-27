@@ -1,3 +1,4 @@
+import { TW_00 } from './TW_00';
 import { TW_01 } from './TW_01';
 import { TW_02 } from './TW_02';
 import { TW_03 } from './TW_03';
@@ -8,7 +9,6 @@ import { TW_07 } from './TW_07';
 import { TW_08 } from './TW_08';
 import { TW_09 } from './TW_09';
 import { TW_10 } from './TW_10';
-import { TW_11 } from './TW_11';
 import { TW_12 } from './TW_12';
 import { TW_13 } from './TW_13';
 import { TW_14 } from './TW_14';
@@ -92,6 +92,7 @@ export class InputTableManager {
   }
 
   readonly tables: Array<InputTable> = [
+    TW_00,
     TW_01,
     TW_02,
     TW_03,
@@ -102,7 +103,6 @@ export class InputTableManager {
     TW_08,
     TW_09,
     TW_10,
-    TW_11,
     TW_12,
     TW_13,
     TW_14,

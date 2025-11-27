@@ -23,8 +23,8 @@ def parse_excel_file(path):
                 data.append((text.strip(), ch))
     data.sort(key=lambda x: x[0])
     table = {"name": name, "data": data}
-    mapping = json.dumps(table, ensure_ascii=False, separators=(',', ':'))
-    mapping = mapping.replace('`', '\\`').replace('${', '\\${')
+    mapping = json.dumps(table, ensure_ascii=False, separators=(",", ":"))
+    mapping = mapping.replace("`", "\\`").replace("${", "\\${")
     return mapping
 
 
@@ -32,7 +32,7 @@ def main():
     """
     Converts Excel files in the current directory to TypeScript files.
     """
-    for i in range(1, 43):
+    for i in range(0, 43):
         current_folder = os.getcwd()
         current_folder = os.path.join(current_folder, "glossary")
         files = os.listdir(current_folder)
