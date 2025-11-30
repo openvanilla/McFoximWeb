@@ -7,5 +7,7 @@ rm glossary.zip
 
 python3 -m venv venv
 source venv/bin/activate # On Windows use `venv\Scripts\activate`
+echo "Installing required packages..."
 pip install -r requirements.txt
+echo "Converting glossary files..."
 python convert.py
