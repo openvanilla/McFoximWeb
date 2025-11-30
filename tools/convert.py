@@ -3,6 +3,16 @@ import xlrd
 import os
 
 
+def remove_dots(text):
+    # original = text 
+    while text.startswith('.') or text.startswith('…'):
+        text = text[1:]
+    text = text.strip()
+    # if original != text:
+    #     print(original, "->", text)
+    return text
+
+
 def parse_excel_file(path):
     workbook = xlrd.open_workbook(path)
     sheet = workbook.sheet_by_index(0)
@@ -14,12 +24,15 @@ def parse_excel_file(path):
         text = row[3].value
         if "無此詞彙" in text:
             continue
+
         if ch and text:
             if "/" in text:
                 components = text.split("/")
                 for component in components:
+                    component = remove_dots(component)
                     data.append((component.strip(), ch))
             else:
+                text = remove_dots(text)
                 data.append((text.strip(), ch))
     data.sort(key=lambda x: x[0])
     table = {"name": name, "data": data}
