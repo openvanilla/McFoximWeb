@@ -4,8 +4,8 @@ import os
 
 
 def remove_dots(text):
-    # original = text 
-    while text.startswith('.') or text.startswith('…'):
+    # original = text
+    while text.startswith(".") or text.startswith("…"):
         text = text[1:]
     text = text.strip()
     # if original != text:
@@ -24,7 +24,6 @@ def parse_excel_file(path):
         text = row[3].value
         if "無此詞彙" in text:
             continue
-
         if ch and text:
             if "/" in text:
                 components = text.split("/")
