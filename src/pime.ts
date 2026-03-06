@@ -80,8 +80,8 @@ class PimeMcFoxim {
   settings: Settings = defaultSettings;
   constructor() {
     this.inputController = new InputController(this.makeUI(this));
-    this.inputController.onError = () => {};
-    this.loadSettings(() => {});
+    this.inputController.onError = () => { };
+    this.loadSettings(() => { });
   }
 
   /** Resets the UI state before handling a key. */
@@ -404,7 +404,7 @@ try {
 
   fs.watch(pimeMcFoxim.userSettingsPath, (event, filename) => {
     if (filename) {
-      pimeMcFoxim.loadSettings(() => {});
+      pimeMcFoxim.loadSettings(() => { });
     }
   });
 } catch (e) {
@@ -608,12 +608,13 @@ module.exports = {
           text: '輔助說明',
           id: PimeMcFoximCommand.Help,
         },
-
         {},
         {
           text: '偏好設定 (&O)',
           id: PimeMcFoximCommand.OpenOptions,
         },
+        {},
+        { text: '小麥族語輸入法 0.4.4' },
       ];
       const response = Object.assign({}, responseTemplate, { return: menu });
       return response;
