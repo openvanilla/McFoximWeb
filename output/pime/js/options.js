@@ -6,7 +6,7 @@ window.onload = () => {
   };
 
   function applySettings(settings) {
-    console.log('applying settings: ' + settings);
+    // console.log('applying settings: ' + settings);
     const tableIndex = settings.selected_input_table_index;
     const radioButton = document.getElementById(`table_${tableIndex}`);
     if (radioButton) {
@@ -32,7 +32,7 @@ window.onload = () => {
         if (settings == undefined) {
           settings = defaultSettings;
         }
-        console.log('settings loaded: ' + settings);
+        // console.log('settings loaded: ' + settings);
         applySettings(settings);
       } catch {
         settings = defaultSettings;
@@ -44,7 +44,7 @@ window.onload = () => {
   }
 
   function saveSettings(settings) {
-    console.log('saving settings: ' + settings);
+    // console.log('saving settings: ' + settings);
     const xhttp = new XMLHttpRequest();
     xhttp.open('POST', '/config');
     let string = JSON.stringify(settings);

@@ -419,7 +419,7 @@ chrome.input?.ime.onMenuItemActivated.addListener((engineID, name) => {
 });
 
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
-  console.log(request);
+  // console.log(request);
 
   if (request.command === 'get_table_names_and_settings') {
     const tableNames = InputTableManager.getInstance().tableNames;
@@ -438,7 +438,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     } else {
       hiddenTableIndices = hiddenTableIndices.filter((index) => index !== tableIndex);
     }
-    console.log(hiddenTableIndices);
+    // console.log(hiddenTableIndices);
     chromeMcFoxim.settings.hidden_table_indices = hiddenTableIndices;
     chromeMcFoxim.saveSettings();
     chromeMcFoxim.updateMenu();
