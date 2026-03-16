@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [18.x, 20.x, 22.x]
     steps:
       - uses: actions/checkout@v6
       - name: Use Node.js ${{ matrix.node-version }}
@@ -29,7 +29,6 @@ jobs:
       - run: npm run lint --if-present
 
   test:
-    # 只在這個 job 提升權限，供 coverage action 使用
     permissions:
       contents: read
       checks: write
@@ -47,13 +46,19 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run test:coverage
-
       - name: Jest Coverage Report
         if: >
           github.event_name == 'pull_request' &&
           github.event.pull_request.head.repo.fork == false &&
           matrix.node-version == '20.x'
         uses: ArtiomTr/jest-coverage-report-action@v2
+      - name: Upload coverage reports to Codecov
+        if: >
+          matrix.node-version == '20.x' &&
+          github.ref == 'refs/heads/main'
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
 
   build_publish:
     permissions:
