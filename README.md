@@ -9,24 +9,23 @@
 
 <!-- TOC -->
 
-- [McFoximWeb - 小麥族語輸入法 Web/Chrome OS/PIME 版本](#mcfoximweb---%E5%B0%8F%E9%BA%A5%E6%97%8F%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95-webchrome-ospime-%E7%89%88%E6%9C%AC)
-  - [支援平台](#%E6%94%AF%E6%8F%B4%E5%B9%B3%E5%8F%B0)
-  - [編譯方式](#%E7%B7%A8%E8%AD%AF%E6%96%B9%E5%BC%8F)
-    - [Web 版](#web-%E7%89%88)
-    - [Chrome OS 版](#chrome-os-%E7%89%88)
-    - [Windows PIME](#windows-pime)
-  - [輸入法使用方式](#%E8%BC%B8%E5%85%A5%E6%B3%95%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F)
-  - [支援語言](#%E6%94%AF%E6%8F%B4%E8%AA%9E%E8%A8%80)
-  - [社群公約](#%E7%A4%BE%E7%BE%A4%E5%85%AC%E7%B4%84)
-  - [常見問題](#%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C)
-    - [Q: 輸入法的資料來源？](#q-%E8%BC%B8%E5%85%A5%E6%B3%95%E7%9A%84%E8%B3%87%E6%96%99%E4%BE%86%E6%BA%90)
-    - [Q: 是否有 Windows、macOS、iOS、Android 版本？](#q-%E6%98%AF%E5%90%A6%E6%9C%89-windowsmacosiosandroid-%E7%89%88%E6%9C%AC)
-    - [Q: 小麥族語輸入法與另外的族語輸入法有什麼不同？](#q-%E5%B0%8F%E9%BA%A5%E6%97%8F%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95%E8%88%87%E5%8F%A6%E5%A4%96%E7%9A%84%E6%97%8F%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95%E6%9C%89%E4%BB%80%E9%BA%BC%E4%B8%8D%E5%90%8C)
-    - [Q: McFoxIM 這個名字的意思？](#q-mcfoxim-%E9%80%99%E5%80%8B%E5%90%8D%E5%AD%97%E7%9A%84%E6%84%8F%E6%80%9D)
-    - [Q: 授權方式？](#q-%E6%8E%88%E6%AC%8A%E6%96%B9%E5%BC%8F)
-    - [Q: 怎樣更新輸入法表格？](#q-%E6%80%8E%E6%A8%A3%E6%9B%B4%E6%96%B0%E8%BC%B8%E5%85%A5%E6%B3%95%E8%A1%A8%E6%A0%BC)
+- [McFoximWeb - 小麥族語輸入法 Web/Chrome OS/PIME 版本](#mcfoximweb---小麥族語輸入法-webchrome-ospime-版本)
+  - [支援平台](#支援平台)
+  - [編譯方式](#編譯方式)
+    - [Web 版](#web-版)
+    - [Chrome OS 版](#chrome-os-版)
+    - [Windows (PIME)](#windows-pime)
+  - [輸入法使用方式](#輸入法使用方式)
+  - [支援語言](#支援語言)
+  - [社群公約](#社群公約)
+  - [常見問題](#常見問題)
+    - [Q: 輸入法的資料來源？](#q-輸入法的資料來源)
+    - [Q: 是否有 Windows、macOS、iOS、Android 版本？](#q-是否有-windowsmacosiosandroid-版本)
+    - [Q: 小麥族語輸入法與另外的族語輸入法有什麼不同？](#q-小麥族語輸入法與另外的族語輸入法有什麼不同)
+    - [Q: McFoxIM 這個名字的意思？](#q-mcfoxim-這個名字的意思)
+    - [Q: 授權方式？](#q-授權方式)
+    - [Q: 怎樣更新輸入法表格？](#q-怎樣更新輸入法表格)
 
-<!-- /TOC -->
 <!-- /TOC -->
 
 ## 支援平台
@@ -43,7 +42,9 @@
 
 ### Web 版
 
-請輸入：
+小麥族語輸入法提供 Web 版本，適合在連接網路與實體鍵盤，但是不方便安裝輸入法的環境下使用。例如公共電腦、學校教室、iPad 平板，以及各種有鍵盤的電子紙裝置等。由於不需要額外安裝輸入法，也適合用在教學場合。網頁版本採用簡單的色彩，避免額外的漸層、動畫，以及其他可能會對閱讀造成干擾的元素，讓使用者可以專注在輸入法的使用上，而且特地配合電子紙裝置。
+
+編譯 web 版時，請輸入：
 
 ```bash
 npm install

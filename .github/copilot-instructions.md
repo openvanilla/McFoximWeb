@@ -1,313 +1,226 @@
 # GitHub Copilot Instructions for McFoximWeb
 
-This document provides instructions and context to help GitHub Copilot understand and work effectively with the McFoximWeb project.
+This document captures the current repository layout and development workflow so coding agents can work against the codebase as it exists now, not as it looked in earlier revisions.
 
 ## Project Overview
 
-McFoximWeb (小麥族語輸入法) is a TypeScript-based input method for Taiwan Indigenous Languages, supporting both Web browsers and Chrome OS platforms. The project provides autocomplete functionality for indigenous language words based on vocabulary learning tables from the Council of Indigenous Peoples.
+McFoximWeb (小麥族語輸入法) is a TypeScript-based input method for Taiwan Indigenous Languages. The repository currently targets:
 
-## Technology Stack
+- Web browsers
+- Chrome OS via a Chrome extension build
+- Windows via PIME
 
-- **Language**: TypeScript (ES6+)
-- **Build Tool**: Webpack 5
-- **Testing Framework**: Jest 30 with jsdom
-- **Linting**: ESLint with TypeScript support
-- **Code Style**: Prettier
-- **Target Platforms**: Web browsers, Chrome OS (via Chrome extension), and Windows (via PIME)
+The core feature is prefix-based autocomplete over prebuilt vocabulary tables.
 
-## Project Structure
+## Current Technology Stack
 
-```
+- **Language**: TypeScript 5
+- **Package Manager**: npm with `package-lock.json`
+- **Build Tool**: Webpack 5 with `ts-loader`
+- **Testing Framework**: Jest 30 with `ts-jest` and `jsdom`
+- **Linting**: ESLint 10 using flat config in `eslint.config.cjs`
+- **Formatting**: Prettier
+- **Module Output**:
+  - `dist/` for the published TypeScript library output
+  - `output/example/` for the Web demo bundle
+  - `output/chromeos/` for the Chrome OS extension bundle
+  - `output/pime/` for the PIME bundle
+
+## Repository Structure
+
+```text
 McFoximWeb/
+├── .github/
+│   └── copilot-instructions.md  # This file; AGENTS.md points here
 ├── src/
-│   ├── index.ts              # Main entry point, exports public API
-│   ├── chromeos_ime.ts       # Chrome OS specific input method implementation
-│   ├── pime.ts               # PIME (Windows) specific input method implementation
-│   ├── pime_keys.ts          # Windows virtual key code mapping for PIME
-│   ├── engine/               # Core autocomplete engine
-│   │   ├── Completer.ts      # Binary search-based word completion
-│   │   ├── Candidate.ts      # Candidate word data structure
-│   │   └── index.ts          # Engine module exports
-│   ├── input_method/         # Input handling and UI components
-│   │   ├── InputController.ts    # Main controller for input processing
-│   │   ├── InputState.ts         # State management for input session
-│   │   ├── InputUI.ts            # UI interface definition
-│   │   ├── InputUIElements.ts    # UI element implementations
-│   │   ├── Key.ts                # Key event handling
-│   │   ├── KeyHandler.ts         # Keyboard input handler
-│   │   ├── KeyMapping.ts         # Key mapping utilities
-│   │   └── index.ts              # Input method module exports
-│   └── data/                 # Language vocabulary data tables
-│       ├── TW_*.ts           # 42 indigenous language datasets (TW_01 to TW_43, excluding TW_12)
-│       └── index.ts          # Data module exports and InputTableManager
-├── tools/                    # Conversion tools for vocabulary data
-│   ├── convert.py            # Python script to convert Excel to TypeScript
-│   └── README.md             # Instructions for data conversion process
-├── output/                   # Build output directory
-│   ├── example/              # Web version demo
-│   ├── chromeos/             # Chrome OS extension package
-│   └── pime/                 # PIME Windows input method package
-├── webpack.config.js         # Webpack configuration for Web build
-├── webpack.config.chromeext.js # Webpack configuration for Chrome OS build
-├── webpack.config.pime.js    # Webpack configuration for PIME (Windows) build
-├── build_pime.bat            # Windows batch script to build and deploy PIME version
-├── tsconfig.json             # TypeScript compiler configuration
-├── jest.config.js            # Jest test configuration
-├── .eslintrc.cjs             # ESLint configuration
-└── .prettierrc.json          # Prettier configuration
+│   ├── index.ts                 # Public library entry
+│   ├── chromeos_ime.ts          # Chrome OS extension entry
+│   ├── pime.ts                  # PIME entry
+│   ├── pime_keys.ts             # Windows VK -> internal Key mapping
+│   ├── engine/
+│   │   ├── Candidate.ts
+│   │   ├── Completer.ts
+│   │   ├── Completer.test.ts
+│   │   └── index.ts
+│   ├── input_method/
+│   │   ├── InputController.ts
+│   │   ├── InputState.ts
+│   │   ├── InputUI.ts
+│   │   ├── InputUIElements.ts
+│   │   ├── Key.ts
+│   │   ├── KeyHandler.ts
+│   │   ├── KeyMapping.ts
+│   │   ├── *.test.ts
+│   │   └── index.ts
+│   └── data/
+│       ├── TW_00.ts ... TW_42.ts  # Current data files
+│       ├── index.ts
+│       └── index.test.ts
+├── tools/
+│   ├── convert.py
+│   ├── README.md
+│   ├── requirements.txt
+│   └── run.sh
+├── dist/                        # TypeScript compiler output
+├── coverage/                    # Jest coverage output
+├── output/                      # Web / Chrome OS / PIME build artifacts
+├── eslint.config.cjs            # ESLint flat config
+├── jest.config.js
+├── tsconfig.json
+├── webpack.config.js
+├── webpack.config.chromeext.js
+├── webpack.config.pime.js
+└── build_pime.bat
 ```
 
-## Key Concepts
+## Important Current Facts
 
-### PIME (Platform-Independent Input Method Extension)
+### Data Tables
 
-- **Framework**: PIME is a Windows input method framework that supports both Python and Node.js backends
-- **Repository**: https://github.com/EasyIME/PIME
-- **Architecture**: Uses Text Services Framework (TSF) with a native C++ frontend and script backends
-- **Integration**: McFoximWeb integrates with PIME via Node.js backend to provide Windows IME support
-- **Communication**: PIME sends requests (keyboard events, lifecycle events) and receives responses (UI states, candidate windows)
+- `src/data/` currently contains **42** vocabulary modules.
+- The current set is `TW_00` through `TW_42`, with **`TW_11` absent**.
+- `TW_12` now exists and is included.
+- `InputTableManager` in `src/data/index.ts` is the authoritative list of enabled tables.
 
-### PIME Integration Details
+### Validation Status
 
-- **Entry Point**: `src/pime.ts` - Main module for PIME integration
-- **Key Mapping**: `src/pime_keys.ts` - Maps Windows virtual key codes to McFoxim Key objects
-- **Build Target**: Node.js/CommonJS (UMD format) for compatibility with PIME's Node backend
-- **Deployment**: Built files are copied to `C:\Program Files (x86)\PIME\node\input_methods\mcfoxim`
-- **Settings**: User preferences stored in `%APPDATA%\PIME\mcfoxim\config.json`
+As of March 18, 2026 in this workspace:
+
+- `npm run test -- --runInBand` passes: **7 suites, 172 tests**
+- `npm run eslint` passes
+- `npm run ts-build` currently **fails**
+
+The current `ts-build` failure is a type conflict between `@types/eslint-scope` and ESLint's bundled types under `node_modules/`. Treat this as a known environment/dependency issue unless the task is specifically about fixing the TypeScript build pipeline.
+
+### Build Outputs
+
+- `npm run build` writes `output/example/bundle.js`
+- `npm run build:chromeos` writes `output/chromeos/bundle.js`
+- `npm run build:pime` writes `output/pime/index.js`
+- `npm run ts-build` writes declaration and JS outputs into `dist/`
+
+## Core Concepts
 
 ### Input Method Flow
 
-1. User types alphabetic characters
-2. The Completer searches vocabulary tables using binary search
-3. Matching candidates are displayed with translations
-4. User can select candidates using Tab, arrow keys, or Page Up/Down
+1. Users type Latin letters.
+2. `Completer` searches the selected table using binary search.
+3. Candidates and translations are shown through the UI layer.
+4. Selection is handled with Tab, arrow keys, and paging keys.
 
-### Completer Algorithm
+### Main Code Areas
 
-- Uses binary search for efficient prefix matching in sorted vocabulary data
-- Each vocabulary table is a sorted array of `[word, translation]` tuples
-- The Completer finds the first match and collects all consecutive matches
-
-### Vocabulary Data
-
-- Data files are TypeScript modules in `src/data/`
-- Each file (TW_01 to TW_43) represents a different indigenous language/dialect
-- Format: `export const TW_XX = [['word', 'translation'], ...]`
-- Data is sourced from the Council of Indigenous Peoples vocabulary database
+- `src/engine/Completer.ts`: prefix search over sorted tables
+- `src/input_method/InputController.ts`: top-level input flow orchestration
+- `src/input_method/KeyHandler.ts`: keyboard handling rules
+- `src/input_method/InputState.ts`: composition and candidate state
+- `src/input_method/InputUIElements.ts`: concrete UI wiring
+- `src/pime.ts`: PIME request handling and state mapping
+- `src/pime_keys.ts`: Windows virtual key translation
+- `src/data/index.ts`: table registry and selection
 
 ## Development Workflow
 
-### Installation
+### Install
 
 ```bash
 npm install
 ```
 
-### Building
+### Common Commands
 
 ```bash
-# Web version
+# Library / demo / platform builds
 npm run build
-
-# Chrome OS extension
 npm run build:chromeos
-
-# PIME (Windows) version
 npm run build:pime
 
-# Development build with watch mode
+# Watch / local iteration
 npm run build:watch
-```
+npm run ts-build:watch
 
-### Building and Deploying PIME Version (Windows)
-
-```batch
-# Build and deploy to PIME installation (requires administrator privileges)
-build_pime.bat
-
-# This script:
-# 1. Runs npm run build:pime
-# 2. Deletes old files from C:\Program Files (x86)\PIME\node\input_methods\mcfoxim
-# 3. Copies new build to PIME installation directory
-# 4. Requires PIME Launcher restart to see changes
-```
-
-### Testing
-
-```bash
-# Run all tests
+# Validation
 npm run test
-
-# Run tests with coverage
 npm run test:coverage
+npm run eslint
+npm run ts-build
 ```
+
+### PIME Deployment
+
+For local Windows deployment, `build_pime.bat` currently:
+
+1. Runs `npm run build:pime`
+2. Deletes `C:\Program Files (x86)\PIME\node\input_methods\mcfoxim`
+3. Copies `output\pime` into that directory
+4. Reminds the user to restart PIME Launcher
+
+The script is functional but its header comments are placeholder boilerplate and should not be treated as authoritative documentation.
+
+## Coding Guidance for Agents
+
+### TypeScript
+
+- Keep `strict` mode assumptions intact.
+- Prefer explicit types instead of introducing `any`.
+- Keep source compatible with the existing ES6/CommonJS compiler settings in `tsconfig.json`.
+
+### Tests
+
+- Place tests next to implementation files with `.test.ts`.
+- Current tests cover `engine`, `input_method`, and `data`.
+- Use `jsdom`-friendly patterns for DOM-facing code.
 
 ### Linting
 
-```bash
-npm run eslint
-```
-
-### TypeScript Compilation
-
-```bash
-# Compile TypeScript
-npm run ts-build
-
-# Watch mode
-npm run ts-build:watch
-```
-
-## Coding Guidelines
-
-### TypeScript Style
-
-- Use strict mode (enabled in tsconfig.json)
-- Prefer explicit types over `any`
-- Use ES6+ features (arrow functions, destructuring, etc.)
-- Follow ESLint rules defined in .eslintrc.cjs
-
-### Import Organization
-
-- Group imports: builtin, external, internal, parent/sibling/index
-- Use alphabetical order within groups (enforced by ESLint)
-- Maintain newlines between import groups
-
-### Testing
-
-- Write tests for all new functionality
-- Place test files next to source files with `.test.ts` suffix
-- Use Jest's `describe` and `it/test` blocks
-- Mock DOM elements when needed using jsdom
+- The repository no longer uses `.eslintrc.cjs`.
+- Use the flat config in `eslint.config.cjs`.
+- Existing configured rules are intentionally light; do not assume old import-order rules still exist unless they are added back.
 
 ### File Naming
 
-- Use PascalCase for class files (e.g., `Completer.ts`)
-- Use camelCase for utility files
-- Use `.test.ts` suffix for test files
+- PascalCase for class-oriented files and major components
+- camelCase for platform/bootstrap files such as `chromeos_ime.ts` and `pime.ts`
+- `.test.ts` for tests
 
 ## Common Tasks
 
-### Working with PIME Integration
-
-1. **Testing PIME locally**: Build with `npm run build:pime` and deploy using `build_pime.bat` (Windows, admin required)
-2. **Understanding PIME requests**: The `response()` function in `pime.ts` handles various PIME methods:
-   - `init`, `close` - Lifecycle events
-   - `onActivate`, `onDeactivate` - Focus events
-   - `filterKeyDown`, `filterKeyUp` - Key event filtering
-   - `onKeyDown` - Actual key processing
-   - `onKeyboardStatusChanged` - IME on/off state
-   - `onCompositionTerminated` - Composition cleanup
-   - `onCommand`, `onMenu` - UI button and menu actions
-3. **Key event conversion**: `KeyFromKeyboardEvent()` in `pime_keys.ts` converts Windows VK codes to McFoxim Key objects
-4. **UI state mapping**: The `UiState` interface bridges McFoxim's InputController and PIME's expectations
-5. **Settings management**: User settings are loaded from/saved to `%APPDATA%\PIME\mcfoxim\config.json`
-
-### Adding a New Language Dataset
-
-1. Download Excel vocabulary file from indigenous language resource site
-2. Place Excel file in `tools/` directory
-3. Run `python convert.py` to generate TypeScript file
-4. Move generated file to `src/data/` with appropriate TW_XX name
-5. Update `src/data/index.ts` to export the new table
-
 ### Modifying Input Behavior
 
-- Edit `KeyHandler.ts` for keyboard input processing
-- Edit `InputController.ts` for overall input flow control
-- Edit `InputState.ts` for state management logic
-- Write tests in corresponding `.test.ts` files
+- Update `src/input_method/KeyHandler.ts` for key semantics.
+- Update `src/input_method/InputController.ts` for flow changes.
+- Update `src/input_method/InputState.ts` for state transitions.
+- Add or update adjacent `.test.ts` files.
 
-### Adding UI Features
+### Working with PIME
 
-- Implement interface in `InputUI.ts`
-- Add concrete implementation in `InputUIElements.ts`
-- Update `InputController.ts` to use new UI features
+- `src/pime.ts` handles methods such as `init`, `close`, `onActivate`, `onDeactivate`, `filterKeyDown`, `filterKeyUp`, `onKeyDown`, `onKeyboardStatusChanged`, `onCompositionTerminated`, `onCommand`, and `onMenu`.
+- `src/pime_keys.ts` converts Windows virtual key codes into the internal `Key` model.
+- Settings are stored under `%APPDATA%\PIME\mcfoxim\config.json`.
 
-## Important Notes
+### Updating Vocabulary Data
 
-### Data Sources
+1. Download the Excel archives from the ILRDF resources site.
+2. Place the extracted Excel files in `tools/`.
+3. Create a Python virtual environment in `tools/`.
+4. Install `tools/requirements.txt`.
+5. Run `python convert.py`.
+6. Replace or add the generated `src/data/TW_XX.ts` files.
+7. Update `src/data/index.ts` so `InputTableManager` includes the right tables.
 
-- Vocabulary data from Council of Indigenous Peoples: https://glossary.ilrdf.org.tw/resources
-- Additional data from Klokah E-learning: https://web.klokah.tw/vocabulary/
+## Known Documentation Drift Fixed Here
 
-### License
+Older copies of the instructions were wrong about these points:
 
-- Code: MIT License
-- Vocabulary data: Creative Commons (see Klokah CC license)
-
-### Browser Compatibility
-
-- Target: ES6+ browsers with DOM support
-- Chrome OS extension requires Chrome/Chromium browser
-- PIME version requires Windows 7 or later with PIME framework installed
-
-### PIME Requirements
-
-- Windows operating system (Windows 7+)
-- PIME framework installed (https://github.com/EasyIME/PIME/releases)
-- Node.js backend enabled in PIME
-- Administrator privileges for installation/deployment
-
-### Performance Considerations
-
-- Vocabulary tables are large (40+ files, each with thousands of entries)
-- Binary search ensures O(log n) lookup performance
-- Consider lazy loading of vocabulary data if memory is constrained
-
-## Useful Commands for Development
-
-```bash
-# Quick iteration cycle
-npm run build:watch  # Keep this running in one terminal
-npm run test         # Run in another terminal after changes
-
-# Full validation before commit
-npm run test && npm run build && npm run build:chromeos && npm run build:pime
-
-# Check TypeScript compilation only
-npm run ts-build
-
-# Windows: Build and deploy PIME version (requires admin)
-build_pime.bat
-```
-
-## Troubleshooting
-
-### PIME-Specific Issues
-
-- **Module not loading**: Check that files are in `C:\Program Files (x86)\PIME\node\input_methods\mcfoxim`
-- **Settings not persisting**: Verify `%APPDATA%\PIME\mcfoxim\config.json` exists and is writable
-- **IME not appearing**: Restart PIME Launcher after deployment (`build_pime.bat` reminds you to do this)
-- **Key events not working**: Check virtual key code mapping in `pime_keys.ts` and `KeyFromKeyboardEvent()`
-- **Windows version compatibility**: Ensure Windows TSF is working and PIME is properly registered with `regsvr32`
-
-### ESLint Configuration Issues
-
-- The project uses `.eslintrc.cjs` (CommonJS config)
-- ESLint v9+ requires migration to `eslint.config.js` format
-- The project currently uses ESLint 9.38.0 but has not yet migrated to the new config format
-- See https://eslint.org/docs/latest/use/configure/migration-guide for migration instructions
-
-### Build Failures
-
-- Check Node.js version compatibility (project uses modern Node features)
-- Ensure all dependencies are installed: `npm install`
-- Clear output directory and rebuild: `rm -rf output && npm run build`
-
-### Test Failures
-
-- Tests use jsdom for DOM simulation
-- Some tests may be environment-specific (check for timing issues)
-- Run with `--verbose` flag for detailed output
+- They said the project supported only Web and Chrome OS in the overview; Windows/PIME is also active.
+- They referenced `.eslintrc.cjs`; the repo now uses `eslint.config.cjs`.
+- They described the data set as `TW_01` to `TW_43` excluding `TW_12`; the current repo actually has 42 files, includes `TW_00` and `TW_12`, and does not have `TW_11`.
+- They omitted generated directories such as `dist/` and `coverage/`.
+- They assumed `ts-build` was a normal green-path validation step; in the current dependency state it fails for external type-definition reasons.
 
 ## Resources
 
-- Project Repository: https://github.com/openvanilla/McFoximWeb
-- PIME Framework: https://github.com/EasyIME/PIME
-- PIME Documentation: https://github.com/EasyIME/PIME/blob/master/README.md
-- Windows TSF References: https://docs.microsoft.com/en-us/windows/win32/tsf/text-services-framework
-- ISO 639-5 Language Codes: https://en.wikipedia.org/wiki/ISO_639-5
-- TypeScript Documentation: https://www.typescriptlang.org/docs/
-- Jest Documentation: https://jestjs.io/docs/getting-started
-- Webpack Documentation: https://webpack.js.org/concepts/
+- Project repository: https://github.com/openvanilla/McFoximWeb
+- PIME repository: https://github.com/EasyIME/PIME
+- ILRDF glossary resources: https://glossary.ilrdf.org.tw/resources
+- Klokah vocabulary resources: https://web.klokah.tw/vocabulary/

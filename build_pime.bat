@@ -1,16 +1,13 @@
 @echo off
-REM ============================================================================
-REM Script Name: [Script Name]
-REM Description: This batch script performs automated tasks including:
-REM              - Disabling echo to keep output clean
-REM              - Setting up the environment for subsequent commands
-REM              - Preparing for execution of batch operations
-REM
-REM Notes: 
-REM - Requires Windows command prompt or compatible shell
-REM - Must be run with appropriate permissions for intended operations
-REM - Echo is disabled for cleaner output display
-REM ============================================================================
+@REM Run as administrator
+net session >nul 2>&1
+if %errorLevel% neq 0 (
+    echo =======================================================
+    echo = ALARM: You must run this script as Administrator.   =
+    echo =======================================================
+    pause
+    exit /b 1
+)
 
 echo * Build McFoxIM for PIME
 call npm run build:pime
