@@ -106,7 +106,9 @@
       document.getElementById('function').style.visibility = 'visible';
       const textArea = document.getElementById('text_area');
       const functionDiv = document.getElementById('function');
+      const editArea = document.getElementById('edit_area');
       const rect = textArea.getBoundingClientRect();
+      const editAreaRect = editArea.getBoundingClientRect();
       const textAreaStyle = window.getComputedStyle(textArea);
       const lineHeight = parseInt(textAreaStyle.lineHeight) || 20;
 
@@ -156,8 +158,10 @@
       const scrollLeft = textArea.scrollLeft;
 
       functionDiv.style.position = 'absolute';
-      functionDiv.style.top = rect.top + relativeTop + lineHeight - scrollTop + 'px';
-      functionDiv.style.left = rect.left + relativeLeft - scrollLeft + 'px';
+      functionDiv.style.top =
+        rect.top - editAreaRect.top + relativeTop + lineHeight - scrollTop + 'px';
+      functionDiv.style.left =
+        rect.left - editAreaRect.left + relativeLeft - scrollLeft + 'px';
     };
 
     return that;
