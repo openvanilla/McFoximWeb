@@ -1,19 +1,21 @@
 import { Candidate } from '../engine';
 
 /**
- * Represents the state of the input method.
+ * Base type for the input method state machine.
+ *
+ * Each subclass describes a distinct stage in the input flow, such as idle,
+ * active composition, or committing text back to the host application.
  */
 export abstract class InputState {}
 
-/**
- * Represents the empty state.
- */
+/** Idle state with no active composition or pending commit. */
 export class EmptyState extends InputState {}
 
 /**
- * Represents the committing state.
+ * Transitional state that carries text to be committed to the host.
  */
 export class CommittingState extends InputState {
+  /** Text that should be committed to the host application. */
   readonly commitString: string;
   constructor(commitString: string) {
     super();
@@ -22,19 +24,37 @@ export class CommittingState extends InputState {
 }
 
 /**
- * Represents the inputting state.
+ * Active composition state.
+ *
+ * Stores the current composing buffer, the caret position inside that buffer,
+ * and the candidate list with paging information for the current selection.
  */
 export class InputtingState extends InputState {
+  /** Number of candidates shown on each page. */
   static readonly candidatesPerPage = 9;
 
+  /** Caret position inside the composing buffer. */
   readonly cursorIndex: number;
+
+  /** Raw text currently being composed. */
   readonly composingBuffer: string;
+
+  /** Full candidate list returned for the composing buffer. */
   readonly candidates: Candidate[];
+
+  /** Selected candidate index in the full candidate list. */
   readonly selectedCandidateIndex?: number | undefined;
 
+  /** Candidates visible on the current page. */
   readonly candidatesInCurrentPage?: Candidate[];
+
+  /** Selected candidate index within the current page. */
   readonly selectedCandidateIndexInCurrentPage?: number | undefined;
+
+  /** Zero-based index of the current candidate page. */
   readonly candidatePageIndex?: number | undefined;
+
+  /** Total number of candidate pages. */
   readonly candidatePageCount?: number | undefined;
 
   constructor(args: {

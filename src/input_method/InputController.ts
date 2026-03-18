@@ -8,23 +8,41 @@ import { KeyHandler } from './KeyHandler';
 import { KeyMapping } from './KeyMapping';
 
 /**
- * The input controller.
+ * Coordinates the input method flow.
+ *
+ * InputController receives keyboard input, forwards it to KeyHandler, and
+ * applies the resulting InputState transition. It manages three main states:
+ * EmptyState when there is no active composition, InputtingState while the user
+ * is building text and browsing candidates, and CommittingState when a string
+ * should be sent to the host application. Each transition is finalized here so
+ * the UI is kept in sync, committed text is emitted at the right time, and the
+ * controller returns to EmptyState after a commit or reset.
  */
 export default class InputController {
   private state_: InputState = new EmptyState();
   private keyHandler_: KeyHandler = new KeyHandler(
     new Completer(() => InputTableManager.getInstance().currentTable),
   );
+
+  /** Gets the current input method state. */
   get state(): InputState {
     return this.state_;
   }
 
+  /** Called when key handling reports an unrecoverable input error. */
   onError: () => void = () => {};
 
+  /**
+   * Creates a controller that drives the given UI implementation.
+   * @param ui_ The UI adapter used to render composition state and commit text.
+   */
   constructor(private ui_: InputUI) {}
 
   /**
-   * Resets the input controller.
+   * Resets the controller to EmptyState.
+   *
+   * If composition is still active, the current composing buffer is committed
+   * before the UI is cleared.
    */
   reset(): void {
     const oldState = this.state_;
@@ -37,7 +55,7 @@ export default class InputController {
   }
 
   /**
-   * Handles a keyboard event.
+   * Converts a DOM keyboard event into an internal Key and handles it.
    * @param event The keyboard event.
    * @returns True if the event was handled.
    */
@@ -47,7 +65,10 @@ export default class InputController {
   }
 
   /**
-   * Handles a key.
+   * Handles an already translated key input.
+   *
+   * The key is delegated to KeyHandler, and any resulting state transition is
+   * applied through this controller.
    * @param key The key to handle.
    * @returns True if the key was handled.
    */
@@ -62,7 +83,10 @@ export default class InputController {
   }
 
   /**
-   * Selects a candidate at the given index.
+   * Selects a candidate from the current candidate page.
+   *
+   * When the index is valid, the selected candidate is committed and the
+   * controller returns to EmptyState.
    * @param index The index of the candidate to select.
    */
   selectCandidateAtIndex(index: number): void {
