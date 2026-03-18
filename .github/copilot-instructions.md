@@ -1,42 +1,38 @@
 # GitHub Copilot Instructions for McFoximWeb
 
-This document captures the current repository layout and development workflow so coding agents can work against the codebase as it exists now, not as it looked in earlier revisions.
+This document records the current repository layout, tooling, and workflow so coding agents can work from the code that is actually in this workspace.
 
 ## Project Overview
 
-McFoximWeb (小麥族語輸入法) is a TypeScript-based input method for Taiwan Indigenous Languages. The repository currently targets:
+McFoximWeb (小麥族語輸入法) is a TypeScript-based input method for Taiwan Indigenous Languages. The repository currently supports:
 
 - Web browsers
-- Chrome OS via a Chrome extension build
-- Windows via PIME
+- Chrome OS through a Chrome extension bundle
+- Windows through PIME
 
-The core feature is prefix-based autocomplete over prebuilt vocabulary tables.
+The core behavior is prefix-based candidate lookup over prebuilt vocabulary tables.
 
 ## Current Technology Stack
 
 - **Language**: TypeScript 5
 - **Package Manager**: npm with `package-lock.json`
-- **Build Tool**: Webpack 5 with `ts-loader`
-- **Testing Framework**: Jest 30 with `ts-jest` and `jsdom`
-- **Linting**: ESLint 10 using flat config in `eslint.config.cjs`
+- **Build Tooling**: Webpack 5 with `ts-loader`
+- **Testing**: Jest 30 with `ts-jest` and `jsdom`
+- **Linting**: ESLint 10 with flat config in `eslint.config.cjs`
 - **Formatting**: Prettier
-- **Module Output**:
-  - `dist/` for the published TypeScript library output
-  - `output/example/` for the Web demo bundle
-  - `output/chromeos/` for the Chrome OS extension bundle
-  - `output/pime/` for the PIME bundle
+- **Compiler Settings**: `strict: true`, `module: commonjs`, `target: es6`
 
 ## Repository Structure
 
 ```text
 McFoximWeb/
 ├── .github/
-│   └── copilot-instructions.md  # This file; AGENTS.md points here
+│   └── copilot-instructions.md
 ├── src/
-│   ├── index.ts                 # Public library entry
-│   ├── chromeos_ime.ts          # Chrome OS extension entry
-│   ├── pime.ts                  # PIME entry
-│   ├── pime_keys.ts             # Windows VK -> internal Key mapping
+│   ├── index.ts
+│   ├── chromeos_ime.ts
+│   ├── pime.ts
+│   ├── pime_keys.ts
 │   ├── engine/
 │   │   ├── Candidate.ts
 │   │   ├── Completer.ts
@@ -53,7 +49,7 @@ McFoximWeb/
 │   │   ├── *.test.ts
 │   │   └── index.ts
 │   └── data/
-│       ├── TW_00.ts ... TW_42.ts  # Current data files
+│       ├── TW_00.ts ... TW_42.ts
 │       ├── index.ts
 │       └── index.test.ts
 ├── tools/
@@ -61,10 +57,9 @@ McFoximWeb/
 │   ├── README.md
 │   ├── requirements.txt
 │   └── run.sh
-├── dist/                        # TypeScript compiler output
-├── coverage/                    # Jest coverage output
-├── output/                      # Web / Chrome OS / PIME build artifacts
-├── eslint.config.cjs            # ESLint flat config
+├── output/
+├── resource/
+├── eslint.config.cjs
 ├── jest.config.js
 ├── tsconfig.json
 ├── webpack.config.js
@@ -77,47 +72,48 @@ McFoximWeb/
 
 ### Data Tables
 
-- `src/data/` currently contains **42** vocabulary modules.
-- The current set is `TW_00` through `TW_42`, with **`TW_11` absent**.
-- `TW_12` now exists and is included.
-- `InputTableManager` in `src/data/index.ts` is the authoritative list of enabled tables.
+- `src/data/` contains **42** vocabulary modules.
+- The current set is `TW_00` through `TW_42`, with **`TW_11` missing**.
+- `TW_12` exists and is enabled.
+- `src/data/index.ts` is the authoritative registry of enabled tables.
 
 ### Validation Status
 
-As of March 18, 2026 in this workspace:
+As verified in this workspace on **March 18, 2026**:
 
+- `npm run ts-build` passes
 - `npm run test -- --runInBand` passes: **7 suites, 172 tests**
 - `npm run eslint` passes
-- `npm run ts-build` currently **fails**
 
-The current `ts-build` failure is a type conflict between `@types/eslint-scope` and ESLint's bundled types under `node_modules/`. Treat this as a known environment/dependency issue unless the task is specifically about fixing the TypeScript build pipeline.
+Treat those commands as part of the normal green-path validation flow unless the workspace changes.
 
 ### Build Outputs
 
 - `npm run build` writes `output/example/bundle.js`
 - `npm run build:chromeos` writes `output/chromeos/bundle.js`
 - `npm run build:pime` writes `output/pime/index.js`
-- `npm run ts-build` writes declaration and JS outputs into `dist/`
+- `npm run ts-build` writes JavaScript and declaration output to `dist/`
 
 ## Core Concepts
 
 ### Input Method Flow
 
 1. Users type Latin letters.
-2. `Completer` searches the selected table using binary search.
-3. Candidates and translations are shown through the UI layer.
-4. Selection is handled with Tab, arrow keys, and paging keys.
+2. `Completer` performs prefix search on the selected input table.
+3. `KeyHandler` turns key events into `InputState` transitions.
+4. `InputController` applies those transitions, updates the UI, and commits text when needed.
+5. Candidate navigation uses Tab, arrow keys, and paging behavior.
 
 ### Main Code Areas
 
-- `src/engine/Completer.ts`: prefix search over sorted tables
-- `src/input_method/InputController.ts`: top-level input flow orchestration
-- `src/input_method/KeyHandler.ts`: keyboard handling rules
-- `src/input_method/InputState.ts`: composition and candidate state
-- `src/input_method/InputUIElements.ts`: concrete UI wiring
-- `src/pime.ts`: PIME request handling and state mapping
-- `src/pime_keys.ts`: Windows virtual key translation
-- `src/data/index.ts`: table registry and selection
+- `src/engine/Completer.ts`: prefix search over sorted vocabulary rows
+- `src/input_method/KeyHandler.ts`: keyboard semantics and state transitions
+- `src/input_method/InputController.ts`: orchestration between key handling, UI updates, and commits
+- `src/input_method/InputState.ts`: state model for idle, inputting, and committing
+- `src/input_method/InputUIElements.ts`: conversion from state to UI payloads
+- `src/data/index.ts`: input table registry and selection
+- `src/pime.ts`: PIME integration and request handling
+- `src/pime_keys.ts`: Windows virtual key conversion
 
 ## Development Workflow
 
@@ -130,20 +126,21 @@ npm install
 ### Common Commands
 
 ```bash
-# Library / demo / platform builds
+# Build outputs
 npm run build
 npm run build:chromeos
 npm run build:pime
+npm run ts-build
 
-# Watch / local iteration
+# Watch mode
 npm run build:watch
 npm run ts-build:watch
 
 # Validation
 npm run test
+npm run test -- --runInBand
 npm run test:coverage
 npm run eslint
-npm run ts-build
 ```
 
 ### PIME Deployment
@@ -155,27 +152,29 @@ For local Windows deployment, `build_pime.bat` currently:
 3. Copies `output\pime` into that directory
 4. Reminds the user to restart PIME Launcher
 
-The script is functional but its header comments are placeholder boilerplate and should not be treated as authoritative documentation.
+The script is functional, but its header comments are placeholder boilerplate and should not be treated as authoritative documentation.
 
 ## Coding Guidance for Agents
 
 ### TypeScript
 
-- Keep `strict` mode assumptions intact.
-- Prefer explicit types instead of introducing `any`.
-- Keep source compatible with the existing ES6/CommonJS compiler settings in `tsconfig.json`.
+- Preserve `strict` mode assumptions.
+- Prefer explicit types over `any`.
+- Keep source compatible with the current `commonjs` / `es6` TypeScript output settings.
+- `tsconfig.json` excludes tests and platform-specific entry points from `ts-build`; do not assume every `src/` file is part of the library compiler output.
 
 ### Tests
 
-- Place tests next to implementation files with `.test.ts`.
-- Current tests cover `engine`, `input_method`, and `data`.
-- Use `jsdom`-friendly patterns for DOM-facing code.
+- Place tests next to implementation files using the `.test.ts` suffix.
+- Current test coverage exists in `src/engine`, `src/input_method`, and `src/data`.
+- Use `jsdom`-friendly patterns for DOM-related behavior.
+- When changing keyboard semantics or state transitions, update the adjacent tests.
 
 ### Linting
 
-- The repository no longer uses `.eslintrc.cjs`.
-- Use the flat config in `eslint.config.cjs`.
-- Existing configured rules are intentionally light; do not assume old import-order rules still exist unless they are added back.
+- The repository uses `eslint.config.cjs`, not `.eslintrc.*`.
+- The configured rule set is intentionally light.
+- Do not assume import ordering or stylistic rules that are not explicitly configured.
 
 ### File Naming
 
@@ -188,15 +187,16 @@ The script is functional but its header comments are placeholder boilerplate and
 ### Modifying Input Behavior
 
 - Update `src/input_method/KeyHandler.ts` for key semantics.
-- Update `src/input_method/InputController.ts` for flow changes.
-- Update `src/input_method/InputState.ts` for state transitions.
-- Add or update adjacent `.test.ts` files.
+- Update `src/input_method/InputController.ts` for UI and commit flow changes.
+- Update `src/input_method/InputState.ts` for state model changes.
+- Update `src/input_method/InputUIElements.ts` if the UI payload changes.
+- Add or revise adjacent tests.
 
 ### Working with PIME
 
-- `src/pime.ts` handles methods such as `init`, `close`, `onActivate`, `onDeactivate`, `filterKeyDown`, `filterKeyUp`, `onKeyDown`, `onKeyboardStatusChanged`, `onCompositionTerminated`, `onCommand`, and `onMenu`.
+- `src/pime.ts` handles PIME lifecycle and input events such as `init`, `close`, `onActivate`, `onDeactivate`, `filterKeyDown`, `filterKeyUp`, `onKeyDown`, `onKeyboardStatusChanged`, `onCompositionTerminated`, `onCommand`, and `onMenu`.
 - `src/pime_keys.ts` converts Windows virtual key codes into the internal `Key` model.
-- Settings are stored under `%APPDATA%\PIME\mcfoxim\config.json`.
+- Settings are stored under `%APPDATA%\\PIME\\mcfoxim\\config.json`.
 
 ### Updating Vocabulary Data
 
@@ -206,17 +206,17 @@ The script is functional but its header comments are placeholder boilerplate and
 4. Install `tools/requirements.txt`.
 5. Run `python convert.py`.
 6. Replace or add the generated `src/data/TW_XX.ts` files.
-7. Update `src/data/index.ts` so `InputTableManager` includes the right tables.
+7. Update `src/data/index.ts` so `InputTableManager` includes the intended tables.
 
-## Known Documentation Drift Fixed Here
+## Known Documentation Drift
 
-Older copies of the instructions were wrong about these points:
+Older instructions may still be wrong about these points:
 
-- They said the project supported only Web and Chrome OS in the overview; Windows/PIME is also active.
-- They referenced `.eslintrc.cjs`; the repo now uses `eslint.config.cjs`.
-- They described the data set as `TW_01` to `TW_43` excluding `TW_12`; the current repo actually has 42 files, includes `TW_00` and `TW_12`, and does not have `TW_11`.
-- They omitted generated directories such as `dist/` and `coverage/`.
-- They assumed `ts-build` was a normal green-path validation step; in the current dependency state it fails for external type-definition reasons.
+- They may describe the project as Web-only or Web + Chrome OS only. Windows/PIME is active.
+- They may reference `.eslintrc.cjs`. The repo now uses `eslint.config.cjs`.
+- They may describe the data set incorrectly. The current repo includes `TW_00` and `TW_12`, excludes `TW_11`, and has 42 table modules.
+- They may omit generated directories such as `dist/`, `coverage/`, and `output/`.
+- They may claim `npm run ts-build` is broken. In this workspace, it is green as of March 18, 2026.
 
 ## Resources
 
