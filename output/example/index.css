@@ -449,3 +449,10 @@ textarea#text_area:focus ~ * #edit_area,
     height: 100%;
   }
 }
+
+.credit {
+  margin: 0;
+  padding: 0 var(--spacing-1);
+  font-size: 10pt;
+  color: var(--text-secondary);
+}
