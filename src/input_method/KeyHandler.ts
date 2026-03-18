@@ -3,19 +3,29 @@ import { CommittingState, EmptyState, InputState, InputtingState } from './Input
 import { Key, KeyName } from './Key';
 
 /**
- * Handles key events.
+ * Applies input-method key semantics to the current InputState.
+ *
+ * KeyHandler is responsible for editing the composing buffer, moving the
+ * cursor, navigating candidates, and emitting the next state that
+ * InputController should apply.
  */
 export class KeyHandler {
+  /**
+   * Creates a key handler backed by a completer for candidate lookup.
+   * @param completer_ Completer used to refresh candidates from the buffer.
+   */
   constructor(private completer_: Completer) {}
+
+  /** Characters that can be inserted directly into the composing buffer. */
   private inputKeys_ = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'^".split(''); // Example input keys
 
   /**
-   * Handles a key event.
-   * @param key The key event.
+   * Handles one key against the current state.
+   * @param key The normalized key to handle.
    * @param state The current input state.
-   * @param stateCallback A callback to update the input state.
-   * @param errorCallback A callback to be called when an error occurs.
-   * @returns True if the key event was handled.
+   * @param stateCallback Called with each resulting state transition.
+   * @param errorCallback Called when the key is invalid for the current state.
+   * @returns True if the key was consumed by the input method.
    */
   handle(
     key: Key,

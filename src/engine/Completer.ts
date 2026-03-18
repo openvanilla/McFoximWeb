@@ -2,9 +2,17 @@ import { InputTable } from '../data';
 import Candidate from './Candidate';
 
 /**
- * Completes a prefix string to a list of candidates.
+ * Performs prefix lookup against the current input table.
+ *
+ * The completer reads the active table on demand, finds matching rows by
+ * prefix, merges duplicate surface forms, and returns candidates sorted by
+ * display-text length.
  */
 export default class Completer {
+  /**
+   * Creates a completer that reads the current input table on demand.
+   * @param onRequestTable Callback that returns the active input table.
+   */
   constructor(readonly onRequestTable: () => InputTable) {}
 
   private complete_(prefix: string): Candidate[] {
@@ -57,10 +65,13 @@ export default class Completer {
   }
 
   /**
-   * Completes the given prefix string.
+   * Looks up candidates for a composing prefix.
    *
-   * @param prefix The prefix to complete.
-   * @returns A list of candidates.
+   * If the prefix begins with an uppercase letter, both the original prefix and
+   * its lowercased form are searched so the returned display text can preserve
+   * initial capitalization.
+   * @param prefix The composing prefix to search for.
+   * @returns Matching candidates sorted by display-text length.
    */
   complete(prefix: string): Candidate[] {
     if (prefix.length === 0) {

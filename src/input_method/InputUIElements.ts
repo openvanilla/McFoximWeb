@@ -46,22 +46,29 @@ class InputUIState {
 }
 
 /**
- * A builder for the input UI state.
+ * Builds the serialized UI payload for an InputtingState.
+ *
+ * This builder converts the internal input-method state into the compact JSON
+ * structure expected by concrete UI implementations.
  */
 export class InputUIStateBuilder {
+  /**
+   * Creates a builder for the given inputting state.
+   * @param state The inputting state to serialize for the UI layer.
+   */
   constructor(readonly state: InputtingState) {}
 
   /**
-   * Builds the UI state and returns it as a JSON string.
-   * @returns The UI state as a JSON string.
+   * Builds the UI payload and returns it as a JSON string.
+   * @returns The serialized UI payload.
    */
   buildJsonString(): string {
     return JSON.stringify(this.build());
   }
 
   /**
-   * Builds the UI state.
-   * @returns The UI state.
+   * Builds the structured UI payload.
+   * @returns The UI payload before JSON serialization.
    */
   build(): InputUIState {
     const composingBufferTexts: ComposingBufferText[] = [];

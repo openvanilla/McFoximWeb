@@ -1,7 +1,7 @@
 # McFoximWeb - 小麥族語輸入法 Web/Chrome OS/PIME 版本
 
 ![Static Badge](https://img.shields.io/badge/platform-web-green)
-![ChromeOS](https://img.shields.io/badge/platform-chome_os-yellow) ![Static Badge](https://img.shields.io/badge/platform-windows-blue) [![CI](https://github.com/openvanilla/McFoximWeb/actions/workflows/ci.yml/badge.svg)](https://github.com/openvanilla/McFoximWeb/actions/workflows/ci.yml) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/openvanilla/McFoximWeb) [![codecov](https://codecov.io/github/openvanilla/McFoximWeb/graph/badge.svg?token=yYDNo649L7)](https://codecov.io/github/openvanilla/McFoximWeb)
+![ChromeOS](https://img.shields.io/badge/platform-chrome_os-yellow) ![Static Badge](https://img.shields.io/badge/platform-windows-blue) [![CI](https://github.com/openvanilla/McFoximWeb/actions/workflows/ci.yml/badge.svg)](https://github.com/openvanilla/McFoximWeb/actions/workflows/ci.yml) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/openvanilla/McFoximWeb) [![codecov](https://codecov.io/github/openvanilla/McFoximWeb/graph/badge.svg?token=yYDNo649L7)](https://codecov.io/github/openvanilla/McFoximWeb)
 
 基於[原住民族語言發展基金會](https://www.ilrdf.org.tw/)的族語學習詞表，以及 Web 技術打造的族語輸入法。
 
@@ -15,6 +15,7 @@
     - [Web 版](#web-版)
     - [Chrome OS 版](#chrome-os-版)
     - [Windows (PIME)](#windows-pime)
+  - [驗證指令](#驗證指令)
   - [輸入法使用方式](#輸入法使用方式)
   - [支援語言](#支援語言)
   - [社群公約](#社群公約)
@@ -36,7 +37,7 @@
 
 ## 編譯方式
 
-這套輸入法使用 Type Script 語言開發，所以在 Windows、macOS、Linux 平台上都可以編譯。請先安裝 [Node.js](https://nodejs.org/) 以及 [Git](https://git-scm.com/)，然後在終端機中執行編譯命令。
+這套輸入法使用 TypeScript 開發，所以在 Windows、macOS、Linux 平台上都可以編譯。請先安裝 [Node.js](https://nodejs.org/) 以及 [Git](https://git-scm.com/)，然後在終端機中執行編譯命令。
 
 大部分的 Node.js 版本應該都可以成功編譯這個專案，您也可以查看我們在 CI/CD 中使用的 Node.js 版本。
 
@@ -51,9 +52,9 @@ npm install
 npm run build
 ```
 
-用瀏覽器打開 output/example/index.html 就可以使用輸入法了。
+用瀏覽器打開 `output/example/index.html` 就可以使用輸入法了。
 
-您也可以透過參考 output/example/index.html 裡頭的方式，將小麥族語輸入法，嵌入到您的網頁中。
+您也可以透過參考 `output/example/index.html` 裡頭的方式，將小麥族語輸入法嵌入到您的網頁中。
 
 ### Chrome OS 版
 
@@ -82,6 +83,22 @@ npm run build:pime
 然後將 `output/pime` 目錄下的所有檔案複製到 PIME 安裝目錄下的 `node\input_methods\mcfoxim` 目錄中（通常是 `C:\Program Files (x86)\PIME\node\input_methods\mcfoxim`），您會需要用到系統管理員權限。第一次使用時，請在這個目錄中，執行一次 `run_register_ime.bat`，將小麥族語輸入法註冊到 Windows 系統中。接著重新啟動 PIME 啟動器（PIME Launcher），就可以在輸入法清單中選擇小麥族語輸入法了。
 
 如果在系統清單中，沒有看到小麥族語輸入法，請進入 Windows 的系統設定中，確認「語言」設定中已經加入了小麥族語輸入法。
+
+## 驗證指令
+
+開發時常用的驗證指令如下：
+
+```bash
+npm run ts-build
+npm run test -- --runInBand
+npm run eslint
+```
+
+如果要產生 coverage，可以另外執行：
+
+```bash
+npm run test:coverage
+```
 
 ## 輸入法使用方式
 

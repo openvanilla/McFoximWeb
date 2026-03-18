@@ -6,7 +6,7 @@
  */
 
 /**
- * The name of a key.
+ * Logical key names understood by the input method.
  */
 export enum KeyName {
   ASCII = 'ASCII',
@@ -35,14 +35,6 @@ export enum KeyName {
  * This is not always a perfect representation (for example, shift muddles the
  * picture), but is sufficient for KeyHandler's needs.
  */
-/**
- * Encapsulates the keys accepted by KeyHandler. This class never attempts to
- * represent all key states that a generic input method framework desires to
- * handle. Instead, this class only reflects the keys KeyHandler will handle.
- *
- * This is not always a perfect representation (for example, shift muddles the
- * picture), but is sufficient for KeyHandler's needs.
- */
 export class Key {
   /** If the Shift modifier is pressed. */
   readonly shiftPressed: boolean = false;
@@ -51,9 +43,19 @@ export class Key {
   /** If the key is on the Numpad. */
   readonly isNumpadKey: boolean = false;
 
+  /** Printable character value carried by the key, if any. */
   readonly ascii: string = '';
+  /** Logical key name used by the input method state machine. */
   readonly name: KeyName = KeyName.UNKNOWN;
 
+  /**
+   * Creates an input-method key value.
+   * @param c Printable character carried by the key, if any.
+   * @param n Logical key name.
+   * @param shiftPressed Whether Shift is pressed.
+   * @param ctrlPressed Whether Control is pressed.
+   * @param isNumpadKey Whether the key originated from the numpad.
+   */
   constructor(
     c: string = '',
     n: KeyName = KeyName.UNKNOWN,
@@ -121,8 +123,11 @@ export class Key {
   }
 }
 
-/** Converts a keyboard event in the web browser to a key defined by McTabim. */
-/** Converts a keyboard event in the web browser to a key defined by McTabim. */
+/**
+ * Converts a browser keyboard event into the internal Key representation.
+ * @param event The browser keyboard event.
+ * @returns The converted input-method key.
+ */
 export function KeyFromKeyboardEvent(event: KeyboardEvent) {
   let isNumpadKey = false;
   let keyName = KeyName.UNKNOWN;

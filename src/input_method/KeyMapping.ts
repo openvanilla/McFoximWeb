@@ -1,13 +1,13 @@
 import { Key, KeyName } from './Key';
 
 /**
- * Maps keyboard events to keys.
+ * Maps DOM keyboard events into the internal Key representation.
  */
 export class KeyMapping {
   /**
-   * Converts a keyboard event to a Key.
-   * @param event The keyboard event.
-   * @returns The Key.
+   * Converts a browser keyboard event into a normalized Key.
+   * @param event The browser keyboard event.
+   * @returns The converted input-method key.
    */
   static keyFromKeyboardEvent(event: KeyboardEvent): Key {
     let isNumpadKey = false;
