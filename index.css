@@ -25,6 +25,30 @@
   --panel-min-height: 37rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-background: #111311;
+    --surface: #181b18;
+    --surface-muted: #202420;
+    --surface-strong: #272c27;
+    --text-primary: #f2f0ea;
+    --text-secondary: #c2bdb1;
+    --border-subtle: #42473f;
+    --border-strong: #8f978b;
+    --accent: #f2f0ea;
+    --focus-ring: #f2f0ea;
+    --link: #d6d1c6;
+    --link-hover: #fffdf8;
+    --candidate-highlight: #2e3a31;
+    --marking: #2d3830;
+    --danger: #ff7f7f;
+  }
+
+  textarea {
+    caret-color: var(--text-primary);
+  }
+}
+
 * {
   box-sizing: border-box;
 }
