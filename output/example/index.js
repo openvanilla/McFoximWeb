@@ -193,7 +193,29 @@
 
   const controller = new InputController(ui);
   const textarea = document.getElementById('text_area');
+  let isComposing = false;
+
+  textarea.addEventListener('compositionstart', () => {
+    isComposing = true;
+    const warning = document.getElementById('ime_warning');
+    if (warning) {
+      warning.style.display = 'block';
+    }
+  });
+
+  textarea.addEventListener('compositionend', () => {
+    isComposing = false;
+    const warning = document.getElementById('ime_warning');
+    if (warning) {
+      warning.style.display = 'none';
+    }
+  });
+
   textarea.addEventListener('keydown', (event) => {
+    if (isComposing || event.isComposing || event.keyCode === 229) {
+      return;
+    }
+
     if (event.metaKey || event.altKey || event.ctrlKey) {
       controller.reset();
       return;
