@@ -34,12 +34,12 @@ export class KeyHandler {
     errorCallback: () => void,
   ): boolean {
     if (state instanceof EmptyState) {
-      if (!this.inputKeys_.includes(key.ascii)) {
+      if (this.inputKeys_.indexOf(key.ascii) === -1) {
         return false;
       }
     }
 
-    if (this.inputKeys_.includes(key.ascii)) {
+    if (this.inputKeys_.indexOf(key.ascii) !== -1) {
       let chr = key.ascii;
       if (chr === "'") {
         chr = '’';
