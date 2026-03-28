@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright (c) 2025 and onwards The McTabIM Authors.
+ * Copyright (c) 2025 and onwards The McFoxIM Authors.
  * This code is released under the MIT license.
  * SPDX-License-Identifier: MIT
  */
