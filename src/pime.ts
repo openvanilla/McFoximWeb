@@ -80,11 +80,10 @@ class PimeMcFoxim {
   settings: Settings = defaultSettings;
   constructor() {
     this.inputController = new InputController(this.makeUI(this));
-    this.inputController.onError = () => { };
-    this.loadSettings(() => { });
+    this.inputController.onError = () => {};
+    this.loadSettings(() => {});
   }
 
-  /** Resets the UI state before handling a key. */
   /** Resets the UI state before handling a key. */
   public resetBeforeHandlingKey(): void {
     this.uiState = {
@@ -100,12 +99,10 @@ class PimeMcFoxim {
   }
 
   /** Resets the input controller. */
-  /** Resets the input controller. */
   public resetController(): void {
     this.inputController.reset();
   }
 
-  /** Applies the settings to the input controller. */
   /** Applies the settings to the input controller. */
   public applySettings(): void {
     const selectedTableIndex = this.settings.selected_input_table_index;
@@ -126,10 +123,6 @@ class PimeMcFoxim {
   /** Whether the OS is Windows 8 or above. */
   isWindows8Above: boolean = false;
 
-  /**
-   * Load settings from disk.
-   * @param callback The callback function.
-   */
   /**
    * Load settings from disk.
    * @param callback The callback function.
@@ -156,7 +149,6 @@ class PimeMcFoxim {
   }
 
   /** Write settings to disk */
-  /** Write settings to disk */
   public writeSettings() {
     if (!fs.existsSync(this.mcfoximUserDataPath)) {
       console.log('User data folder not found, creating ' + this.mcfoximUserDataPath);
@@ -174,11 +166,6 @@ class PimeMcFoxim {
     });
   }
 
-  /**
-   * Creates an InputUI object.
-   * @param instance The PimeMcFoxim instance.
-   * @returns The InputUI object.
-   */
   /**
    * Creates an InputUI object.
    * @param instance The PimeMcFoxim instance.
@@ -264,10 +251,6 @@ class PimeMcFoxim {
    * Creates the button UI response.
    * @returns The button UI response.
    */
-  /**
-   * Creates the button UI response.
-   * @returns The button UI response.
-   */
   public buttonUiResponse(): any {
     const windowsModeIcon = this.isOpened ? 'eng.ico' : 'close.ico';
     const windowsModeIconPath = path.join(__dirname, 'icons', windowsModeIcon);
@@ -313,10 +296,6 @@ class PimeMcFoxim {
    * Creates the custom UI response.
    * @returns The custom UI response.
    */
-  /**
-   * Creates the custom UI response.
-   * @returns The custom UI response.
-   */
   public customUiResponse(): any {
     let fontSize = this.settings.candidate_font_size;
     if (fontSize === undefined) {
@@ -340,10 +319,6 @@ class PimeMcFoxim {
     };
   }
 
-  /**
-   * Handles a command.
-   * @param id The command ID.
-   */
   /**
    * Handles a command.
    * @param id The command ID.
@@ -404,7 +379,7 @@ try {
 
   fs.watch(pimeMcFoxim.userSettingsPath, (event, filename) => {
     if (filename) {
-      pimeMcFoxim.loadSettings(() => { });
+      pimeMcFoxim.loadSettings(() => {});
     }
   });
 } catch (e) {
