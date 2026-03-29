@@ -19,6 +19,8 @@
       "name": "__MSG_imeUS__",
       "type": "ime",
       "id": "org.openvanilla.mcfoxim.us",
+      "indicator": "\u65CF",
+      "description": "McBopomofo",
       "language": "zh-TW",
       "layouts": ["us"],
       "options_page": "options.html"
@@ -27,6 +29,8 @@
       "name": "__MSG_imeDvorak__",
       "type": "ime",
       "id": "org.openvanilla.mcfoxim.us-dvorak",
+      "indicator": "\u65CF",
+      "description": "McBopomofo",
       "language": "zh-TW",
       "layouts": ["us-dvorak"],
       "options_page": "options.html"
@@ -35,6 +39,8 @@
       "name": "__MSG_imeColmak__",
       "type": "ime",
       "id": "org.openvanilla.mcfoxim.us-colemak",
+      "indicator": "\u65CF",
+      "description": "McBopomofo",
       "language": "zh-TW",
       "layouts": ["us-colemak"],
       "options_page": "options.html"
