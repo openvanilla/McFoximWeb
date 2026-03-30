@@ -589,7 +589,7 @@ module.exports = {
           id: PimeMcFoximCommand.OpenOptions,
         },
         {},
-        { text: '小麥族語輸入法 0.4.4' },
+        { text: '小麥族語輸入法 0.4.5' },
       ];
       const response = Object.assign({}, responseTemplate, { return: menu });
       return response;
