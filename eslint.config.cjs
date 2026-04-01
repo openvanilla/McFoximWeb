@@ -1,5 +1,6 @@
 const tseslint = require('@typescript-eslint/eslint-plugin');
 const tsParser = require('@typescript-eslint/parser');
+const simpleImportSort = require('eslint-plugin-simple-import-sort');
 
 module.exports = [
   {
@@ -22,6 +23,7 @@ module.exports = [
 
     plugins: {
       '@typescript-eslint': tseslint,
+      'simple-import-sort': simpleImportSort,
     },
 
     rules: {
@@ -40,6 +42,8 @@ module.exports = [
           format: ['PascalCase'],
         },
       ],
+      'simple-import-sort/imports': 'warn',
+      'simple-import-sort/exports': 'warn',
     },
   },
 ];

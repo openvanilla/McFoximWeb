@@ -1,6 +1,6 @@
-import { InputUIStateBuilder } from './InputUIElements';
-import { InputtingState } from './InputState';
 import { Candidate } from '../engine';
+import { InputtingState } from './InputState';
+import { InputUIStateBuilder } from './InputUIElements';
 
 describe('InputUIStateBuilder', () => {
   describe('build', () => {

@@ -20,7 +20,7 @@
       "type": "ime",
       "id": "org.openvanilla.mcfoxim.us",
       "indicator": "\u65CF",
-      "description": "McBopomofo",
+      "description": "McFoxim",
       "language": "zh-TW",
       "layouts": ["us"],
       "options_page": "options.html"
@@ -30,7 +30,7 @@
       "type": "ime",
       "id": "org.openvanilla.mcfoxim.us-dvorak",
       "indicator": "\u65CF",
-      "description": "McBopomofo",
+      "description": "McFoxim",
       "language": "zh-TW",
       "layouts": ["us-dvorak"],
       "options_page": "options.html"
@@ -40,7 +40,7 @@
       "type": "ime",
       "id": "org.openvanilla.mcfoxim.us-colemak",
       "indicator": "\u65CF",
-      "description": "McBopomofo",
+      "description": "McFoxim",
       "language": "zh-TW",
       "layouts": ["us-colemak"],
       "options_page": "options.html"
