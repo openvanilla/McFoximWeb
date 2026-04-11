@@ -1,5 +1,5 @@
-import { KeyMapping } from './KeyMapping';
 import { KeyName } from './Key';
+import { KeyMapping } from './KeyMapping';
 
 describe('KeyMapping', () => {
   describe('keyFromKeyboardEvent', () => {

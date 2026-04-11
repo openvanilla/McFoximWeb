@@ -6,14 +6,15 @@
  * The main entrance of the IME for ChromeOS.
  */
 
-import { InputController } from './input_method';
+import child_process from 'child_process';
+import fs from 'fs';
+import path from 'path';
+import process from 'process';
+
 import { InputTableManager } from './data';
+import { InputController } from './input_method';
 import { InputUI } from './input_method/InputUI';
 import { KeyFromKeyboardEvent, VK_Keys } from './pime_keys';
-import path from 'path';
-import fs from 'fs';
-import process from 'process';
-import child_process from 'child_process';
 
 interface Settings {
   selected_input_table_index: number;

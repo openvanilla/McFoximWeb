@@ -1,4 +1,4 @@
-import { InputTableManager, InputTable } from './index';
+import { InputTable,InputTableManager } from './index';
 
 describe('InputTableManager', () => {
   let manager: InputTableManager;
