@@ -187,9 +187,7 @@ class PimeMcFoxim {
         };
       },
       commitString(text: string) {
-        console.log('commitString: ' + text);
         const joinedCommitString = instance.uiState.compositionString + text;
-        console.log('joinedCommitString: ' + joinedCommitString);
         instance.uiState = {
           commitString: joinedCommitString,
           compositionString: '',
@@ -257,11 +255,6 @@ class PimeMcFoxim {
     const settingsIconPath = path.join(__dirname, 'icons', 'config.ico');
     const object: any = {};
     const changeButton: any[] = [];
-    if (this.isWindows8Above) {
-      changeButton.push({ icon: windowsModeIconPath, id: 'windows-mode-icon' });
-    }
-    changeButton.push({ icon: windowsModeIconPath, id: 'switch-lang' });
-    object.changeButton = changeButton;
 
     if (!this.alreadyAddButton) {
       const addButton: any[] = [];
@@ -288,6 +281,12 @@ class PimeMcFoxim {
       });
       object.addButton = addButton;
       this.alreadyAddButton = true;
+    } else {
+      if (this.isWindows8Above) {
+        changeButton.push({ icon: windowsModeIconPath, id: 'windows-mode-icon' });
+      }
+      changeButton.push({ icon: windowsModeIconPath, id: 'switch-lang' });
+      object.changeButton = changeButton;
     }
     return object;
   }
@@ -407,22 +406,20 @@ module.exports = {
       const { isWindows8Above } = request;
       pimeMcFoxim.isWindows8Above = isWindows8Above;
       const customUi = pimeMcFoxim.customUiResponse();
-      const response = Object.assign({}, responseTemplate, customUi, {
-        removeButton: ['windows-mode-icon', 'switch-lang', 'settings'],
-      });
+      const response = Object.assign({}, responseTemplate, customUi);
       return response;
     }
     if (request.method === 'close') {
-      const response = Object.assign({}, responseTemplate, {
-        removeButton: ['windows-mode-icon', 'switch-lang', 'settings'],
-      });
+      const response = Object.assign({}, responseTemplate);
       pimeMcFoxim.alreadyAddButton = false;
       return response;
     }
 
     if (request.method === 'onActivate') {
+      pimeMcFoxim.alreadyAddButton = false;
       const customUi = pimeMcFoxim.customUiResponse();
       const buttonUi = pimeMcFoxim.buttonUiResponse();
+      pimeMcFoxim.alreadyAddButton = true;
       const response = Object.assign({}, responseTemplate, customUi, buttonUi);
       return response;
     }
@@ -589,7 +586,7 @@ module.exports = {
           id: PimeMcFoximCommand.OpenOptions,
         },
         {},
-        { text: '小麥族語輸入法 0.4.5' },
+        { text: '小麥族語輸入法 0.5.0' },
       ];
       const response = Object.assign({}, responseTemplate, { return: menu });
       return response;
