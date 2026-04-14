@@ -14,7 +14,7 @@ The core behavior is prefix-based candidate lookup over prebuilt vocabulary tabl
 
 ## Current Technology Stack
 
-- **Language**: TypeScript 5
+- **Language**: TypeScript 6
 - **Package Manager**: npm with `package-lock.json`
 - **Build Tooling**: Webpack 5 with `ts-loader`
 - **Testing**: Jest 30 with `ts-jest` and `jsdom`
