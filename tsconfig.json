@@ -3,14 +3,17 @@
     "target": "es6",
     "module": "commonjs",
     "lib": ["es6", "dom"],
-    "outDir": "dist",
+    "rootDir": ".",
+    "outDir": "./dist",
     "strict": true,
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
     "allowJs": true,
-    "typeRoots": ["node_modules/@types"]
+    "typeRoots": ["node_modules/@types"],
+    "types": ["jest", "node", "chrome"],
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*"],
   "exclude": [
