@@ -417,7 +417,6 @@ module.exports = {
     }
 
     if (request.method === 'onActivate') {
-      pimeMcFoxim.alreadyAddButton = false;
       const customUi = pimeMcFoxim.customUiResponse();
       const buttonUi = pimeMcFoxim.buttonUiResponse();
       pimeMcFoxim.alreadyAddButton = true;
