@@ -53,9 +53,9 @@ def main():
             file_path = os.path.join(current_folder, path)
             data = parse_excel_file(file_path)
             name = "TW_{:02d}".format(i)
-            write_file = os.path.join("../src/data", name + ".ts")
+            write_file = os.path.join("../src/data", name + ".json")
             with open(write_file, "w") as json_file:
-                data = "export const " + name + " = JSON.parse(`" + data + "`);"
+                # data = "export const " + name + " = JSON.parse(`" + data + "`);"
                 json_file.write(data)
         except Exception as e:
             print("Error processing {}: {}".format(path, e))
