@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@types/chrome": "^0.1.42",
+    "@types/chrome": "^0.1.43",
     "@types/eslint": "^9.6.1",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.9.2",
@@ -61,6 +61,6 @@
     "assert": false
   },
   "dependencies": {
-    "@types/chrome": "^0.1.42"
+    "@types/chrome": "^0.1.43"
   }
 }
