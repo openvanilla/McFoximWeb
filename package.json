@@ -3,7 +3,7 @@
     "@types/chrome": "^0.2.2",
     "@types/eslint": "^9.6.1",
     "@types/jest": "^30.0.0",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@typescript-eslint/eslint-plugin": "^8.63.0",
     "@typescript-eslint/parser": "^8.62.1",
     "eslint": "^10.7.0",
