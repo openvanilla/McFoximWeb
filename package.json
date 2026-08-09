@@ -6,7 +6,7 @@
     "@types/node": "^26.1.1",
     "@typescript-eslint/eslint-plugin": "^8.64.0",
     "@typescript-eslint/parser": "^8.62.1",
-    "eslint": "^10.7.0",
+    "eslint": "^10.8.0",
     "eslint-plugin-simple-import-sort": "^14.0.0",
     "jest": "^30.4.2",
     "jest-environment-jsdom": "^30.4.1",
