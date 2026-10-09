@@ -1,6 +1,7 @@
 import json
 import xlrd
 import os
+import os.path
 
 
 def remove_dots(text):
@@ -50,6 +51,10 @@ def main():
         files = os.listdir(current_folder)
         path = next((f for f in files if "-{:02d}".format(i + 1) in f), None)
         try:
+            # print("current_folder:", current_folder)
+            # print("path:", path)
+            if path is None:
+                continue
             file_path = os.path.join(current_folder, path)
             data = parse_excel_file(file_path)
             name = "TW_{:02d}".format(i)
@@ -58,7 +63,9 @@ def main():
                 # data = "export const " + name + " = JSON.parse(`" + data + "`);"
                 json_file.write(data)
         except Exception as e:
+            import traceback
             print("Error processing {}: {}".format(path, e))
+            traceback.print_exc()
 
 
 if __name__ == "__main__":
